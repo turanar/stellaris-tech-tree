@@ -105,7 +105,6 @@ div.extra-data {
     display: block;
     min-width: 256px;
     max-width: 512px;
-    width: 300px;
 }
 
 .ui-tooltip img.resource {
@@ -164,9 +163,12 @@ span.physics-research::before {
 }
 
 .left {
-    float: left;
     margin-right: 5px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
 }
+
 .Treant > a:link {
     color: white;
 }
