@@ -133,6 +133,14 @@ ui-tooltip ul li {
     content: "Weight Modifiers";
 }
 
+.gestalt {
+    background-color: palegoldenrod;
+}
+
+.machine {
+    background-color: paleturquoise;
+}
+
 .tech.society { border-color: #5ACA9C }
 
 span.society-research::before {

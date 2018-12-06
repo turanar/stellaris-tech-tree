@@ -101,13 +101,18 @@ $(document).ready(function() {
 		let prerequisites = tech.prerequisites_names.length > 1
 			? generate_required_tech(tech.prerequisites_names)
 			: null;
+		let potentials = tech.potential.length > 0
+			? tech.potential.join('<br/>')
+			: null;
 
+		console.log(potentials);
 
 		let $modifiersBtn = $('<p>');
 		$modifiersBtn.addClass('weight-modifiers');
 
-		if ( weightModifiers !== null || prerequisites !== null) {
+		if ( weightModifiers !== null || prerequisites !== null || potentials !== null) {
 		    let title = weightModifiers !== null ? '<div class="tooltip-header">Weight Modifiers</div>' + weightModifiers : '';
+		    if(potentials !== null) title = title + '<br/><div class="tooltip-header">Requirements</div>' + potentials + '<br/>';
 		    if(prerequisites !== null) title = title + '<br/><div class="tooltip-header">Required Technologies</div>' + $(prerequisites).html();
 			$modifiersBtn.attr('title', title);
 		    $modifiersBtn.attr('data-header', 'Weight Modifiers');
@@ -136,17 +141,17 @@ $(document).ready(function() {
 	    }();
 
 	    return {
-		HTMLid: key,
-		HTMLclass: tech.area,
-		data: tech,
-		innerHTML: '<div class="' + iconClass + '" style="background-image:url(img/' + key + '.png)"></div>'
-		    + '<p class="node-name" title="' + tech.name + '">'
-		    + tech.name
-		    + '</p>'
-		    + '<p class="node-title">' + category + '</p>'
-		    + '<p class="node-desc">' + ( tech.start_tech || tech.tier == 0 ? '<br />' : [cost, weight].join(', ')) + '</p>'
-		    + $extraDataDiv[0].outerHTML
-	    };
+			HTMLid: key,
+			HTMLclass: tech.area + " " +  (tech.is_gestalt === true ? "gestalt" : "") + " " + (tech.is_machine === true ? "machine" : ""),
+			data: tech,
+			innerHTML: '<div class="' + iconClass + '" style="background-image:url(img/' + key + '.png)"></div>'
+				+ '<p class="node-name" title="' + tech.name + '">'
+				+ tech.name
+				+ '</p>'
+				+ '<p class="node-title">' + category + '</p>'
+				+ '<p class="node-desc">' + ( tech.start_tech || tech.tier == 0 ? '<br />' : [cost, weight].join(', ')) + '</p>'
+				+ $extraDataDiv[0].outerHTML
+			};
 	});
 
 	techs = techs.map(function(tech) {
@@ -168,7 +173,6 @@ $(document).ready(function() {
 		})[0];
 	    }
 
-	    console.log(key);
 	    let tierDifference = tech.data.tier - tech.parent.data.tier;
 	    let nestedTech = tech;
 	    while ( tierDifference > 1 && nestedTech.parent != rootNode ) {
