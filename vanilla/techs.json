@@ -7,7 +7,11 @@
     "category": "Particles",
     "cost": 0,
     "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Red Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Red Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Red Laser"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -28,7 +32,9 @@
     "category": "Field Manipulation",
     "cost": 0,
     "description": "Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Power Plant I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -49,7 +55,9 @@
     "category": "Computing",
     "cost": 0,
     "description": "Testable predictions of observable phenomena.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Basic Science Lab"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -70,7 +78,9 @@
     "category": "Particles",
     "cost": 0,
     "description": "Additional power generation systems increase the ship\u0027s reactor output.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Reactor Booster"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -91,7 +101,9 @@
     "category": "Particles",
     "cost": 0,
     "description": "Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Hyper Drive I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -112,7 +124,9 @@
     "category": "Particles",
     "cost": 0,
     "description": "This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Fission Reactor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -133,7 +147,11 @@
     "category": "Field Manipulation",
     "cost": 0,
     "description": "Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Deflectors",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Deflectors",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Deflectors"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -154,7 +172,11 @@
     "category": "Particles",
     "cost": 750,
     "description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Blue Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Blue Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Blue Laser"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -186,7 +208,10 @@
     "category": "Computing",
     "cost": 750,
     "description": "An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "MOD_COUNTRY_SCIENCE_SHIP_SURVEY_SPEED: +25%",
+      "\u003cb\u003eFeature : \u003c/b\u003eAutomatic Exploration"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -218,7 +243,10 @@
     "category": "Computing",
     "cost": 1000,
     "description": "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Starbase Fire Control",
+      "\u003cb\u003eComponent:\u003c/b\u003e Combat Computer"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -251,7 +279,9 @@
     "category": "Computing",
     "cost": 0,
     "description": "High-capacity quantum bands dedicated to databank transfers make possible virtually completely synchronous research operations across vast distances.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eAssist Research"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -274,7 +304,9 @@
     "category": "Computing",
     "cost": 1000,
     "description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Colony Development Speed: +50%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -309,7 +341,9 @@
     "category": "Particles",
     "cost": 750,
     "description": "Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Fusion Reactor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -340,7 +374,10 @@
     "category": "Field Manipulation",
     "cost": 500,
     "description": "Modulated fields allow for increased production and improved energy yield.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Energy Storage Capacity: +10000",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Power Plant II"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -371,7 +408,10 @@
     "category": "Field Manipulation",
     "cost": 750,
     "description": "Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eEdict:\u003c/b\u003e Capacity Overload",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Energy Grid"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -402,7 +442,9 @@
     "category": "Computing",
     "cost": 500,
     "description": "Exploring the mediation of fundamental forces through subatomic particles.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Physics Lab I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -430,7 +472,9 @@
     "category": "Computing",
     "cost": 1000,
     "description": "By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Auxiliary Fire-control"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -460,7 +504,9 @@
     "category": "Particles",
     "cost": 6000,
     "description": "The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Advanced Reactor Booster"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -495,7 +541,9 @@
     "category": "Particles",
     "cost": 1000,
     "description": "The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Improved Reactor Booster"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -530,7 +578,9 @@
     "category": "Computing",
     "cost": 500,
     "description": "Organizational circuitry rerouting academic fervor.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "MOD_COUNTRY_ALL_TECHNOLOGY_RESEARCH_SPEED: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -560,7 +610,9 @@
     "category": "Computing",
     "cost": 1000,
     "description": "The best defense is a good offense.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Sentinel Point-Defense"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -590,7 +642,11 @@
     "category": "Field Manipulation",
     "cost": 1000,
     "description": "These updated deflector screens are capable of soaking up even more punishment before they overload.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Improved Deflectors",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Improved Deflectors",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Improved Deflectors"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -620,7 +676,11 @@
     "category": "Particles",
     "cost": 1500,
     "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small UV Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large UV Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium UV Laser"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -652,7 +712,10 @@
     "category": "Particles",
     "cost": 2000,
     "description": "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target\u0027s constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Disruptor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Disruptor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -685,7 +748,11 @@
     "category": "Particles",
     "cost": 2000,
     "description": "Weapons that eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Plasma Thrower",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Plasma Thrower",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Plasma Thrower"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -718,7 +785,10 @@
     "category": "Particles",
     "cost": 2000,
     "description": "Using strong-focus lenses in combination with an oscillating firing frequence help create lasers strong enough to mine asteroids, or shoot down hostiles.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Cutting Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Cutting Laser"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -739,7 +809,9 @@
     "category": "Computing",
     "cost": 2000,
     "description": "Introspective prioritization.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Research Alternatives: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -769,7 +841,10 @@
     "category": "Computing",
     "cost": 1500,
     "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "MOD_COUNTRY_SHIP_ANOMALY_GENERATION_CHANCE_MULT: +10%",
+      "MOD_COUNTRY_SHIP_ANOMALY_RESEARCH_SPEED_MULT: +25%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -794,7 +869,9 @@
     "category": "Computing",
     "cost": 1500,
     "description": "These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "MOD_COUNTRY_SCIENCE_SHIP_SURVEY_SPEED: +33%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -819,7 +896,10 @@
     "category": "Field Manipulation",
     "cost": 2500,
     "description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Power Plant III",
+      "Energy Storage Capacity: +10000"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -855,7 +935,9 @@
     "category": "Particles",
     "cost": 2000,
     "description": "The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Cold Fusion Reactor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -886,7 +968,10 @@
     "category": "Computing",
     "cost": 1500,
     "description": "These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Gravitic Sensors",
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Listening Post"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -910,7 +995,9 @@
     "category": "Field Manipulation",
     "cost": 2500,
     "description": "Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eExperimental Subspace Navigation"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -938,7 +1025,9 @@
     "category": "Field Manipulation",
     "cost": 2500,
     "description": "These capacitors store surplus energy which can quickly be transferred to reinforce a ship\u0027s shields.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Shield Capacitor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -968,7 +1057,9 @@
     "category": "Computing",
     "cost": 2500,
     "description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Physics Lab II"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1007,7 +1098,10 @@
     "category": "Particles",
     "cost": 2000,
     "description": "Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003ePlanetary FTL Inhibitors",
+      "\u003cb\u003eComponent:\u003c/b\u003e FTL Inhibitor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1038,7 +1132,10 @@
     "category": "Particles",
     "cost": 2000,
     "description": "We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Hyper Drive II",
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Hyperlane Registrar"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1069,7 +1166,9 @@
     "category": "Computing",
     "cost": 2500,
     "description": "Arrays of defensive armaments prove much more effective than independent countermeasures.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Barrier Point-Defense"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1099,7 +1198,11 @@
     "category": "Field Manipulation",
     "cost": 2500,
     "description": "These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Shields",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Shields",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Shields"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1129,7 +1232,9 @@
     "category": "Particles",
     "cost": 2500,
     "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Cloud Lightning"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -1150,7 +1255,11 @@
     "category": "Particles",
     "cost": 4000,
     "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large X-Ray Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium X-Ray Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small X-Ray Laser"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1182,7 +1291,10 @@
     "category": "Particles",
     "cost": 4000,
     "description": "These upgraded disruptors fire bolts of more destructive ion particles at targets.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Ion Disruptor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Ion Disruptor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1214,7 +1326,11 @@
     "category": "Particles",
     "cost": 4000,
     "description": "These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Plasma Accelerator",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Plasma Accelerator",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Plasma Accelerator"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1246,7 +1362,9 @@
     "category": "Field Manipulation",
     "cost": 4000,
     "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Planetary Shield Generator"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -1276,7 +1394,10 @@
     "category": "Computing",
     "cost": 4000,
     "description": "Further advances in predictive algorithms allow for augmented tactical decision-making in the field.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Starbase Fire Control",
+      "\u003cb\u003eComponent:\u003c/b\u003e Advanced Combat Computer"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1311,7 +1432,9 @@
     "category": "Particles",
     "cost": 5000,
     "description": "By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Antimatter Reactor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1342,7 +1465,9 @@
     "category": "Computing",
     "cost": 2500,
     "description": "Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Colony Development Speed: +50%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1377,7 +1502,10 @@
     "category": "Computing",
     "cost": 4000,
     "description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Subspace Sensors",
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Black Hole Observatory"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1408,7 +1536,9 @@
     "category": "Field Manipulation",
     "cost": 4000,
     "description": "A re-engineered and unified grid further reduces energy losses over distance.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Energy Nexus"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1444,7 +1574,9 @@
     "category": "Particles",
     "cost": 4000,
     "description": "A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eWormhole Travel"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -1478,7 +1610,9 @@
     "category": "Particles",
     "cost": 5000,
     "description": "Neutronium is a super-dense substance composed of neutrons that can be forged into extremely resistant and durable armor.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Neutronium Ore"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1509,7 +1643,9 @@
     "category": "Particles",
     "cost": 4000,
     "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Omega Alignment"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -1542,7 +1678,9 @@
     "category": "Field Manipulation",
     "cost": 6000,
     "description": "This exotic substance has many properties that seemingly defy the laws of physics. Harvestable concentrations can only be found near Black Holes or in certain nebulas.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Dark Matter"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1573,7 +1711,9 @@
     "category": "Field Manipulation",
     "cost": 4000,
     "description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Spiral-Feed Power Hub"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -1617,7 +1757,9 @@
     "category": "Particles",
     "cost": 6000,
     "description": "A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Hyper Drive III"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1648,7 +1790,11 @@
     "category": "Field Manipulation",
     "cost": 6000,
     "description": "An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Advanced Shields",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Advanced Shields",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Advanced Shields"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1678,7 +1824,9 @@
     "category": "Particles",
     "cost": 6000,
     "description": "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Proton Launchers"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1711,7 +1859,10 @@
     "category": "Particles",
     "cost": 8000,
     "description": "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their way.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Phased Disruptor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Phased Disruptor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1743,7 +1894,11 @@
     "category": "Particles",
     "cost": 8000,
     "description": "The electromagnetic radiation emitted by gamma lasers is of an extremely high frequency. Their destructive potential is unmatched in the field of laser weapons.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Gamma Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Gamma Laser",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Gamma Laser"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1775,7 +1930,9 @@
     "category": "Computing",
     "cost": 8000,
     "description": "Expanding possibilities through the application of limited cybernetics.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "MOD_COUNTRY_ALL_TECHNOLOGY_RESEARCH_SPEED: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1807,7 +1964,11 @@
     "category": "Particles",
     "cost": 8000,
     "description": "The latest in plasma weaponry, these cannons are fully militarized versions of the older, somewhat improvised plasma throwers. Their plasma projectiles are even deadlier.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Plasma Cannon",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Plasma Cannon",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Plasma Cannon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1839,7 +2000,9 @@
     "category": "Particles",
     "cost": 10000,
     "description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Arc Emitter"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1877,7 +2040,9 @@
     "category": "Particles",
     "cost": 12000,
     "description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Focused Arc Emitter"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -1909,7 +2074,9 @@
     "category": "Computing",
     "cost": 10000,
     "description": "Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Sapient Combat Computer"
+    ],
     "is_dangerous": true,
     "is_rare": true,
     "is_start_tech": false,
@@ -1948,7 +2115,9 @@
     "category": "Particles",
     "cost": 12000,
     "description": "The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eGateway Travel"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -1982,7 +2151,9 @@
     "category": "Computing",
     "cost": 10000,
     "description": "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Defense-Grid Supercomputer"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2016,7 +2187,9 @@
     "category": "Computing",
     "cost": 8000,
     "description": "A bid for interplanetary resource pools and more flexible research grants.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Research Institute"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2053,7 +2226,9 @@
     "category": "Computing",
     "cost": 8000,
     "description": "Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "MOD_COUNTRY_ALL_TECHNOLOGY_RESEARCH_SPEED: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2085,7 +2260,11 @@
     "category": "Field Manipulation",
     "cost": 10000,
     "description": "Quantum superposition of energy coils, simultaneously drained and charged.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Power Plant V",
+      "Energy Storage Capacity: +10000",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Power Plant IV"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2121,7 +2300,9 @@
     "category": "Computing",
     "cost": 8000,
     "description": "Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Tachyon Sensors"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2152,7 +2333,9 @@
     "category": "Field Manipulation",
     "cost": 12000,
     "description": "A captive black hole that can be studied in a controlled environment would be an incredible research asset.\"",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Singularity Core"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2190,7 +2373,9 @@
     "category": "Computing",
     "cost": 10000,
     "description": "Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Autonomous Ship Intellect"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2223,7 +2408,10 @@
     "category": "Computing",
     "cost": 10000,
     "description": "Three dimensions, inextricable from the fourth.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Physics Lab IV",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Physics Lab III"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2262,7 +2450,9 @@
     "category": "Particles",
     "cost": 10000,
     "description": "These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Zero Point Reactor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2293,7 +2483,9 @@
     "category": "Particles",
     "cost": 10000,
     "description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Particle Lance"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2330,7 +2522,9 @@
     "category": "Computing",
     "cost": 8000,
     "description": "Advanced prediction greatly increases the accuracy of active countermeasure systems.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Guardian Point-Defense"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2360,7 +2554,11 @@
     "category": "Field Manipulation",
     "cost": 12000,
     "description": "These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Hyper Shields",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Hyper Shields",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Hyper Shields"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2390,7 +2588,9 @@
     "category": "Particles",
     "cost": 12000,
     "description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Tachyon Lance"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2427,7 +2627,9 @@
     "category": "Particles",
     "cost": 10000,
     "description": "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Neutron Launchers"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2459,7 +2661,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Global Pacifier"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2493,7 +2697,9 @@
     "category": "Particles",
     "cost": 25000,
     "description": "These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Dark Matter Reactor"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2523,7 +2729,9 @@
     "category": "Particles",
     "cost": 20000,
     "description": "New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Energy Weapon Attack Speed: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2551,7 +2759,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Neutron Sweep"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2587,7 +2797,9 @@
     "category": "Computing",
     "cost": 15000,
     "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder\u0027s prediction algorithms seemingly increases as the target\u0027s flight path grows more erratic.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Enigmatic Decoder"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2608,7 +2820,9 @@
     "category": "Computing",
     "cost": 20000,
     "description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Building Cost: -5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2636,7 +2850,9 @@
     "category": "Particles",
     "cost": 15000,
     "description": "By using vast amounts of energy we are able to convert light into matter from seemingly nothing.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Resource Replicator"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2672,7 +2888,10 @@
     "category": "Particles",
     "cost": 15000,
     "description": "A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Jump Drive",
+      "\u003cb\u003eFeature : \u003c/b\u003eJump Drive Travel"
+    ],
     "is_dangerous": true,
     "is_rare": true,
     "is_start_tech": false,
@@ -2703,7 +2922,9 @@
     "category": "Particles",
     "cost": 20000,
     "description": "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eGateway Construction"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2741,7 +2962,9 @@
     "category": "Field Manipulation",
     "cost": 20000,
     "description": "The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Shield Hit Points: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2769,7 +2992,11 @@
     "category": "Particles",
     "cost": 20000,
     "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Matter Disintegrator",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Matter Disintegrator",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Matter Disintegrator"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2792,7 +3019,9 @@
     "category": "Computing",
     "cost": 15000,
     "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Enigmatic Encoder"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2813,7 +3042,9 @@
     "category": "Particles",
     "cost": 20000,
     "description": "Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Energy Weapon Damage: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2841,7 +3072,9 @@
     "category": "Field Manipulation",
     "cost": 20000,
     "description": "Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Energy Credits: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -2869,7 +3102,11 @@
     "category": "Field Manipulation",
     "cost": 25000,
     "description": "These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Dark Matter Deflectors",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Dark Matter Deflectors",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Dark Matter Deflectors"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -2899,7 +3136,10 @@
     "category": "Statecraft",
     "cost": 0,
     "description": "Once a colony has been firmly established and pioneers turn into citizens, the need for a strong local government providing stability trumps the colonial need for flexibility.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Administrative Array",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Planetary Administration"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -2920,7 +3160,9 @@
     "category": "New Worlds",
     "cost": 0,
     "description": "Calculating required resources and gear required to establish a planetary colony allows us to herd brave pioneers into grand \"ark ships,\" confident that they will survive the long voyage across the stars to a new home.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eShip Size:\u003c/b\u003e Colony Ship"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -2941,7 +3183,9 @@
     "category": "Biology",
     "cost": 0,
     "description": "Large-scale hydroponics farms producing nutrient-rich produce helps sustain a growing population while minimizing negative environmental impact.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Hydroponics Farm I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -2962,7 +3206,11 @@
     "category": "Statecraft",
     "cost": 0,
     "description": "An understanding of a shared past is necessary in order to make any significant strides into the future.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Temple",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Autochthon Monument",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Uplink Node"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -2985,7 +3233,9 @@
     "category": "Military Theory",
     "cost": 0,
     "description": "There may come a time when intellects, vast and cool and unsympathetic, regard our worlds with envy and draw plans against us. We must be ready.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Stronghold"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -3006,7 +3256,9 @@
     "category": "Biology",
     "cost": 500,
     "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Pop Growth Speed: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3033,7 +3285,11 @@
     "category": "Statecraft",
     "cost": 500,
     "description": "Ancient warring tribes, historical nations in conflict, now unified in empire. We must not, will not, crumble.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Monthly Unity: +2",
+      "\u003cb\u003eEdict:\u003c/b\u003e Peace Festivals",
+      "\u003cb\u003eFeature : \u003c/b\u003eAdditional Edicts (Campaigns)"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3063,7 +3319,9 @@
     "category": "Biology",
     "cost": 750,
     "description": "The colonization of alien worlds has opened up an entirely new field of biomedical research.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Gene Clinic"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3101,7 +3359,9 @@
     "category": "Biology",
     "cost": 1000,
     "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Energy Siphon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3122,7 +3382,10 @@
     "category": "Statecraft",
     "cost": 750,
     "description": "The progress we make calls for a new, nimbler form of administration that may aid rather than hinder us in our pursuits.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Empire Leader Capacity: +1",
+      "Leader Pool Size: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3156,7 +3419,9 @@
     "category": "New Worlds",
     "cost": 750,
     "description": "Given enough processing power, networked sensors and distributed stations, even the ocean currents can be managed to a fine level of control.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Toxic Kelp"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3190,7 +3455,9 @@
     "category": "Statecraft",
     "cost": 1000,
     "description": "Trade across interstellar distances presents a new set of challenges to overcome. It is critical to achieve the transfer of goods from one system to another in a timely and above all cost efficient manner.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Offworld Trading Company"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3221,7 +3488,10 @@
     "category": "Statecraft",
     "cost": 750,
     "description": "Physical reminders of how far we have come both instill a reverence for past achievements and bolster ambitions for the future.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Network Junction",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Heritage Site"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3252,7 +3522,10 @@
     "category": "Biology",
     "cost": 500,
     "description": "Hydroponics techniques can be further developed by creating farms with unique atmospheres, simulating different eco systems. This allows for the production of food with higher levels of nutrients.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eEdict:\u003c/b\u003e Farming Subsidies",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Hydroponics Farm II"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3286,7 +3559,9 @@
     "category": "Biology",
     "cost": 4000,
     "description": "Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Energy Credits: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -3307,7 +3582,9 @@
     "category": "New Worlds",
     "cost": 750,
     "description": "Many planets exhibit extensive subsurface voids. Subterranean exploration, exploitation, and construction techniques can greatly increase the habitable area of some worlds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Deep Sinkhole"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3341,7 +3618,9 @@
     "category": "New Worlds",
     "cost": 750,
     "description": "Orbital systems of mirrors and shades can effect dramatic changes in planetary climates, when managed properly.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Massive Glacier"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3375,7 +3654,9 @@
     "category": "Statecraft",
     "cost": 750,
     "description": "The use of modular parts when assembling new machine units will both streamline the process and make future repairs easier.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Spare Parts Depot"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3408,7 +3689,9 @@
     "category": "Statecraft",
     "cost": 750,
     "description": "Seeing is believing, and belief begets reality.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Holotemple"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3439,7 +3722,10 @@
     "category": "Biology",
     "cost": 750,
     "description": "Studying the fauna of other worlds gives insight into alien behaviors, allowing us to identify and domesticate docile entities.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Animal Evaluation Laboratory",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Alien Zoo"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3465,7 +3751,9 @@
     "category": "New Worlds",
     "cost": 750,
     "description": "Thorough cataloging, gene sequencing, and computer modeling of exobotanical ecosystems, coupled with gene editing and dispersal mechanisms, will allow us to reshape alien plant communities to our liking.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Dense Jungle"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3499,7 +3787,9 @@
     "category": "New Worlds",
     "cost": 750,
     "description": "Sapient races have been reclaiming swampland for thousands of years. A coordinated system of modular aquaducts, pump stations, chemical remediation crawlers and automated soil compactors can reclaim land at unprecedented speeds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Noxious Swamp"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3533,7 +3823,9 @@
     "category": "New Worlds",
     "cost": 750,
     "description": "The process of soil deposition normally takes millions of years. With advanced fracking, chemical engineering, and hydraulic management technologies even the poorest substrate can be turned into fertile topsoil.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Quicksand Basin"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3567,7 +3859,9 @@
     "category": "Biology",
     "cost": 500,
     "description": "Studying the different forms of life that appear on our world helps us better understand ourselves and the life that surrounds us.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Biolab I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3595,7 +3889,10 @@
     "category": "Statecraft",
     "cost": 1000,
     "description": "Cognition is little but the processing of sensory input. It can be altered.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Slave Processing Facility",
+      "\u003cb\u003eArmy:\u003c/b\u003e Slave Army"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3625,7 +3922,9 @@
     "category": "Military Theory",
     "cost": 750,
     "description": "There are many alien empires who would gladly seize our worlds for themselves. We must be prepared for them, should the worst come to pass.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Defense Army Damage: +33%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3657,7 +3956,9 @@
     "category": "Biology",
     "cost": 2500,
     "description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Hydroponics Farm III"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3696,7 +3997,10 @@
     "category": "Military Theory",
     "cost": 2500,
     "description": "A well-oiled war machine is the key to exerting influence on a galactic scale. Backed by the might of our military, we can lay claim to almost anything we want.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "War Exhaustion Gain: -10%",
+      "Claim Influence Cost: -10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3731,7 +4035,9 @@
     "category": "Statecraft",
     "cost": 2500,
     "description": "Semi-independent units have proved critical to the success of the greater whole.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Monthly Influence: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3767,7 +4073,10 @@
     "category": "Biology",
     "cost": 2500,
     "description": "Gene Banks filter and curate available genomes for deployment in clones.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Clone Army",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Clone Vats"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -3803,7 +4112,9 @@
     "category": "New Worlds",
     "cost": 2000,
     "description": "Tactical disruption of natural habitats combined with converging search-and-destroy patterns can effectively eliminate hostile wildlife in a very short span of time.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Dangerous Wildlife"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3837,7 +4148,10 @@
     "category": "Military Theory",
     "cost": 1500,
     "description": "The strategic value of a good defense remains as relevant today as it was to our predecessors in the far distant past. Technology does not render fortifications obsolete - it merely changes their requirements.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Defense Army Health: +25%",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Fortress"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3869,7 +4183,10 @@
     "category": "Statecraft",
     "cost": 2500,
     "description": "The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Max Influence from Factions: +1",
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Deep Space Black Site"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3906,7 +4223,13 @@
     "category": "New Worlds",
     "cost": 2500,
     "description": "There is no simple solution to the problem of macro-scale reshaping of planetary crusts - only bigger trowels and orbitally-deployed drills.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eTerraforming",
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Terraforming Gases",
+      "Energy Storage Capacity: +5000",
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Terraforming Liquids",
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Gray Dust"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3937,7 +4260,9 @@
     "category": "New Worlds",
     "cost": 2000,
     "description": "With the advent of clean fusion, automation, and matter compression technologies, it was only a matter of time before mountain top removal became mountain range removal.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Mountain Range"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -3971,7 +4296,9 @@
     "category": "New Worlds",
     "cost": 2500,
     "description": "Further study into the hazardous environments found on other planets help alleviate the difficulties that colonizers encounter in their day-to-day lives on foreign worlds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Habitability: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4004,7 +4331,9 @@
     "category": "New Worlds",
     "cost": 1000,
     "description": "By adjusting atmospheric filtering on a per-site basis to better filter out undesirable elements, colonial living conditions may be improved.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Habitability: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4037,7 +4366,9 @@
     "category": "Biology",
     "cost": 2500,
     "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Amoeba Flagella"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4058,7 +4389,10 @@
     "category": "Statecraft",
     "cost": 2500,
     "description": "Not all research into faster-than-light communication channels produces useful results, but some outcomes may find new purpose in bringing our people together.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Hypercomms Forum",
+      "\u003cb\u003eBuilding:\u003c/b\u003e System Conflux"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4094,7 +4428,11 @@
     "category": "Military Theory",
     "cost": 2000,
     "description": "Creating dedicated headquarters for all levels of military operations shapes an efficient fleet, and lays a better foundation for future military training.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Military Academy",
+      "\u003cb\u003eBuilding:\u003c/b\u003e War Factory",
+      "Max Occupation Garrisons: +2"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4119,7 +4457,9 @@
     "category": "Military Theory",
     "cost": 1500,
     "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +20"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4144,7 +4484,11 @@
     "category": "New Worlds",
     "cost": 2000,
     "description": "Robust frameworks for local governance created on a per-case basis, to meet each colony\u0027s needs.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eEdict:\u003c/b\u003e Production Targets",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Planetary Capital",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Planetary Processor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4174,7 +4518,9 @@
     "category": "Military Theory",
     "cost": 2500,
     "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +20"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4206,7 +4552,9 @@
     "category": "Biology",
     "cost": 2000,
     "description": "Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Battle Frame Army"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4238,7 +4586,9 @@
     "category": "Biology",
     "cost": 2000,
     "description": "Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eUplift"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4275,7 +4625,9 @@
     "category": "Military Theory",
     "cost": 2000,
     "description": "As extrasolar expeditions become more common, it is important to provide planetside relief for returning fleets.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Naval Capacity: +30"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4300,7 +4652,9 @@
     "category": "Biology",
     "cost": 2000,
     "description": "Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Pop Growth Speed: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4334,7 +4688,9 @@
     "category": "Statecraft",
     "cost": 2500,
     "description": "Through our understanding of physics and field manipulation, our holy places shall we seen and felt by all.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Sacred Nexus"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4370,7 +4726,9 @@
     "category": "New Worlds",
     "cost": 2000,
     "description": "Advances in material technology and deep-shaft mining techniques allow geo-engineering at previously unthinkable depths and temperatures. Magma hotspots can now be exploited, suppressed, or even relocated.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eClear Blockers:\u003c/b\u003e Active Volcano"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4404,7 +4762,9 @@
     "category": "New Worlds",
     "cost": 2000,
     "description": "Our future lies in the sea of stars.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Starbase Capacity: +2"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4431,7 +4791,9 @@
     "category": "Statecraft",
     "cost": 2500,
     "description": "These factories are essentially self-aware entities that continually optimize themselves with only minimal input from the central Machine Intelligence.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Unit Assembly Plant"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4469,7 +4831,10 @@
     "category": "Military Theory",
     "cost": 2000,
     "description": "A body of knowledge regarding combat behaviors is useless without a strong code governing its use.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Naval Logistics Office",
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Fleet Academy"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4494,7 +4859,9 @@
     "category": "New Worlds",
     "cost": 1500,
     "description": "Local administrative developments allow for closer supervision of colonial affairs without excessively burdening central decision-making.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Core Sector Systems: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4528,7 +4895,9 @@
     "category": "Biology",
     "cost": 2000,
     "description": "Where the body fails, science intervenes.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Leader Lifespan: +10"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4562,7 +4931,9 @@
     "category": "Biology",
     "cost": 2500,
     "description": "As our empire grows, so does our understanding of our own biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Cyto-Revitalization Center"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4600,7 +4971,9 @@
     "category": "Biology",
     "cost": 2500,
     "description": "Studying the life that arises on other worlds and beyond allows us to understand fundamental aspects of biology that were previously beyond our reach.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Biolab II"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4639,7 +5012,9 @@
     "category": "Biology",
     "cost": 2000,
     "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we\u0027re going, we won\u0027t need skin to feel!\"",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eChemical Bliss"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -4672,7 +5047,10 @@
     "category": "Statecraft",
     "cost": 2500,
     "description": "It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Edict Cost: -15%",
+      "Slave Resource Production: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4697,7 +5075,10 @@
     "category": "Military Theory",
     "cost": 6000,
     "description": "Restructuring the chain of command and deciding what interdependencies are set between officers, make fleets more responsive and effective.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Command Center",
+      "Fire Rate: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4729,7 +5110,10 @@
     "category": "Statecraft",
     "cost": 6000,
     "description": "Thinking outside the box merely places you in another, somewhat larger box.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Resettlement Cost: -15%",
+      "Robot Resource Production: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4761,7 +5145,9 @@
     "category": "Biology",
     "cost": 6000,
     "description": "Through glandular biological tailoring we can change the environmental tolerance of a species to suit our needs.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eHabitability Modification"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4794,7 +5180,10 @@
     "category": "Military Theory",
     "cost": 4000,
     "description": "A more extensive training program for new recruits, including realistic combat scenarios, prepare them for the field.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Assault Army Damage: +15%",
+      "Assault Army Morale: +15%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4826,7 +5215,9 @@
     "category": "New Worlds",
     "cost": 6000,
     "description": "Extensive study into different soil types and their ability to support crops will help improve the living conditions of our settlers on foreign worlds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Habitability: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4859,7 +5250,10 @@
     "category": "New Worlds",
     "cost": 5000,
     "description": "By adapting planetary ecosystems to large-scale environmental changes we can turn terraformation into a less disruptive process.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eEcological Adaptation",
+      "Energy Storage Capacity: +5000"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4890,7 +5284,9 @@
     "category": "New Worlds",
     "cost": 4000,
     "description": "Multiple administrative strata efficiently surface only the most vital information to the upper levels of government.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Core Sector Systems: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4924,7 +5320,11 @@
     "category": "Biology",
     "cost": 4000,
     "description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eSelf-Modification",
+      "Gene Modification Points: +1",
+      "\u003cb\u003eFeature : \u003c/b\u003eGenetic Modification"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4957,7 +5357,9 @@
     "category": "Biology",
     "cost": 5000,
     "description": "A naturally occurring stimulant that helps all forms of life adapt and evolve. It can also be used as a very potent conductor for energy weapons.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Engos Vapor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -4988,7 +5390,9 @@
     "category": "Psionics",
     "cost": 4000,
     "description": "The mind is in many ways a reflection of the universe itself, a microcosmos. All species may not reach this insight, but their minds are tools greater than any other.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Monthly Unity: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5019,7 +5423,9 @@
     "category": "Military Theory",
     "cost": 5000,
     "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +20"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5051,7 +5457,9 @@
     "category": "Statecraft",
     "cost": 6000,
     "description": "Together, we build the future.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Pop Resource Production: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5076,7 +5484,10 @@
     "category": "Military Theory",
     "cost": 4000,
     "description": "Standardizing workflows for upgrading and retrofitting ship components can lead to massive efficiency gains.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Ship Upkeep: -5%",
+      "Ship Upgrade Cost: -20%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5108,7 +5519,9 @@
     "category": "Statecraft",
     "cost": 4000,
     "description": "Efficiency in all things.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Robot Resource Production: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5134,7 +5547,9 @@
     "category": "Military Theory",
     "cost": 5000,
     "description": "A fleet does not run on zeal alone. To ensure steady access to critical supplies, we should organize our logistics corps into dedicated support vessels.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Naval Capacity: +30"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5166,7 +5581,9 @@
     "category": "Biology",
     "cost": 5000,
     "description": "Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003ePolicy:\u003c/b\u003e Selected Lineages"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5202,7 +5619,9 @@
     "category": "Psionics",
     "cost": 5000,
     "description": "An extremely rare aerosol of exotic particles. It has been deposited on a number of worlds through meteor impacts, but its true origin is a mystery. If ingested by psionically-gifted individuals, Zro acts as a very potent (and addictive) drug that enhances Psi abilities.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Zro"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5238,7 +5657,10 @@
     "category": "Statecraft",
     "cost": 6000,
     "description": "Initiative and some measure of ambition must be promoted in our autonomous leader units, while still making certain that they do not stray too far from the directives of the core intelligence.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Empire Leader Capacity: +2",
+      "Leader Recruitment Cost: -20%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5274,7 +5696,10 @@
     "category": "Statecraft",
     "cost": 10000,
     "description": "Continuous, asynchronous analysis of disparate data sets allows for the accurate modeling of hitherto-unpredictable fluctuations in social currents.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Auto-Curating Vault",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Alpha Hub"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5315,7 +5740,9 @@
     "category": "Statecraft",
     "cost": 4000,
     "description": "A set of social protocols based on paradoxical intuition, and on love. When we know the System of the Loop, we learn that we can influence by receiving instructions, as well as giving them.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Loop Institute"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5336,7 +5763,10 @@
     "category": "Statecraft",
     "cost": 6000,
     "description": "Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Empire Leader Capacity: +2",
+      "Leader Recruitment Cost: -20%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5373,7 +5803,9 @@
     "category": "Psionics",
     "cost": 6000,
     "description": "Once fully adapted to the basics of Psionics, the mind is capable of connecting to other individuals, becoming something greater.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Psionic Army"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5412,7 +5844,9 @@
     "category": "New Worlds",
     "cost": 4000,
     "description": "Through comprehensive study of irradiated environments we will allow our settlers to colonize worlds that have been devastated by nuclear warfare.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Tomb World Habitability: +20%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5445,7 +5879,9 @@
     "category": "Biology",
     "cost": 6000,
     "description": "Stricter control of RNA and protein production on the cellular level.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Gene Modification Points: +1"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5479,7 +5915,9 @@
     "category": "Biology",
     "cost": 5000,
     "description": "A genetically altered version of silicon-based bacteria could potentially be manipulated to regenerate non-organic materials.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Regenerative Hull Tissue"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5500,7 +5938,10 @@
     "category": "Biology",
     "cost": 10000,
     "description": "When tailored to a species\u0027 genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Leader Level Cap: +1",
+      "Species Leader Exp Gain: +25%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5521,7 +5962,9 @@
     "category": "Statecraft",
     "cost": 10000,
     "description": "Leaving our planetary cradle has opened us up to a new understanding of faith, and its place in a wider context.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Citadel of Faith"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5557,7 +6000,10 @@
     "category": "Biology",
     "cost": 10000,
     "description": "Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Hydroponics Farm IV",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Hydroponics Farm V"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5596,7 +6042,9 @@
     "category": "Statecraft",
     "cost": 8000,
     "description": "By engaging in free trade of goods and services we allow for a more specialized economy, where an individual can excel in a narrow field and trade for their needs.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Galactic Stock Exchange"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5630,7 +6078,9 @@
     "category": "Biology",
     "cost": 12000,
     "description": "We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003ePolicy:\u003c/b\u003e Capacity Boosters"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5666,7 +6116,9 @@
     "category": "New Worlds",
     "cost": 10000,
     "description": "We must have to courage to seize our fate and make true what was always meant to be.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Starbase Capacity: +2"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5700,7 +6152,9 @@
     "category": "Biology",
     "cost": 8000,
     "description": "Nucleotide purification techniques allow for the isolation and refinement of particularly desirable genetic traits.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Gene Warrior Army"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5739,7 +6193,9 @@
     "category": "New Worlds",
     "cost": 12000,
     "description": "Additional study into different planetary climates will allow us to settle our population on worlds previously thought too hostile to support them.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Habitability: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5772,7 +6228,9 @@
     "category": "Psionics",
     "cost": 10000,
     "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analysing the impulses of telepathic operatives before they are cognitively processed.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Precognitive Interface"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5811,7 +6269,9 @@
     "category": "Statecraft",
     "cost": 8000,
     "description": "Our people are united and strong, and their rulers benevolent. Sometimes the populace needs to be reminded of this fact.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Ministry of Benevolence"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5844,7 +6304,9 @@
     "category": "Biology",
     "cost": 10000,
     "description": "Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Mega-Warform"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5879,7 +6341,9 @@
     "category": "Biology",
     "cost": 12000,
     "description": "The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Food: +15%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -5913,7 +6377,9 @@
     "category": "Military Theory",
     "cost": 12000,
     "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +20"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5945,7 +6411,9 @@
     "category": "Military Theory",
     "cost": 8000,
     "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +20"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -5977,7 +6445,10 @@
     "category": "Military Theory",
     "cost": 8000,
     "description": "Further improvements to administration grant an extended power projection across the stars, and the military clout needed to enforce our demands.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "War Exhaustion Gain: -10%",
+      "Claim Influence Cost: -10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6012,7 +6483,9 @@
     "category": "Military Theory",
     "cost": 8000,
     "description": "Amateurs talk about tactics. Professionals study logistics. By ensuring our fleets are regularly and efficiently supplied, we can increase the number of vessels we can effectively support.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Naval Capacity: +30"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6044,7 +6517,9 @@
     "category": "Military Theory",
     "cost": 12000,
     "description": "By maintaining a professional corps of fleet liasions, we can improve communications and the flow of orders throughout the chain of command.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Naval Capacity: +30"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6076,7 +6551,9 @@
     "category": "Biology",
     "cost": 12000,
     "description": "Through sufficiently advanced mathematical simulations, it may be possible to predict the fluctuating economies of organic society in some limited fashion. This would let us manipulate their stock markets to our advantage.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Probability Engine"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6109,7 +6586,9 @@
     "category": "Biology",
     "cost": 8000,
     "description": "From its cradle as a purely pharmaceutical venture, advancements in our understanding of the morphogenetic field allow for direct, subconscious interfaces with organic units.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Xenomorph Army"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6149,7 +6628,11 @@
     "category": "Statecraft",
     "cost": 8000,
     "description": "The administrative needs of a star empire are as numerous as they are complex. We will rise to the occasion.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Civic Slots: +1",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Empire Capital-Complex",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Primary Nexus"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6179,7 +6662,9 @@
     "category": "New Worlds",
     "cost": 8000,
     "description": "By advancing our understanding of atmospheric transformation, we will be able to terraform even the most ecologically devastated worlds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Energy Storage Capacity: +5000"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6210,7 +6695,10 @@
     "category": "Biology",
     "cost": 10000,
     "description": "Having the opportunity to study the multitudes of life lets us find some common ground for all living beings. The foundational building blocks of life.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Biolab IV",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Biolab III"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6249,7 +6737,9 @@
     "category": "Psionics",
     "cost": 20000,
     "description": "An arcane catalyst amplifying certain psionic wavelengths, capable of inducing hallucinations (religious experiences) in biological brains, and severe disruption (brain death) in electronic ones.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Divine Enforcer"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6284,7 +6774,9 @@
     "category": "New Worlds",
     "cost": 20000,
     "description": "Restructuring the managerial web linking core worlds to the capital can help alleviate the administrative stressors and information chokepoints that frequently arise within a budding empire.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Core Sector Systems: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6312,7 +6804,9 @@
     "category": "Biology",
     "cost": 20000,
     "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Scourge Missile"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6333,7 +6827,9 @@
     "category": "Statecraft",
     "cost": 20000,
     "description": "The concept of managing individuals as resources within larger systems of production must, by necessity, become more flexible as the potential natures of the managed individuals grow ever more numerous.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Empire Leader Capacity: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6361,7 +6857,9 @@
     "category": "Statecraft",
     "cost": 20000,
     "description": "More aggressive information campaigns improve the populace\u0027s receptiveness to Edicts.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Edict Duration: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6389,7 +6887,9 @@
     "category": "Biology",
     "cost": 20000,
     "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Swarm Strikers"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6410,7 +6910,9 @@
     "category": "Biology",
     "cost": 20000,
     "description": "Regimens of periodic cell revitalization treatments keep the leader class spry and active beyond traditionally expected lifespans.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Leader Lifespan: +5"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6438,7 +6940,10 @@
     "category": "Psionics",
     "cost": 17500,
     "description": "The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Psi Jump Drive",
+      "\u003cb\u003eFeature : \u003c/b\u003eJump Drive Travel"
+    ],
     "is_dangerous": true,
     "is_rare": true,
     "is_start_tech": false,
@@ -6471,7 +6976,10 @@
     "category": "Statecraft",
     "cost": 17500,
     "description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eUnity Ambitions",
+      "Ascension Perks: +1"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6497,7 +7005,9 @@
     "category": "Military Theory",
     "cost": 20000,
     "description": "Improving the support staff available to our admirals will increase the number of ships they can command in a single fleet.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +10"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6525,7 +7035,9 @@
     "category": "Military Theory",
     "cost": 20000,
     "description": "Improved fleet management procedures will free up the resources needed to maintain a bigger fleet.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Naval Capacity: +20"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6553,7 +7065,9 @@
     "category": "Military Theory",
     "cost": 20000,
     "description": "Iterating on the standard conditioning regimen for ground troops has proven to make them more effective in direct combat.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Army Damage: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6581,7 +7095,9 @@
     "category": "Military Theory",
     "cost": 20000,
     "description": "Careful tuning of pain receptors allow soldiers to fight through what would previously have been debilitating injuries.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Army Health: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6609,7 +7125,11 @@
     "category": "Psionics",
     "cost": 20000,
     "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Psionic Shield",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Psionic Shield",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Psionic Shield"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6637,7 +7157,10 @@
     "category": "Biology",
     "cost": 15000,
     "description": "No longer will we be limited by the basic biological structure of a species when striving to improve them. DNA is just another material to be shaped as the sculptor wills it.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eGenetic Resequencing",
+      "\u003cb\u003eFeature : \u003c/b\u003eAdvanced Traits"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6658,7 +7181,9 @@
     "category": "Biology",
     "cost": 20000,
     "description": "Transgenic crops offer the nutritional elements of several standard food crops in one convenient package.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Food: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6686,7 +7211,9 @@
     "category": "Statecraft",
     "cost": 17500,
     "description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Ascension Perks: +1"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -6711,7 +7238,9 @@
     "category": "New Worlds",
     "cost": 20000,
     "description": "Improved FTL communication channels allow for more coherent administrative direction.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Sector Limit: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6739,7 +7268,9 @@
     "category": "New Worlds",
     "cost": 20000,
     "description": "The immense logistical support networks needed to maintain an upgraded Starbase can be further improved, allowing us to support more of these stations.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Starbase Capacity: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -6767,7 +7298,9 @@
     "category": "Voidcraft",
     "cost": 0,
     "description": "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eShip Size:\u003c/b\u003e Science Ship"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6788,7 +7321,10 @@
     "category": "Propulsion",
     "cost": 0,
     "description": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eStarbase Module:\u003c/b\u003e Missile Battery",
+      "\u003cb\u003eComponent:\u003c/b\u003e Nuclear Missiles"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6809,7 +7345,9 @@
     "category": "Voidcraft",
     "cost": 0,
     "description": "The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eShip Size:\u003c/b\u003e Corvette"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6830,7 +7368,10 @@
     "category": "Voidcraft",
     "cost": 500,
     "description": "The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Assault Army",
+      "\u003cb\u003eArmy:\u003c/b\u003e Hunter-Killer Army"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6893,7 +7434,9 @@
     "category": "Industry",
     "cost": 0,
     "description": "The basic industrial infrastructure that is required to become a spacefaring civilization.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Mining Network I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6914,7 +7457,11 @@
     "category": "Materials",
     "cost": 500,
     "description": "Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Nanocomposite Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Nanocomposite Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Nanocomposite Armor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6935,7 +7482,9 @@
     "category": "Propulsion",
     "cost": 0,
     "description": "Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Chemical Thrusters"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6956,7 +7505,11 @@
     "category": "Industry",
     "cost": 0,
     "description": "Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eShip Size:\u003c/b\u003e Mining Station",
+      "\u003cb\u003eShip Size:\u003c/b\u003e Construction Ship",
+      "\u003cb\u003eShip Size:\u003c/b\u003e Research Station"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6977,7 +7530,12 @@
     "category": "Propulsion",
     "cost": 0,
     "description": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Mass Driver",
+      "\u003cb\u003eStarbase Module:\u003c/b\u003e Gun Battery",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Mass Driver",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Mass Driver"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -6998,7 +7556,9 @@
     "category": "Voidcraft",
     "cost": 0,
     "description": "This will enable the construction of defensive deep space platforms to protect our Starbases.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eShip Size:\u003c/b\u003e Defense Platform"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": true,
@@ -7019,7 +7579,9 @@
     "category": "Industry",
     "cost": 1000,
     "description": "These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuildable Pop:\u003c/b\u003e Robot"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7053,7 +7615,9 @@
     "category": "Propulsion",
     "cost": 750,
     "description": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Fusion Missiles"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7090,7 +7654,9 @@
     "category": "Propulsion",
     "cost": 1000,
     "description": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Flak Battery"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7122,7 +7688,11 @@
     "category": "Industry",
     "cost": 1500,
     "description": "Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eRobomodding",
+      "Robot Modification Points: +1",
+      "\u003cb\u003eBuildable Pop:\u003c/b\u003e Mechanical Pop Templates"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7154,7 +7724,10 @@
     "category": "Industry",
     "cost": 750,
     "description": "Optimal processing of mined materials have allowed us to reach new levels of efficiency.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Nebula Refinery",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Mineral Processing Plant I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7184,7 +7757,9 @@
     "category": "Materials",
     "cost": 750,
     "description": "Teldar crystals emanate tell-tale wavelengths of light outside the visible spectrum.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Teldar Crystals"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7215,7 +7790,9 @@
     "category": "Industry",
     "cost": 1000,
     "description": "Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Building Build Speed: +25%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7245,7 +7822,10 @@
     "category": "Industry",
     "cost": 500,
     "description": "New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet\u0027s crust.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Mining Network II",
+      "Mineral Storage Capacity: +5000"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7275,7 +7855,9 @@
     "category": "Industry",
     "cost": 500,
     "description": "Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Engineering Facility I"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7303,7 +7885,10 @@
     "category": "Voidcraft",
     "cost": 750,
     "description": "Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Corvette Build Speed: +25%",
+      "Corvette Build Cost: -5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7333,7 +7918,10 @@
     "category": "Industry",
     "cost": 500,
     "description": "Wearing a powered exoskeleton suit augments the user\u0027s strength and speed. The military applications are obvious, but it will also increase labor efficiency.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Minerals: +5%",
+      "Army Damage: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7363,7 +7951,9 @@
     "category": "Materials",
     "cost": 750,
     "description": "Stabilization beams allow relatively safe extraction of volatile Orillium ores.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Orillium Ore"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7394,7 +7984,9 @@
     "category": "Materials",
     "cost": 750,
     "description": "Yurantic crystals have rare reflective properties that enhance the effectiveness of energy weapons.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Yurantic Crystals"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7425,7 +8017,11 @@
     "category": "Materials",
     "cost": 750,
     "description": "A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Ceramo-Metal Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Ceramo-Metal Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Ceramo-Metal Armor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7455,7 +8051,9 @@
     "category": "Voidcraft",
     "cost": 1000,
     "description": "Advances in building techniques will allow for the construction of sturdier and more durable corvettes.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Corvette Hull Points: +100"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7485,7 +8083,10 @@
     "category": "Voidcraft",
     "cost": 1000,
     "description": "These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Basic Strike Craft",
+      "\u003cb\u003eStarbase Module:\u003c/b\u003e Hangar Bay"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7515,7 +8116,9 @@
     "category": "Propulsion",
     "cost": 750,
     "description": "These powerful thrusters provide additional combat speed but consume a great deal of power.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Afterburners"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7547,7 +8150,9 @@
     "category": "Materials",
     "cost": 750,
     "description": "Establishing successful Garanthium quarries poses unique challenges, as the malleable qualities of the ore make it as difficult to mine as it is attractive.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Garanthium Ore"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7578,7 +8183,9 @@
     "category": "Materials",
     "cost": 750,
     "description": "Volatile Aldar is only found laced in more common ores. Successfully extracting Aldar crystals from these mineral matrices - without sustaining significant damage to equipment and operators - requires advanced auto-tactile machinery.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Aldar Crystals"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7609,7 +8216,10 @@
     "category": "Industry",
     "cost": 1500,
     "description": "Standardization of assembly templates allow for improved specialization of the drone population.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eRobomodding",
+      "Machine Modification Points: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7641,7 +8251,11 @@
     "category": "Propulsion",
     "cost": 750,
     "description": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Coilgun",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Coilgun",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Coilgun"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7673,7 +8287,9 @@
     "category": "Propulsion",
     "cost": 1500,
     "description": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Antimatter Missiles"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7705,7 +8321,9 @@
     "category": "Propulsion",
     "cost": 2000,
     "description": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Autocannon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7738,7 +8356,9 @@
     "category": "Propulsion",
     "cost": 2000,
     "description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Space Torpedoes"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7770,7 +8390,9 @@
     "category": "Industry",
     "cost": 4000,
     "description": "Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Robot Modification Points: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7808,7 +8430,10 @@
     "category": "Voidcraft",
     "cost": 2500,
     "description": "Streamlined starbase construction procedures, using modular designs, will halve the present build cost and time.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Starbase Building Build Cost: -25%",
+      "Starbase Module Build Cost: -25%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -7839,7 +8464,9 @@
     "category": "Materials",
     "cost": 750,
     "description": "The Betharian minerals appear to have originated from singular source, but were scattered across the galaxy millennia ago. The minerals are most often encountered as pebble-sized clusters, and are highly flammable.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Betharian Power Plant"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7870,7 +8497,10 @@
     "category": "Industry",
     "cost": 2500,
     "description": "Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Robotic Assault Army",
+      "\u003cb\u003eBuildable Pop:\u003c/b\u003e Droid"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7910,7 +8540,10 @@
     "category": "Industry",
     "cost": 2500,
     "description": "These massive drills are needed to access the rich mineral deposits that can often be found close to a planet\u0027s core.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Mining Network III",
+      "Mineral Storage Capacity: +10000"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7945,7 +8578,9 @@
     "category": "Industry",
     "cost": 2500,
     "description": "The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Engineering Facility II"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -7984,7 +8619,9 @@
     "category": "Voidcraft",
     "cost": 2500,
     "description": "Advances in building techniques will allow for the construction of sturdier and more durable destroyers.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Destroyer Hull Points: +200"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8015,7 +8652,10 @@
     "category": "Voidcraft",
     "cost": 1500,
     "description": "While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +10",
+      "\u003cb\u003eShip Size:\u003c/b\u003e Destroyer"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8051,7 +8691,9 @@
     "category": "Propulsion",
     "cost": 2000,
     "description": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Swarmer Missiles"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8120,7 +8762,11 @@
     "category": "Materials",
     "cost": 2500,
     "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships\u0027 protective hulls.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Crystal-Infused Plating",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Crystal-Infused Plating",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Crystal-Infused Plating"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8143,7 +8789,9 @@
     "category": "Voidcraft",
     "cost": 2000,
     "description": "A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Defense Platform Hull Points: +500"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -8171,7 +8819,11 @@
     "category": "Materials",
     "cost": 2000,
     "description": "Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Plasteel Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Plasteel Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Plasteel Armor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8201,7 +8853,9 @@
     "category": "Voidcraft",
     "cost": 2500,
     "description": "The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Corvette Hull Points: +100"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -8232,7 +8886,9 @@
     "category": "Voidcraft",
     "cost": 2500,
     "description": "The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Improved Strike Craft"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8262,7 +8918,10 @@
     "category": "Voidcraft",
     "cost": 2000,
     "description": "Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Destroyer Build Cost: -5%",
+      "Destroyer Build Speed: +25%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8292,7 +8951,9 @@
     "category": "Propulsion",
     "cost": 1500,
     "description": "These electric thrusters use beams of ions to generate thrust without the need for propellant.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Ion Thrusters"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8347,7 +9008,11 @@
     "category": "Propulsion",
     "cost": 1500,
     "description": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Railgun",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Railgun",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Railgun"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8379,7 +9044,9 @@
     "category": "Propulsion",
     "cost": 4000,
     "description": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Quantum Missiles"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8411,7 +9078,9 @@
     "category": "Propulsion",
     "cost": 2500,
     "description": "Upgraded flak batteries with new, more powerful shrapnel rounds.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Flak Cannons"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8443,7 +9112,10 @@
     "category": "Voidcraft",
     "cost": 6000,
     "description": "The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Starbase Upgrade Speed: +25%",
+      "Starbase Upgrade Cost: -15%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -8479,7 +9151,9 @@
     "category": "Industry",
     "cost": 5000,
     "description": "Standardized pre-fab templates massively reduce on-site facility construction times.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Building Build Speed: +50%"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -8510,7 +9184,10 @@
     "category": "Voidcraft",
     "cost": 5000,
     "description": "Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Cruiser Build Cost: -5%",
+      "Cruiser Build Speed: +25%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8540,7 +9217,9 @@
     "category": "Propulsion",
     "cost": 4000,
     "description": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Ripper Autocannon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8572,7 +9251,9 @@
     "category": "Propulsion",
     "cost": 5000,
     "description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Armored Torpedoes"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8604,7 +9285,9 @@
     "category": "Industry",
     "cost": 4000,
     "description": "These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Machine Modification Points: +1"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8641,7 +9324,9 @@
     "category": "Industry",
     "cost": 4000,
     "description": "Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Mineral Processing Plant II"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8676,7 +9361,9 @@
     "category": "Voidcraft",
     "cost": 4000,
     "description": "The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Destroyer Hull Points: +200"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -8745,7 +9432,10 @@
     "category": "Voidcraft",
     "cost": 4000,
     "description": "Originally devised as an experimental next-generation colony ship hull configuration, the design\u0027s ample hardpoints made it ideal for carrying heavy weapons ordnance.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +10",
+      "\u003cb\u003eShip Size:\u003c/b\u003e Cruiser"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8781,7 +9471,9 @@
     "category": "Propulsion",
     "cost": 6000,
     "description": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Kinetic Battery"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8813,7 +9505,11 @@
     "category": "Materials",
     "cost": 5000,
     "description": "This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Durasteel Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Durasteel Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Durasteel Armor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8843,7 +9539,9 @@
     "category": "Voidcraft",
     "cost": 6000,
     "description": "A further refinement in strike craft design, these advanced strike craft are a pilot\u0027s dream. Their performance far exceeds that of previous models.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Advanced Strike Craft"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8873,7 +9571,9 @@
     "category": "Propulsion",
     "cost": 5000,
     "description": "This improved version of the standard afterburners provide an even greater boost to a ship\u0027s combat speed.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Advanced Afterburners"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8908,7 +9608,9 @@
     "category": "Propulsion",
     "cost": 4000,
     "description": "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Plasma Thrusters"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8939,7 +9641,9 @@
     "category": "Voidcraft",
     "cost": 6000,
     "description": "Advances in building techniques will allow for the construction of sturdier and more durable cruisers.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Cruiser Hull Points: +500"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -8970,7 +9674,11 @@
     "category": "Propulsion",
     "cost": 4000,
     "description": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Advanced Railgun",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Advanced Railgun",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Advanced Railgun"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9002,7 +9710,9 @@
     "category": "Propulsion",
     "cost": 10000,
     "description": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Marauder Missiles"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9034,7 +9744,9 @@
     "category": "Propulsion",
     "cost": 8000,
     "description": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Flak Artillery"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9066,7 +9778,10 @@
     "category": "Voidcraft",
     "cost": 10000,
     "description": "Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Battleship Build Speed: +25%",
+      "Battleship Build Cost: -5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9096,7 +9811,9 @@
     "category": "Voidcraft",
     "cost": 12000,
     "description": "Advances in building techniques will allow for the construction of sturdier and more durable battleships.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Battleship Hull Points: +800"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9127,7 +9844,9 @@
     "category": "Propulsion",
     "cost": 10000,
     "description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Devastator Torpedoes"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9159,7 +9878,9 @@
     "category": "Propulsion",
     "cost": 8000,
     "description": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Stormfire Autocannon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9191,7 +9912,9 @@
     "category": "Industry",
     "cost": 8000,
     "description": "Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Robot Modification Points: +1"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -9230,7 +9953,11 @@
     "category": "Industry",
     "cost": 10000,
     "description": "Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Mining Network IV",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Mining Network V",
+      "Mineral Storage Capacity: +10000"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9265,7 +9992,10 @@
     "category": "Industry",
     "cost": 10000,
     "description": "The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eBuilding:\u003c/b\u003e Engineering Facility III",
+      "\u003cb\u003eBuilding:\u003c/b\u003e Engineering Facility IV"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9304,7 +10034,11 @@
     "category": "Industry",
     "cost": 10000,
     "description": "Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eArmy:\u003c/b\u003e Android Assault Army",
+      "\u003cb\u003eBuildable Pop:\u003c/b\u003e Synthetic",
+      "\u003cb\u003eBuildable Pop:\u003c/b\u003e Awoken"
+    ],
     "is_dangerous": true,
     "is_rare": true,
     "is_start_tech": false,
@@ -9350,7 +10084,10 @@
     "category": "Voidcraft",
     "cost": 8000,
     "description": "The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Fleet Command Limit: +10",
+      "\u003cb\u003eShip Size:\u003c/b\u003e Battleship"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9386,7 +10123,9 @@
     "category": "Propulsion",
     "cost": 10000,
     "description": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Whirlwind Missiles"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9418,7 +10157,9 @@
     "category": "Industry",
     "cost": 8000,
     "description": "Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Machine Modification Points: +1"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -9492,7 +10233,9 @@
     "category": "Industry",
     "cost": 12000,
     "description": "Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eFeature : \u003c/b\u003eSynth Leaders"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9525,7 +10268,9 @@
     "category": "Propulsion",
     "cost": 10000,
     "description": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Kinetic Artillery"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9562,7 +10307,11 @@
     "category": "Materials",
     "cost": 10000,
     "description": "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Neutronium Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Neutronium Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Neutronium Armor"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9597,7 +10346,9 @@
     "category": "Propulsion",
     "cost": 8000,
     "description": "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Impulse Thrusters"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9628,7 +10379,9 @@
     "category": "Voidcraft",
     "cost": 8000,
     "description": "The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Cruiser Hull Points: +500"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -9660,7 +10413,9 @@
     "category": "Propulsion",
     "cost": 12000,
     "description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Giga Cannon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9697,7 +10452,9 @@
     "category": "Propulsion",
     "cost": 10000,
     "description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Mega Cannon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9734,7 +10491,11 @@
     "category": "Materials",
     "cost": 8000,
     "description": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Crystal-Forged Plating",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Crystal-Forged Plating",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Crystal-Forged Plating"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -9755,7 +10516,11 @@
     "category": "Propulsion",
     "cost": 8000,
     "description": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Gauss Cannon",
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Gauss Cannon",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Gauss Cannon"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9787,7 +10552,9 @@
     "category": "Voidcraft",
     "cost": 15000,
     "description": "The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Battleship Hull Points: +800"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -9819,7 +10586,9 @@
     "category": "Materials",
     "cost": 20000,
     "description": "Compressing suitable materials into ultra-dense forms is a cheap and efficient way to improve their ability to absorb weapons-grade impacts.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Armor Hit Points: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9847,7 +10616,9 @@
     "category": "Propulsion",
     "cost": 20000,
     "description": "Ultra-dense slugs can punch through even the strongest of projected shields.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Kinetic Weapon Damage: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9875,7 +10646,9 @@
     "category": "Materials",
     "cost": 15000,
     "description": "Mining and processing the rare living metals is exceedingly difficult, but successful application of the mutable alloys yields incomparable advantages.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eReveals Ressource:\u003c/b\u003e Living Metal"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9903,7 +10676,9 @@
     "category": "Propulsion",
     "cost": 20000,
     "description": "Advances in miniaturization allow for more rapid loading and discharging of rocket-propelled payloads.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Explosive Weapon Attack Speed: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9931,7 +10706,9 @@
     "category": "Propulsion",
     "cost": 20000,
     "description": "Minor technical advances combine with improved shipboard routines for handling munitions to provide a noticeable boost in fire rate.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Kinetic Weapon Attack Speed: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -9959,7 +10736,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Titan Hull Points: +2000"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -9991,7 +10770,9 @@
     "category": "Voidcraft",
     "cost": 17500,
     "description": "Advances in building techniques will allow for the construction of sturdier and more durable titans.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Titan Hull Points: +2000"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -10023,7 +10804,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "Additional layers of armor plating within the structure itself improves the resilience of Military Stations.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Defense Platform Hull Points: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10051,7 +10834,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "Cross-linking weapon systems to fire in staggered volleys improves the actual damage output of Military Stations over time.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Defense Platform Damage: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10079,7 +10864,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "A directed feed of thermic energy superheats the atmosphere and agitates the planet\u0027s core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e World Cracker"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -10113,7 +10900,11 @@
     "category": "Materials",
     "cost": 15000,
     "description": "The Ether Drake\u0027s scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Small Dragonscale Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Medium Dragonscale Armor",
+      "\u003cb\u003eComponent:\u003c/b\u003e Large Dragonscale Armor"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -10134,7 +10925,9 @@
     "category": "Propulsion",
     "cost": 20000,
     "description": "With the chemical reaction tightly controlled by missile-board microprocessors, warhead detonations can be tuned for maximum effect for local conditions at the time of impact.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Explosive Weapon Damage: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10162,7 +10955,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eStarbase Building:\u003c/b\u003e Colossus Assembly Yards"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -10192,7 +10987,12 @@
     "category": "Voidcraft",
     "cost": 15000,
     "description": "Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Ion Cannon",
+      "\u003cb\u003eShip Size:\u003c/b\u003e Titan",
+      "Fleet Command Limit: +10",
+      "\u003cb\u003eComponent:\u003c/b\u003e Perdition Beam"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10230,7 +11030,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "Nanobot Diffuser",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Nanobot Diffuser"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -10264,7 +11066,9 @@
     "category": "Industry",
     "cost": 20000,
     "description": "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Building Build Speed: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10292,7 +11096,9 @@
     "category": "Industry",
     "cost": 20000,
     "description": "Changes in how mineral deposits are evaluated relative to each other lead to more efficient boring patterns.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Minerals: +5%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10320,7 +11126,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "Increasing the speed at which fighter pilots can process and act upon enemy positioning data elevates strike craft a few steps up the food chain.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Strike Craft Damage: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10348,7 +11156,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "Circulating excess heat from weapons discharge in order to prime munitions as they are loaded increases the rate of fire of strike craft weaponry.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Strike Craft Attack Speed: +10%"
+    ],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -10376,7 +11186,9 @@
     "category": "Propulsion",
     "cost": 25000,
     "description": "These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Dark Matter Thrusters"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -10406,7 +11218,10 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "To complete constructing projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "Mineral Storage Capacity: +20000",
+      "\u003cb\u003eFeature : \u003c/b\u003eMegastructure Restoration"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -10449,7 +11264,9 @@
     "category": "Voidcraft",
     "cost": 20000,
     "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
-    "feature_unlocks": [],
+    "feature_unlocks": [
+      "\u003cb\u003eComponent:\u003c/b\u003e Nanite Repair System"
+    ],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,

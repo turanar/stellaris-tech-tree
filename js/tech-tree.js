@@ -24,7 +24,7 @@ let config = {
 			let unlocks = $button.attr('title').split(', ');
 			var $content = unlocks.map(
 			    function(unlock) {
-				return $('<li>').html(
+				return $('<div>').html(
 				    unlock.replace(/\[\[(\w+)\]\]/,
 						   '<img class="resource" src="img/resources/$1.png" />')
 				); }
@@ -89,7 +89,7 @@ $(document).ready(function() {
 	    let $extraDataDiv = function() {
 		let $descBtn = $('<p>');
 		$descBtn.addClass('description');
-		$descBtn.attr('title', tech.description);
+		$descBtn.attr('title', '<div class="tooltip-header">Description</div>' + tech.description);
 		$descBtn.attr('data-header', 'Description');
 		$descBtn.html('…');
 		let weightModifiers = tech.weight_modifiers.length > 0
@@ -111,8 +111,8 @@ $(document).ready(function() {
 		$modifiersBtn.addClass('weight-modifiers');
 
 		if ( weightModifiers !== null || prerequisites !== null || potentials !== null) {
-		    let title = weightModifiers !== null ? '<div class="tooltip-header">Weight Modifiers</div>' + weightModifiers : '';
-		    if(potentials !== null) title = title + '<br/><div class="tooltip-header">Requirements</div>' + potentials + '<br/>';
+		    let title = (weightModifiers !== null ? '<div class="tooltip-header">Weight Modifiers</div>' + weightModifiers : '');
+		    if(potentials !== null) title = title + (weightModifiers!==null ? '<br/>' : '') + '<div class="tooltip-header">Requirements</div>' + potentials + '<br/>';
 		    if(prerequisites !== null) title = title + '<br/><div class="tooltip-header">Required Technologies</div>' + $(prerequisites).html();
 			$modifiersBtn.attr('title', title);
 		    $modifiersBtn.attr('data-header', 'Weight Modifiers');
@@ -125,7 +125,7 @@ $(document).ready(function() {
 		let $unlocksBtn = $('<p>');
 		$unlocksBtn.addClass('feature-unlocks');
 		if ( featureUnlocks !== null ) {
-		    $unlocksBtn.attr('title', featureUnlocks);
+		    $unlocksBtn.attr('title', '<div class="tooltip-header">Research Effects</div>' + featureUnlocks);
 		    $unlocksBtn.attr('data-header', 'Research Effects');
 		}
 		else {
