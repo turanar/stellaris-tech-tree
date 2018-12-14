@@ -110,6 +110,8 @@ div.extra-data {
 .ui-tooltip img.resource {
     position: relative;
     top: 4px;
+    width: 16px;
+    height: 16px;
 }
 
 ui-tooltip ul li {

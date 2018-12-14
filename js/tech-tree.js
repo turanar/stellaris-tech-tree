@@ -25,9 +25,8 @@ let config = {
 			var $content = unlocks.map(
 			    function(unlock) {
 				return $('<div>').html(
-				    unlock.replace(/\[\[(\w+)\]\]/,
-						   '<img class="resource" src="img/resources/$1.png" />')
-				); }
+					unlock.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />')
+				);}
 			).reduce(
 			    function($ul, $unlock) {
 				return $ul.append($unlock);
@@ -36,9 +35,9 @@ let config = {
 			);
 		    }
 		    else {
-			var $content = $('<span>')
-				.addClass($button.attr('class'))
-				.html($button.attr('title'));
+				var $content = $('<span>')
+					.addClass($button.attr('class'))
+					.html($button.attr('title').replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />'));
 		    }
 
 		    return $content;
@@ -93,7 +92,7 @@ $(document).ready(function() {
 		$descBtn.attr('data-header', 'Description');
 		$descBtn.html('…');
 		let weightModifiers = tech.weight_modifiers.length > 0
-			? tech.weight_modifiers.join('')
+			? tech.weight_modifiers.join('\n')
 			: null;
 		let featureUnlocks = tech.feature_unlocks.length > 0
 			? tech.feature_unlocks.join(', ')
@@ -111,9 +110,17 @@ $(document).ready(function() {
 		$modifiersBtn.addClass('weight-modifiers');
 
 		if ( weightModifiers !== null || prerequisites !== null || potentials !== null) {
-		    let title = (weightModifiers !== null ? '<div class="tooltip-header">Weight Modifiers</div>' + weightModifiers : '');
-		    if(potentials !== null) title = title + (weightModifiers!==null ? '<br/>' : '') + '<div class="tooltip-header">Requirements</div>' + potentials + '<br/>';
-		    if(prerequisites !== null) title = title + '<br/><div class="tooltip-header">Required Technologies</div>' + $(prerequisites).html();
+		    let title = '';
+			if(weightModifiers !== null) {
+		    	title = title + '<div class="tooltip-header">Weight Modifiers</div><div style="margin-bottom: 10px;">' + weightModifiers + '</div>';
+			}
+			if(potentials !== null) {
+				title = title + '<div class="tooltip-header">Requirements</div><div style="margin-bottom: 10px;">' + potentials + '</div>';
+			}
+			if(prerequisites !== null) {
+            	title = title + '<div class="tooltip-header">Required Technologies</div><div style="margin-bottom: 10px;">' + $(prerequisites).html() + '</div>';
+			}
+
 			$modifiersBtn.attr('title', title);
 		    $modifiersBtn.attr('data-header', 'Weight Modifiers');
 		}
@@ -175,7 +182,7 @@ $(document).ready(function() {
 
 	    let tierDifference = tech.data.tier - tech.parent.data.tier;
 	    let nestedTech = tech;
-	    while ( tierDifference > 1 && nestedTech.parent != rootNode ) {
+	    /*while ( tierDifference > 1 && nestedTech.parent != rootNode ) {
 	    	var pseudo = {
 				HTMLid: nestedTech.HTMLid + '-pseudoParent',
 				parent: nestedTech.parent, pseudo: true,
@@ -184,7 +191,7 @@ $(document).ready(function() {
 			tierDifference--;
 			nestedTech.parent = pseudo;
 			nestedTech = pseudo;
-	    }
+	    }*/
 
 	    return tech;
 	});
