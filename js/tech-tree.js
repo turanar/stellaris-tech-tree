@@ -37,7 +37,7 @@ let config = {
 		    else {
 				var $content = $('<span>')
 					.addClass($button.attr('class'))
-					.html($button.attr('title').replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/$1.png" />'));
+					.html($button.attr('title').replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/icons/$1.png" />'));
 		    }
 
 		    return $content;
