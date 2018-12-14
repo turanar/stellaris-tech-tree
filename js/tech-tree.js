@@ -25,7 +25,7 @@ let config = {
 			var $content = unlocks.map(
 			    function(unlock) {
 				return $('<div>').html(
-					unlock.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />')
+					unlock.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/icons/$1.png" />')
 				);}
 			).reduce(
 			    function($ul, $unlock) {
@@ -37,7 +37,7 @@ let config = {
 		    else {
 				var $content = $('<span>')
 					.addClass($button.attr('class'))
-					.html($button.attr('title').replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />'));
+					.html($button.attr('title').replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/$1.png" />'));
 		    }
 
 		    return $content;
@@ -151,7 +151,7 @@ $(document).ready(function() {
 			HTMLid: key,
 			HTMLclass: tech.area + " " +  (tech.is_gestalt === true ? "gestalt" : "") + " " + (tech.is_machine === true ? "machine" : ""),
 			data: tech,
-			innerHTML: '<div class="' + iconClass + '" style="background-image:url(img/' + key + '.png)"></div>'
+			innerHTML: '<div class="' + iconClass + '" style="background-image:url(https://s3.us-east-2.amazonaws.com/turanar.github.io/img/' + key + '.png)"></div>'
 				+ '<p class="node-name" title="' + tech.name + '">'
 				+ tech.name
 				+ '</p>'
