@@ -54,7 +54,7 @@ function generate_required_tech(prerequisites) {
 
 	for(var i = 0; i < prerequisites.length; i++) {
 		var tech = prerequisites[i];
-		var item = $('<img>').attr('src', 'img/' + tech.key + ".png").attr('class','left');
+		var item = $('<img>').attr('src', 'https://s3.us-east-2.amazonaws.com/turanar.github.io/img/' + tech.key + ".png").attr('class','left');
         elem.append(item);
         div.append(tech.name + "<br/>");
 	}
@@ -151,7 +151,7 @@ $(document).ready(function() {
 			HTMLid: key,
 			HTMLclass: tech.area + " " +  (tech.is_gestalt === true ? "gestalt" : "") + " " + (tech.is_machine === true ? "machine" : ""),
 			data: tech,
-			innerHTML: '<div class="' + iconClass + '" style="background-image:url(https://s3.us-east-2.amazonaws.com/turanar.github.io/img/' + key + '.png)"></div>'
+			innerHTML: '<div class="' + iconClass + '" style="background-image:url(\'https://s3.us-east-2.amazonaws.com/turanar.github.io/img/' + key + '.png\')"></div>'
 				+ '<p class="node-name" title="' + tech.name + '">'
 				+ tech.name
 				+ '</p>'
