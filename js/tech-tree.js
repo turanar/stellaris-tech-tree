@@ -22,11 +22,18 @@ let config = {
 				maxWidth: 512,
                 functionInit: function(instance, helper){
                     var content = $(helper.origin).find('.extra-data');
-                    $(content).find('img').each(function(img) {
-						$(this).attr('src',$(this).attr('data-src'));
-					});
                     instance.content($('<div class="ui-tooltip">' + $(content).html() + '</div>'));
-                }
+                },
+                functionReady: function(instance, helper) {
+                    $(helper.tooltip).find('img').each(function(img) {
+                        $(this).attr('src',$(this).attr('data-src'));
+                    });
+                    $(helper.tooltip).find('.tooltip-content').each(function(div){
+                    	var content = $(this).html();
+                    	content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />');
+                    	$(this).html(content);
+					});
+				}
 			});
             const observer = lozad();
             observer.observe();
@@ -52,7 +59,6 @@ function generate_required_tech(prerequisites) {
 
 function test(title, content) {
 	var header = $('<div>').addClass('tooltip-header').html(title);
-    content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />')
 	header.after($('<div>').addClass('tooltip-content').html('<pre>' + content + '</pre>'));
     return header;
 }
