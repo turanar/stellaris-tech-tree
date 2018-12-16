@@ -21,10 +21,15 @@ let config = {
                 trigger: 'click',
 				maxWidth: 512,
                 functionInit: function(instance, helper){
-                    var content = $(helper.origin).find('.extra-data').html();
-                    instance.content($('<div class="ui-tooltip">' + content + '</div>'));
+                    var content = $(helper.origin).find('.extra-data');
+                    $(content).find('img').each(function(img) {
+						$(this).attr('src',$(this).attr('data-src'));
+					});
+                    instance.content($('<div class="ui-tooltip">' + $(content).html() + '</div>'));
                 }
 			});
+            const observer = lozad();
+            observer.observe();
 		}
     }
 };
@@ -36,7 +41,7 @@ function generate_required_tech(prerequisites) {
 
 	for(var i = 0; i < prerequisites.length; i++) {
 		var tech = prerequisites[i];
-		var item = $('<img>').attr('src', 'https://s3.us-east-2.amazonaws.com/turanar.github.io/img/' + tech.key + ".png").attr('class','left');
+		var item = $('<img>').attr('data-src', 'img/' + tech.key + ".png").attr('class','left').attr("src","//:0");
         elem.append(item);
         div.append(tech.name + "<br/>");
 	}
@@ -47,7 +52,7 @@ function generate_required_tech(prerequisites) {
 
 function test(title, content) {
 	var header = $('<div>').addClass('tooltip-header').html(title);
-    content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/icons/$1.png" />')
+    content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />')
 	header.after($('<div>').addClass('tooltip-content').html('<pre>' + content + '</pre>'));
     return header;
 }
@@ -111,7 +116,7 @@ $(document).ready(function() {
 			HTMLid: key,
 			HTMLclass: tech.area + " " + iconClass,
 			data: tech,
-			innerHTML: '<div class="' + iconClass + '" style="background-image:url(\'https://s3.us-east-2.amazonaws.com/turanar.github.io/img/' + key + '.png\')"></div>'
+			innerHTML: '<div class="' + iconClass + ' lozad" data-background-image="img/' + key + '.png"></div>'
 				+ '<p class="node-name" title="' + tech.name + '">'
 				+ tech.name
 				+ '</p>'
@@ -139,19 +144,6 @@ $(document).ready(function() {
 		    return candidate.HTMLid === parentKey;
 		})[0];
 	    }
-
-	    let tierDifference = tech.data.tier - tech.parent.data.tier;
-	    let nestedTech = tech;
-	    /*while ( tierDifference > 1 && nestedTech.parent != rootNode ) {
-	    	var pseudo = {
-				HTMLid: nestedTech.HTMLid + '-pseudoParent',
-				parent: nestedTech.parent, pseudo: true,
-				data: { tier: nestedTech.data.tier - 1 }
-			};
-			tierDifference--;
-			nestedTech.parent = pseudo;
-			nestedTech = pseudo;
-	    }*/
 
 	    return tech;
 	});
