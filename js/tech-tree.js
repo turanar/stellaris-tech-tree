@@ -48,7 +48,7 @@ function generate_required_tech(prerequisites) {
 
 	for(var i = 0; i < prerequisites.length; i++) {
 		var tech = prerequisites[i];
-		var item = $('<img>').attr('data-src', 'img/' + tech.key + ".png").attr('class','left').attr("src","//:0");
+		var item = $('<img height="52" width="52">').attr('data-src', 'img/' + tech.key + ".png").attr('class','left').attr("src","//:0");
         elem.append(item);
         div.append(tech.name + "<br/>");
 	}
