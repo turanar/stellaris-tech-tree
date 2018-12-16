@@ -1,0 +1,67 @@
+/* .tooltipster-box */
+
+.tooltipster-box {
+    padding: 0px;
+}
+
+/* .tooltipster-content */
+
+.tooltipster-follower .tooltipster-content {
+	color: white;
+}
+
+/* Themes */
+
+/* borderless */
+
+.tooltipster-follower.tooltipster-borderless .tooltipster-box {
+	border: none; 
+	background: #1b1b1b;
+	background: rgba(10,10,10,0.90);
+}
+
+/* light */
+
+.tooltipster-follower.tooltipster-light .tooltipster-box {
+	border-radius: 3px; 
+	border: 1px solid #cccccc;
+	background: #ededed;
+}
+
+.tooltipster-follower.tooltipster-light .tooltipster-content {
+	color: #666666;
+}
+
+/* noir */
+
+.tooltipster-follower.tooltipster-noir .tooltipster-box {
+	border-radius: 0px; 
+	border: 3px solid black;
+	background: #fff;
+}
+
+.tooltipster-follower.tooltipster-noir .tooltipster-content {
+	color: black;
+}
+
+/* punk */
+
+.tooltipster-follower.tooltipster-punk .tooltipster-box {
+	border-radius: 5px; 
+	border: none;
+	border-bottom: 3px solid #f71169;
+	background: #2a2a2a;
+}
+
+/* shadow */
+
+.tooltipster-follower.tooltipster-shadow .tooltipster-box {
+	border: none; 
+	border-radius: 5px;
+	background: white;
+	box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.1);
+}
+
+.tooltipster-follower.tooltipster-shadow .tooltipster-content {
+	color: #8d8d8d;
+}

@@ -15,35 +15,17 @@ let config = {
 	collapsable: false
     },
     callback: {
-	onTreeLoaded: function() {
-	    $(document).tooltip({
-		items: 'p.description, p.weight-modifiers[title], p.feature-unlocks[title]',
-		content: function() {
-		    let $button = $(this);
-		    if ( $button.is('p.feature-unlocks') ) {
-			let unlocks = $button.attr('title').split(', ');
-			var $content = unlocks.map(
-			    function(unlock) {
-				return $('<div>').html(
-					unlock.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/icons/$1.png" />')
-				);}
-			).reduce(
-			    function($ul, $unlock) {
-				return $ul.append($unlock);
-			    },
-			    $('<ul>')
-			);
-		    }
-		    else {
-				var $content = $('<span>')
-					.addClass($button.attr('class'))
-					.html($button.attr('title').replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/icons/$1.png" />'));
-		    }
-
-		    return $content;
+    	onTreeLoaded: function() {
+			$('.node').tooltipster({
+                minWidth: 300,
+                trigger: 'click',
+				maxWidth: 512,
+                functionInit: function(instance, helper){
+                    var content = $(helper.origin).find('.extra-data').html();
+                    instance.content($('<div class="ui-tooltip">' + content + '</div>'));
+                }
+			});
 		}
-	    });
-	}
     }
 };
 let rootNode = {HTMLid: 'root', data: {tier: 0}};
@@ -63,12 +45,19 @@ function generate_required_tech(prerequisites) {
 	return elem;
 }
 
+function test(title, content) {
+	var header = $('<div>').addClass('tooltip-header').html(title);
+    content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="https://s3.us-east-2.amazonaws.com/turanar.github.io/icons/$1.png" />')
+	header.after($('<div>').addClass('tooltip-content').html('<pre>' + content + '</pre>'));
+    return header;
+}
+
 $(document).ready(function() {
     $.getJSON('techs.json', function(techData) {
 	let techs = techData.filter(function(tech) {
 	    return Object.keys(tech)[0].search(/^@\w+$/) == -1;
 	}).map(function(tech) {
-	    let key = tech.key;
+        let key = tech.key;
 	    let tier = tech.is_start_tech
 		    ? ' (Starting)'
 		    : ' (Tier ' + tech.tier + ')';
@@ -86,70 +75,41 @@ $(document).ready(function() {
 		    + (!tech.is_dangerous && tech.is_rare ? ' rare' : '');
 
 	    let $extraDataDiv = function() {
-		let $descBtn = $('<p>');
-		$descBtn.addClass('description');
-		$descBtn.attr('title', '<div class="tooltip-header">Description</div>' + tech.description);
-		$descBtn.attr('data-header', 'Description');
-		$descBtn.html('…');
-		let weightModifiers = tech.weight_modifiers.length > 0
-			? tech.weight_modifiers.join('\n')
-			: null;
-		let featureUnlocks = tech.feature_unlocks.length > 0
-			? tech.feature_unlocks.join(', ')
-			: null;
-		let prerequisites = tech.prerequisites_names.length > 1
-			? generate_required_tech(tech.prerequisites_names)
-			: null;
-		let potentials = tech.potential.length > 0
-			? tech.potential.join('<br/>')
-			: null;
+            let $extraDataDiv = $('<div class="extra-data">');
+			//$descBtn.attr('title', '<div class="tooltip-header">Description</div>' + tech.description);
 
-		console.log(potentials);
+			let weightModifiers = tech.weight_modifiers.length > 0
+				? tech.weight_modifiers.join('<br/>')
+				: null;
+			let featureUnlocks = tech.feature_unlocks.length > 0
+				? tech.feature_unlocks.join('<br/>')
+				: null;
+			let prerequisites = tech.prerequisites_names.length > 1
+				? generate_required_tech(tech.prerequisites_names)
+				: null;
+			let potentials = tech.potential.length > 0
+				? tech.potential.join('<br/>')
+				: null;
 
-		let $modifiersBtn = $('<p>');
-		$modifiersBtn.addClass('weight-modifiers');
-
-		if ( weightModifiers !== null || prerequisites !== null || potentials !== null) {
-		    let title = '';
 			if(weightModifiers !== null) {
-		    	title = title + '<div class="tooltip-header">Weight Modifiers</div><div style="margin-bottom: 10px;">' + weightModifiers + '</div>';
+                $extraDataDiv.append(test('Weight Modifier', weightModifiers));
 			}
 			if(potentials !== null) {
-				title = title + '<div class="tooltip-header">Requirements</div><div style="margin-bottom: 10px;">' + potentials + '</div>';
+				$extraDataDiv.append(test('Requirements', potentials));
 			}
 			if(prerequisites !== null) {
-            	title = title + '<div class="tooltip-header">Required Technologies</div><div style="margin-bottom: 10px;">' + $(prerequisites).html() + '</div>';
+				$extraDataDiv.append(test('Required Technologies',$(prerequisites).html()));
+			}
+			if(featureUnlocks !== null) {
+                $extraDataDiv.append(test('Research Effects',featureUnlocks));
 			}
 
-			$modifiersBtn.attr('title', title);
-		    $modifiersBtn.attr('data-header', 'Weight Modifiers');
-		}
-		else {
-		    $modifiersBtn.addClass('disabled');
-		}
-		$modifiersBtn.html('⚄');
-
-		let $unlocksBtn = $('<p>');
-		$unlocksBtn.addClass('feature-unlocks');
-		if ( featureUnlocks !== null ) {
-		    $unlocksBtn.attr('title', '<div class="tooltip-header">Research Effects</div>' + featureUnlocks);
-		    $unlocksBtn.attr('data-header', 'Research Effects');
-		}
-		else {
-		    $unlocksBtn.addClass('disabled');
-		}
-		$unlocksBtn.html('🎁');
-
-		let $extraDataDiv = $('<div class="extra-data">');
-		$extraDataDiv.append($descBtn);
-		$extraDataDiv.append($modifiersBtn);
-		$extraDataDiv.append($unlocksBtn);
-		return $extraDataDiv;
+			return $extraDataDiv;
 	    }();
 
 	    return {
 			HTMLid: key,
-			HTMLclass: tech.area + " " +  (tech.is_gestalt === true ? "gestalt" : "") + " " + (tech.is_machine === true ? "machine" : ""),
+			HTMLclass: tech.area + " " + iconClass,
 			data: tech,
 			innerHTML: '<div class="' + iconClass + '" style="background-image:url(\'https://s3.us-east-2.amazonaws.com/turanar.github.io/img/' + key + '.png\')"></div>'
 				+ '<p class="node-name" title="' + tech.name + '">'
