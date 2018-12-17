@@ -30,7 +30,7 @@ let config = {
                     });
                     $(helper.tooltip).find('.tooltip-content').each(function(div){
                     	var content = $(this).html();
-                    	content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="icons/$1.png" />');
+                    	content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../icons/$1.png" />');
                     	$(this).html(content);
 					});
 				}
@@ -48,7 +48,7 @@ function generate_required_tech(prerequisites) {
 
 	for(var i = 0; i < prerequisites.length; i++) {
 		var tech = prerequisites[i];
-		var item = $('<img height="52" width="52">').attr('data-src', 'img/' + tech.key + ".png").attr('class','left').attr("src","//:0");
+		var item = $('<img height="52" width="52">').attr('data-src', '../img/' + tech.key + ".png").attr('class','left').attr("src","//:0");
         elem.append(item);
         div.append(tech.name + "<br/>");
 	}
@@ -122,7 +122,7 @@ $(document).ready(function() {
 			HTMLid: key,
 			HTMLclass: tech.area + " " + iconClass,
 			data: tech,
-			innerHTML: '<div class="' + iconClass + ' lozad" data-background-image="img/' + key + '.png"></div>'
+			innerHTML: '<div class="' + iconClass + ' lozad" data-background-image="../img/' + key + '.png"></div>'
 				+ '<p class="node-name" title="' + tech.name + '">'
 				+ tech.name
 				+ '</p>'
