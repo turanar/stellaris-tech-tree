@@ -1,0 +1,273 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+
+body {
+    background: #707070;
+}
+/* optional Container STYLES */
+.chart { border: none; overflow: scroll}
+.Treant > .node {
+    cursor: pointer;
+}
+.Treant > p { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: bold; font-size: 12px; }
+
+.tooltipster-sidetip .tooltipster-box {
+    font-size: 12px;
+    border:1px solid white;
+    display: block;
+    min-width: 256px;
+    max-width: 512px;
+    font-family: 'Arimo', Verdana;
+    background-color: black;
+    color: white;
+}
+
+
+.extra-data {
+    display:none;
+}
+
+@font-face {
+    font-family: 'Symbola';
+    src: url('../fonts/Symbola.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tech {
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: black;
+    border: 3px solid #000;
+    width: 275px;
+    height: 66px;
+    font-family: 'Arimo', Verdana;
+    font-size: 12px;
+    color: white;
+}
+
+.tech div.icon {
+    background-color: black;
+    border-radius: 4px;
+    width: 52px;
+    height: 52px;
+    float: left;
+    margin: 8px 10px 2px 2px;
+    margin-right: 10px;
+    position: relative;
+    top: 4px;
+}
+
+.tech.dangerous {
+    background-image: url("tech_bg_dangerous.png");
+}
+
+.tech div.icon.dangerous {
+    /*box-shadow: 0 0 2em red;*/
+}
+
+.tech div.icon.rare {
+    /*box-shadow: 0 0 2em #800080;*/
+}
+
+.tech p.node-name {
+    height: 20px;
+    font-weight: bold;
+    max-width: 184px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.tech p.node-desc {
+    margin-bottom: 2px;
+}
+
+.tech p.node-desc img {
+    height: 16px;
+    width: 16px;
+    margin-top: -2px;
+    margin-right: 3px;
+}
+
+.tech p.description,
+.tech p.weight-modifiers,
+.tech p.feature-unlocks {
+    border: 1px solid gray;
+    padding: 3px;
+    width: 12px;
+    height: 12px;
+    font-family: Symbola;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    position: relative;
+    left: 255px;
+    top: -53px;
+    z-index: 3;
+}
+
+div.extra-data {
+    width: 0;
+}
+
+.tech p.weight-modifiers.disabled,
+.tech p.feature-unlocks.disabled {
+    border: 1px solid #444;
+    cursor: default;
+    color: #444;
+}
+
+.tooltipster-sidetip .tooltipster-content {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+
+.ui-tooltip {
+    font-size: 12px;
+    display: block;
+    min-width: 256px;
+    max-width: 512px;
+    font-family: 'Arimo', Verdana;
+    background-color: black;
+    color: white;
+}
+
+.ui-tooltip img.resource {
+    position: relative;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+ui-tooltip ul li {
+    list-style-type: disc;
+    /* padding-left: 0; */
+    /* margin-left: 0; */
+}
+
+.ui-tooltip > div > span.weight-modifiers,
+.ui-tooltip > div > span.feature-unlocks {
+    white-space: pre;
+}
+
+pre {
+    font-family: 'Arimo', Verdana;
+}
+
+.tooltip-content {
+    padding: 3px;
+}
+
+.tooltip-header {
+    padding: 3px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.tech.society {
+    border-color: #5ACA9C;
+    background-image: url("tech_bg_society.png");
+}
+
+span.society-research::before {
+    background: url("../img/society_research.png") center center no-repeat;
+    content:  url("../img/blank11px.png");
+    width: 11px;
+    height: 11px;
+}
+
+.tech.engineering { 
+    border-color: #E29C43;
+    background-image: url('tech_bg_engineering.png');
+}
+
+span.engineering-research::before {
+    background: url("../img/engineering_research.png") center center no-repeat;
+    content:  url("../img/blank11px.png");
+    width: 11px;
+    height: 11px;
+}
+
+.tech.physics {
+    border-color: #4396E2;
+    background-image: url("tech_bg_physics.png");
+}
+
+.tech.dangerous {
+    background-image: url("tech_bg_dangerous.png") !important;
+}
+
+.tech.rare {
+    background-image: url("tech_bg_rare.png") !important;
+}
+
+span.physics-research::before {
+    background: url("../img/physics_research.png") center center no-repeat;
+    content:  url("../img/blank11px.png");
+    width: 11px;
+    height: 11px;
+}
+
+.tech img {
+    margin-right: 10px;
+}
+
+.left {
+    margin-right: 5px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+.Treant > a:link {
+    color: white;
+}
+
+.Treant > a:visited {
+    color: white;
+}
+
+.Treant > a:link:hover {
+    color: #636363;
+}
+
+.red {
+  color:red;
+}
+
+.green {
+  color:forestgreen;
+}
+
+div.fixed {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 8px;
+    font-family: 'Arimo', Verdana;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+div.fixed div {
+    margin: 3px 3px 3px 4px !important;
+}
