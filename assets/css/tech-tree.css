@@ -19,13 +19,14 @@ body {
 
 .tooltipster-sidetip .tooltipster-box {
     font-size: 12px;
-    border:1px solid white;
+    border: 2px solid #327866;
     display: block;
     min-width: 256px;
     max-width: 512px;
     font-family: 'Arimo', Verdana;
-    background-color: black;
+    background-color: rgba(0,0,0,0.9);
     color: white;
+    border-radius: unset;
 }
 
 
@@ -86,10 +87,33 @@ body {
     overflow: hidden;
     white-space: nowrap;
     z-index: 2;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .tech p.node-desc {
     margin-bottom: 2px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tech p.node-title {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .tech p.node-desc img {
@@ -135,15 +159,16 @@ div.extra-data {
     overflow: hidden;
 }
 
-
 .ui-tooltip {
+    padding: 5px !important;
     font-size: 12px;
     display: block;
     min-width: 256px;
     max-width: 512px;
+    padding: 3px;
     font-family: 'Arimo', Verdana;
-    background-color: black;
     color: white;
+    margin-bottom: 5px;
 }
 
 .ui-tooltip img.resource {
@@ -169,14 +194,12 @@ pre {
 }
 
 .tooltip-content {
-    padding: 3px;
+
 }
 
 .tooltip-header {
-    padding: 3px;
     width: 100%;
-    background-color: white;
-    color: black;
+    color: #f59f17;
     font-weight: bold;
 }
 
