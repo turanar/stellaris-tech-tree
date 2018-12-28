@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Stellaris</title>
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+
+    <style>
+        .picture {
+            width: 88px;
+            height: 68px;
+            background-size: 88px 88px;
+        }
+
+        .ratling {
+            background-image:url('assets/pop.png');
+        }
+
+        body {
+            font-family: Arimo, sans-serif;
+            background: #707070;
+            font-size: 12px;
+            color:white;
+        }
+
+        .icon {
+            vertical-align: middle;
+            width: 18px;
+            height: 18px;
+        }
+
+        .p-title {
+            color: #f59f17;
+            font-weight: bold;
+            line-height: 18px;
+            font-size: 12px;
+            vert-align: top;
+        }
+
+        .p-desc {
+            line-height: 18px;
+        }
+
+        .job-icon {
+            float:right;
+        }
+
+        .p-text {
+            clear:both;
+            padding-top:8px;
+            font-size: 11px;
+            height: 60px;
+        }
+
+        span.title {
+            color: #f59f17;
+            font-weight: bold;
+        }
+
+        .node {
+            width:260px;
+            padding:5px;
+            border: 2px solid #327866;
+            border-radius: 5px;
+            background-color: rgba(0,0,0,.5);
+            margin-bottom: 10px;
+            margin-left: 10px;
+            float: left;
+            position: relative;
+        }
+
+        .strata {
+            position:absolute;
+            bottom: 3px;
+            right:3px;
+        }
+    </style>
+
+    <script src="../assets/vendor/jquery.min.js"></script>
+    <script src="../assets/vendor/jsrender.min.js"></script>
+
+    <script id="node-template" type="text/x-jsrender">
+        <div class="node">
+            <div class="picture" style="background-image:url('assets/pc_arctic_2.png');float:left;margin-right:10px;">
+                <div class="picture" style="background-image:url('assets/buildings/{{:building}}.png');">
+                    <div class="picture ratling">
+                    </div>
+                </div>
+            </div>
+            <div class="p-title">
+                <span>{{:name}}</span>
+                <img class="job-icon" src="../assets/icons/job_{{:icon}}.png" onerror="this.src='';"/>
+            </div>
+            <div stle="p-desc">
+                {{:effect}}
+            </div>
+            <div class="p-text">
+                {{:description}}
+            </div>
+            <img src="../assets/icons/pop_cat_{{:category}}.png" class="strata"/>
+        </div>
+    </script>
+    <script>
+        $(document).ready(function() {
+            $.getJSON('jobs.json', function(jsonData) {
+                $(jsonData).each(function(e, item) {
+                    var tmpl = $.templates("#node-template");
+                    var html = tmpl.render(item);
+                    html = html.replace(new RegExp(/£(\w+)£/,'g'), '<img class="icon" src="../assets/icons/$1.png" />');
+
+                    $('body').append(html);
+                })
+            });
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

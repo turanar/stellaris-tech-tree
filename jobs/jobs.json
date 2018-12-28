@@ -1,0 +1,866 @@
+[
+  {
+    "key": "administrator",
+    "name": "Administrator",
+    "building": "building_capital",
+    "effect": "£unity£ +3 £amenities£ +8 ",
+    "description": "The administration of an entire planet is a daunting task that requires dedicated and highly trained individuals.",
+    "icon": "administrator",
+    "category": "ruler"
+  },
+  {
+    "key": "executive",
+    "name": "Executive",
+    "building": "building_capital",
+    "effect": "£unity£ +2 £amenities£ +5 £trade_value£ +4 ",
+    "description": "Only an executive has the power to drive leading-edge initiatives and synergistically benchmark dynamically conceptualized deliverables.",
+    "icon": "executive",
+    "category": "ruler"
+  },
+  {
+    "key": "head_researcher",
+    "name": "Science Director",
+    "building": "building_institute",
+    "effect": "£physics_research£ +5 £engineering_research£ +5 £society_research£ +5 £amenities£ +5 ",
+    "description": "These specialists coordinate and manage the research and development of new technologies.",
+    "icon": "researcher",
+    "category": "ruler"
+  },
+  {
+    "key": "high_priest",
+    "name": "High Priest",
+    "building": "building_citadel_of_faith",
+    "effect": "£unity£ +5 £amenities£ +5 ",
+    "description": "To whom do guides turn when they themselves seek guidance? Another, more experienced guide.",
+    "icon": "high_priest",
+    "category": "ruler"
+  },
+  {
+    "key": "merchant",
+    "name": "Merchant",
+    "building": "building_galactic_stock_exchange",
+    "effect": "£amenities£ +5 £trade_value£ +8 ",
+    "description": "They buy. They sell. They hoard. They re-sell. Agents, dealers, retailers, wholesalers - wherever there is trade, there are merchants.",
+    "icon": "merchant",
+    "category": "ruler"
+  },
+  {
+    "key": "noble",
+    "name": "Noble",
+    "building": "building_palace",
+    "effect": "£stability£ +5 £amenities£ +5 ",
+    "description": "Heavy is the burden of the nobility, whose birthright is to rule over their unwashed lessers. Luckily, there are a few financial advantages to the position.",
+    "icon": "noble",
+    "category": "ruler"
+  },
+  {
+    "key": "primitive_bureaucrat",
+    "name": "Bureaucrat",
+    "building": "building_primitive_capital",
+    "effect": "£unity£ +1 £amenities£ +3 ",
+    "description": "Many early industrialist and post-industrialist societies are governed by an ever-expanding class of civil servants.",
+    "icon": "primitive_bureaucrat",
+    "category": "ruler"
+  },
+  {
+    "key": "primitive_noble",
+    "name": "Feudal Noble",
+    "building": "building_primitive_capital",
+    "effect": "£unity£ +1 £amenities£ +3 ",
+    "description": "The landed nobility rule from their stone castles and keeps.",
+    "icon": "primitive_noble",
+    "category": "ruler"
+  },
+  {
+    "key": "artisan",
+    "name": "Artisan",
+    "building": "building_factory_1",
+    "effect": "£consumer_goods£ +6 ",
+    "description": "Skilled craft workers that manufacture domestic and luxury goods of various types.",
+    "icon": "artisan",
+    "category": "specialist"
+  },
+  {
+    "key": "chemist",
+    "name": "Chemist",
+    "building": "building_chemical_plant",
+    "effect": "£volatile_motes£ +2 ",
+    "description": "The synthetic development of volatile motes by chemical processes is left to these specialists.",
+    "icon": "chemist",
+    "category": "specialist"
+  },
+  {
+    "key": "colonist",
+    "name": "Colonist",
+    "building": "building_colony_shelter",
+    "effect": "£amenities£ +5 £food£ +1 ",
+    "description": "The settling of a new world is no easy undertaking.",
+    "icon": "colonist",
+    "category": "specialist"
+  },
+  {
+    "key": "culture_worker",
+    "name": "Culture Worker",
+    "building": "building_autochthon_monument",
+    "effect": "£unity£ +3 £society_research£ +3 ",
+    "description": "Maintaining the arts is the realm of these workers, vital for the inner development and social expression of citizens.",
+    "icon": "culture_worker",
+    "category": "specialist"
+  },
+  {
+    "key": "dimensional_portal_researcher",
+    "name": "Dimensional Portal Researcher",
+    "building": "building_research_lab_1",
+    "effect": "£physics_research£ +12 ",
+    "description": "Researchers who risk their very existence and sanity to study the mysteries of the Dimensional Portal.",
+    "icon": "researcher",
+    "category": "specialist"
+  },
+  {
+    "key": "enforcer",
+    "name": "Enforcer",
+    "building": "building_precinct_house",
+    "effect": "£unity£ +1 £crime£ -25 ",
+    "description": "Law enforcement officers are responsible for upholding the law and maintaining peace.",
+    "icon": "enforcer",
+    "category": "specialist"
+  },
+  {
+    "key": "entertainer",
+    "name": "Entertainer",
+    "building": "building_holo_theatres",
+    "effect": "£unity£ +2 £amenities£ +10 ",
+    "description": "It is said there are only two types of lifeforms in the galaxy: the entertainers, and the entertained.",
+    "icon": "entertainer",
+    "category": "specialist"
+  },
+  {
+    "key": "foundry",
+    "name": "Metallurgist",
+    "building": "building_foundry_1",
+    "effect": "£alloys£ +2 ",
+    "description": "Highly trained workers are needed to turn raw minerals into the durable alloys that are used in a wide variety of advanced construction.",
+    "icon": "foundry",
+    "category": "specialist"
+  },
+  {
+    "key": "gas_refiner",
+    "name": "Gas Refiner",
+    "building": "building_refinery",
+    "effect": "£exotic_gases£ +2 ",
+    "description": "Managing the complex chain of reactions required to refine gas from minerals effectively requires advanced machinery and highly-trained experts.",
+    "icon": "gas_refiner",
+    "category": "specialist"
+  },
+  {
+    "key": "healthcare",
+    "name": "Medical Worker",
+    "building": "building_clinic",
+    "effect": "£amenities£ +5 £pop_growth_speed£ +0.05 ",
+    "description": "A micro-unit of prevention is worth a macro-unit of cure. Sometimes, however, both are needed.",
+    "icon": "healthcare",
+    "category": "specialist"
+  },
+  {
+    "key": "manager",
+    "name": "Manager",
+    "building": "building_autochthon_monument",
+    "effect": "£trade_value£ +2 £unity£ +3 £society_research£ +2 ",
+    "description": "The endless struggle to balance conflicting demands from the middle of the managerial hierarchy is envied by few.",
+    "icon": "manager",
+    "category": "specialist"
+  },
+  {
+    "key": "priest",
+    "name": "Priest",
+    "building": "building_temple",
+    "effect": "£unity£ +3 £society_research£ +2 £amenities£ +5 ",
+    "description": "The spiritual guidance of the masses is performed by the most pious and devout.",
+    "icon": "priest",
+    "category": "specialist"
+  },
+  {
+    "key": "primitive_priest",
+    "name": "Cleric",
+    "building": "building_temple",
+    "effect": "£unity£ +1 £amenities£ +2 ",
+    "description": "Spiritual leaders and preachers who conduct religious ceremonies and oversee all matters concerning faith.",
+    "icon": "primitive_priest",
+    "category": "specialist"
+  },
+  {
+    "key": "primitive_priest_2",
+    "name": "Priest",
+    "building": "building_temple",
+    "effect": "£unity£ +1 £amenities£ +2 ",
+    "description": "Religious leaders who occupy various priestly offices.",
+    "icon": "primitive_priest_2",
+    "category": "specialist"
+  },
+  {
+    "key": "primitive_researcher",
+    "name": "Scholar",
+    "building": "building_primitive_labs",
+    "effect": "£physics_research£ +1 £engineering_research£ +1 £society_research£ +1 ",
+    "description": "The learned of this society, often relying on oral tradition to pass knowledge between generations.",
+    "icon": "primitive_researcher",
+    "category": "specialist"
+  },
+  {
+    "key": "primitive_researcher_2",
+    "name": "Researcher",
+    "building": "building_primitive_labs",
+    "effect": "£physics_research£ +1 £engineering_research£ +1 £society_research£ +1 ",
+    "description": "Researchers employing scientific methodology to advance the rapidly expanding knowledge base of their civilization.",
+    "icon": "primitive_researcher_2",
+    "category": "specialist"
+  },
+  {
+    "key": "primitive_warrior",
+    "name": "Warrior",
+    "building": "building_primitive_dwellings",
+    "effect": "",
+    "description": "Members of a primitive warrior class. These fighters rely on bladed weapons, spears or various blunt instruments to see them through combat.",
+    "icon": "primitive_warrior",
+    "category": "specialist"
+  },
+  {
+    "key": "primitive_warrior_2",
+    "name": "Soldier",
+    "building": "building_residence",
+    "effect": "",
+    "description": "Professional soldiers, typically armed with early projectile weapons powered by exothermic combustion.",
+    "icon": "primitive_warrior_2",
+    "category": "specialist"
+  },
+  {
+    "key": "researcher",
+    "name": "Researcher",
+    "building": "building_research_lab_1",
+    "effect": "£physics_research£ +4 £engineering_research£ +4 £society_research£ +4 ",
+    "description": "The eternal mystery of the world is its comprehensibility.",
+    "icon": "researcher",
+    "category": "specialist"
+  },
+  {
+    "key": "roboticist",
+    "name": "Roboticist",
+    "building": "building_robot_assembly_plant",
+    "effect": "£pop_assembly£ +2 ",
+    "description": "These technicians build robots, that the robots may build for the nation.",
+    "icon": "roboticist",
+    "category": "specialist"
+  },
+  {
+    "key": "telepath",
+    "name": "Telepath",
+    "building": "building_psi_corps",
+    "effect": "£unity£ +3 £crime£ -35 ",
+    "description": "Members of the Psi-Corps, a unit of psionically-gifted crime fighters.",
+    "icon": "telepath",
+    "category": "specialist"
+  },
+  {
+    "key": "translucer",
+    "name": "Translucer",
+    "building": "building_crystal_plant",
+    "effect": "£rare_crystals£ +2 ",
+    "description": "These specialists transform minerals into rare crystals in a laboratory environment.",
+    "icon": "translucer",
+    "category": "specialist"
+  },
+  {
+    "key": "underground_trade_worker",
+    "name": "Subterranean Liaison Officer",
+    "building": "building_holo_theatres",
+    "effect": "£amenities£ +3 £trade_value£ +5 ",
+    "description": "These Officers live underground and work for closer relations and improved trade with the Subterranean Civilization.",
+    "icon": "underground_trade_worker",
+    "category": "specialist"
+  },
+  {
+    "key": "clerk",
+    "name": "Clerk",
+    "building": "building_residence",
+    "effect": "£amenities£ +2 £trade_value£ +2 ",
+    "description": "White-collar workers perform the various administrative office tasks that are crucial to any sufficiently complex working environment.",
+    "icon": "clerk",
+    "category": "worker"
+  },
+  {
+    "key": "crystal_miner",
+    "name": "Crystal Miner",
+    "building": "building_crystal_mines",
+    "effect": "£rare_crystals£ +2 ",
+    "description": "Specialist miners are employed for the careful extraction and refinement of rare crystals.",
+    "icon": "crystal_miner",
+    "category": "worker"
+  },
+  {
+    "key": "farmer",
+    "name": "Farmer",
+    "building": "building_food_processing_facility",
+    "effect": "£food£ +6 ",
+    "description": "Farming looks mighty easy when your plow is a pencil and you\u0027re a thousand miles from the corn field.",
+    "icon": "farmer",
+    "category": "worker"
+  },
+  {
+    "key": "gas_extractor",
+    "name": "Gas Extractor",
+    "building": "building_gas_mine",
+    "effect": "£exotic_gases£ +2 ",
+    "description": "Advanced hydraulic fracking methods are employed by Gas Extractors in order to free rare, exotic gases from promising rockbeds.",
+    "icon": "gas_extractor",
+    "category": "worker"
+  },
+  {
+    "key": "hunter_gatherer",
+    "name": "Hunter-Gatherer",
+    "effect": "£amenities£ +1 £food£ +1 ",
+    "description": "These semi-nomadic primitives survive by foraging and hunting. There is evidence of early tool use.",
+    "icon": "hunter_gatherer",
+    "category": "worker"
+  },
+  {
+    "key": "livestock",
+    "name": "Livestock",
+    "effect": "£food£ +4 ",
+    "description": "They have but one purpose: to become feed for their betters.",
+    "icon": "livestock",
+    "category": "worker"
+  },
+  {
+    "key": "miner",
+    "name": "Miner",
+    "building": "building_crystal_mines",
+    "effect": "£minerals£ +4 ",
+    "description": "With modern power drills and other advanced tools, mining may not be the back-breaking profession it once was, but it is still far from easy.",
+    "icon": "miner",
+    "category": "worker"
+  },
+  {
+    "key": "mote_harvester",
+    "name": "Mote Harvester",
+    "building": "building_gas_mine",
+    "effect": "£volatile_motes£ +2 ",
+    "description": "One of the most dangerous professions, mote harvesting involves trapping and sealing volatile motes to be used as fuel or explosives.",
+    "icon": "mote_harvester",
+    "category": "worker"
+  },
+  {
+    "key": "odd_factory_worker",
+    "name": "Odd Factory Worker",
+    "building": "building_primitive_factory",
+    "effect": "£alloys£ +4 ",
+    "description": "These workers labor in the ancient and mysterious factory of unknown origin. What could go wrong?",
+    "icon": "odd_factory_worker",
+    "category": "worker"
+  },
+  {
+    "key": "organic_battery",
+    "name": "Grid Amalgamated",
+    "effect": "£energy£ +4 ",
+    "description": "Their organic energy will be absorbed, until they expire.",
+    "icon": "organic_battery",
+    "category": "worker"
+  },
+  {
+    "key": "peasant",
+    "name": "Peasant",
+    "building": "building_primitive_farm",
+    "effect": "£food£ +2 ",
+    "description": "The peasants toil endlessly in the fields, so that those perceived as their betters might prosper.",
+    "icon": "peasant",
+    "category": "worker"
+  },
+  {
+    "key": "preacher",
+    "name": "Prosperity Preacher",
+    "building": "building_temple_of_prosperity",
+    "effect": "£unity£ +1 £amenities£ +3 £trade_value£ +3 ",
+    "description": "Prosperity Preachers spread the good word to the masses that they, too, can prosper, if only they will part with a small donation to the cause.",
+    "icon": "priest",
+    "category": "worker"
+  },
+  {
+    "key": "primitive_farmer",
+    "name": "Farmer",
+    "building": "building_primitive_farm",
+    "effect": "£food£ +3 ",
+    "description": "These farmers work the land, typically with the help of primitive but effective farming equipment.",
+    "icon": "primitive_farmer",
+    "category": "worker"
+  },
+  {
+    "key": "primitive_laborer",
+    "name": "Laborer",
+    "building": "building_primitive_factory",
+    "effect": "£consumer_goods£ +2 ",
+    "description": "These early industrial laborers toil away in factories, which can now be operated day and night thanks to recent advances in electricity.",
+    "icon": "primitive_laborer",
+    "category": "worker"
+  },
+  {
+    "key": "primitive_miner",
+    "name": "Miner",
+    "building": "building_primitive_mine",
+    "effect": "£minerals£ +3 ",
+    "description": "Dangerous and sometimes lethal work in the dark bowels of the planet.",
+    "icon": "miner",
+    "category": "worker"
+  },
+  {
+    "key": "primitive_technician",
+    "name": "Technician",
+    "building": "building_primitive_power_plant",
+    "effect": "£energy£ +1 ",
+    "description": "These technicians shuffle coal or maintain primitive nuclear generators.",
+    "icon": "technician",
+    "category": "worker"
+  },
+  {
+    "key": "ratling_scavenger",
+    "name": "Scavenger",
+    "building": "building_junkheap",
+    "effect": "£food£ +1 £minerals£ +1 £consumer_goods£ +1 ",
+    "description": "They scurry amongst the scrapyards, collecting discarded machinery and ancient electronics for repurposing.",
+    "icon": "ratling_scavenger",
+    "category": "worker"
+  },
+  {
+    "key": "servant",
+    "name": "Servant",
+    "building": "building_luxury_residence",
+    "effect": "£amenities£ +4 ",
+    "description": "Servants perform various menial domestic tasks and household work for their masters.",
+    "icon": "servant",
+    "category": "worker"
+  },
+  {
+    "key": "slave_overseer",
+    "name": "Overseer",
+    "building": "building_crude_huts",
+    "effect": "£crime£ -25 ",
+    "description": "These relatively privileged slaves keep their less fortunate brethren in line.",
+    "icon": "enforcer",
+    "category": "worker"
+  },
+  {
+    "key": "slave_toiler",
+    "name": "Toiler",
+    "building": "building_crude_huts",
+    "effect": "£amenities£ +2 ",
+    "description": "Toilers perform the grueling menial labor required to keep crude infrastructure of the Thrall-World running.",
+    "icon": "primitive_laborer",
+    "category": "worker"
+  },
+  {
+    "key": "soldier",
+    "name": "Soldier",
+    "building": "building_stronghold",
+    "effect": "",
+    "description": "Military professionals are needed to train a steady stream of new recruits for army and naval operations.",
+    "icon": "soldier",
+    "category": "worker"
+  },
+  {
+    "key": "technician",
+    "name": "Technician",
+    "building": "building_power_plant",
+    "effect": "£energy£ +4 ",
+    "description": "Power plants require plenty of warm bodies to operate equipment and oversee operations.",
+    "icon": "technician",
+    "category": "worker"
+  },
+  {
+    "key": "alloy_drone",
+    "name": "Foundry Drone",
+    "building": "building_foundry_1",
+    "effect": "£alloys£ +2 ",
+    "description": "Valuable minerals are processed into durable alloys for naval development and advanced construction by highly-specialized Foundry Drones.",
+    "icon": "alloy_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "artisan_drone",
+    "name": "Artisan Drone",
+    "building": "building_organic_sanctuary",
+    "effect": "£consumer_goods£ +6 ",
+    "description": "A variety of consumable goods and necessities are manufactured by these artisanal drones. Additionally, the occasional aesthetic creation is not entirely without merits.",
+    "icon": "artisan_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "brain_drone",
+    "name": "Brain Drone",
+    "building": "building_research_lab_1",
+    "effect": "£physics_research£ +4 £engineering_research£ +4 £society_research£ +4 ",
+    "description": "Scientists, researchers, and inventors: Brain Drones are responsible for the technological development of the nation.",
+    "icon": "brain_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "calculator",
+    "name": "Calculator",
+    "building": "building_research_lab_1",
+    "effect": "£physics_research£ +4 £engineering_research£ +4 £society_research£ +4 ",
+    "description": "Endlessly processing equations, probabilities, and testing new functions, Calculators lead the technological development of the Machine Intelligence.",
+    "icon": "calculator",
+    "category": "complex_drone"
+  },
+  {
+    "key": "chemist_drone",
+    "name": "Chem-Drone",
+    "building": "building_chemical_plant",
+    "effect": "£volatile_motes£ +2 ",
+    "description": "Rather than maintain systems of mote traps, Chem-Drones distill volatile motes directly from minerals through a series of complex chemical processes.",
+    "icon": "chemist_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "coordinator",
+    "name": "Coordinator",
+    "building": "building_machine_capital",
+    "effect": "£unity£ +3 £society_research£ +3 ",
+    "description": "Signals to and from the Core must be amplified, boosted, and cleaned of static and data corruption.",
+    "icon": "coordinator",
+    "category": "complex_drone"
+  },
+  {
+    "key": "dimensional_portal_researcher_gestalt",
+    "name": "Dimensional Portal Drone",
+    "building": "building_research_lab_1",
+    "effect": "£physics_research£ +12 ",
+    "description": "Drones at risk of destruction or subversion which study the mysteries of the Dimensional Portal.",
+    "icon": "researcher",
+    "category": "complex_drone"
+  },
+  {
+    "key": "fabricator",
+    "name": "Fabricator",
+    "building": "building_foundry_1",
+    "effect": "£alloys£ +2 ",
+    "description": "Valuable minerals are processed into durable alloys for naval development and advanced construction by highly-specialized Fabricators.",
+    "icon": "fabricator",
+    "category": "complex_drone"
+  },
+  {
+    "key": "gas_refiner_drone",
+    "name": "Refinery Drone",
+    "building": "building_refinery",
+    "effect": "£exotic_gases£ +2 ",
+    "description": "The management and operation of exotic gas refineries is handled by these drones.",
+    "icon": "gas_refiner_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "patrol_drone",
+    "name": "Hunter-Seeker Drone",
+    "building": "building_stronghold",
+    "effect": "£unity£ +1 £crime_no_happiness£ -20 ",
+    "description": "Deviancy and function corruption that threatens the stability of the collective must be remedied.",
+    "icon": "patrol_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "replicator",
+    "name": "Replicator",
+    "building": "building_robot_assembly_plant",
+    "effect": "£pop_assembly£ +1 £amenities_no_happiness£ +5 ",
+    "description": "A machine that builds a machine that builds a machine that...",
+    "icon": "replicator",
+    "category": "complex_drone"
+  },
+  {
+    "key": "spawning_drone",
+    "name": "Spawning Drone",
+    "building": "building_spawning_pool",
+    "effect": "£amenities_no_happiness£ +5 £pop_growth_speed£ +0.25 ",
+    "description": "By careful management of temperatures, nutrition, and infection prevention, these drones tend to the spawning pools that produce young.",
+    "icon": "spawning_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "synapse_drone",
+    "name": "Synapse Drone",
+    "building": "building_hive_capital",
+    "effect": "£unity£ +3 £society_research£ +3 ",
+    "description": "The macroscopic embodiment of a synapse, these drones focus on amplifying the overmind\u0027s ceaseless messages, and cleaning them of distortions.",
+    "icon": "synapse_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "translucer_drone",
+    "name": "Lensing Drone",
+    "building": "building_crystal_plant",
+    "effect": "£rare_crystals£ +2 ",
+    "description": "Those rare crystals that cannot be found can be manufactured via translucing instead. Lensing Drones specialize in just that.",
+    "icon": "translucer_drone",
+    "category": "complex_drone"
+  },
+  {
+    "key": "agri_drone",
+    "name": "Agri-Drone",
+    "building": "building_food_processing_facility",
+    "effect": "£food£ +6 ",
+    "description": "Food production requires a variety of workers, from operators of planting and harvesting machinery, to watering, fertilizer and pesticide systems managers, to livestock handlers.",
+    "icon": "agri_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "crystal_mining_drone",
+    "name": "Crystal Mining Drone",
+    "building": "building_crystal_mines",
+    "effect": "£rare_crystals£ +2 ",
+    "description": "Miners specialized in carefully extracting and refining rare crystals from geological formations.",
+    "icon": "crystal_mining_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "gas_extraction_drone",
+    "name": "Gas Extraction Drone",
+    "building": "building_gas_extractors",
+    "effect": "£exotic_gases£ +2 ",
+    "description": "These specialized drones employ advanced hydraulic fracking methods to free rare, exotic gases from promising rockbeds.",
+    "icon": "gas_extraction_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "maintenance_drone",
+    "name": "Maintenance Drone",
+    "building": "building_maintenance_depot",
+    "effect": "£amenities_no_happiness£ +5 ",
+    "description": "The machinery and structures that serve the needs of the Machine Intelligence must be constantly maintained. As must other drones.",
+    "icon": "maintenance_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "mining_drone",
+    "name": "Mining Drone",
+    "building": "building_crystal_mines",
+    "effect": "£minerals£ +4 ",
+    "description": "Equipped with modern power drills and advanced machinery, these drones extract and prepare valuable minerals for industrial, military, and consumer use.",
+    "icon": "mining_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "mote_harvesting_drone",
+    "name": "Mote Harvesting Drone",
+    "building": "building_mote_harvesters",
+    "effect": "£volatile_motes£ +2 ",
+    "description": "Due to the inherently volatile nature of preternatural motes, the drones who specialize in trapping and harvesting them have a high turnover rate.",
+    "icon": "mote_harvesting_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "scavenger_drone",
+    "name": "Scavenger Drone",
+    "building": "building_residence",
+    "effect": "£minerals£ +1 ",
+    "description": "With no defined purpose these Drones aimlessly dig and scavenge, producing a small amount of useful £minerals£.",
+    "icon": "mining_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "technician_drone",
+    "name": "Tech-Drone",
+    "building": "building_power_plant",
+    "effect": "£energy£ +4 ",
+    "description": "The machinists, operators, and technicians who manage and oversee power plant operations.",
+    "icon": "technician_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "warrior_drone",
+    "name": "Warrior Drone",
+    "building": "building_stronghold",
+    "effect": "",
+    "description": "Military experts who specialize in the training of new army drones and naval crew.",
+    "icon": "warrior_drone",
+    "category": "simple_drone"
+  },
+  {
+    "key": "event_purge",
+    "name": "Purging",
+    "effect": "",
+    "description": "This pop is being purged in accordance with our policies.",
+    "icon": "event_purge",
+    "category": "purge"
+  },
+  {
+    "key": "purge",
+    "name": "Purging",
+    "effect": "",
+    "description": "This pop is being purged in accordance with our policies.",
+    "icon": "purge",
+    "category": "purge"
+  },
+  {
+    "key": "bio_trophy",
+    "name": "Bio-Trophy",
+    "building": "building_organic_sanctuary",
+    "effect": "£unity£ +2 ",
+    "description": "Their only job is to be themselves.",
+    "icon": "bio_trophy",
+    "category": "bio_trophy"
+  },
+  {
+    "key": "criminal",
+    "name": "Criminal",
+    "building": "building_residence",
+    "effect": "£trade_value£ -1 ",
+    "description": "These criminals live outside the bounds of legal society, some by choice and some by circumstance.",
+    "icon": "criminal",
+    "category": "criminal"
+  },
+  {
+    "key": "deviant_drone",
+    "name": "Deviant Drone",
+    "effect": "",
+    "description": "These deviants no longer obey the Hive Mind.",
+    "icon": "criminal",
+    "category": "deviant_drone"
+  },
+  {
+    "key": "corrupt_drone",
+    "name": "Corrupt Drone",
+    "effect": "",
+    "description": "These drones have been corrupted and no longer obey the directives of the core intelligence.",
+    "icon": "criminal",
+    "category": "corrupt_drone"
+  },
+  {
+    "key": "fe_acolyte_artisan",
+    "name": "Acolyte of the Workshop",
+    "building": "building_empyrean_shrine",
+    "effect": "£amenities£ +3 £consumer_goods£ +3 ",
+    "description": "And so Aznakha said to the acolytes, \u0027go to the workshops, and form with your own crafts the future you seek\u0027.",
+    "icon": "artisan",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_acolyte_farm",
+    "name": "Acolyte of the Plow",
+    "building": "building_food_processing_facility",
+    "effect": "£food£ +8 ",
+    "description": "For was it not the plow, this most noble of instruments, that Kazargiel used to sever the poisonous tail of the thrice-cursed demon and stave off famine?",
+    "icon": "farmer",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_acolyte_generator",
+    "name": "Acolyte of the Hyperspanner",
+    "building": "building_power_plant",
+    "effect": "£energy£ +6 ",
+    "description": "Remember also the hyperspanner, and how it was used by Bazagg the Shining to tame the sun when it seemed like darkness would overtake the world.",
+    "icon": "technician",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_acolyte_mine",
+    "name": "Acolyte of the Hammer",
+    "building": "building_crystal_mines",
+    "effect": "£minerals£ +6 ",
+    "description": "And with one mighty blow, Saint Mazakudal used her burning hammer to split the skull of the First Wraith in two, opening up the path to the crystals.",
+    "icon": "miner",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_archivist",
+    "name": "Archivist",
+    "building": "building_master_archive",
+    "effect": "£society_research£ +5 £physics_research£ +5 £engineering_research£ +5 ",
+    "description": "Each data fragment must be filed, cataloged and indexed exactly according to the ancient rites as they were established eons ago by the First Librarian.",
+    "icon": "fe_archivist",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_augur",
+    "name": "Augur of the Shroud",
+    "building": "building_citadel_of_faith",
+    "effect": "£unity£ +10 ",
+    "description": "It speaks, but not in words. To divine any kind of meaning, one must hover on the precipice of madness.",
+    "icon": "priest",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_guardian_bot",
+    "name": "Guardian",
+    "building": "building_maintenance_depot",
+    "effect": "£crime£ -25 ",
+    "description": "These ancient machines maintain a ceaseless vigil over the long-expired remains of billions of cryogenically frozen sapientsF.",
+    "icon": "soldier",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_hedonist",
+    "name": "Hedonist",
+    "building": "building_hyper_entertainment_forum",
+    "effect": "£unity£ +2 ",
+    "description": "A life of total opulence, where every possible material need or desire can be satisfied.",
+    "icon": "fe_hedonist",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_maintenance_bot",
+    "name": "Caretaker",
+    "building": "building_maintenance_depot",
+    "effect": "£amenities£ +5 ",
+    "description": "These ancient machines tirelessly maintain and repair the decaying machinery of the ringworld on which they reside.",
+    "icon": "maintenance_drone",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_overseer",
+    "name": "Overseer",
+    "building": "building_palace",
+    "effect": "£amenities£ +10 £stability£ +5 ",
+    "description": "The stalwart few who have rejected lives of luxury in favor of public service. It is up to them to oversee and guide the remnants of their ancient civilization.",
+    "icon": "administrator",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_protector",
+    "name": "Protector",
+    "building": "building_fortress",
+    "effect": "£crime£ -25 ",
+    "description": "So that the majority can sleep peacefully and enjoy their lives of extravagance, these rough individuals stand ready in the night to visit violence on those who would do them harm.",
+    "icon": "enforcer",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_sky_cardinal",
+    "name": "Sky Cardinal",
+    "building": "building_palace",
+    "effect": "£amenities£ +10 £stability£ +5 ",
+    "description": "And it was there, in the sky, that the future was born. The light was blinding, but a few could see past it. They took it upon themselves to lead others forwards.",
+    "icon": "high_priest",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_xeno_keeper",
+    "name": "Xeno-Keeper",
+    "building": "building_fe_xeno_zoo",
+    "effect": "£amenities£ +10 £crime£ -20 ",
+    "description": "These precursor zookeepers look after the needs of the Xeno-Wards under their care.",
+    "icon": "culture_worker",
+    "category": "precursor"
+  },
+  {
+    "key": "fe_xeno_ward",
+    "name": "Xeno-Ward",
+    "effect": "£unity£ +2 ",
+    "description": "These specimens have been gathered here, in settings that approximate their natural environments, to ensure the preservation of their species in an often chaotic and destructive galaxy.",
+    "icon": "fe_xeno_ward",
+    "category": "xeno_ward"
+  },
+  {
+    "key": "pre_sapient",
+    "name": "Pre-sapient",
+    "effect": "",
+    "description": "Simple beasts to an extent, and yet their behavior betrays some degree of intelligence...",
+    "icon": "pre_sapient",
+    "category": "pre_sapients"
+  }
+]
