@@ -620,7 +620,7 @@
   {
     "key": "gas_extraction_drone",
     "name": "Gas Extraction Drone",
-    "building": "building_gas_extractors",
+    "building": "building_crystal_mines",
     "effect": "£exotic_gases£ +2 ",
     "description": "These specialized drones employ advanced hydraulic fracking methods to free rare, exotic gases from promising rockbeds.",
     "icon": "gas_extraction_drone",
@@ -647,7 +647,7 @@
   {
     "key": "mote_harvesting_drone",
     "name": "Mote Harvesting Drone",
-    "building": "building_mote_harvesters",
+    "building": "building_crystal_mines",
     "effect": "£volatile_motes£ +2 ",
     "description": "Due to the inherently volatile nature of preternatural motes, the drones who specialize in trapping and harvesting them have a high turnover rate.",
     "icon": "mote_harvesting_drone",
@@ -733,7 +733,7 @@
   {
     "key": "fe_acolyte_artisan",
     "name": "Acolyte of the Workshop",
-    "building": "building_empyrean_shrine",
+    "building": "building_citadel_of_faith",
     "effect": "£amenities£ +3 £consumer_goods£ +3 ",
     "description": "And so Aznakha said to the acolytes, \u0027go to the workshops, and form with your own crafts the future you seek\u0027.",
     "icon": "artisan",
