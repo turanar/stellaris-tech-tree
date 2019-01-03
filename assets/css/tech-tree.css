@@ -294,3 +294,50 @@ div.fixed {
 div.fixed div {
     margin: 3px 3px 3px 4px !important;
 }
+
+/*********************************
+    Floating Buttons
+**********************************/
+
+.float-Holder{
+    position: fixed;
+	top: 0px;
+    left: 0px;
+    width: 100%;
+    background: #333;
+    list-style-type: none;
+    padding: 10px;
+    padding-bottom: 0px;
+    z-index: 2;
+}
+.float-Element{
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+.float-Contents{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+}
+.float-Image{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.float-Lowlight{
+    background: #303030;
+}
+.float-Highlight{
+    background: #707070;
+}
