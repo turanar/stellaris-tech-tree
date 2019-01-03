@@ -19,6 +19,8 @@
   <script src="../assets/vendor/lozad.min.js"></script>
   <script src="../assets/vendor/jsrender.min.js"></script>
   <script src="../assets/js/tech-tree.js"></script>
+  <script src="../assets/js/dynamic-drag.js"></script>
+  <script src="../assets/js/header.js"></script>
 
   <script id="node-template" type="text/x-jsrender">
     <div class="icon lozad" data-background-image="../assets/img/{{:key}}.png"></div>
@@ -98,8 +100,38 @@
 </head>
 
 <body>
-  <div id="tech-tree">
-
+  <ul class="float-Holder">
+    <li class="float-Element float-Highlight float-All">
+      <a href="#top" class="float-Contents">
+        <h2>All <img src="../assets/icons/research_icon.png" class="float-Image"> </h2>
+      </a>
+    </li>
+    <li class="float-Element float-Lowlight float-Physics">
+      <a href="#top" class="float-Contents">
+        <h2>Physics <img src="../assets/icons/physics_research.png" class="float-Image"> </h2>
+      </a>
+    </li>
+    <li class="float-Element float-Lowlight float-Society">
+      <a href="#top" class="float-Contents">
+        <h2>Society <img src="../assets/icons/society_research.png" class="float-Image"> </h2>
+      </a>
+    </li>
+    <li class="float-Element float-Lowlight float-Engineering">
+      <a href="#top" class="float-Contents">
+        <h2>Engineering <img src="../assets/icons/engineering_research.png" class="float-Image"> </h2>
+      </a>
+    </li>
+  </ul>
+  <div id="tech-tree" style="margin-top:50px">
+      <div id="tech-tree-physics">
+    
+      </div>
+      <div id="tech-tree-society">
+    
+      </div>
+      <div id="tech-tree-engineering">
+    
+      </div>    
   </div>
 </body>
 </html>

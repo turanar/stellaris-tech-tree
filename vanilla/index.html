@@ -20,7 +20,8 @@
     <script src="../assets/vendor/jsrender.min.js"></script>
     <script src="../assets/js/tech-tree.js"></script>
     <script src="../assets/js/dynamic-drag.js"></script>
-    
+    <script src="../assets/js/header.js"></script>
+
     <script id="node-template" type="text/x-jsrender">
       <div class="icon lozad" data-background-image="../assets/img/{{:key}}.png"></div>
       <p class="node-name" title="{{:name}}">{{:name}}</p>
@@ -99,51 +100,6 @@
   </head>
 
   <body>
-
-    <script>
-
-      $(document).ready(function(){
-        $(".float-Contents").click(function (e) { 
-          $(".float-Element").removeClass("float-Highlight");
-          $(".float-Element").addClass("float-Lowlight");
-          $(this).parent().removeClass("float-Lowlight");
-          $(this).parent().addClass("float-Highlight");
-
-          if($(this).parent().hasClass("float-Physics"))
-          {
-            $("#tech-tree-physics").removeClass("float-NoDisplay");
-            $("#tech-tree-society").addClass("float-NoDisplay");
-            $("#tech-tree-engineering").addClass("float-NoDisplay");
-          }
-          if($(this).parent().hasClass("float-Society"))
-          {
-            $("#tech-tree-physics").addClass("float-NoDisplay");
-            $("#tech-tree-society").removeClass("float-NoDisplay");
-            $("#tech-tree-engineering").addClass("float-NoDisplay");
-          }
-          if($(this).parent().hasClass("float-Engineering"))
-          {
-            $("#tech-tree-physics").addClass("float-NoDisplay");
-            $("#tech-tree-society").addClass("float-NoDisplay");
-            $("#tech-tree-engineering").removeClass("float-NoDisplay");
-          }
-          if($(this).parent().hasClass("float-All"))
-          {
-            $("#tech-tree-physics").removeClass("float-NoDisplay");
-            $("#tech-tree-society").removeClass("float-NoDisplay");
-            $("#tech-tree-engineering").removeClass("float-NoDisplay");
-          }
-          
-          
-          });
-
-          $("a[href='#top']").click(function() {
-            window.scrollTo(0,0);
-          });
-        });
-            
-    </script>
-
     <ul class="float-Holder">
       <li class="float-Element float-Highlight float-All">
         <a href="#top" class="float-Contents">
