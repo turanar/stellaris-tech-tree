@@ -1,11 +1,15 @@
 'use strict';
 
-var tree;
+var treeP;
+var treeS;
+var treeE;
 var selected = 'all';
-var treeData;
+var treeDataP;
+var treeDataS;
+var treeDataE;
 
-var config = {
-    container: '#tech-tree',
+var configP = {
+    container: '#tech-tree-physics',
     rootOrientation: 'WEST', // NORTH || EAST || WEST || SOUTH
     nodeAlign: 'TOP',
     hideRootNode: true,
@@ -22,6 +26,54 @@ var config = {
     callback: {
         onTreeLoaded: function() {
             init_tooltips();
+
+            const observer = lozad();
+            observer.observe();
+		}
+    }
+};
+var configS = {
+    container: '#tech-tree-society',
+    rootOrientation: 'WEST', // NORTH || EAST || WEST || SOUTH
+    nodeAlign: 'TOP',
+    hideRootNode: true,
+    siblingSeparation: 20,
+    subTeeSeparation:  20,
+    scrollbar: 'resize',
+    connectors: {
+        type: 'step'
+    },
+    node: {
+        HTMLclass: 'tech',
+        collapsable: false
+    },
+    callback: {
+        onTreeLoaded: function() {
+            //init_tooltips();
+
+            const observer = lozad();
+            observer.observe();
+		}
+    }
+};
+var configE = {
+    container: '#tech-tree-engineering',
+    rootOrientation: 'WEST', // NORTH || EAST || WEST || SOUTH
+    nodeAlign: 'TOP',
+    hideRootNode: true,
+    siblingSeparation: 20,
+    subTeeSeparation:  20,
+    scrollbar: 'resize',
+    connectors: {
+        type: 'step'
+    },
+    node: {
+        HTMLclass: 'tech',
+        collapsable: false
+    },
+    callback: {
+        onTreeLoaded: function() {
+            //init_tooltips();
 
             const observer = lozad();
             observer.observe();
@@ -71,26 +123,61 @@ $(document).ready(function() {
     load_tree();
 });
 
-function _load() {
+function _loadP() {
     var root = {key: "root", tier:0};
     root.children = [];
 
-    for(var i = 0; i < treeData.children.length; i++) {
-        if(treeData.children[i].name === selected || selected == 'all') {
-            root.children = root.children.concat(treeData.children[i].children);
+    for(var i = 0; i < treeDataP.children.length; i++) {
+        if(treeDataP.children[i].name === selected || selected == 'all') {
+            root.children = root.children.concat(treeDataP.children[i].children);
         }
     }
 
-    tree = new Treant({chart:config, nodeStructure: root});
+    treeP = new Treant({chart:configP, nodeStructure: root});
+}
+function _loadS() {
+    var root = {key: "root", tier:0};
+    root.children = [];
+
+    for(var i = 0; i < treeDataS.children.length; i++) {
+        if(treeDataS.children[i].name === selected || selected == 'all') {
+            root.children = root.children.concat(treeDataS.children[i].children);
+        }
+    }
+
+    treeS = new Treant({chart:configS, nodeStructure: root});
+}
+function _loadE() {
+    var root = {key: "root", tier:0};
+    root.children = [];
+
+    for(var i = 0; i < treeDataE.children.length; i++) {
+        if(treeDataE.children[i].name === selected || selected == 'all') {
+            root.children = root.children.concat(treeDataE.children[i].children);
+        }
+    }
+
+    treeE = new Treant({chart:configE, nodeStructure: root});
 }
 
 function load_tree() {
-    if (tree === undefined) {
-        $.getJSON('techs.json', function(jsonData) {
-            treeData = jsonData;
-            setup(treeData);
-            _load();
+    if (treeP === undefined || true) {
+        $.getJSON('physics.json', function(jsonData) {
+            treeDataP = jsonData;
+            setup(treeDataP);
+            _loadP();
         });
+        $.getJSON('society.json', function(jsonData) {
+            treeDataS = jsonData;
+            setup(treeDataS);
+            _loadS();
+        });
+        $.getJSON('engineering.json', function(jsonData) {
+            treeDataE = jsonData;
+            setup(treeDataE);
+            _loadE();
+        });
+
     } else {
         selected = $('#area_selected').val();
         tree.destroy();

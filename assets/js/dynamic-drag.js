@@ -29,7 +29,12 @@
 			},
 			'mousedown': function(e) {
 
-				if(e.target == $(document)[0].childNodes[1] || e.target == $("#tech-tree").find("svg:first")[0])
+				if(
+					e.target == $(document)[0].childNodes[1] || 
+					e.target == $("#tech-tree").find("svg")[0] ||
+					e.target == $("#tech-tree").find("svg")[1] ||
+					e.target == $("#tech-tree").find("svg")[2]
+				  )
 				{
 					clicked = true;
 					clickY = e.pageY;
@@ -37,6 +42,7 @@
 				}
 				else
 				{
+					//console.log(e.target);
 					clicked = false;
 				}
 			},
@@ -46,6 +52,6 @@
 			}
 		});
     }
-  }(jQuery))
+}(jQuery))
   
-  $.dragScroll();
+$.dragScroll();
