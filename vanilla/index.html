@@ -100,40 +100,82 @@
 
   <body>
 
-      <script>
+    <script>
 
-        $(document).ready(function(){
-          $(".float-Element").click(function (e) {
-            //e.preventDefault(); 
-            $(".float-Element").removeClass("float-Highlight");
-            $(".float-Element").addClass("float-Lowlight");
-            $(this).removeClass("float-Lowlight");
-            $(this).addClass("float-Highlight");
-            
+      $(document).ready(function(){
+        $(".float-Contents").click(function (e) { 
+          $(".float-Element").removeClass("float-Highlight");
+          $(".float-Element").addClass("float-Lowlight");
+          $(this).parent().removeClass("float-Lowlight");
+          $(this).parent().addClass("float-Highlight");
+
+          if($(this).parent().hasClass("float-Physics"))
+          {
+            $("#tech-tree-physics").removeClass("float-NoDisplay");
+            $("#tech-tree-society").addClass("float-NoDisplay");
+            $("#tech-tree-engineering").addClass("float-NoDisplay");
+          }
+          if($(this).parent().hasClass("float-Society"))
+          {
+            $("#tech-tree-physics").addClass("float-NoDisplay");
+            $("#tech-tree-society").removeClass("float-NoDisplay");
+            $("#tech-tree-engineering").addClass("float-NoDisplay");
+          }
+          if($(this).parent().hasClass("float-Engineering"))
+          {
+            $("#tech-tree-physics").addClass("float-NoDisplay");
+            $("#tech-tree-society").addClass("float-NoDisplay");
+            $("#tech-tree-engineering").removeClass("float-NoDisplay");
+          }
+          if($(this).parent().hasClass("float-All"))
+          {
+            $("#tech-tree-physics").removeClass("float-NoDisplay");
+            $("#tech-tree-society").removeClass("float-NoDisplay");
+            $("#tech-tree-engineering").removeClass("float-NoDisplay");
+          }
+          
+          
+          });
+
+          $("a[href='#top']").click(function() {
+            window.scrollTo(0,0);
           });
         });
             
-      </script>
+    </script>
 
     <ul class="float-Holder">
-      <li class="float-Element float-Highlight">
-        <a href="#tech_energy_torpedoes_1" class="float-Contents">
-          <h1>Physics <img src="../assets/icons/physics_research.png" class="float-Image"> </h1>
+      <li class="float-Element float-Highlight float-All">
+        <a href="#top" class="float-Contents">
+          <h2>All <img src="../assets/icons/research_icon.png" class="float-Image"> </h2>
         </a>
       </li>
-      <li class="float-Element float-Lowlight">
-        <a href="#tech_hydroponics" class="float-Contents">
-          <h1>Society <img src="../assets/icons/society_research.png" class="float-Image"> </h1>
+      <li class="float-Element float-Lowlight float-Physics">
+        <a href="#top" class="float-Contents">
+          <h2>Physics <img src="../assets/icons/physics_research.png" class="float-Image"> </h2>
         </a>
       </li>
-      <li class="float-Element float-Lowlight">
-        <a href="#tech_mineral_purification_1" class="float-Contents">
-          <h1>Engineering <img src="../assets/icons/engineering_research.png" class="float-Image"> </h1>
+      <li class="float-Element float-Lowlight float-Society">
+        <a href="#top" class="float-Contents">
+          <h2>Society <img src="../assets/icons/society_research.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Engineering">
+        <a href="#top" class="float-Contents">
+          <h2>Engineering <img src="../assets/icons/engineering_research.png" class="float-Image"> </h2>
         </a>
       </li>
     </ul>
-    <div id="tech-tree">
-
+    <div id="tech-tree" style="margin-top:50px">
+        <div id="tech-tree-physics">
+      
+        </div>
+        <div id="tech-tree-society">
+      
+        </div>
+        <div id="tech-tree-engineering">
+      
+        </div>    
     </div>
   </body>
 </html>

@@ -321,12 +321,16 @@ div.fixed div {
     
 }
 .float-Contents{
-    display: inline-block;
+    display: block;
     text-align: center;
     vertical-align: middle;
     line-height: normal;
     color: #fff;
+    font-family: 'Arimo', Verdana;
+    font-size: 11pt;
     text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 .float-Image{
     width: 18px;
@@ -340,4 +344,8 @@ div.fixed div {
 }
 .float-Highlight{
     background: #707070;
+}
+
+.float-NoDisplay{
+    display: none;
 }
