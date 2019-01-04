@@ -62,6 +62,12 @@ $(document).ready(function(){
         $(".float-Holder").css("width",size);
     });
 
+    var handleTouchyPinch = function (e, $target, data) {
+        var size = $(window).width() + "px";
+        $(".float-Holder").css("width",size);
+    };
+    $(window).bind('touchy-pinch', handleTouchyPinch);
+
     // Cool Right-side buttons
 
     var bgCss = "";
