@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width">
     <title>Stellaris</title>
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <script src="../assets/vendor/jquery.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/tech-tree.css">
+    <script src="../assets/js/header.js"></script>
 
     <style>
         .picture {
@@ -78,7 +81,6 @@
         }
     </style>
 
-    <script src="../assets/vendor/jquery.min.js"></script>
     <script src="../assets/vendor/jsrender.min.js"></script>
 
     <script id="node-template" type="text/x-jsrender">
@@ -110,13 +112,26 @@
                     var html = tmpl.render(item);
                     html = html.replace(new RegExp(/£(\w+)£/,'g'), '<img class="icon" src="../assets/icons/$1.png" />');
 
-                    $('body').append(html);
+                    $(".job-tree").append(html);
                 })
             });
         });
     </script>
 </head>
 <body>
+    <ul class="float-Holder">
+        <li class="float-RightElement float-RightBuffer" style="margin-bottom:4px;">
+            <a href="../index.html" class="float-RightContents">
+                <h2><img src="../assets/icons/back_button.png" class="float-RightImage"> Back</h2>
+            </a>
+        </li>
+        <li class="float-RightElement" style="margin-bottom:4px;">
+            <a href="#top" class="float-RightContents">
+                <h2><img src="../assets/icons/up_to_top.png" class="float-RightImage"> Top</h2>
+            </a>
+        </li>
+    </ul>
+    <div class="job-tree" style="margin-top:50px"></div>
 
 </body>
 </html>
