@@ -291,9 +291,16 @@ div.fixed {
     z-index: 9999;
 }
 
+.anomaly {
+    float:left;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
 div.fixed div {
     margin: 3px 3px 3px 4px !important;
 }
+
 
 /*********************************
     Floating Buttons
