@@ -316,6 +316,7 @@ div.fixed div {
     padding-bottom: 0px;
     padding-top: 0px;
     z-index: 2;
+    width: 100%;
 }
 .float-Element{
     display: inline;

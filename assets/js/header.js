@@ -63,19 +63,22 @@ $(document).ready(function(){
 
     // Auto-resize header to browser body width
 
-    var size = $(window).width() + "px";
+    // Unfortunately, Resize event on mobile are very badly supported ... and zooming is worse :(
+    // I'm using CSS to set the width to 100% however
+
+    /*var size = $(window).width() + "px";
     $(".float-Holder").css("width",size);
 
     $(window).resize(function(){
         var size = $(window).width() + "px";
         $(".float-Holder").css("width",size);
-    });
+    });*/
 
-    var handleTouchyPinch = function (e, $target, data) {
+    /*var handleTouchyPinch = function (e, $target, data) {
         var size = $(window).width() + "px";
         $(".float-Holder").css("width",size);
     };
-    $(window).bind('touchy-pinch', handleTouchyPinch);
+    $(window).bind('touchy-pinch', handleTouchyPinch);*/
 
     // Cool Right-side buttons
 
