@@ -599,8 +599,11 @@
                       "cost": 8000,
                       "description": "These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.",
                       "feature_unlocks": [
+                        "\u003cb\u003eComponent\u003c/b\u003e: Small Caravan Cannon",
                         "\u003cb\u003eComponent\u003c/b\u003e: Medium Plasma Accelerator",
+                        "\u003cb\u003eComponent\u003c/b\u003e: Large Caravan Cannon",
                         "\u003cb\u003eComponent\u003c/b\u003e: Small Plasma Accelerator",
+                        "\u003cb\u003eComponent\u003c/b\u003e: Medium Caravan Cannon",
                         "\u003cb\u003eComponent\u003c/b\u003e: Large Plasma Accelerator"
                       ],
                       "is_dangerous": false,
@@ -913,7 +916,6 @@
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Particles Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Spark of Genius\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Maniacal",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Discovery Traditions Tradition",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Particles Expert",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   One must be true\u003cbr/\u003e\t    •   Has encountered a Gateway\u003cbr/\u003e\t    •   Has encountered a bypass_lgate\u003cbr/\u003e    •   Any Country Relation\u003cbr/\u003e\t    •   Is of country type: default\u003cbr/\u003e\t    •   Has communication with our Empire\u003cbr/\u003e\t    •   Has Technology: Gateway Activation",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Controls a system with a Gateway\u003cbr/\u003e    •   Controls a system with a bypass_lgate"
@@ -952,7 +954,6 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Particles Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Spark of Genius\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Maniacal",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Discovery Traditions Tradition",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Particles Expert",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Controls a system with a Gateway"
@@ -995,7 +996,6 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Particles Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Spark of Genius\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Maniacal",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Discovery Traditions Tradition",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Particles Expert",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has encountered a Natural Wormhole\u003cbr/\u003e    •   Any Country Relation\u003cbr/\u003e\t    •   Is of country type: default\u003cbr/\u003e\t    •   Has communication with our Empire\u003cbr/\u003e\t    •   Has Technology: Wormhole Stabilization",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Controls a system with a Natural Wormhole"
@@ -1217,7 +1217,6 @@
                               ],
                               "weight_modifiers": [
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Particles Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Spark of Genius\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Maniacal",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Discovery Traditions Tradition"
                               ],
                               "potential": [],
@@ -1299,7 +1298,7 @@
               "cost": 2000,
               "description": "Modulated fields allow for increased production and improved energy yield.",
               "feature_unlocks": [
-                "£energy£ Energy Credits from £job_technician£ Technicians +20%"
+                "£energy£ Energy Credits from £job_technician£ Technicians +10%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1325,25 +1324,30 @@
                   "key": "tech_power_plant_3",
                   "area": "physics",
                   "base_factor": 1.0,
-                  "base_weight": 85.0,
+                  "base_weight": 70.0,
                   "category": "Field Manipulation",
-                  "cost": 4000,
+                  "cost": 6000,
                   "description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
                   "feature_unlocks": [
-                    "£energy£ Energy Credits from £job_technician£ Technicians +20%"
+                    "£energy£ Energy Credits from £job_technician£ Technicians +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
                   "name": "Quantum Energy States",
                   "prerequisites": [
-                    "tech_power_plant_2"
+                    "tech_power_plant_2",
+                    "tech_colonial_centralization"
                   ],
                   "tier": 2,
                   "prerequisites_names": [
                     {
                       "name": "Field Modulation",
                       "key": "tech_power_plant_2"
+                    },
+                    {
+                      "name": "Colonial Centralization",
+                      "key": "tech_colonial_centralization"
                     }
                   ],
                   "weight_modifiers": [
@@ -1356,25 +1360,30 @@
                       "key": "tech_power_plant_4",
                       "area": "physics",
                       "base_factor": 1.0,
-                      "base_weight": 65.0,
+                      "base_weight": 40.0,
                       "category": "Field Manipulation",
-                      "cost": 8000,
+                      "cost": 20000,
                       "description": "Quantum superposition of energy coils, simultaneously drained and charged.",
                       "feature_unlocks": [
-                        "£energy£ Energy Credits from £job_technician£ Technicians +20%"
+                        "£energy£ Energy Credits from £job_technician£ Technicians +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
                       "name": "Quantum Field Manipulation",
                       "prerequisites": [
-                        "tech_power_plant_3"
+                        "tech_power_plant_3",
+                        "tech_galactic_administration"
                       ],
-                      "tier": 3,
+                      "tier": 4,
                       "prerequisites_names": [
                         {
                           "name": "Quantum Energy States",
                           "key": "tech_power_plant_3"
+                        },
+                        {
+                          "name": "Galactic Administration",
+                          "key": "tech_galactic_administration"
                         }
                       ],
                       "weight_modifiers": [
@@ -1425,9 +1434,9 @@
               "key": "tech_power_hub_1",
               "area": "physics",
               "base_factor": 1.0,
-              "base_weight": 180.0,
+              "base_weight": 190.0,
               "category": "Field Manipulation",
-              "cost": 3000,
+              "cost": 2500,
               "description": "Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.",
               "feature_unlocks": [
                 "\u003cb\u003eEdict\u003c/b\u003e: Capacity Overload",
@@ -1777,9 +1786,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Field Manipulation Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Spark of Genius",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Field Manipulation Expert"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Field Manipulation Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Spark of Genius"
                       ],
                       "potential": [],
                       "children": [],
@@ -1948,7 +1955,6 @@
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Computing Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Maniacal",
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has policy AI Outlawed",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Computing Expert\u003cbr/\u003e    •   Skill level is greater than 2"
                           ],
                           "potential": [
@@ -1985,7 +1991,6 @@
                           ],
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Computing Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Maniacal",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Computing Expert\u003cbr/\u003e    •   Skill level is greater than 2"
                           ],
                           "potential": [
@@ -2233,8 +2238,7 @@
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) Has Pacifist Ethic",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.65\u003c/b\u003e) Has Fanatic Pacifist Ethic",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) Has Militarist Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.2\u003c/b\u003e) Has Fanatic Militarist Ethic",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.2\u003c/b\u003e) Has Fanatic Militarist Ethic"
                       ],
                       "potential": [],
                       "children": [],
@@ -2273,7 +2277,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: Exotic Gas Extraction\u003cbr/\u003e    •   Has Technology: Exotic Gas Refining\u003cbr/\u003e    •   Has the has_market_access country flag",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Computing Expert"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is Computing Expert"
               ],
               "potential": [],
               "children": [
@@ -2308,7 +2312,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Computing Expert"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is Computing Expert"
                   ],
                   "potential": [],
                   "children": [],
@@ -2853,8 +2857,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Field Manipulation Expert",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has the dark_matter_found country flag\u003cbr/\u003e    •   Any System within borders\u003cbr/\u003e\t    •   any_system_planet\u003d{has_resource\u003d{type\u003dsr_dark_matteramount\u003e0}}\u003cbr/\u003e    •   Any Country Relation\u003cbr/\u003e\t    •   All must be true\u003cbr/\u003e\t\t    •   Is of country type: default\u003cbr/\u003e\t\t    •   Has communication with our Empire\u003cbr/\u003e\t\t    •   Has Technology: Dark Matter Drawing"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Materials Expert",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has the dark_matter_found country flag\u003cbr/\u003e    •   Any System within borders\u003cbr/\u003e\t    •   Any Planet\u003cbr/\u003e\t\t    •   Has £sr_dark_matter£ Dark Matter greater than 0\u003cbr/\u003e    •   Any Country Relation\u003cbr/\u003e\t    •   All must be true\u003cbr/\u003e\t\t    •   Is of country type: default\u003cbr/\u003e\t\t    •   Has communication with our Empire\u003cbr/\u003e\t\t    •   Has Technology: Dark Matter Drawing"
                       ],
                       "potential": [],
                       "children": [],
@@ -2870,7 +2874,7 @@
               "key": "tech_experimental_subspace_navigation",
               "area": "physics",
               "base_factor": 1.0,
-              "base_weight": 37.5,
+              "base_weight": 75.0,
               "category": "Field Manipulation",
               "cost": 6000,
               "description": "Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.",
@@ -2891,10 +2895,7 @@
                   "key": "tech_sensors_2"
                 }
               ],
-              "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Field Manipulation Expert"
-              ],
+              "weight_modifiers": [],
               "potential": [],
               "children": [],
               "is_event": false
@@ -2927,84 +2928,6 @@
           "children": [],
           "is_event": false,
           "is_machine_empire": true
-        },
-        {
-          "key": "null_void_beam",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 3.0,
-          "category": "Particles",
-          "cost": 2500,
-          "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
-          "feature_unlocks": [
-            "\u003cb\u003eComponent\u003c/b\u003e: Large Null Void Beam",
-            "\u003cb\u003eComponent\u003c/b\u003e: Medium Null Void Beam",
-            "\u003cb\u003eComponent\u003c/b\u003e: Small Null Void Beam"
-          ],
-          "is_dangerous": false,
-          "is_rare": true,
-          "is_start_tech": false,
-          "name": "Null Void Beam",
-          "prerequisites": [],
-          "tier": 2,
-          "prerequisites_names": [],
-          "weight_modifiers": [],
-          "potential": [],
-          "children": [],
-          "is_event": false
-        },
-        {
-          "key": "tech_mine_volatile_motes",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 170.0,
-          "category": "Particles",
-          "cost": 4000,
-          "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
-          "feature_unlocks": [
-            "\u003cb\u003eBuilding\u003c/b\u003e: Mote Harvesting Traps",
-            "\u003cb\u003eReveals Ressource\u003c/b\u003e: Volatile Motes"
-          ],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "name": "Mote Stabilization",
-          "prerequisites": [],
-          "tier": 2,
-          "prerequisites_names": [],
-          "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Particles Expert",
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit Dust Caverns\u003cbr/\u003e\t\t    •   Has deposit Dust Desert\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +1\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +2\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +3\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +4\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +5"
-          ],
-          "potential": [],
-          "children": [],
-          "is_event": false
-        },
-        {
-          "key": "tech_volatile_motes",
-          "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 170.0,
-          "category": "Particles",
-          "cost": 4000,
-          "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
-          "feature_unlocks": [
-            "\u003cb\u003eBuilding\u003c/b\u003e: Chemical Plants"
-          ],
-          "is_dangerous": false,
-          "is_rare": false,
-          "is_start_tech": false,
-          "name": "Volatile Material Plants",
-          "prerequisites": [],
-          "tier": 2,
-          "prerequisites_names": [],
-          "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit Dust Caverns\u003cbr/\u003e\t\t    •   Has deposit Dust Desert\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +1\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +2\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +3\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +4\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +5",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Particles Expert"
-          ],
-          "potential": [],
-          "children": [],
-          "is_event": false
         },
         {
           "key": "tech_automated_exploration",
@@ -3062,7 +2985,6 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) Has the Curator Insight modifier",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Curator",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Has the Curator Insight modifier"
           ],
@@ -3091,8 +3013,33 @@
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) Has the Curator Insight modifier",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Curator",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Has the Curator Insight modifier"
+          ],
+          "potential": [],
+          "children": [],
+          "is_event": false
+        },
+        {
+          "key": "tech_volatile_motes",
+          "area": "physics",
+          "base_factor": 1.0,
+          "base_weight": 170.0,
+          "category": "Materials",
+          "cost": 4000,
+          "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
+          "feature_unlocks": [
+            "\u003cb\u003eBuilding\u003c/b\u003e: Chemical Plants"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "name": "Volatile Material Plants",
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit Dust Caverns\u003cbr/\u003e\t\t    •   Has deposit Dust Desert\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   One must be true\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +1\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +2\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +3\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +4\u003cbr/\u003e\t\t    •   Has deposit £volatile_motes£ +5",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Materials Expert"
           ],
           "potential": [],
           "children": [],

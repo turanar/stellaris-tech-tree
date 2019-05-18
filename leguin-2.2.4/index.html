@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Stellaris 2.2.2 (5b48)</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/vendor/Treant.css">
+    <link rel="stylesheet" href="../assets/vendor/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/tech-tree.css">
+
+    <script src="../assets/vendor/Treant.js"></script>
+    <script src="../assets/vendor/raphael.min.js"></script>
+    <script src="../assets/vendor/jquery.min.js"></script>
+    <script src="../assets/vendor/jquery.touchy.min.js"></script>
+    <script src="../assets/vendor/tooltipster.bundle.min.js"></script>
+    <script src="../assets/vendor/lozad.min.js"></script>
+    <script src="../assets/vendor/jsrender.min.js"></script>
+    <script src="../assets/js/tech-tree.js"></script>
+    <script src="../assets/js/dynamic-drag.js"></script>
+    <script src="../assets/js/header.js"></script>
+
+    <script id="node-template" type="text/x-jsrender">
+      <div class="icon lozad" data-background-image="../assets/img/{{:key}}.png"></div>
+      <p class="node-name" title="{{:name}}">{{:name}}</p>
+      <p class="node-title">
+      {{if tier < 1}}
+        {{:category}} (Starting)
+      {{else}}
+        {{:category}} (Tier {{:tier}})
+      {{/if}}
+      </p>
+      <p class="node-desc">
+      {{if tier > 0}}
+      Cost: <span class="{{:area}}-research">{{:cost}}, Weight: {{:base_weight}}</span>
+      {{/if}}
+      </p>
+      <p class="node-desc" style="color:yellow">
+      {{if is_gestalt === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/ethic_gestalt_consciousness.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_gestalt === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/ethic_gestalt_consciousness.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_machine_empire === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/auth_machine_intelligence.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_machine_empire === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_machine_intelligence.png" height="21" width="21"/>
+        {{if is_drive_assimilator === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/civic_machine_assimilator.png" height="21" width="21"/>
+        {{/if}}
+        {{if is_rogue_servitor === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/civic_machine_servitor.png" height="21" width="21"/>
+        {{/if}}
+      {{/if}}
+      {{if is_hive_empire === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/auth_hive_mind.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_hive_empire === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_hive_mind.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_megacorp === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/auth_corporate.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_megacorp === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_corporate" height="21" width="21"/>
+      {{/if}}
+      </p>
+      <div class="extra-data">
+      {{if weight_modifiers.length > 0}}
+          <div class="tooltip-header">Weight Modifiers</div>
+          <div class="tooltip-content"><pre>{{:weight_modifiers.join('<br/>')}}</pre></div>
+      {{/if}}
+      {{if potential.length > 0}}
+          <div class="tooltip-header">Requirements</div>
+          <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
+      {{/if}}
+      {{if prerequisites.length > 1 || (is_event === true && prerequisites.length > 0)}}
+          <div class="tooltip-header">Required Technologies</div>
+          <div class="tooltip-content">
+          {{for prerequisites}}
+              <img class="left" height="52" width="52" src="//:0" data-src="../assets/img/{{:}}.png"">
+          {{/for}}
+          <div class="left">
+          {{for prerequisites_names}}
+            {{:name}}<br/>
+          {{/for}}
+          </div>
+          </div>
+      {{/if}}
+      {{if feature_unlocks.length > 0}}
+          <div class="tooltip-header">Research Effects</div>
+          <div class="tooltip-content">{{:feature_unlocks.join('<br/>')}}</div>
+      {{/if}}
+      </div>
+    </script>
+  </head>
+
+  <body>
+    <ul class="float-Holder">
+      <li class="float-Element float-Highlight float-All">
+        <a href="#top" class="float-Contents">
+          <h2>All <img src="../assets/icons/research_icon.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Physics">
+        <a href="#top" class="float-Contents">
+          <h2>Physics <img src="../assets/icons/physics_research.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Society">
+        <a href="#top" class="float-Contents">
+          <h2>Society <img src="../assets/icons/society_research.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Engineering">
+        <a href="#top" class="float-Contents">
+          <h2>Engineering <img src="../assets/icons/engineering_research.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-Element float-Lowlight float-Anomalies">
+        <a href="#top" class="float-Contents">
+          <h2>Events <img src="../assets/icons/event.png" class="float-Image"> </h2>
+        </a>
+      </li>
+      <li class="float-RightElement float-RightBuffer">
+        <a href="../index.html" class="float-RightContents">
+          <h2><img src="../assets/icons/back_button.png" class="float-RightImage"> Back</h2>
+        </a>
+      </li>
+      <li class="float-RightElement">
+        <a href="#top" class="float-RightContents">
+          <h2><img src="../assets/icons/up_to_top.png" class="float-RightImage"> Top</h2>
+        </a>
+      </li>
+    </ul>
+    <div id="tech-tree" style="margin-top:50px">
+        <div id="tech-tree-physics">
+      
+        </div>
+        <div id="tech-tree-society">
+      
+        </div>
+        <div id="tech-tree-engineering">
+      
+        </div>
+        <div id="tech-tree-anomalies" class="float-NoDisplay">
+
+        </div>
+    </div>
+  </body>
+</html>

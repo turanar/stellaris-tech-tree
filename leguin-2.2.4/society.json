@@ -55,7 +55,7 @@
               "description": "Farming techniques can be further refined through sophisticated computer simulations of different environments and weather patterns. This allows for more predictable crop yields.",
               "feature_unlocks": [
                 "\u003cb\u003eEdict\u003c/b\u003e: Farming Subsidies",
-                "£food£ Food from £job_farmer£ Farmers +20%"
+                "£food£ Food from £job_farmer£ Farmers +10%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -105,8 +105,9 @@
                     }
                   ],
                   "weight_modifiers": [
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: Mote Stabilization\u003cbr/\u003e    •   Has Technology: Volatile Material Plants\u003cbr/\u003e    •   Has the has_market_access country flag",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Government Civic: Rogue Servitor\u003cbr/\u003e    •   Has Government Civic: Driven Assimilator\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of Agriculture District is greater than 0",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Biology Expert"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is Biology Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -126,19 +127,23 @@
                       "is_start_tech": false,
                       "name": "Advanced Food Processing",
                       "prerequisites": [
-                        "tech_food_processing_1"
+                        "tech_food_processing_1",
+                        "tech_colonial_centralization"
                       ],
                       "tier": 3,
                       "prerequisites_names": [
                         {
                           "name": "Food Processing",
                           "key": "tech_food_processing_1"
+                        },
+                        {
+                          "name": "Colonial Centralization",
+                          "key": "tech_colonial_centralization"
                         }
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Government Civic: Rogue Servitor\u003cbr/\u003e    •   Has Government Civic: Driven Assimilator\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of Agriculture District is greater than 0",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Biology Expert",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: Mote Stabilization\u003cbr/\u003e    •   Has Technology: Volatile Material Plants\u003cbr/\u003e    •   Has the has_market_access country flag"
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is Biology Expert"
                       ],
                       "potential": [],
                       "children": [],
@@ -151,25 +156,30 @@
                   "key": "tech_gene_crops",
                   "area": "society",
                   "base_factor": 1.0,
-                  "base_weight": 85.0,
+                  "base_weight": 70.0,
                   "category": "Biology",
-                  "cost": 4000,
+                  "cost": 6000,
                   "description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
                   "feature_unlocks": [
-                    "£food£ Food from £job_farmer£ Farmers +20%"
+                    "£food£ Food from £job_farmer£ Farmers +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
                   "name": "Gene Crops",
                   "prerequisites": [
-                    "tech_eco_simulation"
+                    "tech_eco_simulation",
+                    "tech_colonial_centralization"
                   ],
                   "tier": 2,
                   "prerequisites_names": [
                     {
                       "name": "Eco Simulation",
                       "key": "tech_eco_simulation"
+                    },
+                    {
+                      "name": "Colonial Centralization",
+                      "key": "tech_colonial_centralization"
                     }
                   ],
                   "weight_modifiers": [
@@ -184,25 +194,30 @@
                       "key": "tech_nano_vitality_crops",
                       "area": "society",
                       "base_factor": 1.0,
-                      "base_weight": 65.0,
+                      "base_weight": 40.0,
                       "category": "Biology",
-                      "cost": 8000,
+                      "cost": 20000,
                       "description": "Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.",
                       "feature_unlocks": [
-                        "£food£ Food from £job_farmer£ Farmers +20%"
+                        "£food£ Food from £job_farmer£ Farmers +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
                       "name": "Nano-Vitality Crops",
                       "prerequisites": [
-                        "tech_gene_crops"
+                        "tech_gene_crops",
+                        "tech_galactic_administration"
                       ],
-                      "tier": 3,
+                      "tier": 4,
                       "prerequisites_names": [
                         {
                           "name": "Gene Crops",
                           "key": "tech_gene_crops"
+                        },
+                        {
+                          "name": "Galactic Administration",
+                          "key": "tech_galactic_administration"
                         }
                       ],
                       "weight_modifiers": [
@@ -241,7 +256,6 @@
                           "weight_modifiers": [
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Government Civic: Rogue Servitor\u003cbr/\u003e    •   Has Government Civic: Driven Assimilator\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of Agriculture District is greater than 0",
                             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Pacifist Ethic",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Pacifist Ethic"
                           ],
@@ -319,7 +333,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.01\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Government Civic: Rogue Servitor\u003cbr/\u003e    •   Has Government Civic: Driven Assimilator\u003cbr/\u003e    •   Any Owned Planet\u003cbr/\u003e\t    •   Number of Agriculture District is greater than 0",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Biology Expert"
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is Biology Expert"
               ],
               "potential": [],
               "children": [],
@@ -416,8 +430,8 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Hive Mind Authority",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Spark of Genius",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Spark of Genius",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 4",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is lower than 2"
                   ],
@@ -494,11 +508,11 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Spark of Genius",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) is_egalitarian\u003dyes",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_authoritarian\u003dyes",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Biology Expert"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has Egalitarian Ethic\u003cbr/\u003e    •   Has Fanatic Egalitarian Ethic",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) Has Authoritarian Ethic",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Fanatic Authoritarian Ethic",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Spark of Genius"
                   ],
                   "potential": [
                     "Does NOT have Machine Intelligence Authority"
@@ -530,11 +544,11 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Spark of Genius",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) is_egalitarian\u003dyes",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_authoritarian\u003dyes",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Biology Expert"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) One must be true\u003cbr/\u003e    •   Has Egalitarian Ethic\u003cbr/\u003e    •   Has Fanatic Egalitarian Ethic",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) Has Authoritarian Ethic",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Fanatic Authoritarian Ethic",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Spark of Genius"
                       ],
                       "potential": [
                         "Does NOT have Machine Intelligence Authority"
@@ -683,9 +697,8 @@
                   ],
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Hive Mind Authority",
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Spark of Genius",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Biology Expert"
+                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Spark of Genius"
                   ],
                   "potential": [
                     "One must be true\n    •   Does NOT have Machine Intelligence Authority\n    •   Has Government Civic: Driven Assimilator\n    •   Has Government Civic: Rogue Servitor"
@@ -727,7 +740,6 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Spark of Genius",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 4",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) NOT Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 3"
@@ -779,7 +791,6 @@
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has the found_presapients country flag\u003cbr/\u003e    •   Any Planet within borders\u003cbr/\u003e\t    •   Any Pop\u003cbr/\u003e\t\t    •   Pop is NOT Sapient"
               ],
               "potential": [
-                "Does NOT have Government Civic: Fanatic Purifiers",
                 "One must be true\n    •   Does NOT have Machine Intelligence Authority\n    •   Has Government Civic: Driven Assimilator\n    •   Has Government Civic: Rogue Servitor"
               ],
               "children": [
@@ -814,7 +825,6 @@
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Maniacal",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Spark of Genius",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 4",
@@ -860,7 +870,6 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Egalitarian Ethic\u003cbr/\u003e    •   Has Fanatic Egalitarian Ethic",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Biology Expert"
               ],
               "potential": [
@@ -1029,7 +1038,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
               ],
               "potential": [],
@@ -1061,7 +1071,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
                   ],
                   "potential": [],
@@ -1093,7 +1104,8 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
           ],
           "potential": [],
@@ -1124,7 +1136,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
               ],
               "potential": [],
@@ -1155,7 +1168,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
                   ],
                   "potential": [],
@@ -1186,7 +1200,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
                       ],
                       "potential": [],
@@ -1217,7 +1232,8 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
                           ],
                           "potential": [],
@@ -1287,7 +1303,8 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
           ],
           "potential": [],
@@ -1319,7 +1336,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
               ],
               "potential": [],
@@ -1409,7 +1427,8 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
           ],
           "potential": [],
@@ -1440,7 +1459,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
               ],
               "potential": [],
@@ -1471,7 +1491,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
                   ],
                   "potential": [],
@@ -1502,7 +1523,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
                       ],
                       "potential": [],
@@ -1569,7 +1591,8 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
           ],
           "potential": [],
@@ -1601,7 +1624,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
               ],
               "potential": [],
@@ -1633,7 +1657,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_militarist\u003dyes",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Militarist Ethic",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Fanatic Militarist Ethic",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Military Theory Expert"
                   ],
                   "potential": [],
@@ -1838,7 +1863,6 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is New Worlds Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Any Owned Planet\u003cbr/\u003e    •   Is Tomb World"
                       ],
                       "potential": [
@@ -2997,7 +3021,6 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Statecraft Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                         "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert",
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Number of communications is lower than 2"
                       ],
@@ -3139,7 +3162,7 @@
                               ],
                               "weight_modifiers": [
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Biology Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
+                                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Spark of Genius",
                                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 4",
                                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.75\u003c/b\u003e) NOT Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 3"
                               ],
@@ -3282,6 +3305,7 @@
                 }
               ],
               "weight_modifiers": [
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: Rare Crystal Mining\u003cbr/\u003e    •   Has Technology: Rare Crystal Manufacturing\u003cbr/\u003e    •   Has the has_market_access country flag",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Prosperity Traditions Tradition"
               ],
@@ -3315,7 +3339,6 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: Rare Crystal Mining\u003cbr/\u003e    •   Has Technology: Rare Crystal Manufacturing\u003cbr/\u003e    •   Has the has_market_access country flag",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Prosperity Traditions Tradition"
                   ],
@@ -3453,8 +3476,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert",
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: Rare Crystal Mining\u003cbr/\u003e    •   Has Technology: Rare Crystal Manufacturing\u003cbr/\u003e    •   Has the has_market_access country flag"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has Technology: Mote Stabilization\u003cbr/\u003e    •   Has Technology: Volatile Material Plants\u003cbr/\u003e    •   Has the has_market_access country flag",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert"
               ],
               "potential": [
                 "All must be false\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic\n    •   Has Government Civic: Rogue Servitor"
@@ -3891,9 +3914,7 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Statecraft Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) is_authoritarian\u003dyes",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Number of owned planets is lower than 2"
               ],
               "potential": [
@@ -3928,7 +3949,6 @@
               ],
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.25\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Statecraft Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert",
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Number of owned planets is lower than 2"
               ],
@@ -4031,7 +4051,6 @@
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Fanatic Spiritualist Ethic",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Maniacal",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e8.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Psionics Expert",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Any Owned Pop\u003cbr/\u003e    •   Pop has trait Psionic",
             "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) No Owned Pop\u003cbr/\u003e    •   Pop has trait Psionic",
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) All must be true\u003cbr/\u003e    •   One must be true\u003cbr/\u003e\t    •   Has Materialist Ethic\u003cbr/\u003e\t    •   Has Fanatic Materialist Ethic\u003cbr/\u003e    •   All must be false\u003cbr/\u003e\t    •   Research Leader (Society): \u003cbr/\u003e\t\t    •   Is Psionics Expert\u003cbr/\u003e\t    •   Any Owned Pop\u003cbr/\u003e\t\t    •   Pop has trait Psionic\u003cbr/\u003e\t    •   Any Owned Pop\u003cbr/\u003e\t\t    •   Pop has trait Latent Psionic"
@@ -4071,7 +4090,6 @@
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 2\u003cbr/\u003e    •   Is Psionics Expert",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 3\u003cbr/\u003e    •   Is Psionics Expert",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 4\u003cbr/\u003e    •   Is Psionics Expert",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Spiritualist Ethic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Has Fanatic Spiritualist Ethic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Maniacal"
@@ -4108,11 +4126,12 @@
                   "weight_modifiers": [
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has DLC Utopia",
                     "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.5\u003c/b\u003e) NOT Research Leader (Society): \u003cbr/\u003e    •   Is Psionics Expert",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.1\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 2\u003cbr/\u003e    •   Is Psionics Expert",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 3\u003cbr/\u003e    •   Is Psionics Expert",
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Skill level is greater than 4\u003cbr/\u003e    •   Is Psionics Expert",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Has Spiritualist Ethic",
                     "(×\u003cb style\u003d\u0027color:lime\u0027\u003e3.0\u003c/b\u003e) Has Fanatic Spiritualist Ethic",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e2.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Maniacal",
-                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Psionics Expert"
+                    "(×\u003cb style\u003d\u0027color:lime\u0027\u003e4.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Maniacal"
                   ],
                   "potential": [
                     "Does NOT have Gestalt Consciousness Ethic"
@@ -4146,8 +4165,7 @@
                       ],
                       "weight_modifiers": [
                         "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has DLC Utopia",
-                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Psionics Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Spark of Genius\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Maniacal",
-                        "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk"
+                        "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Psionics Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Spark of Genius\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Maniacal"
                       ],
                       "potential": [
                         "Does NOT have Gestalt Consciousness Ethic"
@@ -4195,9 +4213,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Psionics Expert\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Psionics Expert"
+                "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.1\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Psionics Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Materials Expert\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator",
+                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e10.0\u003c/b\u003e) Research Leader (Physics): \u003cbr/\u003e    •   Is Psionics Expert"
               ],
               "potential": [],
               "children": [],
@@ -4258,7 +4275,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Does NOT have Government Civic: Agrarian Idyll",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert"
+            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Engineering): \u003cbr/\u003e    •   Is Industry Expert"
           ],
           "potential": [],
           "children": [],
@@ -4340,9 +4357,7 @@
           "tier": 5,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has the Curator Insight modifier\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Society): \u003cbr/\u003e\t    •   Is Statecraft Expert",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk",
-            "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is Statecraft Expert"
+            "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.2\u003c/b\u003e) All must be false\u003cbr/\u003e    •   Has the Curator Insight modifier\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Curator\u003cbr/\u003e    •   Research Leader (Physics): \u003cbr/\u003e\t    •   Is Computing Expert"
           ],
           "potential": [],
           "children": [],

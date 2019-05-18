@@ -1,5 +1,30 @@
 [
   {
+    "key": "null_void_beam",
+    "area": "physics",
+    "base_factor": 1.0,
+    "base_weight": 0.0,
+    "category": "Particles",
+    "cost": 2500,
+    "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
+    "feature_unlocks": [
+      "\u003cb\u003eComponent\u003c/b\u003e: Large Null Void Beam",
+      "\u003cb\u003eComponent\u003c/b\u003e: Medium Null Void Beam",
+      "\u003cb\u003eComponent\u003c/b\u003e: Small Null Void Beam"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "Null Void Beam",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
     "key": "tech_akx_worm_1",
     "area": "physics",
     "base_factor": 1.0,
@@ -283,8 +308,7 @@
     "tier": 5,
     "prerequisites_names": [],
     "weight_modifiers": [
-      "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Does NOT have the Covenant: End of the Cycle modifier",
-      "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.5\u003c/b\u003e) Has Technological Ascendancy Ascension Perk"
+      "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Does NOT have the Covenant: End of the Cycle modifier"
     ],
     "potential": [],
     "children": [],
