@@ -30,7 +30,7 @@
     "key": "high_priest",
     "name": "High Priest",
     "building": "building_citadel_of_faith",
-    "effect": "£unity£ +5 £amenities£ +5 ",
+    "effect": "£unity£ +5 £society_research£ +2 £amenities£ +5 ",
     "description": "To whom do guides turn when they themselves seek guidance? Another, more experienced guide.",
     "icon": "high_priest",
     "category": "ruler"
@@ -117,6 +117,15 @@
     "category": "specialist"
   },
   {
+    "key": "duelist",
+    "name": "Duelist",
+    "building": "building_holo_theatres",
+    "effect": "£unity£ +3 £amenities£ +12 ",
+    "description": "Martial experts who display their deadly art for the entertainment of the masses.",
+    "icon": "duelist",
+    "category": "specialist"
+  },
+  {
     "key": "enforcer",
     "name": "Enforcer",
     "building": "building_precinct_house",
@@ -138,7 +147,7 @@
     "key": "foundry",
     "name": "Metallurgist",
     "building": "building_foundry_1",
-    "effect": "£alloys£ +2 ",
+    "effect": "£alloys£ +3 ",
     "description": "Highly trained workers are needed to turn raw minerals into the durable alloys that are used in a wide variety of advanced construction.",
     "icon": "foundry",
     "category": "specialist"
@@ -477,7 +486,7 @@
     "key": "alloy_drone",
     "name": "Foundry Drone",
     "building": "building_foundry_1",
-    "effect": "£alloys£ +2 ",
+    "effect": "£alloys£ +3 ",
     "description": "Valuable minerals are processed into durable alloys for naval development and advanced construction by highly-specialized Foundry Drones.",
     "icon": "alloy_drone",
     "category": "complex_drone"
@@ -486,7 +495,7 @@
     "key": "artisan_drone",
     "name": "Artisan Drone",
     "building": "building_organic_sanctuary",
-    "effect": "£consumer_goods£ +6 ",
+    "effect": "£consumer_goods£ +8 ",
     "description": "A variety of consumable goods and necessities are manufactured by these artisanal drones. Additionally, the occasional aesthetic creation is not entirely without merits.",
     "icon": "artisan_drone",
     "category": "complex_drone"
@@ -522,7 +531,7 @@
     "key": "coordinator",
     "name": "Coordinator",
     "building": "building_machine_capital",
-    "effect": "£unity£ +3 £society_research£ +3 ",
+    "effect": "£jobs_simple_drone_produces_mult£ +0.01 £unity£ +3 £society_research£ +1 £physics_research£ +1 £engineering_research£ +1 ",
     "description": "Signals to and from the Core must be amplified, boosted, and cleaned of static and data corruption.",
     "icon": "coordinator",
     "category": "complex_drone"
@@ -540,7 +549,7 @@
     "key": "fabricator",
     "name": "Fabricator",
     "building": "building_foundry_1",
-    "effect": "£alloys£ +2 ",
+    "effect": "£alloys£ +4 ",
     "description": "Valuable minerals are processed into durable alloys for naval development and advanced construction by highly-specialized Fabricators.",
     "icon": "fabricator",
     "category": "complex_drone"
@@ -567,7 +576,7 @@
     "key": "replicator",
     "name": "Replicator",
     "building": "building_robot_assembly_plant",
-    "effect": "£pop_assembly£ +1 £amenities_no_happiness£ +5 ",
+    "effect": "£pop_assembly£ +1 £amenities_no_happiness£ +5 £engineering_research£ +1 ",
     "description": "A machine that builds a machine that builds a machine that...",
     "icon": "replicator",
     "category": "complex_drone"
@@ -620,7 +629,7 @@
   {
     "key": "gas_extraction_drone",
     "name": "Gas Extraction Drone",
-    "building": "building_crystal_mines",
+    "building": "building_gas_extractors",
     "effect": "£exotic_gases£ +2 ",
     "description": "These specialized drones employ advanced hydraulic fracking methods to free rare, exotic gases from promising rockbeds.",
     "icon": "gas_extraction_drone",
@@ -630,7 +639,7 @@
     "key": "maintenance_drone",
     "name": "Maintenance Drone",
     "building": "building_maintenance_depot",
-    "effect": "£amenities_no_happiness£ +5 ",
+    "effect": "£amenities_no_happiness£ +4 ",
     "description": "The machinery and structures that serve the needs of the Machine Intelligence must be constantly maintained. As must other drones.",
     "icon": "maintenance_drone",
     "category": "simple_drone"
@@ -647,19 +656,10 @@
   {
     "key": "mote_harvesting_drone",
     "name": "Mote Harvesting Drone",
-    "building": "building_crystal_mines",
+    "building": "building_mote_harvesting_traps",
     "effect": "£volatile_motes£ +2 ",
     "description": "Due to the inherently volatile nature of preternatural motes, the drones who specialize in trapping and harvesting them have a high turnover rate.",
     "icon": "mote_harvesting_drone",
-    "category": "simple_drone"
-  },
-  {
-    "key": "scavenger_drone",
-    "name": "Scavenger Drone",
-    "building": "building_residence",
-    "effect": "£minerals£ +1 ",
-    "description": "With no defined purpose these Drones aimlessly dig and scavenge, producing a small amount of useful £minerals£.",
-    "icon": "mining_drone",
     "category": "simple_drone"
   },
   {
@@ -672,6 +672,15 @@
     "category": "simple_drone"
   },
   {
+    "key": "underground_contact_drone",
+    "name": "Subterranean Contact Drone",
+    "building": "building_holo_theatres",
+    "effect": "£amenities£ +3 ",
+    "description": "These Drones live underground, transferring resources to and from the Subterranean Civilization.",
+    "icon": "spawning_drone",
+    "category": "simple_drone"
+  },
+  {
     "key": "warrior_drone",
     "name": "Warrior Drone",
     "building": "building_stronghold",
@@ -679,6 +688,14 @@
     "description": "Military experts who specialize in the training of new army drones and naval crew.",
     "icon": "warrior_drone",
     "category": "simple_drone"
+  },
+  {
+    "key": "crisis_purge",
+    "name": "Purging",
+    "effect": "",
+    "description": "This pop is being purged in accordance with our policies.",
+    "icon": "purge",
+    "category": "purge"
   },
   {
     "key": "event_purge",
@@ -700,7 +717,7 @@
     "key": "bio_trophy",
     "name": "Bio-Trophy",
     "building": "building_organic_sanctuary",
-    "effect": "£unity£ +2 ",
+    "effect": "£unity£ +2 £jobs_complex_drone_produces_mult£ +0.0025 ",
     "description": "Their only job is to be themselves.",
     "icon": "bio_trophy",
     "category": "bio_trophy"
@@ -789,7 +806,7 @@
     "name": "Guardian",
     "building": "building_maintenance_depot",
     "effect": "£crime£ -25 ",
-    "description": "These ancient machines maintain a ceaseless vigil over the long-expired remains of billions of cryogenically frozen sapientsF.",
+    "description": "These ancient machines maintain a ceaseless vigil over the long-expired remains of billions of cryogenically frozen sapients.",
     "icon": "soldier",
     "category": "precursor"
   },
