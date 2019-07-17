@@ -899,7 +899,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5",
+                "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5",
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
               ],
               "potential": [],
@@ -934,7 +934,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5",
+                "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5",
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
               ],
               "potential": [],
@@ -1201,7 +1201,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
-                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5"
+                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5"
               ],
               "potential": [],
               "children": [],
@@ -1236,7 +1236,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
-                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5"
+                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5"
               ],
               "potential": [],
               "children": [],
@@ -4351,9 +4351,7 @@
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>9.0</b>) Has Technological Ascendancy Ascension Perk"
                               ],
-                              "potential": [
-                                "Has DLC Utopia"
-                              ],
+                              "potential": [],
                               "children": [],
                               "is_event": false,
                               "source": "vanilla"
@@ -4395,9 +4393,7 @@
                                 "(×<b style='color:lime'>6.0</b>) Has Enigmatic Engineering Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
-                              "potential": [
-                                "Has DLC Utopia"
-                              ],
+                              "potential": [],
                               "children": [],
                               "is_event": false,
                               "source": "vanilla"
@@ -4440,9 +4436,7 @@
                                 "(×<b style='color:lime'>6.0</b>) Has Eternal Vigilance Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
-                              "potential": [
-                                "Has DLC Megacorp"
-                              ],
+                              "potential": [],
                               "children": [],
                               "is_event": false,
                               "source": "vanilla"
@@ -4485,9 +4479,7 @@
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
-                              "potential": [
-                                "Has DLC Megacorp"
-                              ],
+                              "potential": [],
                               "children": [],
                               "is_event": false,
                               "source": "vanilla"
@@ -4531,9 +4523,7 @@
                                 "(×<b style='color:lime'>6.0</b>) Has One Vision Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
-                              "potential": [
-                                "Has DLC Megacorp"
-                              ],
+                              "potential": [],
                               "children": [],
                               "is_event": false,
                               "source": "vanilla"

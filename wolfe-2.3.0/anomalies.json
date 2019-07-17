@@ -279,9 +279,7 @@
       }
     ],
     "weight_modifiers": [],
-    "potential": [
-      "Has DLC Utopia"
-    ],
+    "potential": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -466,9 +464,7 @@
       }
     ],
     "weight_modifiers": [],
-    "potential": [
-      "Has DLC Megacorp"
-    ],
+    "potential": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"
@@ -713,9 +709,7 @@
       }
     ],
     "weight_modifiers": [],
-    "potential": [
-      "Has DLC Utopia"
-    ],
+    "potential": [],
     "children": [],
     "is_event": true,
     "source": "vanilla"

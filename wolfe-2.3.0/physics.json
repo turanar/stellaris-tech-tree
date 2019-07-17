@@ -3034,7 +3034,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
-            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Dust Caverns<br/>\t\t    •   Has deposit Dust Desert<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £volatile_motes£ +1<br/>\t\t    •   Has deposit £volatile_motes£ +2<br/>\t\t    •   Has deposit £volatile_motes£ +3<br/>\t\t    •   Has deposit £volatile_motes£ +4<br/>\t\t    •   Has deposit £volatile_motes£ +5"
+            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Dust Caverns<br/>\t\t    •   Has deposit Dust Desert<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £volatile_motes£ +1<br/>\t\t    •   Has deposit £volatile_motes£ +2<br/>\t\t    •   Has deposit £volatile_motes£ +3<br/>\t\t    •   Has deposit £volatile_motes£ +4<br/>\t\t    •   Has deposit £volatile_motes£ +5"
           ],
           "potential": [],
           "children": [],
@@ -3060,7 +3060,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Dust Caverns<br/>\t\t    •   Has deposit Dust Desert<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £volatile_motes£ +1<br/>\t\t    •   Has deposit £volatile_motes£ +2<br/>\t\t    •   Has deposit £volatile_motes£ +3<br/>\t\t    •   Has deposit £volatile_motes£ +4<br/>\t\t    •   Has deposit £volatile_motes£ +5",
+            "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Dust Caverns<br/>\t\t    •   Has deposit Dust Desert<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £volatile_motes£ +1<br/>\t\t    •   Has deposit £volatile_motes£ +2<br/>\t\t    •   Has deposit £volatile_motes£ +3<br/>\t\t    •   Has deposit £volatile_motes£ +4<br/>\t\t    •   Has deposit £volatile_motes£ +5",
             "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
           ],
           "potential": [],
