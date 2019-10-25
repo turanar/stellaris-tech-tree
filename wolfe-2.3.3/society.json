@@ -71,11 +71,10 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   Number of Agriculture District is greater than 0",
                 "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
-                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Any Owned Pop<br/>\t    •   Species :<br/>\t\t    •   One must be true<br/>\t\t\t    •   Is Archetype: Biological<br/>\t\t\t    •   Is Archetype: Lithoid<br/>\t    •   NOT Species :<br/>\t\t    •   Is Archetype: Lithoid<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
               ],
               "potential": [],
               "children": [
@@ -175,7 +174,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   Number of Agriculture District is greater than 0",
                     "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                     "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
@@ -208,7 +207,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                        "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   Number of Agriculture District is greater than 0",
                         "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                         "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
@@ -241,7 +240,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   Number of Agriculture District is greater than 0",
                             "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Biology Expert<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
@@ -325,9 +324,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
-                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Any Owned Pop<br/>\t    •   Species :<br/>\t\t    •   One must be true<br/>\t\t\t    •   Is Archetype: Biological<br/>\t\t\t    •   Is Archetype: Lithoid<br/>\t    •   NOT Species :<br/>\t\t    •   Is Archetype: Lithoid<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0"
+                "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   Number of Agriculture District is greater than 0",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
               ],
               "potential": [],
               "children": [],
@@ -2307,7 +2305,6 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.0</b>) Has Government Civic: Devouring Swarm",
                 "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Tradition",
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is New Worlds Expert"
               ],

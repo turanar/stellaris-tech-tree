@@ -4995,7 +4995,7 @@
           "category": "Voidcraft",
           "cost": 500,
           "feature_unlocks": [
-            "<b>Army</b>: Assault Army\nThese armies can be embarked and used for invasion on other planets.",
+            "<b>Army</b>: Assault Army",
             "<b>Army</b>: Hunter-Killer Army"
           ],
           "is_dangerous": false,

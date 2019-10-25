@@ -3006,7 +3006,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "One must be true\n    •   Has Machine Intelligence Authority\n    •   One must be true\n\t    •   Founder Species :\n\t\t    •   Is Mechanical\n\t    •   Has the synthetic_empire country flag\n    •   Founder Species :\n\t    •   Species :\n\t\t    •   Is Archetype: Lithoid"
+            "One must be true\n    •   Has Machine Intelligence Authority\n    •   One must be true\n\t    •   Founder Species :\n\t\t    •   Is Mechanical\n\t    •   Has the synthetic_empire country flag"
           ],
           "children": [],
           "is_event": false,
