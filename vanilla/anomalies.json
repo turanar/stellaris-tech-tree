@@ -8,11 +8,7 @@
     "base_weight": 0.0,
     "category": "Particles",
     "cost": 750,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Null Void Beam",
-      "<b>Component</b>: Medium Null Void Beam",
-      "<b>Component</b>: Small Null Void Beam"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -79,9 +75,7 @@
         "base_weight": 60.0,
         "category": "Particles",
         "cost": 10000,
-        "feature_unlocks": [
-          "<b>Building</b>: Omega Alignment"
-        ],
+        "feature_unlocks": [],
         "is_dangerous": false,
         "is_rare": true,
         "is_start_tech": false,
@@ -119,9 +113,7 @@
     "base_weight": 60.0,
     "category": "Particles",
     "cost": 10000,
-    "feature_unlocks": [
-      "<b>Building</b>: Omega Alignment"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -155,9 +147,7 @@
     "base_weight": 0.0,
     "category": "Biology",
     "cost": 2500,
-    "feature_unlocks": [
-      "<b>Component</b>: Amoeba Flagella"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -179,11 +169,7 @@
     "base_weight": 0.0,
     "category": "Materials",
     "cost": 2500,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Crystal-Infused Plating",
-      "<b>Component</b>: Medium Crystal-Infused Plating",
-      "<b>Component</b>: Small Crystal-Infused Plating"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -207,11 +193,7 @@
     "base_weight": 0.0,
     "category": "Materials",
     "cost": 8000,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Crystal-Forged Plating",
-      "<b>Component</b>: Medium Crystal-Forged Plating",
-      "<b>Component</b>: Small Crystal-Forged Plating"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -233,11 +215,7 @@
     "base_weight": 0.0,
     "category": "Materials",
     "cost": 50000,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Dragonscale Armor",
-      "<b>Component</b>: Medium Dragonscale Armor",
-      "<b>Component</b>: Small Dragonscale Armor"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -259,12 +237,7 @@
     "base_weight": 0.0,
     "category": "Field Manipulation",
     "cost": 20000,
-    "feature_unlocks": [
-      "<b>Mega-Structure</b>: Dyson Sphere",
-      "<b>Mega-Structure</b>: Dyson Sphere Frame",
-      "<b>Mega-Structure</b>: Dyson Sphere Site",
-      "<b>Mega-Structure</b>: Partial Dyson Sphere"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -280,7 +253,7 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "Has DLC Utopia"
+      "Has DLC \"Utopia\""
     ],
     "children": [],
     "is_event": true,
@@ -296,7 +269,7 @@
     "category": "Computing",
     "cost": 50000,
     "feature_unlocks": [
-      "<b>Component</b>: Enigmatic Decoder"
+      "<b>Component</b>: \"ENIGMATIC_DECODER\""
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -320,7 +293,7 @@
     "category": "Computing",
     "cost": 50000,
     "feature_unlocks": [
-      "<b>Component</b>: Enigmatic Encoder"
+      "<b>Component</b>: \"ENIGMATIC_ENCODER\""
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -343,11 +316,7 @@
     "base_weight": 0.0,
     "category": "Particles",
     "cost": 20000,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Matter Disintegrator",
-      "<b>Component</b>: Medium Matter Disintegrator",
-      "<b>Component</b>: Small Matter Disintegrator"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -445,13 +414,7 @@
     "base_weight": 0.0,
     "category": "Field Manipulation",
     "cost": 20000,
-    "feature_unlocks": [
-      "<b>Mega-Structure</b>: Matter Decompressor",
-      "<b>Mega-Structure</b>: Matter Decompressor Site",
-      "<b>Mega-Structure</b>: Matter Decompressor: Anchor",
-      "<b>Mega-Structure</b>: Matter Decompressor: Boring",
-      "<b>Mega-Structure</b>: Matter Decompressor: Lensing"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -467,7 +430,7 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "Has DLC Megacorp"
+      "Has DLC \"Megacorp\""
     ],
     "children": [],
     "is_event": true,
@@ -482,10 +445,7 @@
     "base_weight": 0.0,
     "category": "Particles",
     "cost": 2000,
-    "feature_unlocks": [
-      "<b>Component</b>: Medium Cutting Laser",
-      "<b>Component</b>: Small Cutting Laser"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -508,7 +468,7 @@
     "category": "Voidcraft",
     "cost": 20000,
     "feature_unlocks": [
-      "<b>Component</b>: Nanite Repair System"
+      "<b>Component</b>: \"AUTO_REPAIR_2\""
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -556,9 +516,7 @@
     "base_weight": 0.0,
     "category": "Propulsion",
     "cost": 4000,
-    "feature_unlocks": [
-      "<b>Component</b>: Orbital Trash Disperser"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -604,11 +562,7 @@
     "base_weight": 0.0,
     "category": "Psionics",
     "cost": 4000,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Psionic Barrier",
-      "<b>Component</b>: Medium Psionic Barrier",
-      "<b>Component</b>: Small Psionic Barrier"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -637,11 +591,7 @@
     "base_weight": 0.0,
     "category": "Psionics",
     "cost": 20000,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Psionic Shield",
-      "<b>Component</b>: Medium Psionic Shield",
-      "<b>Component</b>: Small Psionic Shield"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -671,7 +621,7 @@
     "category": "Biology",
     "cost": 5000,
     "feature_unlocks": [
-      "<b>Component</b>: Regenerative Hull Tissue"
+      "<b>Component</b>: \"AUTO_REPAIR\""
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -694,11 +644,7 @@
     "base_weight": 0.0,
     "category": "Voidcraft",
     "cost": 20000,
-    "feature_unlocks": [
-      "<b>Mega-Structure</b>: Completed Ring World Section",
-      "<b>Mega-Structure</b>: Ring World Frame",
-      "<b>Mega-Structure</b>: Ring World Site"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -714,7 +660,7 @@
     ],
     "weight_modifiers": [],
     "potential": [
-      "Has DLC Utopia"
+      "Has DLC \"Utopia\""
     ],
     "children": [],
     "is_event": true,
@@ -729,9 +675,7 @@
     "base_weight": 0.0,
     "category": "Biology",
     "cost": 20000,
-    "feature_unlocks": [
-      "<b>Component</b>: Large Scourge Missile"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -753,9 +697,7 @@
     "base_weight": 0.0,
     "category": "Particles",
     "cost": 2500,
-    "feature_unlocks": [
-      "<b>Component</b>: Cloud Lightning"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
@@ -777,9 +719,7 @@
     "base_weight": 0.0,
     "category": "Biology",
     "cost": 1000,
-    "feature_unlocks": [
-      "<b>Component</b>: Energy Siphon"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": false,
     "is_start_tech": false,
@@ -801,9 +741,7 @@
     "base_weight": 0.0,
     "category": "Biology",
     "cost": 20000,
-    "feature_unlocks": [
-      "<b>Component</b>: Swarm Strikers"
-    ],
+    "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,

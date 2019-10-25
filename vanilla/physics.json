@@ -34,11 +34,7 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Large Red Laser",
-            "<b>Component</b>: Medium Red Laser",
-            "<b>Component</b>: Small Red Laser"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -57,11 +53,7 @@
               "base_weight": 95.0,
               "category": "Particles",
               "cost": 750,
-              "feature_unlocks": [
-                "<b>Component</b>: Large Blue Laser",
-                "<b>Component</b>: Medium Blue Laser",
-                "<b>Component</b>: Small Blue Laser"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -78,7 +70,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
               ],
               "potential": [],
               "children": [
@@ -91,11 +83,7 @@
                   "base_weight": 85.0,
                   "category": "Particles",
                   "cost": 1500,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Large UV Laser",
-                    "<b>Component</b>: Medium UV Laser",
-                    "<b>Component</b>: Small UV Laser"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -112,7 +100,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                   ],
                   "potential": [],
                   "children": [
@@ -125,11 +113,7 @@
                       "base_weight": 65.0,
                       "category": "Particles",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Large X-Ray Laser",
-                        "<b>Component</b>: Medium X-Ray Laser",
-                        "<b>Component</b>: Small X-Ray Laser"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -146,7 +130,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                       ],
                       "potential": [],
                       "children": [
@@ -159,11 +143,7 @@
                           "base_weight": 45.0,
                           "category": "Particles",
                           "cost": 8000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Large Gamma Laser",
-                            "<b>Component</b>: Medium Gamma Laser",
-                            "<b>Component</b>: Small Gamma Laser"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -180,7 +160,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                           ],
                           "potential": [],
                           "children": [],
@@ -196,9 +176,7 @@
                           "base_weight": 40.0,
                           "category": "Particles",
                           "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Particle Lance"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -220,7 +198,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                           ],
                           "potential": [],
                           "children": [
@@ -233,9 +211,7 @@
                               "base_weight": 35.0,
                               "category": "Particles",
                               "cost": 12000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Tachyon Lance"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -257,7 +233,7 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                               ],
                               "potential": [],
                               "children": [],
@@ -277,9 +253,7 @@
                           "base_weight": 50.0,
                           "category": "Particles",
                           "cost": 6000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Proton Launchers"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -296,8 +270,8 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:red'>0.5</b>) Does NOT have Technology: Red Lasers",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                            "(×<b style='color:red'>0.5</b>) Does NOT have Technology: \"tech_lasers_1\"",
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                           ],
                           "potential": [],
                           "children": [
@@ -310,9 +284,7 @@
                               "base_weight": 40.0,
                               "category": "Particles",
                               "cost": 10000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Neutron Launchers"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -329,7 +301,7 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                               ],
                               "potential": [],
                               "children": [],
@@ -388,10 +360,7 @@
                   "base_weight": 75.0,
                   "category": "Particles",
                   "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Medium Disruptor",
-                    "<b>Component</b>: Small Disruptor"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -408,8 +377,8 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
-                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: Red Lasers"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\"",
+                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: \"tech_lasers_1\""
                   ],
                   "potential": [],
                   "children": [
@@ -422,10 +391,7 @@
                       "base_weight": 65.0,
                       "category": "Particles",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Medium Ion Disruptor",
-                        "<b>Component</b>: Small Ion Disruptor"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -442,7 +408,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                       ],
                       "potential": [],
                       "children": [
@@ -455,10 +421,7 @@
                           "base_weight": 45.0,
                           "category": "Particles",
                           "cost": 8000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Medium Phased Disruptor",
-                            "<b>Component</b>: Small Phased Disruptor"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -475,7 +438,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                           ],
                           "potential": [],
                           "children": [
@@ -488,9 +451,7 @@
                               "base_weight": 40.0,
                               "category": "Particles",
                               "cost": 10000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Arc Emitter"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -512,7 +473,7 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                               ],
                               "potential": [],
                               "children": [
@@ -525,9 +486,7 @@
                                   "base_weight": 35.0,
                                   "category": "Particles",
                                   "cost": 12000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: Focused Arc Emitter"
-                                  ],
+                                  "feature_unlocks": [],
                                   "is_dangerous": false,
                                   "is_rare": false,
                                   "is_start_tech": false,
@@ -544,7 +503,7 @@
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                                   ],
                                   "potential": [],
                                   "children": [],
@@ -576,11 +535,7 @@
                   "base_weight": 75.0,
                   "category": "Particles",
                   "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Large Plasma Thrower",
-                    "<b>Component</b>: Medium Plasma Thrower",
-                    "<b>Component</b>: Small Plasma Thrower"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -597,8 +552,8 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
-                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: Red Lasers"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\"",
+                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: \"tech_lasers_1\""
                   ],
                   "potential": [],
                   "children": [
@@ -611,11 +566,7 @@
                       "base_weight": 65.0,
                       "category": "Particles",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Large Plasma Accelerator",
-                        "<b>Component</b>: Medium Plasma Accelerator",
-                        "<b>Component</b>: Small Plasma Accelerator"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -632,7 +583,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                       ],
                       "potential": [],
                       "children": [
@@ -645,11 +596,7 @@
                           "base_weight": 45.0,
                           "category": "Particles",
                           "cost": 8000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Large Plasma Cannon",
-                            "<b>Component</b>: Medium Plasma Cannon",
-                            "<b>Component</b>: Small Plasma Cannon"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -666,7 +613,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                           ],
                           "potential": [],
                           "children": [],
@@ -729,9 +676,7 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Fission Reactor"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -750,9 +695,7 @@
               "base_weight": 190.0,
               "category": "Particles",
               "cost": 750,
-              "feature_unlocks": [
-                "<b>Component</b>: Fusion Reactor"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -768,7 +711,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>2.0</b>) Has Technology: Destroyers",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
               ],
               "potential": [],
               "children": [
@@ -781,9 +724,7 @@
                   "base_weight": 150.0,
                   "category": "Particles",
                   "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Cold Fusion Reactor"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -799,7 +740,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>2.0</b>) Has Technology: Cruisers",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                   ],
                   "potential": [],
                   "children": [
@@ -812,9 +753,7 @@
                       "base_weight": 120.0,
                       "category": "Particles",
                       "cost": 5000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Antimatter Reactor"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -830,7 +769,7 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:lime'>2.0</b>) Has Technology: Battleships",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                       ],
                       "potential": [],
                       "children": [
@@ -843,9 +782,7 @@
                           "base_weight": 80.0,
                           "category": "Particles",
                           "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Zero Point Reactor"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -861,7 +798,7 @@
                           ],
                           "weight_modifiers": [
                             "(×<b style='color:lime'>2.0</b>) Has Technology: Battleships",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                           ],
                           "potential": [],
                           "children": [
@@ -875,7 +812,6 @@
                               "category": "Particles",
                               "cost": 15000,
                               "feature_unlocks": [
-                                "<b>Component</b>: Jump Drive",
                                 "<b>Feature : </b>Jump Drive Travel"
                               ],
                               "is_dangerous": true,
@@ -892,7 +828,7 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Particles Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal",
+                                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_particles\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                                 "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition"
                               ],
@@ -910,9 +846,7 @@
                               "base_weight": 1.0,
                               "category": "Particles",
                               "cost": 50000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Dark Matter Reactor"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -963,9 +897,7 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Reactor Booster"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -984,9 +916,7 @@
               "base_weight": 135.0,
               "category": "Particles",
               "cost": 1000,
-              "feature_unlocks": [
-                "<b>Component</b>: Improved Reactor Booster"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1006,7 +936,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
               ],
               "potential": [],
               "children": [
@@ -1019,9 +949,7 @@
                   "base_weight": 75.0,
                   "category": "Particles",
                   "cost": 6000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Advanced Reactor Booster"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1041,7 +969,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                   ],
                   "potential": [],
                   "children": [],
@@ -1065,9 +993,7 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Hyper Drive I"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1086,10 +1012,7 @@
               "base_weight": 75.0,
               "category": "Particles",
               "cost": 2000,
-              "feature_unlocks": [
-                "<b>Component</b>: Hyper Drive II",
-                "<b>Starbase Building</b>: Hyperlane Registrar"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1105,7 +1028,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
               ],
               "potential": [],
               "children": [
@@ -1118,9 +1041,7 @@
                   "base_weight": 50.0,
                   "category": "Particles",
                   "cost": 6000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Hyper Drive III"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1136,7 +1057,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
                   ],
                   "potential": [],
                   "children": [
@@ -1166,9 +1087,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Particles Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal",
+                        "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_particles\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"",
                         "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\"",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   One must be true<br/>\t    •   Has encountered a Gateway<br/>\t    •   Has encountered a bypass_lgate<br/>    •   Any Country Relation<br/>\t    •   Is of country type: default<br/>\t    •   Has communication with our Empire<br/>\t    •   Has Technology: Gateway Activation",
                         "(×<b style='color:lime'>4.0</b>) One must be true<br/>    •   Controls a system with a Gateway<br/>    •   Controls a system with a bypass_lgate"
@@ -1206,9 +1127,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Particles Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal",
+                            "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_particles\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"",
                             "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\"",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>4.0</b>) Controls a system with a Gateway"
                           ],
@@ -1251,10 +1172,10 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Particles Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal",
+                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_particles\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"",
                     "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\"",
                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has encountered a Natural Wormhole<br/>    •   Any Country Relation<br/>\t    •   Is of country type: default<br/>\t    •   Has communication with our Empire<br/>\t    •   Has Technology: Wormhole Stabilization",
                     "(×<b style='color:lime'>4.0</b>) Controls a system with a Natural Wormhole"
                   ],
@@ -1277,7 +1198,6 @@
               "category": "Particles",
               "cost": 1500,
               "feature_unlocks": [
-                "<b>Component</b>: FTL Inhibitor",
                 "<b>Feature : </b>Planetary FTL Inhibitors"
               ],
               "is_dangerous": false,
@@ -1295,7 +1215,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
               ],
               "potential": [],
               "children": [],
@@ -1352,7 +1272,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Prosperity Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
               ],
               "potential": [],
               "children": [
@@ -1383,7 +1303,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Prosperity Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                   ],
                   "potential": [],
                   "children": [
@@ -1414,7 +1334,7 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Prosperity Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                       ],
                       "potential": [],
                       "children": [],
@@ -1470,8 +1390,7 @@
               "category": "Field Manipulation",
               "cost": 1000,
               "feature_unlocks": [
-                "<b>Building</b>: Energy Grid",
-                "<b>Edict</b>: Capacity Overload"
+                "<b>Building</b>: Energy Grid"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1488,7 +1407,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Prosperity Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
               ],
               "potential": [],
               "children": [
@@ -1525,7 +1444,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Exotic Gas Extraction<br/>    •   Has Technology: Exotic Gas Refining<br/>    •   Has the has_market_access country flag",
                     "(×<b style='color:lime'>2.0</b>) Has Prosperity Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                   ],
                   "potential": [],
                   "children": [],
@@ -1549,11 +1468,7 @@
           "base_weight": 0.0,
           "category": "Field Manipulation",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Large Deflectors",
-            "<b>Component</b>: Medium Deflectors",
-            "<b>Component</b>: Small Deflectors"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1572,11 +1487,7 @@
               "base_weight": 112.5,
               "category": "Field Manipulation",
               "cost": 1000,
-              "feature_unlocks": [
-                "<b>Component</b>: Large Improved Deflectors",
-                "<b>Component</b>: Medium Improved Deflectors",
-                "<b>Component</b>: Small Improved Deflectors"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1591,7 +1502,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
               ],
               "potential": [],
               "children": [
@@ -1604,11 +1515,7 @@
                   "base_weight": 87.5,
                   "category": "Field Manipulation",
                   "cost": 2500,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Large Shields",
-                    "<b>Component</b>: Medium Shields",
-                    "<b>Component</b>: Small Shields"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1623,7 +1530,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                   ],
                   "potential": [],
                   "children": [
@@ -1636,11 +1543,7 @@
                       "base_weight": 62.5,
                       "category": "Field Manipulation",
                       "cost": 6000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Large Advanced Shields",
-                        "<b>Component</b>: Medium Advanced Shields",
-                        "<b>Component</b>: Small Advanced Shields"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -1655,7 +1558,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                       ],
                       "potential": [],
                       "children": [
@@ -1668,11 +1571,7 @@
                           "base_weight": 43.75,
                           "category": "Field Manipulation",
                           "cost": 12000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Large Hyper Shields",
-                            "<b>Component</b>: Medium Hyper Shields",
-                            "<b>Component</b>: Small Hyper Shields"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -1687,7 +1586,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                           ],
                           "potential": [],
                           "children": [
@@ -1700,11 +1599,7 @@
                               "base_weight": 1.0,
                               "category": "Field Manipulation",
                               "cost": 50000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Large Dark Matter Deflectors",
-                                "<b>Component</b>: Medium Dark Matter Deflectors",
-                                "<b>Component</b>: Small Dark Matter Deflectors"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -1774,9 +1669,7 @@
                       "base_weight": 70.0,
                       "category": "Field Manipulation",
                       "cost": 2500,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Shield Capacitor"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -1791,7 +1684,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                       ],
                       "potential": [],
                       "children": [],
@@ -1807,9 +1700,7 @@
                       "base_weight": 32.5,
                       "category": "Field Manipulation",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Building</b>: Planetary Shield Generator"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": true,
                       "is_start_tech": false,
@@ -1824,9 +1715,9 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Field Manipulation Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Spark of Genius",
+                        "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_field_manipulation\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_spark_of_genius\"",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
                       ],
                       "potential": [],
                       "children": [],
@@ -1854,9 +1745,7 @@
           "base_weight": 0.0,
           "category": "Computing",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Sentinel Point-Defense"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1875,9 +1764,7 @@
               "base_weight": 70.0,
               "category": "Computing",
               "cost": 2500,
-              "feature_unlocks": [
-                "<b>Component</b>: Barrier Point-Defense"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1892,7 +1779,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
               ],
               "potential": [],
               "children": [
@@ -1905,9 +1792,7 @@
                   "base_weight": 45.0,
                   "category": "Computing",
                   "cost": 8000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Guardian Point-Defense"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1922,7 +1807,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [],
@@ -1946,9 +1831,7 @@
           "base_weight": 0.0,
           "category": "Computing",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Building</b>: Research Labs"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1984,7 +1867,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
               ],
               "potential": [],
               "children": [
@@ -1997,10 +1880,7 @@
                   "base_weight": 90.0,
                   "category": "Computing",
                   "cost": 1000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Combat Computer",
-                    "<b>Component</b>: Starbase Fire Control"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2018,7 +1898,7 @@
                     "(×<b style='color:lime'>2.0</b>) Has Technology: Destroyers",
                     "(×<b style='color:lime'>2.0</b>) Has Technology: Cruisers",
                     "(×<b style='color:lime'>2.0</b>) Has Technology: Battleships",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [
@@ -2032,7 +1912,7 @@
                       "category": "Computing",
                       "cost": 1000,
                       "feature_unlocks": [
-                        "<b>Component</b>: Auxiliary Fire-control"
+                        "<b>Component</b>: \"FIRE_CONTROL_1\""
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2048,7 +1928,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                       ],
                       "potential": [],
                       "children": [],
@@ -2064,10 +1944,7 @@
                       "base_weight": 65.0,
                       "category": "Computing",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Advanced Combat Computer",
-                        "<b>Component</b>: Starbase Fire Control"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2087,7 +1964,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                       ],
                       "potential": [],
                       "children": [
@@ -2100,9 +1977,7 @@
                           "base_weight": 20.0,
                           "category": "Computing",
                           "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Sapient Combat Computer"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": true,
                           "is_rare": true,
                           "is_start_tech": false,
@@ -2122,10 +1997,10 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Computing Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal",
+                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_computing\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"",
                             "(×<b style='color:red'>0.0</b>) Has policy AI Outlawed",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert<br/>    •   Skill level is greater than 2"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\"<br/>    •   Skill level is greater than 2"
                           ],
                           "potential": [
                             "Does NOT have Gestalt Consciousness Ethic"
@@ -2144,9 +2019,7 @@
                           "base_weight": 20.0,
                           "category": "Computing",
                           "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Autonomous Ship Intellect"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": true,
                           "is_start_tech": false,
@@ -2161,9 +2034,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Computing Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal",
+                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_computing\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert<br/>    •   Skill level is greater than 2"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\"<br/>    •   Skill level is greater than 2"
                           ],
                           "potential": [
                             "Has Gestalt Consciousness Ethic"
@@ -2207,7 +2080,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [
@@ -2242,7 +2115,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                       ],
                       "potential": [],
                       "children": [],
@@ -2279,7 +2152,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [
@@ -2309,7 +2182,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                       ],
                       "potential": [
                         "Has Gestalt Consciousness Ethic"
@@ -2345,7 +2218,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                       ],
                       "potential": [
                         "Does NOT have Gestalt Consciousness Ethic"
@@ -2364,9 +2237,7 @@
                       "base_weight": 20.0,
                       "category": "Computing",
                       "cost": 10000,
-                      "feature_unlocks": [
-                        "<b>Starbase Building</b>: Defense-Grid Supercomputer"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": true,
                       "is_start_tech": false,
@@ -2381,7 +2252,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Computing Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator",
+                        "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_computing\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"",
                         "(×<b style='color:red'>0.75</b>) Has Pacifist Ethic",
                         "(×<b style='color:red'>0.65</b>) Has Fanatic Pacifist Ethic",
                         "(×<b style='color:lime'>1.1</b>) Has Militarist Ethic",
@@ -2410,9 +2281,7 @@
               "base_weight": 90.0,
               "category": "Computing",
               "cost": 1000,
-              "feature_unlocks": [
-                "<b>Building</b>: Research Complexes"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2428,7 +2297,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Exotic Gas Extraction<br/>    •   Has Technology: Exotic Gas Refining<br/>    •   Has the has_market_access country flag",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
               ],
               "potential": [],
               "children": [
@@ -2441,9 +2310,7 @@
                   "base_weight": 130.0,
                   "category": "Computing",
                   "cost": 4000,
-                  "feature_unlocks": [
-                    "<b>Building</b>: Advanced Research Complexes"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2463,7 +2330,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [],
@@ -2497,7 +2364,7 @@
           "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
           ],
           "potential": [],
           "children": [
@@ -2527,7 +2394,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
               ],
               "potential": [],
               "children": [
@@ -2557,7 +2424,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [
@@ -2587,7 +2454,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                       ],
                       "potential": [],
                       "children": [
@@ -2617,7 +2484,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                           ],
                           "potential": [],
                           "children": [],
@@ -2664,7 +2531,7 @@
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 10",
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 15",
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 20",
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
           ],
           "potential": [],
           "children": [
@@ -2698,7 +2565,7 @@
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 35",
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 40",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
               ],
               "potential": [],
               "children": [
@@ -2732,7 +2599,7 @@
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 35",
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 40",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [],
@@ -2783,10 +2650,7 @@
               "base_weight": 97.5,
               "category": "Computing",
               "cost": 4000,
-              "feature_unlocks": [
-                "<b>Building</b>: Planetary Supercomputer",
-                "<b>Building</b>: Research Institute"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2806,8 +2670,8 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Computing Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_computing\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
               ],
               "potential": [],
               "children": [],
@@ -2827,10 +2691,7 @@
           "base_weight": 85.0,
           "category": "Computing",
           "cost": 1500,
-          "feature_unlocks": [
-            "<b>Component</b>: Gravitic Sensors",
-            "<b>Starbase Building</b>: Listening Post"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -2839,7 +2700,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
           ],
           "potential": [],
           "children": [
@@ -2870,7 +2731,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\""
               ],
               "potential": [],
               "children": [],
@@ -2886,10 +2747,7 @@
               "base_weight": 65.0,
               "category": "Computing",
               "cost": 4000,
-              "feature_unlocks": [
-                "<b>Component</b>: Subspace Sensors",
-                "<b>Starbase Building</b>: Black Hole Observatory"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2905,7 +2763,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
               ],
               "potential": [],
               "children": [
@@ -2918,9 +2776,7 @@
                   "base_weight": 45.0,
                   "category": "Computing",
                   "cost": 8000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Tachyon Sensors"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2936,7 +2792,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\""
                   ],
                   "potential": [],
                   "children": [
@@ -2949,9 +2805,7 @@
                       "base_weight": 50.0,
                       "category": "Field Manipulation",
                       "cost": 6000,
-                      "feature_unlocks": [
-                        "<b>Reveals Ressource</b>: Dark Matter"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2966,7 +2820,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.5</b>) Research Leader (Physics): <br/>    •   Is Field Manipulation Expert",
+                        "(×<b style='color:lime'>1.5</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_field_manipulation\"",
                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has the dark_matter_found country flag<br/>    •   Any System within borders<br/>\t    •   Any Planet<br/>\t\t    •   Has £sr_dark_matter£ Dark Matter greater than 0<br/>    •   Any Country Relation<br/>\t    •   All must be true<br/>\t\t    •   Is of country type: default<br/>\t\t    •   Has communication with our Empire<br/>\t\t    •   Has Technology: Dark Matter Drawing"
                       ],
                       "potential": [],
@@ -2995,9 +2849,7 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Building</b>: Bio-Reactor"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -3006,7 +2858,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "One must be true\n    •   Has Machine Intelligence Authority\n    •   One must be true\n\t    •   Founder Species :\n\t\t    •   Is Mechanical\n\t    •   Has the synthetic_empire country flag\n    •   Founder Species :\n\t    •   Species :\n\t\t    •   Is Archetype: Lithoid"
+            "One must be true\n    •   Has Machine Intelligence Authority\n    •   One must be true\n\t    •   Founder Species :\n\t\t    •   Is Mechanical\n\t    •   Has the synthetic_empire country flag\n    •   Owner Species is Lithoid"
           ],
           "children": [],
           "is_event": false,
@@ -3022,10 +2874,7 @@
           "base_weight": 170.0,
           "category": "Particles",
           "cost": 1500,
-          "feature_unlocks": [
-            "<b>Building</b>: Mote Harvesting Traps",
-            "<b>Reveals Ressource</b>: Volatile Motes"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -3033,7 +2882,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\"",
             "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Dust Caverns<br/>\t\t    •   Has deposit Dust Desert<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £volatile_motes£ +1<br/>\t\t    •   Has deposit £volatile_motes£ +2<br/>\t\t    •   Has deposit £volatile_motes£ +3<br/>\t\t    •   Has deposit £volatile_motes£ +4<br/>\t\t    •   Has deposit £volatile_motes£ +5"
           ],
           "potential": [],
@@ -3050,9 +2899,7 @@
           "base_weight": 170.0,
           "category": "Particles",
           "cost": 1500,
-          "feature_unlocks": [
-            "<b>Building</b>: Chemical Plants"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -3061,7 +2908,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [
             "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Dust Caverns<br/>\t\t    •   Has deposit Dust Desert<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £volatile_motes£ +1<br/>\t\t    •   Has deposit £volatile_motes£ +2<br/>\t\t    •   Has deposit £volatile_motes£ +3<br/>\t\t    •   Has deposit £volatile_motes£ +4<br/>\t\t    •   Has deposit £volatile_motes£ +5",
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Particles Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_particles\""
           ],
           "potential": [],
           "children": [],
@@ -3088,7 +2935,7 @@
           "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_expertise_computing\"",
             "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
             "(×<b style='color:red'>0.0</b>) Number of years since game start is lower than 5",
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 10",
@@ -3123,10 +2970,10 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:red'>0.5</b>) Has the Curator Insight modifier",
+            "(×<b style='color:red'>0.5</b>) Has the \"curator_insight\" modifier",
             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-            "(×<b style='color:lime'>3.0</b>) Research Leader (Physics): <br/>    •   Is Curator",
-            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Has the Curator Insight modifier"
+            "(×<b style='color:lime'>3.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_curator\"",
+            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Has the \"curator_insight\" modifier"
           ],
           "potential": [
             "Has DLC Ancient Relics Story Pack"
@@ -3155,9 +3002,9 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:red'>0.5</b>) Has the Curator Insight modifier",
-            "(×<b style='color:lime'>3.0</b>) Research Leader (Physics): <br/>    •   Is Curator",
-            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Has the Curator Insight modifier"
+            "(×<b style='color:red'>0.5</b>) Has the \"curator_insight\" modifier",
+            "(×<b style='color:lime'>3.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_curator\"",
+            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Has the \"curator_insight\" modifier"
           ],
           "potential": [
             "Does NOT have DLC Ancient Relics Story Pack"
@@ -3185,10 +3032,10 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:red'>0.5</b>) Has the Curator Insight modifier",
-            "(×<b style='color:lime'>3.0</b>) Research Leader (Physics): <br/>    •   Is Curator",
+            "(×<b style='color:red'>0.5</b>) Has the \"curator_insight\" modifier",
+            "(×<b style='color:lime'>3.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_curator\"",
             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Has the Curator Insight modifier"
+            "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Has the \"curator_insight\" modifier"
           ],
           "potential": [],
           "children": [],

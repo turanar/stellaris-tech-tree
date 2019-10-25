@@ -36,8 +36,7 @@
           "cost": 0,
           "feature_unlocks": [
             "<b>Building</b>: Alloy Foundries",
-            "<b>Building</b>: Civilian Industries",
-            "<b>Building</b>: Resource Silos"
+            "<b>Building</b>: Civilian Industries"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -74,7 +73,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
               ],
               "potential": [],
               "children": [
@@ -104,7 +103,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                   ],
                   "potential": [],
                   "children": [
@@ -134,7 +133,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                       ],
                       "potential": [],
                       "children": [],
@@ -155,8 +154,7 @@
                   "category": "Industry",
                   "cost": 1000,
                   "feature_unlocks": [
-                    "<b>Building</b>: Mineral Purification Plants",
-                    "<b>Edict</b>: Production Targets"
+                    "<b>Building</b>: Mineral Purification Plants"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -172,7 +170,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                   ],
                   "potential": [],
                   "children": [
@@ -207,7 +205,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"",
                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                       ],
                       "potential": [],
@@ -282,7 +280,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
               ],
               "potential": [],
               "children": [
@@ -296,7 +294,6 @@
                   "category": "Industry",
                   "cost": 1000,
                   "feature_unlocks": [
-                    "<b>Building</b>: Robot Assembly Plants",
                     "<b>Feature : </b>Robot Workers"
                   ],
                   "is_dangerous": false,
@@ -314,12 +311,12 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Spiritualist Ethic<br/>    •   Has Fanatic Spiritualist Ethic",
+                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has \"ethic_spiritualist\" Ethic<br/>    •   Has \"ethic_fanatic_spiritualist\" Ethic",
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                   ],
                   "potential": [
-                    "Does NOT have Gestalt Consciousness Ethic"
+                    "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
                   ],
                   "children": [
                     {
@@ -350,10 +347,10 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                       ],
                       "potential": [
-                        "Does NOT have Gestalt Consciousness Ethic"
+                        "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
                       ],
                       "children": [
                         {
@@ -389,10 +386,10 @@
                           "weight_modifiers": [
                             "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
                             "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 2"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 2"
                           ],
                           "potential": [
-                            "Does NOT have Gestalt Consciousness Ethic"
+                            "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
                           ],
                           "children": [
                             {
@@ -430,24 +427,21 @@
                                 "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
                                 "(×<b style='color:lime'>4.0</b>) Has The Flesh is Weak Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert"
+                                "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\""
                               ],
                               "potential": [
-                                "Does NOT have Gestalt Consciousness Ethic"
+                                "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
                               ],
                               "children": [],
                               "is_event": false,
-                              "is_gestalt": false,
                               "source": "vanilla"
                             }
                           ],
                           "is_event": false,
-                          "is_gestalt": false,
                           "source": "vanilla"
                         }
                       ],
                       "is_event": false,
-                      "is_gestalt": false,
                       "source": "vanilla"
                     },
                     {
@@ -460,7 +454,6 @@
                       "category": "Industry",
                       "cost": 2500,
                       "feature_unlocks": [
-                        "<b>Army</b>: Robotic Assault Army",
                         "<b>Feature : </b>Droid Workers"
                       ],
                       "is_dangerous": false,
@@ -483,13 +476,13 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                        "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Spiritualist Ethic<br/>    •   Has Fanatic Spiritualist Ethic",
+                        "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has \"ethic_spiritualist\" Ethic<br/>    •   Has \"ethic_fanatic_spiritualist\" Ethic",
                         "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic",
                         "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 2"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 2"
                       ],
                       "potential": [
-                        "Does NOT have Gestalt Consciousness Ethic"
+                        "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
                       ],
                       "children": [
                         {
@@ -530,15 +523,15 @@
                           ],
                           "weight_modifiers": [
                             "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                            "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Spiritualist Ethic<br/>    •   Has Fanatic Spiritualist Ethic",
+                            "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has \"ethic_spiritualist\" Ethic<br/>    •   Has \"ethic_fanatic_spiritualist\" Ethic",
                             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
                             "(×<b style='color:lime'>4.0</b>) Has The Flesh is Weak Ascension Perk",
-                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert"
+                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\""
                           ],
                           "potential": [
-                            "Does NOT have Gestalt Consciousness Ethic"
+                            "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
                           ],
                           "children": [
                             {
@@ -569,29 +562,25 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
                                 "(×<b style='color:red'>0.0</b>) Has policy AI Outlawed",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 3"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 3"
                               ],
                               "potential": [
-                                "Does NOT have Gestalt Consciousness Ethic"
+                                "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
                               ],
                               "children": [],
                               "is_event": false,
-                              "is_gestalt": false,
                               "source": "vanilla"
                             }
                           ],
                           "is_event": false,
-                          "is_gestalt": false,
                           "source": "vanilla"
                         }
                       ],
                       "is_event": false,
-                      "is_gestalt": false,
                       "source": "vanilla"
                     }
                   ],
                   "is_event": false,
-                  "is_gestalt": false,
                   "source": "vanilla"
                 },
                 {
@@ -621,7 +610,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                   ],
                   "potential": [
                     "Has Machine Intelligence Authority"
@@ -658,7 +647,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 2"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 2"
                       ],
                       "potential": [
                         "Has Machine Intelligence Authority"
@@ -695,9 +684,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert",
+                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\"",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                           ],
                           "potential": [
                             "Has Machine Intelligence Authority"
@@ -748,7 +737,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
               ],
               "potential": [
                 "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
@@ -785,7 +774,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
                   ],
                   "potential": [
                     "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
@@ -827,7 +816,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
               ],
               "potential": [],
               "children": [
@@ -862,7 +851,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
                   ],
                   "potential": [],
                   "children": [],
@@ -882,9 +871,7 @@
               "base_weight": 170.0,
               "category": "Materials",
               "cost": 1500,
-              "feature_unlocks": [
-                "<b>Building</b>: Exotic Gas Refineries"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -900,7 +887,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
               ],
               "potential": [],
               "children": [],
@@ -916,10 +903,7 @@
               "base_weight": 170.0,
               "category": "Materials",
               "cost": 1500,
-              "feature_unlocks": [
-                "<b>Building</b>: Lithoid Crystal Plant",
-                "<b>Building</b>: Synthetic Crystal Plants"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -935,7 +919,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
               ],
               "potential": [],
               "children": [],
@@ -955,11 +939,7 @@
           "base_weight": 0.0,
           "category": "Industry",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Ship Size</b>: Constructor",
-            "<b>Ship Size</b>: Mining Station",
-            "<b>Ship Size</b>: Research Station"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -979,7 +959,6 @@
               "category": "Industry",
               "cost": 500,
               "feature_unlocks": [
-                "<b>Starbase Building</b>: Nebula Refinery",
                 "Mining Station Output +10%"
               ],
               "is_dangerous": false,
@@ -996,7 +975,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
               ],
               "potential": [],
               "children": [
@@ -1026,7 +1005,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                   ],
                   "potential": [],
                   "children": [
@@ -1056,7 +1035,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                       ],
                       "potential": [],
                       "children": [
@@ -1086,7 +1065,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                           ],
                           "potential": [],
                           "children": [
@@ -1116,7 +1095,7 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                               ],
                               "potential": [],
                               "children": [],
@@ -1148,9 +1127,7 @@
               "base_weight": 190.0,
               "category": "Materials",
               "cost": 750,
-              "feature_unlocks": [
-                "<b>Building</b>: Betharian Power Plant"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1165,7 +1142,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
+                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\"",
                 "(×<b style='color:red'>0.0</b>) No Owned Planet<br/>    •   Has deposit Betharian Fields"
               ],
               "potential": [],
@@ -1182,10 +1159,7 @@
               "base_weight": 170.0,
               "category": "Materials",
               "cost": 1500,
-              "feature_unlocks": [
-                "<b>Building</b>: Gas Extraction Wells",
-                "<b>Reveals Ressource</b>: Exotic Gases"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1200,7 +1174,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\"",
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5"
               ],
               "potential": [],
@@ -1217,10 +1191,7 @@
               "base_weight": 170.0,
               "category": "Materials",
               "cost": 1500,
-              "feature_unlocks": [
-                "<b>Building</b>: Crystal Mines",
-                "<b>Reveals Ressource</b>: Rare Crystals"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1235,7 +1206,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
+                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\"",
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5"
               ],
               "potential": [],
@@ -1252,10 +1223,7 @@
               "base_weight": 0.0,
               "category": "Materials",
               "cost": 15000,
-              "feature_unlocks": [
-                "<b>Edict</b>: Living Metal Mega-Construction",
-                "<b>Reveals Ressource</b>: Living Metal"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1303,7 +1271,7 @@
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 10",
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 15",
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 20",
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
           ],
           "potential": [],
           "children": [
@@ -1333,7 +1301,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"",
                 "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic"
               ],
               "potential": [],
@@ -1364,7 +1332,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator",
+                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                     "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic"
                   ],
@@ -1439,7 +1407,7 @@
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 35",
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 40",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
               ],
               "potential": [],
               "children": [
@@ -1473,7 +1441,7 @@
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 35",
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 40",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
                   ],
                   "potential": [],
                   "children": [],
@@ -1507,7 +1475,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
           ],
           "potential": [],
           "children": [
@@ -1520,11 +1488,7 @@
               "base_weight": 65.0,
               "category": "Statecraft",
               "cost": 4000,
-              "feature_unlocks": [
-                "<b>Building</b>: Organic Paradise",
-                "<b>Building</b>: Paradise Dome",
-                "<b>Building</b>: Utopian Communal Housing"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1540,7 +1504,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_expertise_statecraft\""
               ],
               "potential": [
                 "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
@@ -1560,7 +1524,6 @@
               "category": "Industry",
               "cost": 4000,
               "feature_unlocks": [
-                "<b>Building</b>: Expanded Warren",
                 "City District Housing: +1"
               ],
               "is_dangerous": false,
@@ -1578,7 +1541,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) Has Government Civic: Agrarian Idyll",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
               ],
               "potential": [],
               "children": [],
@@ -1599,7 +1562,6 @@
           "category": "Industry",
           "cost": 2000,
           "feature_unlocks": [
-            "<b>Building</b>: Upgraded Drone Storage",
             "Pop Assembly Speed +10%"
           ],
           "is_dangerous": false,
@@ -1609,7 +1571,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
           ],
           "potential": [
             "Has Machine Intelligence Authority"
@@ -1641,7 +1603,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
               ],
               "potential": [
                 "Has Machine Intelligence Authority"
@@ -1665,11 +1627,7 @@
           "base_weight": 0.0,
           "category": "Materials",
           "cost": 500,
-          "feature_unlocks": [
-            "<b>Component</b>: Large Nanocomposite Armor",
-            "<b>Component</b>: Medium Nanocomposite Armor",
-            "<b>Component</b>: Small Nanocomposite Armor"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1688,11 +1646,7 @@
               "base_weight": 118.75,
               "category": "Materials",
               "cost": 750,
-              "feature_unlocks": [
-                "<b>Component</b>: Large Ceramo-Metal Armor",
-                "<b>Component</b>: Medium Ceramo-Metal Armor",
-                "<b>Component</b>: Small Ceramo-Metal Armor"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1707,7 +1661,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
               ],
               "potential": [],
               "children": [
@@ -1720,11 +1674,7 @@
                   "base_weight": 93.75,
                   "category": "Materials",
                   "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Large Plasteel Armor",
-                    "<b>Component</b>: Medium Plasteel Armor",
-                    "<b>Component</b>: Small Plasteel Armor"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1739,7 +1689,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
                   ],
                   "potential": [],
                   "children": [
@@ -1752,11 +1702,7 @@
                       "base_weight": 75.0,
                       "category": "Materials",
                       "cost": 5000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Large Durasteel Armor",
-                        "<b>Component</b>: Medium Durasteel Armor",
-                        "<b>Component</b>: Small Durasteel Armor"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -1771,7 +1717,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
                       ],
                       "potential": [],
                       "children": [
@@ -1784,11 +1730,7 @@
                           "base_weight": 50.0,
                           "category": "Materials",
                           "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Large Neutronium Armor",
-                            "<b>Component</b>: Medium Neutronium Armor",
-                            "<b>Component</b>: Small Neutronium Armor"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -1803,7 +1745,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
                           ],
                           "potential": [],
                           "children": [],
@@ -1866,9 +1808,7 @@
           "base_weight": 0.0,
           "category": "Propulsion",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Flak Battery"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1887,9 +1827,7 @@
               "base_weight": 70.0,
               "category": "Propulsion",
               "cost": 2500,
-              "feature_unlocks": [
-                "<b>Component</b>: Flak Cannons"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1906,7 +1844,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
               ],
               "potential": [],
               "children": [
@@ -1919,9 +1857,7 @@
                   "base_weight": 45.0,
                   "category": "Propulsion",
                   "cost": 8000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Flak Artillery"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1938,7 +1874,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                   ],
                   "potential": [],
                   "children": [],
@@ -1962,9 +1898,7 @@
           "base_weight": 0.0,
           "category": "Propulsion",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Chemical Thrusters"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1983,9 +1917,7 @@
               "base_weight": 118.75,
               "category": "Propulsion",
               "cost": 750,
-              "feature_unlocks": [
-                "<b>Component</b>: Afterburners"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2000,7 +1932,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
                 "(×<b style='color:lime'>2.0</b>) Has Technology: Ion Thrusters",
                 "(×<b style='color:lime'>2.0</b>) Has Technology: Plasma Thrusters"
               ],
@@ -2015,9 +1947,7 @@
                   "base_weight": 75.0,
                   "category": "Propulsion",
                   "cost": 5000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Advanced Afterburners"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2037,7 +1967,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                   ],
                   "potential": [],
                   "children": [],
@@ -2057,9 +1987,7 @@
               "base_weight": 106.25,
               "category": "Propulsion",
               "cost": 1500,
-              "feature_unlocks": [
-                "<b>Component</b>: Ion Thrusters"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2074,7 +2002,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
                 "(×<b style='color:lime'>2.0</b>) Has Technology: Destroyers"
               ],
               "potential": [],
@@ -2088,9 +2016,7 @@
                   "base_weight": 81.25,
                   "category": "Propulsion",
                   "cost": 4000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Plasma Thrusters"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2105,7 +2031,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
                     "(×<b style='color:lime'>2.0</b>) Has Technology: Cruisers"
                   ],
                   "potential": [],
@@ -2119,9 +2045,7 @@
                       "base_weight": 56.25,
                       "category": "Propulsion",
                       "cost": 8000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Impulse Thrusters"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2136,7 +2060,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
                         "(×<b style='color:lime'>2.0</b>) Has Technology: Battleships"
                       ],
                       "potential": [],
@@ -2150,9 +2074,7 @@
                           "base_weight": 1.0,
                           "category": "Propulsion",
                           "cost": 50000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Dark Matter Thrusters"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": true,
                           "is_start_tech": false,
@@ -2199,10 +2121,7 @@
           "base_weight": 0.0,
           "category": "Propulsion",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Nuclear Missiles",
-            "<b>Starbase Module</b>: Missile Battery"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -2221,9 +2140,7 @@
               "base_weight": 95.0,
               "category": "Propulsion",
               "cost": 750,
-              "feature_unlocks": [
-                "<b>Component</b>: Fusion Missiles"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2245,7 +2162,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
               ],
               "potential": [],
               "children": [
@@ -2258,9 +2175,7 @@
                   "base_weight": 85.0,
                   "category": "Propulsion",
                   "cost": 1500,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Antimatter Missiles"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2277,7 +2192,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                   ],
                   "potential": [],
                   "children": [
@@ -2290,9 +2205,7 @@
                       "base_weight": 65.0,
                       "category": "Propulsion",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Quantum Missiles"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2309,7 +2222,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                       ],
                       "potential": [],
                       "children": [
@@ -2322,9 +2235,7 @@
                           "base_weight": 40.0,
                           "category": "Propulsion",
                           "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Marauder Missiles"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -2341,7 +2252,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                           ],
                           "potential": [],
                           "children": [],
@@ -2427,9 +2338,7 @@
                   "base_weight": 75.0,
                   "category": "Propulsion",
                   "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Swarmer Missiles"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2446,7 +2355,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                   ],
                   "potential": [],
                   "children": [
@@ -2459,9 +2368,7 @@
                       "base_weight": 40.0,
                       "category": "Propulsion",
                       "cost": 10000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Whirlwind Missiles"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2478,7 +2385,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                       ],
                       "potential": [],
                       "children": [],
@@ -2502,9 +2409,7 @@
               "base_weight": 75.0,
               "category": "Propulsion",
               "cost": 2000,
-              "feature_unlocks": [
-                "<b>Component</b>: Space Torpedoes"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2521,7 +2426,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
               ],
               "potential": [],
               "children": [
@@ -2534,9 +2439,7 @@
                   "base_weight": 60.0,
                   "category": "Propulsion",
                   "cost": 5000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Armored Torpedoes"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2553,7 +2456,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                   ],
                   "potential": [],
                   "children": [
@@ -2566,9 +2469,7 @@
                       "base_weight": 40.0,
                       "category": "Propulsion",
                       "cost": 10000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Devastator Torpedoes"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2585,7 +2486,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                       ],
                       "potential": [],
                       "children": [],
@@ -2613,12 +2514,7 @@
           "base_weight": 0.0,
           "category": "Propulsion",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Component</b>: Large Mass Driver",
-            "<b>Component</b>: Medium Mass Driver",
-            "<b>Component</b>: Small Mass Driver",
-            "<b>Starbase Module</b>: Gun Battery"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -2637,11 +2533,7 @@
               "base_weight": 95.0,
               "category": "Propulsion",
               "cost": 750,
-              "feature_unlocks": [
-                "<b>Component</b>: Large Coilgun",
-                "<b>Component</b>: Medium Coilgun",
-                "<b>Component</b>: Small Coilgun"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2658,7 +2550,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
               ],
               "potential": [],
               "children": [
@@ -2671,11 +2563,7 @@
                   "base_weight": 85.0,
                   "category": "Propulsion",
                   "cost": 1500,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Large Railgun",
-                    "<b>Component</b>: Medium Railgun",
-                    "<b>Component</b>: Small Railgun"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2692,7 +2580,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                   ],
                   "potential": [],
                   "children": [
@@ -2705,11 +2593,7 @@
                       "base_weight": 65.0,
                       "category": "Propulsion",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Large Advanced Railgun",
-                        "<b>Component</b>: Medium Advanced Railgun",
-                        "<b>Component</b>: Small Advanced Railgun"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2726,7 +2610,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                       ],
                       "potential": [],
                       "children": [
@@ -2739,9 +2623,7 @@
                           "base_weight": 50.0,
                           "category": "Propulsion",
                           "cost": 6000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Kinetic Battery"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -2758,7 +2640,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                           ],
                           "potential": [],
                           "children": [
@@ -2771,9 +2653,7 @@
                               "base_weight": 40.0,
                               "category": "Propulsion",
                               "cost": 10000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Kinetic Artillery"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -2795,7 +2675,7 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                               ],
                               "potential": [],
                               "children": [],
@@ -2815,9 +2695,7 @@
                           "base_weight": 40.0,
                           "category": "Propulsion",
                           "cost": 10000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Mega Cannon"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -2839,7 +2717,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                           ],
                           "potential": [],
                           "children": [
@@ -2852,9 +2730,7 @@
                               "base_weight": 35.0,
                               "category": "Propulsion",
                               "cost": 12000,
-                              "feature_unlocks": [
-                                "<b>Component</b>: Giga Cannon"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -2876,7 +2752,7 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                               ],
                               "potential": [],
                               "children": [],
@@ -2896,11 +2772,7 @@
                           "base_weight": 45.0,
                           "category": "Propulsion",
                           "cost": 8000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Large Gauss Cannon",
-                            "<b>Component</b>: Medium Gauss Cannon",
-                            "<b>Component</b>: Small Gauss Cannon"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -2917,7 +2789,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                           ],
                           "potential": [],
                           "children": [],
@@ -3003,9 +2875,7 @@
                   "base_weight": 75.0,
                   "category": "Propulsion",
                   "cost": 2000,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Autocannon"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -3022,8 +2892,8 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: Mass Drivers",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: \"tech_mass_drivers_1\"",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                   ],
                   "potential": [],
                   "children": [
@@ -3036,9 +2906,7 @@
                       "base_weight": 65.0,
                       "category": "Propulsion",
                       "cost": 4000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Ripper Autocannon"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -3055,7 +2923,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                       ],
                       "potential": [],
                       "children": [
@@ -3068,9 +2936,7 @@
                           "base_weight": 45.0,
                           "category": "Propulsion",
                           "cost": 8000,
-                          "feature_unlocks": [
-                            "<b>Component</b>: Stormfire Autocannon"
-                          ],
+                          "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -3087,7 +2953,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
                           ],
                           "potential": [],
                           "children": [],
@@ -3119,9 +2985,7 @@
           "base_weight": 0.0,
           "category": "Voidcraft",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Starbase Upgrade</b>: Starport"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -3140,10 +3004,7 @@
               "base_weight": 90.0,
               "category": "Voidcraft",
               "cost": 1000,
-              "feature_unlocks": [
-                "<b>Component</b>: Basic Strike Craft",
-                "<b>Starbase Module</b>: Hangar Bay"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -3158,7 +3019,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
               ],
               "potential": [],
               "children": [
@@ -3171,9 +3032,7 @@
                   "base_weight": 70.0,
                   "category": "Voidcraft",
                   "cost": 2500,
-                  "feature_unlocks": [
-                    "<b>Component</b>: Improved Strike Craft"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -3188,7 +3047,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [
@@ -3201,9 +3060,7 @@
                       "base_weight": 50.0,
                       "category": "Voidcraft",
                       "cost": 6000,
-                      "feature_unlocks": [
-                        "<b>Component</b>: Advanced Strike Craft"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -3218,7 +3075,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                       ],
                       "potential": [],
                       "children": [
@@ -3305,9 +3162,7 @@
               "base_weight": 75.0,
               "category": "Voidcraft",
               "cost": 2000,
-              "feature_unlocks": [
-                "<b>Starbase Upgrade</b>: Starhold"
-              ],
+              "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -3329,7 +3184,7 @@
                 "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 40",
                 "(×<b style='color:lime'>5.0</b>) Number of Starport is greater than or equal to 3",
                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
               ],
               "potential": [],
               "children": [
@@ -3360,7 +3215,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [
@@ -3457,9 +3312,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator",
+                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [
@@ -3495,7 +3350,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator",
+                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                         "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic"
                       ],
@@ -3517,9 +3372,7 @@
                   "base_weight": 60.0,
                   "category": "Voidcraft",
                   "cost": 5000,
-                  "feature_unlocks": [
-                    "<b>Starbase Upgrade</b>: Star Fortress"
-                  ],
+                  "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -3541,7 +3394,7 @@
                     "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 70",
                     "(×<b style='color:lime'>5.0</b>) Number of Starhold is greater than or equal to 3",
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [
@@ -3577,10 +3430,10 @@
                         "(×<b style='color:lime'>5.0</b>) Number of Starhold is greater than or equal to 3",
                         "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Tradition",
                         "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Finished Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                       ],
                       "potential": [
-                        "Has DLC Utopia"
+                        "Has DLC \"Utopia\""
                       ],
                       "children": [],
                       "is_event": false,
@@ -3595,9 +3448,7 @@
                       "base_weight": 40.0,
                       "category": "Voidcraft",
                       "cost": 10000,
-                      "feature_unlocks": [
-                        "<b>Starbase Upgrade</b>: Citadel"
-                      ],
+                      "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -3619,7 +3470,7 @@
                         "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 100",
                         "(×<b style='color:lime'>5.0</b>) Number of Star Fortress is greater than or equal to 3",
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                       ],
                       "potential": [],
                       "children": [],
@@ -3647,9 +3498,7 @@
           "base_weight": 0.0,
           "category": "Voidcraft",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Ship Size</b>: Corvette"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -3669,7 +3518,6 @@
               "category": "Voidcraft",
               "cost": 1500,
               "feature_unlocks": [
-                "<b>Ship Size</b>: Destroyer",
                 "Fleet Command Limit +10"
               ],
               "is_dangerous": false,
@@ -3692,7 +3540,7 @@
                 "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 20",
                 "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 30",
                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
               ],
               "potential": [],
               "children": [
@@ -3723,7 +3571,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [
@@ -3753,10 +3601,10 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
+                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                       ],
                       "potential": [],
                       "children": [],
@@ -3777,7 +3625,6 @@
                   "category": "Voidcraft",
                   "cost": 4000,
                   "feature_unlocks": [
-                    "<b>Ship Size</b>: Cruiser",
                     "Fleet Command Limit +10"
                   ],
                   "is_dangerous": false,
@@ -3800,7 +3647,7 @@
                     "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 35",
                     "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 40",
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [
@@ -3814,7 +3661,6 @@
                       "category": "Voidcraft",
                       "cost": 8000,
                       "feature_unlocks": [
-                        "<b>Ship Size</b>: Battleship",
                         "Fleet Command Limit +10"
                       ],
                       "is_dangerous": false,
@@ -3837,7 +3683,7 @@
                         "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 65",
                         "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 70",
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                       ],
                       "potential": [],
                       "children": [
@@ -3868,7 +3714,7 @@
                           ],
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                           ],
                           "potential": [],
                           "children": [
@@ -3898,10 +3744,10 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
+                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                               ],
                               "potential": [],
                               "children": [],
@@ -3922,10 +3768,6 @@
                           "category": "Voidcraft",
                           "cost": 15000,
                           "feature_unlocks": [
-                            "<b>Component</b>: Ion Cannon",
-                            "<b>Component</b>: Perdition Beam",
-                            "<b>Ship Size</b>: Titan",
-                            "<b>Starbase Upgrade</b>: Ion Cannon",
                             "Fleet Command Limit +10"
                           ],
                           "is_dangerous": false,
@@ -3948,10 +3790,10 @@
                             "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 140",
                             "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 150",
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                           ],
                           "potential": [
-                            "Has DLC Apocalypse"
+                            "Has DLC \"Apocalypse\""
                           ],
                           "children": [
                             {
@@ -3980,10 +3822,10 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
+                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                               ],
                               "potential": [],
                               "children": [
@@ -4013,10 +3855,10 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
+                                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                                   ],
                                   "potential": [],
                                   "children": [],
@@ -4036,9 +3878,7 @@
                               "base_weight": 0.0,
                               "category": "Voidcraft",
                               "cost": 20000,
-                              "feature_unlocks": [
-                                "<b>Starbase Building</b>: Colossus Assembly Yards"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -4054,7 +3894,7 @@
                               ],
                               "weight_modifiers": [],
                               "potential": [
-                                "Has DLC Apocalypse"
+                                "Has DLC \"Apocalypse\""
                               ],
                               "children": [
                                 {
@@ -4066,9 +3906,7 @@
                                   "base_weight": 10.0,
                                   "category": "Particles",
                                   "cost": 20000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: Neutron Sweep"
-                                  ],
+                                  "feature_unlocks": [],
                                   "is_dangerous": false,
                                   "is_rare": true,
                                   "is_start_tech": false,
@@ -4084,11 +3922,11 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Particles Expert",
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_particles\"",
                                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic"
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
+                                    "Has DLC \"Apocalypse\"",
                                     "Has the Colossus Project country flag",
                                     "All must be false\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic",
                                     "All must be false\n    •   Has Pacifist Ethic\n    •   Has Fanatic Pacifist Ethic"
@@ -4106,9 +3944,7 @@
                                   "base_weight": 10.0,
                                   "category": "Field Manipulation",
                                   "cost": 20000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: Global Pacifier"
-                                  ],
+                                  "feature_unlocks": [],
                                   "is_dangerous": false,
                                   "is_rare": true,
                                   "is_start_tech": false,
@@ -4124,11 +3960,11 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Field Manipulation Expert",
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_field_manipulation\"",
                                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Pacifist Ethic<br/>    •   Has Fanatic Pacifist Ethic"
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
+                                    "Has DLC \"Apocalypse\"",
                                     "Has the Colossus Project country flag"
                                   ],
                                   "children": [],
@@ -4144,9 +3980,7 @@
                                   "base_weight": 10.0,
                                   "category": "Psionics",
                                   "cost": 20000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: Divine Enforcer"
-                                  ],
+                                  "feature_unlocks": [],
                                   "is_dangerous": false,
                                   "is_rare": true,
                                   "is_start_tech": false,
@@ -4162,13 +3996,13 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator<br/>    •   Research Leader (Society): <br/>\t    •   Is Psionics Expert"
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Society): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Society): <br/>\t    •   Is \"leader_trait_expertise_psionics\""
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
+                                    "Has DLC \"Apocalypse\"",
                                     "Has the Colossus Project country flag",
                                     "One must be true\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic",
-                                    "One must be true\n    •   All must be true\n\t    •   Does NOT have DLC Utopia\n\t    •   Has Technology: Telepathy\n    •   All must be true\n\t    •   Has DLC Utopia\n\t    •   Has Mind over Matter Ascension Perk"
+                                    "One must be true\n    •   All must be true\n\t    •   Does NOT have DLC \"Utopia\"\n\t    •   Has Technology: Telepathy\n    •   All must be true\n\t    •   Has DLC \"Utopia\"\n\t    •   Has Mind over Matter Ascension Perk"
                                   ],
                                   "children": [],
                                   "is_event": false,
@@ -4183,9 +4017,7 @@
                                   "base_weight": 10.0,
                                   "category": "Voidcraft",
                                   "cost": 20000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: World Cracker"
-                                  ],
+                                  "feature_unlocks": [],
                                   "is_dangerous": false,
                                   "is_rare": true,
                                   "is_start_tech": false,
@@ -4201,10 +4033,10 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert"
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\""
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
+                                    "Has DLC \"Apocalypse\"",
                                     "Has the Colossus Project country flag",
                                     "All must be false\n    •   Has Pacifist Ethic\n    •   Has Fanatic Pacifist Ethic"
                                   ],
@@ -4221,9 +4053,7 @@
                                   "base_weight": 10.0,
                                   "category": "Voidcraft",
                                   "cost": 20000,
-                                  "feature_unlocks": [
-                                    "<b>Component</b>: Nanobot Diffuser"
-                                  ],
+                                  "feature_unlocks": [],
                                   "is_dangerous": false,
                                   "is_rare": true,
                                   "is_start_tech": false,
@@ -4239,10 +4069,10 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert"
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\""
                                   ],
                                   "potential": [
-                                    "Has DLC Apocalypse",
+                                    "Has DLC \"Apocalypse\"",
                                     "Has the Colossus Project country flag",
                                     "Has Government Civic: Driven Assimilator"
                                   ],
@@ -4295,7 +4125,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.5</b>) One must be true<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal",
+                            "(×<b style='color:lime'>1.5</b>) One must be true<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>1.5</b>) Number of Starhold is greater than or equal to 1",
                             "(×<b style='color:lime'>1.5</b>) Number of Starhold is greater than or equal to 2",
@@ -4324,13 +4154,7 @@
                               "base_weight": 5.0,
                               "category": "Computing",
                               "cost": 20000,
-                              "feature_unlocks": [
-                                "<b>Mega-Structure</b>: Science Nexus",
-                                "<b>Mega-Structure</b>: Science Nexus Hub",
-                                "<b>Mega-Structure</b>: Science Nexus Research Wings",
-                                "<b>Mega-Structure</b>: Science Nexus Site",
-                                "<b>Mega-Structure</b>: The Groik Nexus"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -4345,14 +4169,14 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Maniacal",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Spark of Genius",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_maniacal\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_spark_of_genius\"",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>9.0</b>) Has Technological Ascendancy Ascension Perk"
                               ],
                               "potential": [
-                                "Has DLC Utopia"
+                                "Has DLC \"Utopia\""
                               ],
                               "children": [],
                               "is_event": false,
@@ -4367,13 +4191,7 @@
                               "base_weight": 5.0,
                               "category": "Computing",
                               "cost": 20000,
-                              "feature_unlocks": [
-                                "<b>Mega-Structure</b>: Sentry Aerials",
-                                "<b>Mega-Structure</b>: Sentry Array",
-                                "<b>Mega-Structure</b>: Sentry Array Site",
-                                "<b>Mega-Structure</b>: Sentry Hub",
-                                "<b>Mega-Structure</b>: Sentry Spire"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -4388,15 +4206,15 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Maniacal",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Spark of Genius",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_maniacal\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_spark_of_genius\"",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Enigmatic Engineering Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
                               "potential": [
-                                "Has DLC Utopia"
+                                "Has DLC \"Utopia\""
                               ],
                               "children": [],
                               "is_event": false,
@@ -4411,12 +4229,7 @@
                               "base_weight": 5.0,
                               "category": "Military Theory",
                               "cost": 20000,
-                              "feature_unlocks": [
-                                "<b>Mega-Structure</b>: Strategic Coordination Center",
-                                "<b>Mega-Structure</b>: Strategic Coordination Center Site",
-                                "<b>Mega-Structure</b>: Strategic Coordination Center: Comms",
-                                "<b>Mega-Structure</b>: Strategic Coordination Center: Hull"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -4433,15 +4246,15 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Pacifist Ethic<br/>    •   Has Fanatic Pacifist Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Maniacal",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Spark of Genius",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_maniacal\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_spark_of_genius\"",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Eternal Vigilance Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
                               "potential": [
-                                "Has DLC Megacorp"
+                                "Has DLC \"Megacorp\""
                               ],
                               "children": [],
                               "is_event": false,
@@ -4456,13 +4269,7 @@
                               "base_weight": 5.0,
                               "category": "Statecraft",
                               "cost": 20000,
-                              "feature_unlocks": [
-                                "<b>Mega-Structure</b>: Interstellar Assembly",
-                                "<b>Mega-Structure</b>: Interstellar Assembly Site",
-                                "<b>Mega-Structure</b>: Interstellar Assembly: Consul Ring",
-                                "<b>Mega-Structure</b>: Interstellar Assembly: Forum Modules",
-                                "<b>Mega-Structure</b>: Interstellar Assembly: Locus"
-                              ],
+                              "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -4479,14 +4286,14 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Xenophobe Ethic<br/>    •   Has Fanatic Xenophobe Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Xenophile Ethic<br/>    •   Has Fanatic Xenophile Ethic",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Maniacal",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Spark of Genius",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_maniacal\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_spark_of_genius\"",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
                               "potential": [
-                                "Has DLC Megacorp"
+                                "Has DLC \"Megacorp\""
                               ],
                               "children": [],
                               "is_event": false,
@@ -4502,11 +4309,7 @@
                               "category": "Statecraft",
                               "cost": 20000,
                               "feature_unlocks": [
-                                "<b>Mega-Structure</b>: Art Installation: Maturity",
-                                "<b>Mega-Structure</b>: Art Installation: Nascency",
-                                "<b>Mega-Structure</b>: Mega Art Installation",
-                                "<b>Mega-Structure</b>: Mega Art Installation Site",
-                                "<b>Mega-Structure</b>: Mega Art Installation: Perfection"
+                                "<b>Mega-Structure</b>: Art Installation: Nascency"
                               ],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4524,15 +4327,15 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Pacifist Ethic<br/>    •   Has Fanatic Pacifist Ethic",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Maniacal",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Spark of Genius",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_maniacal\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_spark_of_genius\"",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has One Vision Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                               ],
                               "potential": [
-                                "Has DLC Megacorp"
+                                "Has DLC \"Megacorp\""
                               ],
                               "children": [],
                               "is_event": false,
@@ -4569,7 +4372,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                           ],
                           "potential": [],
                           "children": [],
@@ -4607,7 +4410,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                       ],
                       "potential": [],
                       "children": [],
@@ -4641,7 +4444,7 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                       ],
                       "potential": [],
                       "children": [
@@ -4671,10 +4474,10 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
+                            "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                           ],
                           "potential": [],
                           "children": [],
@@ -4716,7 +4519,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [],
@@ -4753,7 +4556,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
               ],
               "potential": [],
               "children": [
@@ -4783,9 +4586,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
+                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
                   ],
                   "potential": [],
                   "children": [],
@@ -4823,7 +4626,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
               ],
               "potential": [],
               "children": [],
@@ -4865,9 +4668,7 @@
           "base_weight": 35.0,
           "category": "Materials",
           "cost": 2500,
-          "feature_unlocks": [
-            "<b>Building</b>: Nanite Transmuter"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": true,
           "is_start_tech": false,
@@ -4877,7 +4678,7 @@
           "weight_modifiers": [
             "(×<b style='color:red'>0.0</b>) No System within borders<br/>    •   Any Planet<br/>\t    •   Has £nanites£ Nanites greater than 0",
             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
           ],
           "potential": [
             "Has DLC Distant Stars Story Pack"
@@ -4895,9 +4696,7 @@
           "base_weight": 0.0,
           "category": "Voidcraft",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Ship Size</b>: Science Ship"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -4919,9 +4718,7 @@
           "base_weight": 0.0,
           "category": "Voidcraft",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Starbase Module</b>: Solar Panel Network"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -4946,9 +4743,7 @@
           "base_weight": 0.0,
           "category": "Voidcraft",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Starbase Upgrade</b>: Outpost"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -4970,9 +4765,7 @@
           "base_weight": 0.0,
           "category": "Voidcraft",
           "cost": 0,
-          "feature_unlocks": [
-            "<b>Ship Size</b>: Defense Platform"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -4994,10 +4787,7 @@
           "base_weight": 0.0,
           "category": "Voidcraft",
           "cost": 500,
-          "feature_unlocks": [
-            "<b>Army</b>: Assault Army\nThese armies can be embarked and used for invasion on other planets.",
-            "<b>Army</b>: Hunter-Killer Army"
-          ],
+          "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
