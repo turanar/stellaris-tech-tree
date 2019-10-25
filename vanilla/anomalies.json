@@ -269,7 +269,7 @@
     "category": "Computing",
     "cost": 50000,
     "feature_unlocks": [
-      "<b>Component</b>: \"ENIGMATIC_DECODER\""
+      "<b>Component</b>: Enigmatic Decoder"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -293,7 +293,7 @@
     "category": "Computing",
     "cost": 50000,
     "feature_unlocks": [
-      "<b>Component</b>: \"ENIGMATIC_ENCODER\""
+      "<b>Component</b>: Enigmatic Encoder"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -468,7 +468,7 @@
     "category": "Voidcraft",
     "cost": 20000,
     "feature_unlocks": [
-      "<b>Component</b>: \"AUTO_REPAIR_2\""
+      "<b>Component</b>: Nanite Repair System"
     ],
     "is_dangerous": false,
     "is_rare": true,
@@ -621,7 +621,7 @@
     "category": "Biology",
     "cost": 5000,
     "feature_unlocks": [
-      "<b>Component</b>: \"AUTO_REPAIR\""
+      "<b>Component</b>: Regenerative Hull Tissue"
     ],
     "is_dangerous": false,
     "is_rare": true,

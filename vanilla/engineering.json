@@ -73,7 +73,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
               ],
               "potential": [],
               "children": [
@@ -103,7 +103,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -133,7 +133,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                       ],
                       "potential": [],
                       "children": [],
@@ -170,7 +170,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -205,7 +205,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                       ],
                       "potential": [],
@@ -280,7 +280,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
               ],
               "potential": [],
               "children": [
@@ -311,12 +311,12 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has \"ethic_spiritualist\" Ethic<br/>    •   Has \"ethic_fanatic_spiritualist\" Ethic",
+                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Spiritualist Ethic<br/>    •   Has Fanatic Spiritualist Ethic",
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                   ],
                   "potential": [
-                    "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
+                    "Does NOT have Gestalt Consciousness Ethic"
                   ],
                   "children": [
                     {
@@ -347,10 +347,10 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                       ],
                       "potential": [
-                        "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
+                        "Does NOT have Gestalt Consciousness Ethic"
                       ],
                       "children": [
                         {
@@ -386,10 +386,10 @@
                           "weight_modifiers": [
                             "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
                             "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 2"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 2"
                           ],
                           "potential": [
-                            "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
+                            "Does NOT have Gestalt Consciousness Ethic"
                           ],
                           "children": [
                             {
@@ -427,21 +427,24 @@
                                 "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
                                 "(×<b style='color:lime'>4.0</b>) Has The Flesh is Weak Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\""
+                                "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert"
                               ],
                               "potential": [
-                                "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
+                                "Does NOT have Gestalt Consciousness Ethic"
                               ],
                               "children": [],
                               "is_event": false,
+                              "is_gestalt": false,
                               "source": "vanilla"
                             }
                           ],
                           "is_event": false,
+                          "is_gestalt": false,
                           "source": "vanilla"
                         }
                       ],
                       "is_event": false,
+                      "is_gestalt": false,
                       "source": "vanilla"
                     },
                     {
@@ -476,13 +479,13 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                        "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has \"ethic_spiritualist\" Ethic<br/>    •   Has \"ethic_fanatic_spiritualist\" Ethic",
+                        "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Spiritualist Ethic<br/>    •   Has Fanatic Spiritualist Ethic",
                         "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic",
                         "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 2"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 2"
                       ],
                       "potential": [
-                        "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
+                        "Does NOT have Gestalt Consciousness Ethic"
                       ],
                       "children": [
                         {
@@ -523,15 +526,15 @@
                           ],
                           "weight_modifiers": [
                             "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
-                            "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has \"ethic_spiritualist\" Ethic<br/>    •   Has \"ethic_fanatic_spiritualist\" Ethic",
+                            "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Spiritualist Ethic<br/>    •   Has Fanatic Spiritualist Ethic",
                             "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>2.0</b>) Has Government Civic: Mechanist",
                             "(×<b style='color:lime'>4.0</b>) Has The Flesh is Weak Ascension Perk",
-                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\""
+                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert"
                           ],
                           "potential": [
-                            "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
+                            "Does NOT have Gestalt Consciousness Ethic"
                           ],
                           "children": [
                             {
@@ -562,25 +565,29 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
                                 "(×<b style='color:red'>0.0</b>) Has policy AI Outlawed",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 3"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 3"
                               ],
                               "potential": [
-                                "Does NOT have \"ethic_gestalt_consciousness\" Ethic"
+                                "Does NOT have Gestalt Consciousness Ethic"
                               ],
                               "children": [],
                               "is_event": false,
+                              "is_gestalt": false,
                               "source": "vanilla"
                             }
                           ],
                           "is_event": false,
+                          "is_gestalt": false,
                           "source": "vanilla"
                         }
                       ],
                       "is_event": false,
+                      "is_gestalt": false,
                       "source": "vanilla"
                     }
                   ],
                   "is_event": false,
+                  "is_gestalt": false,
                   "source": "vanilla"
                 },
                 {
@@ -610,7 +617,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                   ],
                   "potential": [
                     "Has Machine Intelligence Authority"
@@ -647,7 +654,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"<br/>    •   Skill level is greater than 2"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 2"
                       ],
                       "potential": [
                         "Has Machine Intelligence Authority"
@@ -684,9 +691,9 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\"",
+                            "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                           ],
                           "potential": [
                             "Has Machine Intelligence Authority"
@@ -737,7 +744,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
               ],
               "potential": [
                 "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
@@ -774,7 +781,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
                   ],
                   "potential": [
                     "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
@@ -816,7 +823,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
               ],
               "potential": [],
               "children": [
@@ -851,7 +858,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
                   ],
                   "potential": [],
                   "children": [],
@@ -887,7 +894,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
               ],
               "potential": [],
               "children": [],
@@ -919,7 +926,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
               ],
               "potential": [],
               "children": [],
@@ -975,7 +982,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
               ],
               "potential": [],
               "children": [
@@ -1005,7 +1012,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -1035,7 +1042,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -1065,7 +1072,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                           ],
                           "potential": [],
                           "children": [
@@ -1095,7 +1102,7 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                               ],
                               "potential": [],
                               "children": [],
@@ -1142,7 +1149,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\"",
+                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
                 "(×<b style='color:red'>0.0</b>) No Owned Planet<br/>    •   Has deposit Betharian Fields"
               ],
               "potential": [],
@@ -1174,7 +1181,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\"",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Bubbling Swamp<br/>\t\t    •   Has deposit Fuming Bog<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £exotic_gases£ +1<br/>\t\t    •   Has deposit £exotic_gases£ +2<br/>\t\t    •   Has deposit £exotic_gases£ +3<br/>\t\t    •   Has deposit £exotic_gases£ +4<br/>\t\t    •   Has deposit £exotic_gases£ +5"
               ],
               "potential": [],
@@ -1206,7 +1213,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\"",
+                "(×<b style='color:lime'>2.0</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert",
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Has deposit Crystalline Caverns<br/>\t\t    •   Has deposit Crystal Forest<br/>\t\t    •   Has deposit Crystal Reef<br/>\t\t    •   Has deposit Industrial Sector<br/>    •   Any Planet within borders<br/>\t    •   One must be true<br/>\t\t    •   Has deposit £rare_crystals£ +1<br/>\t\t    •   Has deposit £rare_crystals£ +2<br/>\t\t    •   Has deposit £rare_crystals£ +3<br/>\t\t    •   Has deposit £rare_crystals£ +4<br/>\t\t    •   Has deposit £rare_crystals£ +5"
               ],
               "potential": [],
@@ -1271,7 +1278,7 @@
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 10",
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 15",
             "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 20",
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
           ],
           "potential": [],
           "children": [
@@ -1301,7 +1308,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\"",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert",
                 "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic"
               ],
               "potential": [],
@@ -1332,7 +1339,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_industry\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"",
+                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Industry Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                     "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic"
                   ],
@@ -1407,7 +1414,7 @@
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 35",
                 "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 40",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
               ],
               "potential": [],
               "children": [
@@ -1441,7 +1448,7 @@
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 30",
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 35",
                     "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 40",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
                   ],
                   "potential": [],
                   "children": [],
@@ -1475,7 +1482,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
           ],
           "potential": [],
           "children": [
@@ -1504,7 +1511,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Rare Crystal Mining<br/>    •   Has Technology: Rare Crystal Manufacturing<br/>    •   Has the has_market_access country flag",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_expertise_statecraft\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
               ],
               "potential": [
                 "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
@@ -1541,7 +1548,7 @@
               ],
               "weight_modifiers": [
                 "(×<b style='color:red'>0.0</b>) Has Government Civic: Agrarian Idyll",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
               ],
               "potential": [],
               "children": [],
@@ -1571,7 +1578,7 @@
           "tier": 2,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
           ],
           "potential": [
             "Has Machine Intelligence Authority"
@@ -1603,7 +1610,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_industry\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert"
               ],
               "potential": [
                 "Has Machine Intelligence Authority"
@@ -1661,7 +1668,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
               ],
               "potential": [],
               "children": [
@@ -1689,7 +1696,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -1717,7 +1724,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -1745,7 +1752,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
                           ],
                           "potential": [],
                           "children": [],
@@ -1844,7 +1851,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
               ],
               "potential": [],
               "children": [
@@ -1874,7 +1881,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                   ],
                   "potential": [],
                   "children": [],
@@ -1932,7 +1939,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
                 "(×<b style='color:lime'>2.0</b>) Has Technology: Ion Thrusters",
                 "(×<b style='color:lime'>2.0</b>) Has Technology: Plasma Thrusters"
               ],
@@ -1967,7 +1974,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                   ],
                   "potential": [],
                   "children": [],
@@ -2002,7 +2009,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
                 "(×<b style='color:lime'>2.0</b>) Has Technology: Destroyers"
               ],
               "potential": [],
@@ -2031,7 +2038,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
                     "(×<b style='color:lime'>2.0</b>) Has Technology: Cruisers"
                   ],
                   "potential": [],
@@ -2060,7 +2067,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\"",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert",
                         "(×<b style='color:lime'>2.0</b>) Has Technology: Battleships"
                       ],
                       "potential": [],
@@ -2162,7 +2169,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
               ],
               "potential": [],
               "children": [
@@ -2192,7 +2199,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -2222,7 +2229,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -2252,7 +2259,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                           ],
                           "potential": [],
                           "children": [],
@@ -2355,7 +2362,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -2385,7 +2392,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                       ],
                       "potential": [],
                       "children": [],
@@ -2426,7 +2433,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
               ],
               "potential": [],
               "children": [
@@ -2456,7 +2463,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -2486,7 +2493,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                       ],
                       "potential": [],
                       "children": [],
@@ -2550,7 +2557,7 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
               ],
               "potential": [],
               "children": [
@@ -2580,7 +2587,7 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -2610,7 +2617,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -2640,7 +2647,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                           ],
                           "potential": [],
                           "children": [
@@ -2675,7 +2682,7 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                               ],
                               "potential": [],
                               "children": [],
@@ -2717,7 +2724,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                           ],
                           "potential": [],
                           "children": [
@@ -2752,7 +2759,7 @@
                               "weight_modifiers": [
                                 "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                               ],
                               "potential": [],
                               "children": [],
@@ -2789,7 +2796,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                           ],
                           "potential": [],
                           "children": [],
@@ -2892,8 +2899,8 @@
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: \"tech_mass_drivers_1\"",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                    "(×<b style='color:red'>0.5</b>) Does NOT have Technology: Mass Drivers",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -2923,7 +2930,7 @@
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -2953,7 +2960,7 @@
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                             "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_propulsion\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Propulsion Expert"
                           ],
                           "potential": [],
                           "children": [],
@@ -3019,7 +3026,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
               ],
               "potential": [],
               "children": [
@@ -3047,7 +3054,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -3075,7 +3082,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -3184,7 +3191,7 @@
                 "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 40",
                 "(×<b style='color:lime'>5.0</b>) Number of Starport is greater than or equal to 3",
                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
               ],
               "potential": [],
               "children": [
@@ -3215,7 +3222,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -3312,9 +3319,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"",
+                    "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -3350,7 +3357,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"",
+                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                         "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic"
                       ],
@@ -3394,7 +3401,7 @@
                     "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 70",
                     "(×<b style='color:lime'>5.0</b>) Number of Starhold is greater than or equal to 3",
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -3430,7 +3437,7 @@
                         "(×<b style='color:lime'>5.0</b>) Number of Starhold is greater than or equal to 3",
                         "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Tradition",
                         "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Finished Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [
                         "Has DLC \"Utopia\""
@@ -3470,7 +3477,7 @@
                         "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 100",
                         "(×<b style='color:lime'>5.0</b>) Number of Star Fortress is greater than or equal to 3",
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [],
                       "children": [],
@@ -3540,7 +3547,7 @@
                 "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 20",
                 "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 30",
                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
               ],
               "potential": [],
               "children": [
@@ -3571,7 +3578,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -3601,10 +3608,10 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
+                        "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [],
                       "children": [],
@@ -3647,7 +3654,7 @@
                     "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 35",
                     "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 40",
                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [
@@ -3683,7 +3690,7 @@
                         "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 65",
                         "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 70",
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -3714,7 +3721,7 @@
                           ],
                           "weight_modifiers": [
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                           ],
                           "potential": [],
                           "children": [
@@ -3744,10 +3751,10 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
+                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                               ],
                               "potential": [],
                               "children": [],
@@ -3790,7 +3797,7 @@
                             "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 140",
                             "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 150",
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                           ],
                           "potential": [
                             "Has DLC \"Apocalypse\""
@@ -3822,10 +3829,10 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
+                                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                                 "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                               ],
                               "potential": [],
                               "children": [
@@ -3855,10 +3862,10 @@
                                     }
                                   ],
                                   "weight_modifiers": [
-                                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
+                                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                                     "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                                   ],
                                   "potential": [],
                                   "children": [],
@@ -3922,7 +3929,7 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_particles\"",
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Particles Expert",
                                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Materialist Ethic<br/>    •   Has Fanatic Materialist Ethic"
                                   ],
                                   "potential": [
@@ -3960,7 +3967,7 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Physics): <br/>\t    •   Is \"leader_trait_expertise_field_manipulation\"",
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator<br/>    •   Research Leader (Physics): <br/>\t    •   Is Field Manipulation Expert",
                                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Pacifist Ethic<br/>    •   Has Fanatic Pacifist Ethic"
                                   ],
                                   "potential": [
@@ -3996,7 +4003,7 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Society): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Society): <br/>\t    •   Is \"leader_trait_expertise_psionics\""
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator<br/>    •   Research Leader (Society): <br/>\t    •   Is Psionics Expert"
                                   ],
                                   "potential": [
                                     "Has DLC \"Apocalypse\"",
@@ -4033,7 +4040,7 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\""
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert"
                                   ],
                                   "potential": [
                                     "Has DLC \"Apocalypse\"",
@@ -4069,7 +4076,7 @@
                                   ],
                                   "weight_modifiers": [
                                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\""
+                                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert"
                                   ],
                                   "potential": [
                                     "Has DLC \"Apocalypse\"",
@@ -4125,7 +4132,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.5</b>) One must be true<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_maniacal\"",
+                            "(×<b style='color:lime'>1.5</b>) One must be true<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>1.5</b>) Number of Starhold is greater than or equal to 1",
                             "(×<b style='color:lime'>1.5</b>) Number of Starhold is greater than or equal to 2",
@@ -4169,8 +4176,8 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_maniacal\"",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_spark_of_genius\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Maniacal",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Spark of Genius",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>9.0</b>) Has Technological Ascendancy Ascension Perk"
@@ -4206,8 +4213,8 @@
                                 }
                               ],
                               "weight_modifiers": [
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_maniacal\"",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is \"leader_trait_spark_of_genius\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Maniacal",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Physics): <br/>    •   Is Spark of Genius",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Enigmatic Engineering Ascension Perk",
@@ -4246,8 +4253,8 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Pacifist Ethic<br/>    •   Has Fanatic Pacifist Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_maniacal\"",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_spark_of_genius\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Maniacal",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Spark of Genius",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Eternal Vigilance Ascension Perk",
@@ -4286,8 +4293,8 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Xenophobe Ethic<br/>    •   Has Fanatic Xenophobe Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Xenophile Ethic<br/>    •   Has Fanatic Xenophile Ethic",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_maniacal\"",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_spark_of_genius\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Maniacal",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Spark of Genius",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
@@ -4327,8 +4334,8 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Militarist Ethic<br/>    •   Has Fanatic Militarist Ethic",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Pacifist Ethic<br/>    •   Has Fanatic Pacifist Ethic",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_maniacal\"",
-                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is \"leader_trait_spark_of_genius\"",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Maniacal",
+                                "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Spark of Genius",
                                 "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Galactic Wonders Ascension Perk<br/>    •   Has Galactic Wonders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has Master Builders Ascension Perk",
                                 "(×<b style='color:lime'>6.0</b>) Has One Vision Ascension Perk",
@@ -4372,7 +4379,7 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                           ],
                           "potential": [],
                           "children": [],
@@ -4410,7 +4417,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [],
                       "children": [],
@@ -4444,7 +4451,7 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [],
                       "children": [
@@ -4474,10 +4481,10 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
+                            "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>1.25</b>) Has Supremacy Traditions Tradition",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                           ],
                           "potential": [],
                           "children": [],
@@ -4519,7 +4526,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [],
@@ -4556,7 +4563,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
               ],
               "potential": [],
               "children": [
@@ -4586,9 +4593,9 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_curator\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_spark_of_genius\"<br/>    •   Research Leader (Engineering): <br/>\t    •   Is \"leader_trait_expertise_voidcraft\"",
+                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                   ],
                   "potential": [],
                   "children": [],
@@ -4626,7 +4633,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_voidcraft\""
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
               ],
               "potential": [],
               "children": [],
@@ -4678,7 +4685,7 @@
           "weight_modifiers": [
             "(×<b style='color:red'>0.0</b>) No System within borders<br/>    •   Any Planet<br/>\t    •   Has £nanites£ Nanites greater than 0",
             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is \"leader_trait_expertise_materials\""
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Materials Expert"
           ],
           "potential": [
             "Has DLC Distant Stars Story Pack"
