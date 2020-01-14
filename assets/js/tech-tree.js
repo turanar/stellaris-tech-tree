@@ -125,7 +125,7 @@ function load_tree() {
             $('#tech-tree-anomalies').append(e);
         });
         init_tooltips();
-        init_nodestatus('anomaly');
+        init_nodestatus('anomalies');
     });
     if(window.indexedDB) {
         initDB();
@@ -148,9 +148,12 @@ function init_nodestatus(area) {
                 if($(this).parent().hasClass('anomaly')) {
                     if($(this).hasClass('active')) {
                         $(this).removeClass('active');
+                        $(this).parent().removeClass('active');
                     } else {
                         $(this).addClass('active');
+                        $(this).parent().addClass('active');
                     }
+
                     event.stopImmediatePropagation();
                     return;
                 }
@@ -196,7 +199,7 @@ function getNodeDBNode(area, name) {
         if(item.nodeHTMLid === name) return item;
     }
     // Didn't find in the area charts - maybe it's in another one ?
-    // (see Science Nexus and other Mega Structures in Engineering tree)
+    // (see Science Nexus and other Mega Structure in Engineering tree)
     for(const tree in charts) {
         if(tree === area) continue;
         for(const item of charts[tree].tree.nodeDB.db) {
@@ -216,24 +219,35 @@ function updateResearch(area, name, active) {
     var inode = getNodeDBNode(area, name);
 
     if(active) {
-        $(inode.connector[0]).addClass(area);
-        // For each Children update the connector
-        for(const child of inode.children) {
-            $(charts[area].tree.nodeDB.db[child].connector[0]).addClass(area);
-        }
         // Update the node-status
         $('#' + name).addClass('active');
         $('#' + name).find('.node-status').addClass('active');
+
+        $('#' + name).hasClass('anomaly');
+
+        if(inode == null) return;
+
+        var myConnector = $(inode.connector).get(0);
+        if(myConnector !== undefined) $(myConnector).addClass("active");
+
+        for(const child of inode.children) {
+            $(charts[area].tree.nodeDB.db[child].connector[0]).addClass(area);
+        }
+
     } else {
+        // Update the node-status
+        $('#' + name).removeClass('active');
+        $('#' + name).find('.node-status').removeClass('active');
+
+        if(inode == null) return;
+
         // For each Children update the connector
         for(const child of inode.children) {
             var child_node = charts[area].tree.nodeDB.db[child];
             $(child_node.connector[0]).removeClass(area);
             updateResearch(area, child_node.nodeHTMLid, false);
         }
-        // Update the node-status
-        $('#' + name).removeClass('active');
-        $('#' + name).find('.node-status').removeClass('active');
+
     }
 }
 
