@@ -143,6 +143,12 @@ function load_tree() {
         init_tooltips();
         init_nodestatus('anomaly');
     });
+    if(window.indexedDB) {
+        initDB();
+    }
+    else if (window.localStorage) {
+        setupLocalStorage();
+    }
 }
 
 // Add ability to track node status
@@ -273,4 +279,189 @@ function getInitNode(node, name) {
         }
     }
     return undefined;
+}
+
+// IndexedDB solution (Multiple research sets saved)
+var offlineDB;
+
+function initDB() {
+    var request = window.indexedDB.open("researchDB");
+    request.onerror = function(event) {
+        alert('Unable to store more than one set of research unless permission is approved!');
+        if(window.localStorage) {
+            setupLocalStorage();
+        }
+    };
+    request.onsuccess = function(event) {
+        offlineDB = event.target.result;
+        offlineDB.onerror = function(event) {
+            // Generic error handler for all errors targeted at this database's
+            // requests!
+            console.error("IndexedDB error: " + event.target.errorCode);
+        };
+        offlineDB.onupgradeneeded = function(event) { 
+            offlineDB.onversionchange = function(event) {
+                offlineDB.close();
+            };
+        };
+        findLists();
+    };
+    request.onupgradeneeded = function(event) {
+        // Create an objectStore for this database
+        event.currentTarget.result.createObjectStore("TreeStore", { keyPath: "name" });
+    };
+}
+
+function findLists() {
+    var objectStore = offlineDB.transaction("TreeStore").objectStore("TreeStore");
+
+    var lists = [];
+    objectStore.openCursor().onsuccess = function(event) {
+        var cursor = event.target.result;
+        if (cursor) {
+            lists.push(cursor.value);
+            cursor.continue();
+        }
+        else {
+            lists.forEach(item => {
+                $('#research_list').append('<option value="' + item.name + '">' + item.name + '</option>');
+            });
+            $('#research_save').on('click', function(event) {
+                event.preventDefault();
+                if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
+                    saveListToIndexedDB( $('#research_selection').val() );
+                }
+            })
+            $('#research_load').on('click', function(event) {
+                event.preventDefault();
+                if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
+                    loadListFromIndexedDB( $('#research_selection').val() );
+                }
+            })
+            $('#research_remove').on('click', function(event) {
+                event.preventDefault();
+                if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
+                    removeListFromIndexedDB( $('#research_selection').val() );
+                }
+            })
+            $('.research').removeClass('hide');
+        }
+    };
+}
+
+function saveListToIndexedDB(name) {
+    if(offlineDB) {
+
+        var data = [];
+        research.forEach(area => {
+            $('.' + area + ' div.node-status.active').parent().not(':contains(\\(Starting\\))').each(function() {
+                data.push({key: $(this).attr('id'), area: area});
+            });
+        });
+
+        var objectStore = offlineDB.transaction(["TreeStore"], "readwrite").objectStore("TreeStore");
+
+        var result = objectStore.put({name: name, data: data});
+        result.onsuccess = function(event) {
+            if(event.target.result && name == event.target.result) {
+                alert('Research List: ' + name + ' was saved successfully!')
+                return true;
+            }
+        };
+    } else {
+        initDB();
+    }
+}
+
+function loadListFromIndexedDB(name) {
+    if(offlineDB) {
+        var objectStore = offlineDB.transaction("TreeStore").objectStore("TreeStore");
+
+        var result = objectStore.get(name);
+        result.onsuccess = function(event) {
+            if(event.target.result.data) {
+                var data = event.target.result.data;
+                research.forEach(area => {
+                    $('.' + area + ' div.node-status.active').parent().not(':contains(\\(Starting\\))').each(function() {
+                        updateResearch(area, $(this).attr('id'), false);
+                        $(this).find('div.node-status').removeClass('active');
+                    });
+                });
+                data.forEach(item => {
+                    if('anomaly' == item.area) {
+                        //TODO
+                        $('#' + item.key + ' .div.node-status').addClass('active');
+                    }
+                    else {
+                        updateResearch(item.area, item.key, true);
+                    }
+                });
+                research.forEach(area => {
+                    if('anomaly' != area) {
+                        charts[area].tree.reload();
+                    }
+                });
+            }
+        };
+        result.onerror = function(event) {
+            alert('Unable to load Research List: ' + name + '\nError: ' + event.target.errorCode);
+        }
+    } else {
+        initDB();
+    }
+}
+
+function removeListFromIndexedDB(name) {
+    if(offlineDB) {
+        var objectStore = offlineDB.transaction(["TreeStore"], "readwrite").objectStore("TreeStore");
+        var result = objectStore.delete(name);
+        result.onerror = function(event) {
+            alert('Unable to delete Research List: ' + name + '\nError: ' + event.target.errorCode);
+        };
+        result.onsuccess = function(event) {
+            $('option[value="' + name + '"]').remove();
+            if($.trim($('#research_selection').val()) == name) {
+                $('#research_selection').val('');
+            }
+        };
+    } else {
+        initDB();
+    }
+}
+
+// LocalStorage solution (Single save)
+function setupLocalStorage() {
+    $('#research_save').on('click', function(event) {
+        event.preventDefault();
+        saveResearchToLocalStorage();
+    }).parent().removeClass('hide');
+    $('#research_load').on('click', function(event) {
+        event.preventDefault();
+        loadResearchFromLocalStorage();
+    }).parent().removeClass('hide');
+}
+
+function saveResearchToLocalStorage() {
+    var data = {};
+    research.forEach(area => {
+        var activeTech = [];
+        $('.' + area + ' div.node-status.active').parent().not(':contains(\\(Starting\\))').each(function() {
+            activeTech.push($(this).attr('id'));
+        });
+        data[area] = activeTech;
+    });
+    localStorage['LocalStorage'] = JSON.stringify(data);
+}
+
+function loadResearchFromLocalStorage() {
+    if(localStorage['LocalStorage']) {
+        var data = JSON.parse(localStorage['LocalStorage']);
+        research.forEach(area => {
+            var activeTech = data[area];
+            activeTech.forEach(tech => updateResearch(area, tech, true));
+            charts[area].tree.reload();
+        });
+    } else {
+        alert("Unable to load data from local storage!");
+    }
 }
