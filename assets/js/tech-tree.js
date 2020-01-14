@@ -223,8 +223,6 @@ function updateResearch(area, name, active) {
         $('#' + name).addClass('active');
         $('#' + name).find('.node-status').addClass('active');
 
-        $('#' + name).hasClass('anomaly');
-
         if(inode == null) return;
 
         var myConnector = $(inode.connector).get(0);
