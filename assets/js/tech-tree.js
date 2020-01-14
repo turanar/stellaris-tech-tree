@@ -1,7 +1,5 @@
 'use strict';
 
-var complete = 0;
-
 var config = {
     //container: '#tech-tree-',
     rootOrientation: 'WEST', // NORTH || EAST || WEST || SOUTH
@@ -28,12 +26,8 @@ var config = {
 };
 
 function init_tooltips() {
-    if(complete < 3) {
-        complete++;
-        return;
-    }
 
-    $('.node').tooltipster({
+    $('.node:not(.tooltipstered)').tooltipster({
         minWidth: 300,
         trigger: 'click',
         maxWidth: 512,
@@ -103,7 +97,7 @@ function load_tree() {
             e.attr("class",item.HTMLclass)
             e.addClass("node").addClass("tech").addClass("anomaly");
             $('#tech-tree-anomalies').append(e);
-            init_tooltips();
         });
+        init_tooltips();
     });
 }
