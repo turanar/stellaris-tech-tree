@@ -41,9 +41,13 @@ function init_tooltips() {
             $(content).find('img').each(function(img, el) {
                 $(el).attr('src',$(el).attr('data-src'));
                 
-                var tech = $(el)[0].classList[$(el)[0].classList.length-1];
-                if(!$('#' + tech).hasClass('anomaly')) {
-                    $(el).addClass($('#' + tech)[0].classList[2]);
+                try {
+                    var tech = $(el)[0].classList[$(el)[0].classList.length-1];
+                    if(!$('#' + tech).hasClass('anomaly')) {
+                        $(el).addClass($('#' + tech)[0].classList[2]);
+                    }
+                } catch (ex) {
+
                 }
             });
             instance.content($('<div class="ui-tooltip">' + $(content).html() + '</div>'));
@@ -194,15 +198,42 @@ function init_nodestatus(area) {
 
                 var id = $( this ).parent().attr('id');
                 if($(this).hasClass('active')) {
+                    updateResearchDisplay(area, id, false);
                     updateResearch(area, id, false);
                 } else {
+                    updateResearchDisplay(area, id, true);
                     updateResearch(area, id, true);
                 }
-                charts[area].tree.reload();
+                //charts[area].tree.reload();
             });
             $( this ).addClass('status-loaded');
         }
     });
+}
+
+function getNodeDbNode(nodeDB, name) {
+    for(const element of nodeDB) {
+        if(element.nodeHTMLid === name) return element;
+    };
+    return null;
+}
+
+function updateResearchDisplay(area, name, active) {
+    var inode = getNodeDbNode(charts[area].tree.nodeDB.db, name);
+    var marker = $(inode.connector[0]).attr('marker-end');
+
+    if(active) {
+        $('#' + name + ' div.node-status').addClass('active');
+        for (const child of inode.children) {
+            $(charts[area].tree.nodeDB.db[child].connector[0]).addClass(area).attr('marker-end', marker);
+        }
+    } else {
+        $( '#' + name + ' div.node-status').removeClass('active');
+        for (const child of inode.children) {
+            $(charts[area].tree.nodeDB.db[child].connector[0]).removeClass(area).attr('marker-end','');
+        }
+    }
+
 }
 
 function updateResearch(area, name, active) {
@@ -213,10 +244,9 @@ function updateResearch(area, name, active) {
 
     // Get initial node from tree
     var node = getInitNode(charts[area].tree.initJsonConfig.nodeStructure.children, name);
-    
+
     if(undefined !== node) {
         if(active) {
-            
             // Update node connector style
             var color = '#000000';
             if('physics' == area) {
@@ -381,26 +411,29 @@ function loadListFromIndexedDB(name) {
         result.onsuccess = function(event) {
             if(event.target.result.data) {
                 var data = event.target.result.data;
+
                 research.forEach(area => {
                     $('.' + area + ' div.node-status.active').parent().not(':contains(\\(Starting\\))').each(function() {
+                        updateResearchDisplay(area, $(this).attr('id'), false);
                         updateResearch(area, $(this).attr('id'), false);
                         $(this).find('div.node-status').removeClass('active');
                     });
                 });
                 data.forEach(item => {
+                    console.log(item);
                     if('anomaly' == item.area) {
                         //TODO
                         $('#' + item.key + ' .div.node-status').addClass('active');
-                    }
-                    else {
+                    } else {
+                        updateResearchDisplay(item.area, item.key, true);
                         updateResearch(item.area, item.key, true);
                     }
                 });
-                research.forEach(area => {
+                /*research.forEach(area => {
                     if('anomaly' != area) {
                         charts[area].tree.reload();
                     }
-                });
+                });*/
             }
         };
         result.onerror = function(event) {
@@ -454,6 +487,8 @@ function saveResearchToLocalStorage() {
 }
 
 function loadResearchFromLocalStorage() {
+    console.log(localStorage);
+
     if(localStorage['LocalStorage']) {
         var data = JSON.parse(localStorage['LocalStorage']);
         research.forEach(area => {

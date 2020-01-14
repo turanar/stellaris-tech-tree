@@ -461,3 +461,18 @@ li.float-RightElement a {
     padding: 0px 2px;
     text-align: center;
 }
+
+path.physics {
+    stroke: #4396E2 !important;
+    stroke-width: 2;
+}
+
+path.engineering {
+    stroke: #E29C43 !important;
+    stroke-width: 2 !important;
+}
+
+path.society {
+    stroke: #5ACA9C !important;
+    stroke-width: 2 !important;
+}
