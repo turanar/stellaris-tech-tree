@@ -8,7 +8,7 @@ q:before,q:after { content:''; }
 abbr,acronym { border:0; }
 
 body {
-    background: #707070;
+    background: #474747;
 }
 /* optional Container STYLES */
 .chart { border: none; overflow: scroll}
@@ -403,7 +403,7 @@ div.fixed div {
     background: #303030;
 }
 .float-Highlight{
-    background: #707070;
+    background: #474747;
 }
 
 .float-NoDisplay{
