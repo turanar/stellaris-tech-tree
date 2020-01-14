@@ -476,3 +476,39 @@ path.society {
     stroke: #5ACA9C !important;
     stroke-width: 2 !important;
 }
+
+.node.physics.active {
+    background-color: #4396E2;
+    background-blend-mode: difference;
+    color: black;
+}
+
+.node.engineering.active {
+    background-color: #E29C43;
+    background-blend-mode: difference;
+    color: black;
+}
+
+.node.society.active {
+    background-color: #5ACA9C;
+    background-blend-mode: difference;
+    color: black;
+}
+
+.node.physics.starter {
+    background-color: #4396E2;
+    background-blend-mode: difference;
+    color: black;
+}
+
+.node.engineering.starter {
+    background-color: #E29C43;
+    background-blend-mode: difference;
+    color: black;
+}
+
+.node.society.starter {
+    background-color: #5ACA9C;
+    background-blend-mode: difference;
+    color: black;
+}

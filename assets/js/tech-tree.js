@@ -78,7 +78,7 @@ function setup(tech) {
     var html = tmpl.render(tech);
 
     tech.HTMLid = tech.key;
-    tech.HTMLclass = tech.area + techClass;
+    tech.HTMLclass = tech.area + techClass + (tech.is_start_tech ? ' starter' : '');
 
     // Adjust html in code using a hidden div
     var $html = $( '#setup-tech' )
@@ -100,7 +100,7 @@ function setup(tech) {
                 'arrow-end': 'block-wide-long'
             }
         });
-        
+
         if(!$html.find('div.node-status').hasClass('active')) {
             $html.find('div.node-status').addClass('active').addClass('status-loaded');
         }
@@ -224,11 +224,15 @@ function updateResearchDisplay(area, name, active) {
 
     if(active) {
         $('#' + name + ' div.node-status').addClass('active');
+        $('#' + name + ' div.node-status').parent().addClass('active');
+
         for (const child of inode.children) {
             $(charts[area].tree.nodeDB.db[child].connector[0]).addClass(area).attr('marker-end', marker);
         }
     } else {
         $( '#' + name + ' div.node-status').removeClass('active');
+        $( '#' + name + ' div.node-status').parent().removeClass('active');
+
         for (const child of inode.children) {
             $(charts[area].tree.nodeDB.db[child].connector[0]).removeClass(area).attr('marker-end','');
         }
