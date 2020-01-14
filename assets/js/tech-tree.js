@@ -36,7 +36,6 @@ function init_tooltips() {
         minWidth: 300,
         trigger: 'click',
         maxWidth: 512,
-
         functionInit: function(instance, helper){
             var content = $(helper.origin).find('.extra-data');
             $(content).find('img').each(function(img, el) {

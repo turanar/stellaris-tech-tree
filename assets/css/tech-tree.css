@@ -195,12 +195,14 @@ div.extra-data {
 .tooltipster-content span.node-status {
     display: inline-block;
     background-image: url("../icons/no.png");
+    background-repeat: no-repeat;
     background-size: 13.5px;
     height: 13.5px;
-    width: 13.5px;
-    padding-right: 2px;
+    padding-left: 15px;
     vertical-align: middle;
+    background-position-y: 2px;
 }
+
 .tooltipster-content span.node-status.active {
     background-image: url("../icons/yes.png");
 }
