@@ -35,6 +35,11 @@ function init_tooltips() {
             var content = $(helper.origin).find('.extra-data');
             $(content).find('img').each(function(img, el) {
                 $(el).attr('src',$(el).attr('data-src'));
+                
+                var tech = $(el)[0].classList[$(el)[0].classList.length-1];
+                if(!$('#' + tech).hasClass('anomaly')) {
+                    $(el).addClass($('#' + tech)[0].classList[2]);
+                }
             });
             instance.content($('<div class="ui-tooltip">' + $(content).html() + '</div>'));
         },
