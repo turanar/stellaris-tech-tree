@@ -440,3 +440,24 @@ div.fixed div {
     vertical-align: middle;
     line-height: normal;
 }
+
+li.float-RightElement a {
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.research {
+    color: #fff;
+    height: 18.5px;
+}
+
+#research_selection {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #2F6458;
+    padding: 0px 2px;
+    text-align: center;
+}
