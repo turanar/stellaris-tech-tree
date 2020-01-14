@@ -36,6 +36,7 @@ function init_tooltips() {
         minWidth: 300,
         trigger: 'click',
         maxWidth: 512,
+
         functionInit: function(instance, helper){
             var content = $(helper.origin).find('.extra-data');
             $(content).find('img').each(function(img, el) {
@@ -43,7 +44,9 @@ function init_tooltips() {
                 
                 var tech = $(el)[0].classList[$(el)[0].classList.length-1];
                 if(!$('#' + tech).hasClass('anomaly')) {
-                    $(el).addClass($('#' + tech)[0].classList[2]);
+                    var parent = $('#' + tech)[0];
+                    if(parent !== undefined && parent.classList.length > 1)
+                    $(el).addClass(parent.classList[2]);
                 }
             });
             instance.content($('<div class="ui-tooltip">' + $(content).html() + '</div>'));
@@ -74,40 +77,22 @@ function setup(tech) {
     var html = tmpl.render(tech);
 
     tech.HTMLid = tech.key;
-    tech.HTMLclass = tech.area + techClass;
+    tech.HTMLclass = tech.area + techClass + (tech.is_start_tech ? ' active' : '');
 
-    // Adjust html in code using a hidden div
-    var $html = $( '#setup-tech' )
-    $html.append($.parseHTML(html));
-    if(0 < $html.find('p.node-title:contains(\\(Starting\\))').length) {
-        // Update node connector style
-        var color = '#000000';
-        if('physics' == tech.area) {
-            color = '#4396E2';
-        } else if ('society' == tech.area) {
-            color = '#5ACA9C';
-        } else if ('engineering' == tech.area) {
-            color = '#E29C43';
-        }
-        tech.connectors = $.extend(true, {}, config.connectors, {
-            style: {
-                'stroke': color,
-                'stroke-width': 2,
-                'arrow-end': 'block-wide-long'
-            }
-        });
-        
-        if(!$html.find('div.node-status').hasClass('active')) {
-            $html.find('div.node-status').addClass('active').addClass('status-loaded');
-        }
+    var output = html;
+    if(tech.is_start_tech) {
+        var e = $('<div>' + html + '</div>');
+        e.find('div.node-status').addClass('active').addClass('status-loaded');
+        output = e.html();
     }
-    tech.innerHTML = $html.prop('innerHTML');
-    $html.empty();
+
+    tech.innerHTML = output;
 
     $(tech.children).each(function(i, node){
         setup(node);
     });
 };
+
 
 $(document).ready(function() {
     load_tree();
@@ -198,11 +183,18 @@ function init_nodestatus(area) {
                 } else {
                     updateResearch(area, id, true);
                 }
-                charts[area].tree.reload();
+
             });
             $( this ).addClass('status-loaded');
         }
     });
+}
+
+function getNodeDBNode(area, name) {
+    for(const item of charts[area].tree.nodeDB.db) {
+        if(item.nodeHTMLid === name) return item;
+    }
+    return null;
 }
 
 function updateResearch(area, name, active) {
@@ -211,58 +203,28 @@ function updateResearch(area, name, active) {
         return;
     }
 
-    // Get initial node from tree
-    var node = getInitNode(charts[area].tree.initJsonConfig.nodeStructure.children, name);
-    
-    if(undefined !== node) {
-        if(active) {
-            
-            // Update node connector style
-            var color = '#000000';
-            if('physics' == area) {
-                color = '#4396E2';
-            } else if ('society' == area) {
-                color = '#5ACA9C';
-            } else if ('engineering' == area) {
-                color = '#E29C43';
-            }
-            node.connectors = $.extend(true, {}, config.connectors, {
-                style: {
-                    'stroke': color,
-                    'stroke-width': 2,
-                    'arrow-end': 'block-wide-long'
-                }
-            });
+    // Get the nodeDB item
+    var inode = getNodeDBNode(area, name);
 
-            // Adjust html in code using a hidden div
-            var $html = $( '#setup-tech' )
-            $html.append($.parseHTML(node.innerHTML));
-            if( !$html.find('div.node-status').hasClass('active') ) {
-                $html.find('div.node-status').addClass('active');
-            }
-            node.innerHTML = $html.prop('innerHTML');
-            $html.empty();
+    if(active) {
+        $(inode.connector[0]).addClass(area);
+        // For each Children update the connector
+        for(const child of inode.children) {
+            $(charts[area].tree.nodeDB.db[child].connector[0]).addClass(area);
         }
-        else {
-            // Remove node connector style
-            delete node.connectors;
-
-            // Adjust html in code using a hidden div
-            var $html = $( '#setup-tech' )
-            $html.append($.parseHTML(node.innerHTML));
-            if( $html.find('div.node-status').hasClass('active') ) {
-                $html.find('div.node-status').removeClass('active');
-            }
-            node.innerHTML = $html.prop('innerHTML');
-            $html.empty();
-
-            // If this node has children, remove their active status as well
-            for(var child in node.children) {
-                if( undefined !== node.children[child].key ) {
-                    updateResearch(area, node.children[child].key, false);
-                }
-            }
+        // Update the node-status
+        $('#' + name).addClass('active');
+        $('#' + name).find('.node-status').addClass('active');
+    } else {
+        // For each Children update the connector
+        for(const child of inode.children) {
+            var child_node = charts[area].tree.nodeDB.db[child];
+            $(child_node.connector[0]).removeClass(area);
+            updateResearch(area, child_node.nodeHTMLid, false);
         }
+        // Update the node-status
+        $('#' + name).removeClass('active');
+        $('#' + name).find('.node-status').removeClass('active');
     }
 }
 
@@ -394,11 +356,6 @@ function loadListFromIndexedDB(name) {
                     }
                     else {
                         updateResearch(item.area, item.key, true);
-                    }
-                });
-                research.forEach(area => {
-                    if('anomaly' != area) {
-                        charts[area].tree.reload();
                     }
                 });
             }

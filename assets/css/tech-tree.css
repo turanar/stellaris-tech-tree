@@ -461,3 +461,46 @@ li.float-RightElement a {
     padding: 0px 2px;
     text-align: center;
 }
+
+path.society {
+    stroke: #5ACA9C;
+    stroke-width: 2;
+}
+
+path.engineering {
+    stroke: #E29C43;
+    stroke-width: 2;
+}
+
+path.physics {
+    stroke: #4396E2;
+    stroke-width: 2;
+}
+
+.node.active.society {
+    background-color: #173327;
+}
+
+.node.active.physics {
+    background-color: #0F2233;
+}
+
+.node.active.engineering {
+    background-color: #33230F;
+}
+
+
+.node.starter.society {
+    background-color: #173327;
+}
+
+.node.starter.physics {
+    background-color: #0F2233;
+}
+
+.node.starter.engineering {
+    background-color: #33230F;
+}
+
+
+
