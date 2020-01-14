@@ -138,10 +138,12 @@ function load_tree() {
 // Add ability to track node status
 var charts = {};
 function init_nodestatus(area) {
-    $('.node.' + area + ' div.node-status:not(.status-loaded)').each(function() {
+    $('#tech-tree-' + area).find('.node div.node-status:not(.status-loaded)').each(function() {
         var events = $._data($( this )[0], "events");
+
         if(undefined === events || undefined === events.click) {
             $(this).on('click', function toggle_status() {
+                console.log($(this));
                 // Find chart for the research
                 if($(this).parent().hasClass('anomaly')) {
                     if($(this).hasClass('active')) {
@@ -192,6 +194,14 @@ function init_nodestatus(area) {
 function getNodeDBNode(area, name) {
     for(const item of charts[area].tree.nodeDB.db) {
         if(item.nodeHTMLid === name) return item;
+    }
+    // Didn't find in the area charts - maybe it's in another one ?
+    // (see Science Nexus and other Mega Structures in Engineering tree)
+    for(const tree in charts) {
+        if(tree === area) continue;
+        for(const item of charts[tree].tree.nodeDB.db) {
+            if(item.nodeHTMLid === name) return item;
+        }
     }
     return null;
 }
