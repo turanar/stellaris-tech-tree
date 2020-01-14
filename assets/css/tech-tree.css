@@ -123,6 +123,20 @@ body {
     margin-right: 3px;
 }
 
+.tech div.node-status {
+    background-image: url("../icons/no.png");
+    position: inherit;
+    float: right;
+    bottom: 0;
+    right: 0;
+    height: 21px;
+    width: 21px;
+}
+
+.tech div.node-status.active {
+    background-image: url("../icons/yes.png");
+}
+
 .tech p.description,
 .tech p.weight-modifiers,
 .tech p.feature-unlocks {
@@ -176,6 +190,19 @@ div.extra-data {
 
 .tooltipster-content img.physics {
     border-color: #4396E2;
+}
+
+.tooltipster-content span.node-status {
+    display: inline-block;
+    background-image: url("../icons/no.png");
+    background-size: 13.5px;
+    height: 13.5px;
+    width: 13.5px;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+.tooltipster-content span.node-status.active {
+    background-image: url("../icons/yes.png");
 }
 
 .ui-tooltip {
@@ -314,6 +341,11 @@ div.fixed {
     float:left;
     margin: 10px 10px 10px 10px;
     cursor: pointer;
+}
+
+.anomaly div.node-status {
+    margin-right: -2px;
+    margin-top: -5px;]
 }
 
 div.fixed div {

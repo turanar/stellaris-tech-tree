@@ -70,6 +70,7 @@
       <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_corporate" height="21" width="21"/>
     {{/if}}
     </p>
+    <div class="node-status"></div>
     <div class="extra-data">
     {{if weight_modifiers.length > 0}}
         <div class="tooltip-header">Weight Modifiers</div>
@@ -87,7 +88,7 @@
         {{/for}}
         <div class="left">
         {{for prerequisites_names}}
-          {{:name}}<br/>
+          <span class="node-status {{:key}}"/>{{:name}}<br/>
         {{/for}}
         </div>
         </div>
@@ -151,6 +152,7 @@
   <div id="tech-tree-anomalies" class="float-NoDisplay">
 
   </div>
+  <div id="setup-tech" style="display:none"></div>
 </div>
 </body>
 </html>
