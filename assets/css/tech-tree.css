@@ -124,7 +124,8 @@ body {
 }
 
 .tech div.node-status {
-    background-image: url("../icons/no.png");
+    border: 1px solid #333;
+    margin: 1px;
     position: inherit;
     float: right;
     bottom: 0;
