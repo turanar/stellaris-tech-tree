@@ -54,6 +54,7 @@
               "category": "Biology",
               "cost": 500,
               "feature_unlocks": [
+                "<b>Edict</b>: Farming Subsidies",
                 "£food£ Food from £job_farmer£ Farmers +20%"
               ],
               "is_dangerous": false,
@@ -70,11 +71,11 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.1</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Machine Intelligence Authority<br/>\t    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has Government Civic: Rogue Servitor<br/>\t    •   Has Government Civic: Driven Assimilator<br/>\t    •   Any Owned Planet<br/>\t\t    •   One must be true<br/>\t\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t\t    •   Number of Agricultural Segment is greater than 0",
+                "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   is_lithoid_empire=yes",
                 "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
-                "(×<b style='color:red'>0.0</b>) All must be true<br/>    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has the non_lithoid_subspecies country flag<br/>\t    •   Any Owned Pop<br/>\t\t    •   Is Organic<br/>\t\t    •   Is NOT Lithoid<br/>\t    •   Any Owned Planet<br/>\t\t    •   One must be true<br/>\t\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t\t    •   Number of Agricultural Segment is greater than 0"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
               ],
               "potential": [],
               "children": [
@@ -87,7 +88,9 @@
                   "base_weight": 95.0,
                   "category": "Biology",
                   "cost": 750,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Building</b>: Food Processing Facilities"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -102,7 +105,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.01</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Machine Intelligence Authority<br/>\t    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has Government Civic: Rogue Servitor<br/>\t    •   Has Government Civic: Driven Assimilator<br/>\t    •   Any Owned Planet<br/>\t\t    •   Number of Agriculture District is greater than 0",
+                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   is_lithoid_empire=yes",
                     "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
                   ],
                   "potential": [],
@@ -116,7 +120,9 @@
                       "base_weight": 130.0,
                       "category": "Biology",
                       "cost": 4000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Building</b>: Food Processing Centers"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -131,7 +137,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.01</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Machine Intelligence Authority<br/>\t    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has Government Civic: Rogue Servitor<br/>\t    •   Has Government Civic: Driven Assimilator<br/>\t    •   Any Owned Planet<br/>\t\t    •   Number of Agriculture District is greater than 0",
+                        "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                        "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   is_lithoid_empire=yes",
                         "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
                         "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Mote Stabilization<br/>    •   Has Technology: Volatile Material Plants<br/>    •   Has the has_market_access country flag"
                       ],
@@ -170,7 +177,8 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.01</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Machine Intelligence Authority<br/>\t    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has Government Civic: Rogue Servitor<br/>\t    •   Has Government Civic: Driven Assimilator<br/>\t    •   Any Owned Planet<br/>\t\t    •   One must be true<br/>\t\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t\t    •   Number of Agricultural Segment is greater than 0",
+                    "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   is_lithoid_empire=yes",
                     "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                     "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
@@ -203,7 +211,8 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.01</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Machine Intelligence Authority<br/>\t    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has Government Civic: Rogue Servitor<br/>\t    •   Has Government Civic: Driven Assimilator<br/>\t    •   Any Owned Planet<br/>\t\t    •   One must be true<br/>\t\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t\t    •   Number of Agricultural Segment is greater than 0",
+                        "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                        "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   is_lithoid_empire=yes",
                         "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Fanatic Pacifist Ethic",
                         "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
@@ -215,8 +224,8 @@
                           "name": "Nutrient Replication",
                           "description": "The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.",
                           "area": "society",
-                          "base_factor": 1.0,
-                          "base_weight": 35.0,
+                          "base_factor": 2.0,
+                          "base_weight": 70.0,
                           "category": "Biology",
                           "cost": 12000,
                           "feature_unlocks": [
@@ -236,7 +245,8 @@
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.01</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Machine Intelligence Authority<br/>\t    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has Government Civic: Rogue Servitor<br/>\t    •   Has Government Civic: Driven Assimilator<br/>\t    •   Any Owned Planet<br/>\t\t    •   One must be true<br/>\t\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t\t    •   Number of Agricultural Segment is greater than 0",
+                            "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                            "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   is_lithoid_empire=yes",
                             "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Biology Expert<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator",
                             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>1.25</b>) Has Pacifist Ethic",
@@ -302,7 +312,10 @@
               "base_weight": 200.0,
               "category": "Biology",
               "cost": 500,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Building</b>: Hydroponics Farms",
+                "<b>Starbase Building</b>: Hydroponics Bay"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -317,9 +330,9 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.01</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Machine Intelligence Authority<br/>\t    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has Government Civic: Rogue Servitor<br/>\t    •   Has Government Civic: Driven Assimilator<br/>\t    •   Any Owned Planet<br/>\t\t    •   One must be true<br/>\t\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t\t    •   Number of Agricultural Segment is greater than 0",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
-                "(×<b style='color:red'>0.0</b>) All must be true<br/>    •   Owner Species is Lithoid<br/>    •   All must be false<br/>\t    •   Has the non_lithoid_subspecies country flag<br/>\t    •   Any Owned Pop<br/>\t\t    •   Is Organic<br/>\t\t    •   Is NOT Lithoid<br/>\t    •   Any Owned Planet<br/>\t\t    •   One must be true<br/>\t\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t\t    •   Number of Agricultural Segment is greater than 0"
+                "(×<b style='color:red'>0.01</b>) All must be false<br/>    •   Has the non_lithoid_subspecies country flag<br/>    •   Has Government Civic: Rogue Servitor<br/>    •   Has Government Civic: Driven Assimilator<br/>    •   Any Owned Planet<br/>\t    •   One must be true<br/>\t\t    •   Number of Agriculture District is greater than 0<br/>\t\t    •   Number of Agricultural Segment is greater than 0",
+                "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Machine Intelligence Authority<br/>    •   is_lithoid_empire=yes",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
               ],
               "potential": [],
               "children": [],
@@ -396,8 +409,8 @@
                   "name": "Selected Lineages",
                   "description": "Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.",
                   "area": "society",
-                  "base_factor": 0.5,
-                  "base_weight": 30.0,
+                  "base_factor": 2.0,
+                  "base_weight": 120.0,
                   "category": "Biology",
                   "cost": 5000,
                   "feature_unlocks": [
@@ -432,8 +445,8 @@
                       "name": "Capacity Boosters",
                       "description": "We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow.",
                       "area": "society",
-                      "base_factor": 0.5,
-                      "base_weight": 17.5,
+                      "base_factor": 2.0,
+                      "base_weight": 70.0,
                       "category": "Biology",
                       "cost": 12000,
                       "feature_unlocks": [
@@ -589,8 +602,8 @@
                   "name": "Targeted Gene Expressions",
                   "description": "Stricter control of RNA and protein production on the cellular level.",
                   "area": "society",
-                  "base_factor": 1.0,
-                  "base_weight": 50.0,
+                  "base_factor": 2.0,
+                  "base_weight": 100.0,
                   "category": "Biology",
                   "cost": 6000,
                   "feature_unlocks": [
@@ -630,11 +643,13 @@
                   "name": "Gene Seed Purification",
                   "description": "Nucleotide purification techniques allow for the isolation and refinement of particularly desirable genetic traits.",
                   "area": "society",
-                  "base_factor": 1.0,
-                  "base_weight": 45.0,
+                  "base_factor": 2.0,
+                  "base_weight": 90.0,
                   "category": "Biology",
                   "cost": 8000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Army</b>: Gene Warrior Army"
+                  ],
                   "is_dangerous": false,
                   "is_rare": true,
                   "is_start_tech": false,
@@ -649,7 +664,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.0</b>) Has DLC \"Utopia\"",
+                    "(×<b style='color:red'>0.0</b>) Has DLC Utopia",
                     "(×<b style='color:lime'>1.25</b>) Has Hive Mind Authority",
                     "(×<b style='color:lime'>1.25</b>) Has Militarist Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Fanatic Militarist Ethic",
@@ -717,11 +732,13 @@
                   "name": "Morphogenetic Field Mastery",
                   "description": "From its cradle as a purely pharmaceutical venture, advancements in our understanding of the morphogenetic field allow for direct, subconscious interfaces with organic units.",
                   "area": "society",
-                  "base_factor": 0.5,
-                  "base_weight": 22.5,
+                  "base_factor": 2.0,
+                  "base_weight": 90.0,
                   "category": "Biology",
                   "cost": 8000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Army</b>: Xenomorph Army"
+                  ],
                   "is_dangerous": false,
                   "is_rare": true,
                   "is_start_tech": false,
@@ -801,11 +818,13 @@
                   "name": "Gene Banks",
                   "description": "Gene Banks filter and curate available genomes for deployment in clones.",
                   "area": "society",
-                  "base_factor": 0.5,
-                  "base_weight": 35.0,
+                  "base_factor": 2.0,
+                  "base_weight": 140.0,
                   "category": "Biology",
                   "cost": 2500,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Army</b>: Clone Army"
+                  ],
                   "is_dangerous": false,
                   "is_rare": true,
                   "is_start_tech": false,
@@ -846,8 +865,8 @@
               "name": "Subdermal Stimulation",
               "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
               "area": "society",
-              "base_factor": 0.5,
-              "base_weight": 37.5,
+              "base_factor": 2.0,
+              "base_weight": 150.0,
               "category": "Biology",
               "cost": 2000,
               "feature_unlocks": [
@@ -1037,7 +1056,9 @@
           "base_weight": 0.0,
           "category": "Military Theory",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Stronghold"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1089,6 +1110,7 @@
                   "category": "Military Theory",
                   "cost": 1500,
                   "feature_unlocks": [
+                    "<b>Building</b>: Fortress",
                     "Defense Army Health +25%"
                   ],
                   "is_dangerous": false,
@@ -1330,6 +1352,7 @@
           "category": "Military Theory",
           "cost": 2000,
           "feature_unlocks": [
+            "<b>Building</b>: Military Academy",
             "Max Occupation Garrisons +2"
           ],
           "is_dangerous": false,
@@ -1611,6 +1634,75 @@
           "source": "vanilla"
         },
         {
+          "key": "tech_adaptive_combat_algorithms",
+          "name": "Adaptive Combat Algorithms",
+          "description": "Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.",
+          "area": "society",
+          "base_factor": 1.5,
+          "base_weight": 112.5,
+          "category": "Military Theory",
+          "cost": 2000,
+          "feature_unlocks": [
+            "<b>Army</b>: Battle Frame Army"
+          ],
+          "is_dangerous": false,
+          "is_rare": false,
+          "is_start_tech": false,
+          "prerequisites": [],
+          "tier": 2,
+          "prerequisites_names": [],
+          "weight_modifiers": [
+            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Military Theory Expert"
+          ],
+          "potential": [
+            "Has Machine Intelligence Authority"
+          ],
+          "children": [
+            {
+              "key": "tech_biomechanics",
+              "name": "Biomechanics",
+              "description": "Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 80.0,
+              "category": "Biology",
+              "cost": 10000,
+              "feature_unlocks": [
+                "<b>Army</b>: Mega-Warform"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_adaptive_combat_algorithms"
+              ],
+              "tier": 4,
+              "prerequisites_names": [
+                {
+                  "name": "Adaptive Combat Algorithms",
+                  "key": "tech_adaptive_combat_algorithms"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Biology Expert<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator",
+                "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
+                "(×<b style='color:lime'>1.5</b>) Research Leader (Society): <br/>    •   Skill level is greater than 4",
+                "(×<b style='color:red'>0.75</b>) NOT Research Leader (Society): <br/>    •   Skill level is greater than 3"
+              ],
+              "potential": [
+                "Has Machine Intelligence Authority"
+              ],
+              "children": [],
+              "is_event": false,
+              "is_machine_empire": true,
+              "source": "vanilla"
+            }
+          ],
+          "is_event": false,
+          "is_machine_empire": true,
+          "source": "vanilla"
+        },
+        {
           "key": "tech_interstellar_fleet_traditions",
           "name": "Interstellar Fleet Traditions",
           "description": "A body of knowledge regarding combat behaviors is useless without a strong code governing its use.",
@@ -1619,7 +1711,10 @@
           "base_weight": 225.0,
           "category": "Military Theory",
           "cost": 2000,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Starbase Building</b>: Fleet Academy",
+            "<b>Starbase Building</b>: Naval Logistics Office"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -1674,6 +1769,7 @@
                   "category": "Military Theory",
                   "cost": 6000,
                   "feature_unlocks": [
+                    "<b>Starbase Building</b>: Command Center",
                     "Ship Fire Rate +5%"
                   ],
                   "is_dangerous": false,
@@ -1715,7 +1811,11 @@
           "base_weight": 0.0,
           "category": "New Worlds",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Ship Size</b>: Colony Ship",
+            "<b>Ship Size</b>: Lithoid Meteorite",
+            "<b>Ship Size</b>: Private Colony Ship"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1875,8 +1975,8 @@
                       "name": "Tomb World Adaptation",
                       "description": "Through comprehensive study of irradiated environments we will allow our settlers to colonize worlds that have been devastated by nuclear warfare.",
                       "area": "society",
-                      "base_factor": 0.5,
-                      "base_weight": 32.5,
+                      "base_factor": 2.0,
+                      "base_weight": 130.0,
                       "category": "New Worlds",
                       "cost": 4000,
                       "feature_unlocks": [
@@ -1933,7 +2033,9 @@
               "base_weight": 190.0,
               "category": "Biology",
               "cost": 750,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Building</b>: Gene Clinics"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1969,7 +2071,9 @@
                   "base_weight": 70.0,
                   "category": "Biology",
                   "cost": 2500,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Building</b>: Cyto-Revitalization Centers"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2261,6 +2365,7 @@
               "category": "New Worlds",
               "cost": 2500,
               "feature_unlocks": [
+                "<b>Edict</b>: Terraforming Gases",
                 "<b>Feature : </b>Terraforming"
               ],
               "is_dangerous": false,
@@ -2277,7 +2382,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.0</b>) All must be true<br/>    •   Owner Species is Lithoid<br/>    •   Has Government Civic: Devouring Swarm",
+                "(×<b style='color:red'>0.0</b>) Has Government Civic: Devouring Swarm",
                 "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Tradition",
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is New Worlds Expert"
               ],
@@ -2614,7 +2719,9 @@
           "base_weight": 0.0,
           "category": "Statecraft",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Synaptic Nodes"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -2637,7 +2744,9 @@
               "base_weight": 75.0,
               "category": "Statecraft",
               "cost": 2000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Building</b>: Synaptic Clusters"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2665,7 +2774,9 @@
                   "base_weight": 60.0,
                   "category": "Statecraft",
                   "cost": 5000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Building</b>: Confluence of Thought"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2710,7 +2821,9 @@
           "base_weight": 0.0,
           "category": "Statecraft",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Holo-Theatres"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -2731,7 +2844,9 @@
               "base_weight": 90.0,
               "category": "Statecraft",
               "cost": 1000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Building</b>: Hyper-Entertainment Forums"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2771,7 +2886,16 @@
           "base_weight": 0.0,
           "category": "Statecraft",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Administrative Array",
+            "<b>Building</b>: Administrative Offices",
+            "<b>Building</b>: Hive Core",
+            "<b>Building</b>: Maintenance Depots",
+            "<b>Building</b>: Planetary Administration",
+            "<b>Building</b>: Precinct Houses",
+            "<b>Building</b>: Sentinel Posts",
+            "<b>Building</b>: Uplink Node"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -2791,6 +2915,7 @@
               "category": "Statecraft",
               "cost": 500,
               "feature_unlocks": [
+                "<b>Edict</b>: Peace Festivals",
                 "<b>Feature : </b>Additional Edicts (Campaigns)",
                 "Monthly Unity +2"
               ],
@@ -2821,7 +2946,12 @@
                   "base_weight": 300.0,
                   "category": "New Worlds",
                   "cost": 2000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Building</b>: Hall of Judgment",
+                    "<b>Building</b>: Hive Nexus",
+                    "<b>Building</b>: Planetary Capital",
+                    "<b>Building</b>: Planetary Processor"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2840,6 +2970,92 @@
                   ],
                   "potential": [],
                   "children": [
+                    {
+                      "key": "tech_xeno_diplomacy",
+                      "name": "Xeno Diplomacy",
+                      "description": "Advancing our understanding of interactions with - and manipulations of - the xeno is a necessary step in forming more permanent interstellar alliances.",
+                      "area": "society",
+                      "base_factor": 2.0,
+                      "base_weight": 170.0,
+                      "category": "Statecraft",
+                      "cost": 2000,
+                      "feature_unlocks": [
+                        "<b>Building</b>: Embassy Complex",
+                        "Diplomatic Weight +10%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "Colonial Centralization",
+                          "key": "tech_colonial_centralization"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert",
+                        "(×<b style='color:lime'>1.25</b>) Has Xenophile Ethic",
+                        "(×<b style='color:lime'>2.0</b>) Has Fanatic Xenophile Ethic",
+                        "(×<b style='color:red'>0.01</b>) Has Government Civic: Inward Perfection"
+                      ],
+                      "potential": [
+                        "Does NOT have Gestalt Consciousness Ethic"
+                      ],
+                      "children": [
+                        {
+                          "key": "tech_xeno_relations",
+                          "name": "Xeno Relations",
+                          "description": "The complexities of interstellar diplomacy necessitate the forming of bonds with foreign powers in order to further one's goals.",
+                          "area": "society",
+                          "base_factor": 2.0,
+                          "base_weight": 130.0,
+                          "category": "Statecraft",
+                          "cost": 5000,
+                          "feature_unlocks": [
+                            "<b>Building</b>: Grand Embassy Complex",
+                            "Diplomatic Weight +10%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_xeno_diplomacy",
+                            "tech_galactic_administration"
+                          ],
+                          "tier": 3,
+                          "prerequisites_names": [
+                            {
+                              "name": "Xeno Diplomacy",
+                              "key": "tech_xeno_diplomacy"
+                            },
+                            {
+                              "name": "Galactic Administration",
+                              "key": "tech_galactic_administration"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert",
+                            "(×<b style='color:lime'>1.25</b>) Has Xenophile Ethic",
+                            "(×<b style='color:lime'>2.0</b>) Has Fanatic Xenophile Ethic",
+                            "(×<b style='color:red'>0.01</b>) Has Government Civic: Inward Perfection"
+                          ],
+                          "potential": [
+                            "Does NOT have Gestalt Consciousness Ethic"
+                          ],
+                          "children": [],
+                          "is_event": false,
+                          "is_gestalt": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "is_gestalt": false,
+                      "source": "vanilla"
+                    },
                     {
                       "key": "tech_autonomous_agents",
                       "name": "Autonomous Agents",
@@ -2932,6 +3148,7 @@
                       "category": "Statecraft",
                       "cost": 2500,
                       "feature_unlocks": [
+                        "<b>Starbase Building</b>: Deep Space Black Site",
                         "Faction Influence Gain +1"
                       ],
                       "is_dangerous": false,
@@ -2972,7 +3189,10 @@
                       "base_weight": 97.5,
                       "category": "Statecraft",
                       "cost": 4000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Building</b>: Ministry of Production",
+                        "<b>Building</b>: Resource Processing Center"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -3005,6 +3225,48 @@
                       "source": "vanilla"
                     },
                     {
+                      "key": "tech_autocurating_vault",
+                      "name": "Automated Curation Algorithms",
+                      "description": "Continuous, asynchronous analysis of disparate data sets allows for the accurate modeling of hitherto-unpredictable fluctuations in social currents.",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 65.0,
+                      "category": "Statecraft",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "<b>Building</b>: Alpha Hub",
+                        "<b>Building</b>: Auto-Curating Vault",
+                        "<b>Building</b>: Vault of Acquisitions"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization",
+                        "tech_administrative_ai"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "Administrative AI",
+                          "key": "tech_administrative_ai"
+                        },
+                        {
+                          "name": "Colonial Centralization",
+                          "key": "tech_colonial_centralization"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
+                      ],
+                      "potential": [
+                        "All must be false\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic\n    •   Has Government Civic: Rogue Servitor"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
                       "key": "tech_galactic_administration",
                       "name": "Galactic Administration",
                       "description": "The administrative needs of a star empire are as numerous as they are complex. We will rise to the occasion.",
@@ -3014,6 +3276,8 @@
                       "category": "Statecraft",
                       "cost": 6000,
                       "feature_unlocks": [
+                        "<b>Building</b>: Primary Nexus",
+                        "<b>Building</b>: System Capital-Complex",
                         "Civic Slots +1"
                       ],
                       "is_dangerous": false,
@@ -3084,11 +3348,13 @@
                       "name": "Galactic Markets",
                       "description": "By engaging in free trade of goods and services we allow for a more specialized economy, where an individual can excel in a narrow field and trade for their needs.",
                       "area": "society",
-                      "base_factor": 0.5,
-                      "base_weight": 22.5,
+                      "base_factor": 2.0,
+                      "base_weight": 90.0,
                       "category": "Statecraft",
                       "cost": 8000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Building</b>: Galactic Stock Exchange"
+                      ],
                       "is_dangerous": false,
                       "is_rare": true,
                       "is_start_tech": false,
@@ -3135,8 +3401,7 @@
                   "category": "Statecraft",
                   "cost": 750,
                   "feature_unlocks": [
-                    "Leader Cost -20%",
-                    "Leader Pool Size +1"
+                    "Administrative Capacity +5%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3167,10 +3432,12 @@
                       "area": "society",
                       "base_factor": 1.0,
                       "base_weight": 85.0,
-                      "category": "New Worlds",
+                      "category": "Statecraft",
                       "cost": 1500,
                       "feature_unlocks": [
-                        "Administrative Capacity +20"
+                        "<b>Building</b>: Administrative Park",
+                        "<b>Building</b>: Network Junction",
+                        "Administrative Capacity +10"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3190,82 +3457,10 @@
                         "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 2",
                         "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 3",
                         "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 4",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is New Worlds Expert"
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
                       ],
                       "potential": [],
                       "children": [
-                        {
-                          "key": "tech_adaptive_combat_algorithms",
-                          "name": "Adaptive Combat Algorithms",
-                          "description": "Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.",
-                          "area": "society",
-                          "base_factor": 1.5,
-                          "base_weight": 112.5,
-                          "category": "Biology",
-                          "cost": 2000,
-                          "feature_unlocks": [],
-                          "is_dangerous": false,
-                          "is_rare": false,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_colonial_bureaucracy"
-                          ],
-                          "tier": 2,
-                          "prerequisites_names": [
-                            {
-                              "name": "Colonial Bureaucracy",
-                              "key": "tech_colonial_bureaucracy"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
-                          ],
-                          "potential": [
-                            "Has Machine Intelligence Authority"
-                          ],
-                          "children": [
-                            {
-                              "key": "tech_biomechanics",
-                              "name": "Biomechanics",
-                              "description": "Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.",
-                              "area": "society",
-                              "base_factor": 1.0,
-                              "base_weight": 40.0,
-                              "category": "Biology",
-                              "cost": 10000,
-                              "feature_unlocks": [],
-                              "is_dangerous": false,
-                              "is_rare": true,
-                              "is_start_tech": false,
-                              "prerequisites": [
-                                "tech_adaptive_combat_algorithms"
-                              ],
-                              "tier": 4,
-                              "prerequisites_names": [
-                                {
-                                  "name": "Adaptive Combat Algorithms",
-                                  "key": "tech_adaptive_combat_algorithms"
-                                }
-                              ],
-                              "weight_modifiers": [
-                                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Biology Expert<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator",
-                                "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                                "(×<b style='color:lime'>1.5</b>) Research Leader (Society): <br/>    •   Skill level is greater than 4",
-                                "(×<b style='color:red'>0.75</b>) NOT Research Leader (Society): <br/>    •   Skill level is greater than 3"
-                              ],
-                              "potential": [
-                                "Has Machine Intelligence Authority"
-                              ],
-                              "children": [],
-                              "is_event": false,
-                              "is_machine_empire": true,
-                              "source": "vanilla"
-                            }
-                          ],
-                          "is_event": false,
-                          "is_machine_empire": true,
-                          "source": "vanilla"
-                        },
                         {
                           "key": "tech_galactic_bureaucracy",
                           "name": "Galactic Bureaucracy",
@@ -3273,10 +3468,12 @@
                           "area": "society",
                           "base_factor": 1.0,
                           "base_weight": 65.0,
-                          "category": "New Worlds",
+                          "category": "Statecraft",
                           "cost": 4000,
                           "feature_unlocks": [
-                            "Administrative Capacity +20"
+                            "<b>Building</b>: Administrative Complex",
+                            "<b>Building</b>: System Conflux",
+                            "Administrative Capacity +10"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3296,7 +3493,7 @@
                             "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 2",
                             "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 3",
                             "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 4",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is New Worlds Expert"
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
                           ],
                           "potential": [],
                           "children": [
@@ -3338,6 +3535,43 @@
                       ],
                       "is_event": false,
                       "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_effective_bureaucracy",
+                      "name": "Effective Bureaucracy",
+                      "description": "Improved algorithms for processing and organizing vast amounts of data has streamlined decision-making and information-sharing throughout the empire.",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 85.0,
+                      "category": "Statecraft",
+                      "cost": 1500,
+                      "feature_unlocks": [
+                        "Administrative Capacity +5%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_adaptive_bureaucracy"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "Adaptive Bureaucracy",
+                          "key": "tech_adaptive_bureaucracy"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.5</b>) Number of owned planets is lower than 2",
+                        "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 2",
+                        "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 3",
+                        "(×<b style='color:lime'>1.5</b>) Number of owned planets is greater than 4",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
                     }
                   ],
                   "is_event": false,
@@ -3360,7 +3594,9 @@
           "base_weight": 0.0,
           "category": "Statecraft",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Commercial Zones"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -3381,7 +3617,9 @@
               "base_weight": 90.0,
               "category": "Statecraft",
               "cost": 1000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Starbase Building</b>: Offworld Trading Company"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -3412,7 +3650,9 @@
                   "base_weight": 130.0,
                   "category": "Statecraft",
                   "cost": 4000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Building</b>: Commerce Megaplexes"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -3458,7 +3698,12 @@
           "base_weight": 0.0,
           "category": "Statecraft",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Autochthon Monument",
+            "<b>Building</b>: Corporate Culture Site",
+            "<b>Building</b>: Simulation Site",
+            "<b>Building</b>: Temple"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -3478,17 +3723,21 @@
               "description": "Physical reminders of how far we have come both instill a reverence for past achievements and bolster ambitions for the future.",
               "area": "society",
               "base_factor": 1.0,
-              "base_weight": 75.0,
+              "base_weight": 90.0,
               "category": "Statecraft",
-              "cost": 2000,
-              "feature_unlocks": [],
+              "cost": 1000,
+              "feature_unlocks": [
+                "<b>Building</b>: Business Management Nexus",
+                "<b>Building</b>: Heritage Site",
+                "<b>Building</b>: Simulation Center"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
               "prerequisites": [
                 "tech_cultural_heritage"
               ],
-              "tier": 2,
+              "tier": 1,
               "prerequisites_names": [
                 {
                   "name": "Sociocultural History",
@@ -3509,10 +3758,14 @@
                   "description": "Not all research into faster-than-light communication channels produces useful results, but some outcomes may find new purpose in bringing our people together.",
                   "area": "society",
                   "base_factor": 1.0,
-                  "base_weight": 60.0,
+                  "base_weight": 65.0,
                   "category": "Statecraft",
-                  "cost": 5000,
-                  "feature_unlocks": [],
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "<b>Building</b>: Hypercomms Forum",
+                    "<b>Building</b>: Simulation Complex",
+                    "<b>Building</b>: Synergy Forum"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -3537,51 +3790,7 @@
                   "potential": [
                     "All must be false\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic\n    •   Has Government Civic: Rogue Servitor"
                   ],
-                  "children": [
-                    {
-                      "key": "tech_autocurating_vault",
-                      "name": "Automated Curation Algorithms",
-                      "description": "Continuous, asynchronous analysis of disparate data sets allows for the accurate modeling of hitherto-unpredictable fluctuations in social currents.",
-                      "area": "society",
-                      "base_factor": 1.0,
-                      "base_weight": 40.0,
-                      "category": "Statecraft",
-                      "cost": 10000,
-                      "feature_unlocks": [],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [
-                        "tech_hypercomms_forum",
-                        "tech_galactic_administration",
-                        "tech_administrative_ai"
-                      ],
-                      "tier": 4,
-                      "prerequisites_names": [
-                        {
-                          "name": "Local Hypercommunication",
-                          "key": "tech_hypercomms_forum"
-                        },
-                        {
-                          "name": "Administrative AI",
-                          "key": "tech_administrative_ai"
-                        },
-                        {
-                          "name": "Galactic Administration",
-                          "key": "tech_galactic_administration"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
-                      ],
-                      "potential": [
-                        "All must be false\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic\n    •   Has Government Civic: Rogue Servitor"
-                      ],
-                      "children": [],
-                      "is_event": false,
-                      "source": "vanilla"
-                    }
-                  ],
+                  "children": [],
                   "is_event": false,
                   "source": "vanilla"
                 }
@@ -3598,7 +3807,9 @@
               "base_weight": 75.0,
               "category": "Statecraft",
               "cost": 2000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Building</b>: Holotemple"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -3629,7 +3840,9 @@
                   "base_weight": 60.0,
                   "category": "Statecraft",
                   "cost": 5000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Building</b>: Sacred Nexus"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -3664,7 +3877,9 @@
                       "base_weight": 40.0,
                       "category": "Statecraft",
                       "cost": 10000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Building</b>: Citadel of Faith"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -3715,7 +3930,10 @@
           "base_weight": 90.0,
           "category": "Statecraft",
           "cost": 1000,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Army</b>: Slave Army",
+            "<b>Building</b>: Slave Processing Facility"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -3742,7 +3960,9 @@
               "base_weight": 35.0,
               "category": "Statecraft",
               "cost": 2500,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Decision</b>: Create Thrall-World"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -3909,11 +4129,13 @@
               "name": "Penal Colonies",
               "description": "Through the development of special penal worlds, criminals can be rehabilitated through honest, hard labor. Some may be in need of permanent rehabilitation.",
               "area": "society",
-              "base_factor": 0.5,
-              "base_weight": 32.5,
+              "base_factor": 2.0,
+              "base_weight": 130.0,
               "category": "Statecraft",
               "cost": 4000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Decision</b>: Create Penal Colony"
+              ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
@@ -3947,11 +4169,13 @@
               "name": "Resort Worlds",
               "description": "With careful study devoted to landscaping, climate control, and the science of fun,  construction of entire worlds dedicated to leisure can be made possible.",
               "area": "society",
-              "base_factor": 0.5,
-              "base_weight": 32.5,
+              "base_factor": 2.0,
+              "base_weight": 130.0,
               "category": "Statecraft",
               "cost": 4000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Decision</b>: Create Resort World"
+              ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
@@ -4056,12 +4280,12 @@
           "name": "Psionic Theory",
           "description": "The mind is in many ways a reflection of the universe itself, a microcosmos. All species may not reach this insight, but their minds are tools greater than any other.",
           "area": "society",
-          "base_factor": 0.5,
-          "base_weight": 32.5,
+          "base_factor": 2.0,
+          "base_weight": 130.0,
           "category": "Psionics",
           "cost": 4000,
           "feature_unlocks": [
-            "Monthly Unity +5%"
+            "Empire Sprawl from Pops -10%"
           ],
           "is_dangerous": false,
           "is_rare": true,
@@ -4076,7 +4300,7 @@
             "(×<b style='color:lime'>8.0</b>) Research Leader (Society): <br/>    •   Is Psionics Expert",
             "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
             "(×<b style='color:lime'>2.0</b>) Any Owned Pop<br/>    •   Pop has trait Psionic",
-            "(×<b style='color:lime'>1.25</b>) All must be true<br/>    •   Any Owned Pop<br/>\t    •   Pop has trait Latent Psionic<br/>    •   No Owned Pop<br/>\t    •   Pop has trait Psionic",
+            "(×<b style='color:lime'>1.25</b>) No Owned Pop<br/>    •   Pop has trait Psionic",
             "(×<b style='color:red'>0.0</b>) All must be true<br/>    •   One must be true<br/>\t    •   Has Materialist Ethic<br/>\t    •   Has Fanatic Materialist Ethic<br/>    •   All must be false<br/>\t    •   Research Leader (Society): <br/>\t\t    •   Is Psionics Expert<br/>\t    •   Any Owned Pop<br/>\t\t    •   Pop has trait Psionic<br/>\t    •   Any Owned Pop<br/>\t\t    •   Pop has trait Latent Psionic"
           ],
           "potential": [
@@ -4088,11 +4312,13 @@
               "name": "Telepathy",
               "description": "Once fully adapted to the basics of Psionics, the mind is capable of connecting to other individuals, becoming something greater.",
               "area": "society",
-              "base_factor": 0.5,
-              "base_weight": 25.0,
+              "base_factor": 2.0,
+              "base_weight": 100.0,
               "category": "Psionics",
               "cost": 6000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Army</b>: Psionic Army"
+              ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
@@ -4107,7 +4333,7 @@
                 }
               ],
               "weight_modifiers": [
-                "(×<b style='color:red'>0.0</b>) Has DLC \"Utopia\"",
+                "(×<b style='color:red'>0.0</b>) Has DLC Utopia",
                 "(×<b style='color:red'>0.5</b>) NOT Research Leader (Society): <br/>    •   Is Psionics Expert",
                 "(×<b style='color:lime'>1.1</b>) Research Leader (Society): <br/>    •   Skill level is greater than 2<br/>    •   Is Psionics Expert",
                 "(×<b style='color:lime'>1.5</b>) Research Leader (Society): <br/>    •   Skill level is greater than 3<br/>    •   Is Psionics Expert",
@@ -4126,11 +4352,13 @@
                   "name": "Precognition Interface",
                   "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analysing the impulses of telepathic operatives before they are cognitively processed.",
                   "area": "society",
-                  "base_factor": 0.5,
-                  "base_weight": 20.0,
+                  "base_factor": 2.0,
+                  "base_weight": 80.0,
                   "category": "Psionics",
                   "cost": 10000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Precognitive Interface"
+                  ],
                   "is_dangerous": false,
                   "is_rare": true,
                   "is_start_tech": false,
@@ -4145,7 +4373,7 @@
                     }
                   ],
                   "weight_modifiers": [
-                    "(×<b style='color:red'>0.0</b>) Has DLC \"Utopia\"",
+                    "(×<b style='color:red'>0.0</b>) Has DLC Utopia",
                     "(×<b style='color:red'>0.5</b>) NOT Research Leader (Society): <br/>    •   Is Psionics Expert",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                     "(×<b style='color:lime'>2.0</b>) Has Spiritualist Ethic",
@@ -4162,11 +4390,12 @@
                       "name": "Psi Jump Drive",
                       "description": "The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.",
                       "area": "society",
-                      "base_factor": 0.1,
-                      "base_weight": 2.5,
+                      "base_factor": 2.0,
+                      "base_weight": 50.0,
                       "category": "Psionics",
                       "cost": 17500,
                       "feature_unlocks": [
+                        "<b>Component</b>: Psi Jump Drive",
                         "<b>Feature : </b>Jump Drive Travel"
                       ],
                       "is_dangerous": true,
@@ -4183,7 +4412,7 @@
                         }
                       ],
                       "weight_modifiers": [
-                        "(×<b style='color:red'>0.0</b>) Has DLC \"Utopia\"",
+                        "(×<b style='color:red'>0.0</b>) Has DLC Utopia",
                         "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Psionics Expert<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator<br/>    •   Research Leader (Society): <br/>\t    •   Is Spark of Genius<br/>    •   Research Leader (Society): <br/>\t    •   Is Maniacal",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk"
                       ],
@@ -4210,11 +4439,13 @@
               "name": "Zro Distillation",
               "description": "An extremely rare aerosol of exotic particles. It has been deposited on a number of worlds through meteor impacts, but its true origin is a mystery. If ingested by psionically-gifted individuals, Zro acts as a very potent (and addictive) drug that enhances Psi abilities.",
               "area": "society",
-              "base_factor": 1.0,
-              "base_weight": 60.0,
+              "base_factor": 2.0,
+              "base_weight": 120.0,
               "category": "Psionics",
               "cost": 5000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Reveals Ressource</b>: Zro"
+              ],
               "is_dangerous": false,
               "is_rare": true,
               "is_start_tech": false,
@@ -4257,7 +4488,9 @@
           "base_weight": 95.0,
           "category": "Biology",
           "cost": 750,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Alien Zoo"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -4287,7 +4520,9 @@
           "base_weight": 65.0,
           "category": "Statecraft",
           "cost": 4000,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Xeno-Outreach Agency"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -4314,7 +4549,9 @@
           "base_weight": 65.0,
           "category": "Statecraft",
           "cost": 4000,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Executive Retreat"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -4364,8 +4601,8 @@
           "name": "Ascension Theory",
           "description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
           "area": "society",
-          "base_factor": 0.5,
-          "base_weight": 12.5,
+          "base_factor": 2.0,
+          "base_weight": 50.0,
           "category": "Statecraft",
           "cost": 17500,
           "feature_unlocks": [

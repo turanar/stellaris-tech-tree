@@ -34,7 +34,11 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Component</b>: Large Red Laser",
+            "<b>Component</b>: Medium Red Laser",
+            "<b>Component</b>: Small Red Laser"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -53,7 +57,11 @@
               "base_weight": 95.0,
               "category": "Particles",
               "cost": 750,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Component</b>: Large Blue Laser",
+                "<b>Component</b>: Medium Blue Laser",
+                "<b>Component</b>: Small Blue Laser"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -83,7 +91,11 @@
                   "base_weight": 85.0,
                   "category": "Particles",
                   "cost": 1500,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Large UV Laser",
+                    "<b>Component</b>: Medium UV Laser",
+                    "<b>Component</b>: Small UV Laser"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -113,7 +125,11 @@
                       "base_weight": 65.0,
                       "category": "Particles",
                       "cost": 4000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Component</b>: Large X-Ray Laser",
+                        "<b>Component</b>: Medium X-Ray Laser",
+                        "<b>Component</b>: Small X-Ray Laser"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -143,7 +159,11 @@
                           "base_weight": 45.0,
                           "category": "Particles",
                           "cost": 8000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Large Gamma Laser",
+                            "<b>Component</b>: Medium Gamma Laser",
+                            "<b>Component</b>: Small Gamma Laser"
+                          ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -176,7 +196,9 @@
                           "base_weight": 40.0,
                           "category": "Particles",
                           "cost": 10000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Particle Lance"
+                          ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -211,7 +233,9 @@
                               "base_weight": 35.0,
                               "category": "Particles",
                               "cost": 12000,
-                              "feature_unlocks": [],
+                              "feature_unlocks": [
+                                "<b>Component</b>: Tachyon Lance"
+                              ],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -253,7 +277,9 @@
                           "base_weight": 50.0,
                           "category": "Particles",
                           "cost": 6000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Proton Launchers"
+                          ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -284,7 +310,9 @@
                               "base_weight": 40.0,
                               "category": "Particles",
                               "cost": 10000,
-                              "feature_unlocks": [],
+                              "feature_unlocks": [
+                                "<b>Component</b>: Neutron Launchers"
+                              ],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -360,7 +388,10 @@
                   "base_weight": 75.0,
                   "category": "Particles",
                   "cost": 2000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Medium Disruptor",
+                    "<b>Component</b>: Small Disruptor"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -391,7 +422,10 @@
                       "base_weight": 65.0,
                       "category": "Particles",
                       "cost": 4000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Component</b>: Medium Ion Disruptor",
+                        "<b>Component</b>: Small Ion Disruptor"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -421,7 +455,10 @@
                           "base_weight": 45.0,
                           "category": "Particles",
                           "cost": 8000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Medium Phased Disruptor",
+                            "<b>Component</b>: Small Phased Disruptor"
+                          ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -451,7 +488,9 @@
                               "base_weight": 40.0,
                               "category": "Particles",
                               "cost": 10000,
-                              "feature_unlocks": [],
+                              "feature_unlocks": [
+                                "<b>Component</b>: Arc Emitter"
+                              ],
                               "is_dangerous": false,
                               "is_rare": false,
                               "is_start_tech": false,
@@ -486,7 +525,9 @@
                                   "base_weight": 35.0,
                                   "category": "Particles",
                                   "cost": 12000,
-                                  "feature_unlocks": [],
+                                  "feature_unlocks": [
+                                    "<b>Component</b>: Focused Arc Emitter"
+                                  ],
                                   "is_dangerous": false,
                                   "is_rare": false,
                                   "is_start_tech": false,
@@ -535,7 +576,11 @@
                   "base_weight": 75.0,
                   "category": "Particles",
                   "cost": 2000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Large Plasma Thrower",
+                    "<b>Component</b>: Medium Plasma Thrower",
+                    "<b>Component</b>: Small Plasma Thrower"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -566,7 +611,11 @@
                       "base_weight": 65.0,
                       "category": "Particles",
                       "cost": 4000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Component</b>: Large Plasma Accelerator",
+                        "<b>Component</b>: Medium Plasma Accelerator",
+                        "<b>Component</b>: Small Plasma Accelerator"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -596,7 +645,11 @@
                           "base_weight": 45.0,
                           "category": "Particles",
                           "cost": 8000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Large Plasma Cannon",
+                            "<b>Component</b>: Medium Plasma Cannon",
+                            "<b>Component</b>: Small Plasma Cannon"
+                          ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -676,7 +729,9 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Component</b>: Fission Reactor"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -695,7 +750,9 @@
               "base_weight": 190.0,
               "category": "Particles",
               "cost": 750,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Component</b>: Fusion Reactor"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -724,7 +781,9 @@
                   "base_weight": 150.0,
                   "category": "Particles",
                   "cost": 2000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Cold Fusion Reactor"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -753,7 +812,9 @@
                       "base_weight": 120.0,
                       "category": "Particles",
                       "cost": 5000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Component</b>: Antimatter Reactor"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -782,7 +843,9 @@
                           "base_weight": 80.0,
                           "category": "Particles",
                           "cost": 10000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Zero Point Reactor"
+                          ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -807,11 +870,12 @@
                               "name": "Jump Drive",
                               "description": "A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.",
                               "area": "physics",
-                              "base_factor": 0.1,
-                              "base_weight": 3.0,
+                              "base_factor": 2.0,
+                              "base_weight": 60.0,
                               "category": "Particles",
                               "cost": 15000,
                               "feature_unlocks": [
+                                "<b>Component</b>: Jump Drive",
                                 "<b>Feature : </b>Jump Drive Travel"
                               ],
                               "is_dangerous": true,
@@ -846,7 +910,9 @@
                               "base_weight": 1.0,
                               "category": "Particles",
                               "cost": 50000,
-                              "feature_unlocks": [],
+                              "feature_unlocks": [
+                                "<b>Component</b>: Dark Matter Reactor"
+                              ],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -897,7 +963,9 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Component</b>: Reactor Booster"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -916,7 +984,9 @@
               "base_weight": 135.0,
               "category": "Particles",
               "cost": 1000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Component</b>: Improved Reactor Booster"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -949,7 +1019,9 @@
                   "base_weight": 75.0,
                   "category": "Particles",
                   "cost": 6000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Advanced Reactor Booster"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -993,7 +1065,9 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Component</b>: Hyper Drive I"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1012,7 +1086,10 @@
               "base_weight": 75.0,
               "category": "Particles",
               "cost": 2000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Component</b>: Hyper Drive II",
+                "<b>Starbase Building</b>: Hyperlane Registrar"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1041,7 +1118,9 @@
                   "base_weight": 50.0,
                   "category": "Particles",
                   "cost": 6000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Hyper Drive III"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1066,8 +1145,8 @@
                       "name": "Gateway Activation",
                       "description": "The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.",
                       "area": "physics",
-                      "base_factor": 0.5,
-                      "base_weight": 17.5,
+                      "base_factor": 2.0,
+                      "base_weight": 70.0,
                       "category": "Particles",
                       "cost": 12000,
                       "feature_unlocks": [
@@ -1101,8 +1180,8 @@
                           "name": "Gateway Construction",
                           "description": "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.",
                           "area": "physics",
-                          "base_factor": 0.5,
-                          "base_weight": 10000.0,
+                          "base_factor": 2.0,
+                          "base_weight": 40000.0,
                           "category": "Particles",
                           "cost": 20000,
                           "feature_unlocks": [
@@ -1151,8 +1230,8 @@
                   "name": "Wormhole Stabilization",
                   "description": "A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.",
                   "area": "physics",
-                  "base_factor": 0.5,
-                  "base_weight": 32.5,
+                  "base_factor": 2.0,
+                  "base_weight": 130.0,
                   "category": "Particles",
                   "cost": 4000,
                   "feature_unlocks": [
@@ -1198,6 +1277,7 @@
               "category": "Particles",
               "cost": 1500,
               "feature_unlocks": [
+                "<b>Component</b>: FTL Inhibitor",
                 "<b>Feature : </b>Planetary FTL Inhibitors"
               ],
               "is_dangerous": false,
@@ -1390,7 +1470,8 @@
               "category": "Field Manipulation",
               "cost": 1000,
               "feature_unlocks": [
-                "<b>Building</b>: Energy Grid"
+                "<b>Building</b>: Energy Grid",
+                "<b>Edict</b>: Capacity Overload"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1468,7 +1549,11 @@
           "base_weight": 0.0,
           "category": "Field Manipulation",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Component</b>: Large Deflectors",
+            "<b>Component</b>: Medium Deflectors",
+            "<b>Component</b>: Small Deflectors"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1487,7 +1572,11 @@
               "base_weight": 112.5,
               "category": "Field Manipulation",
               "cost": 1000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Component</b>: Large Improved Deflectors",
+                "<b>Component</b>: Medium Improved Deflectors",
+                "<b>Component</b>: Small Improved Deflectors"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1515,7 +1604,11 @@
                   "base_weight": 87.5,
                   "category": "Field Manipulation",
                   "cost": 2500,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Large Shields",
+                    "<b>Component</b>: Medium Shields",
+                    "<b>Component</b>: Small Shields"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1543,7 +1636,11 @@
                       "base_weight": 62.5,
                       "category": "Field Manipulation",
                       "cost": 6000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Component</b>: Large Advanced Shields",
+                        "<b>Component</b>: Medium Advanced Shields",
+                        "<b>Component</b>: Small Advanced Shields"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -1571,7 +1668,11 @@
                           "base_weight": 43.75,
                           "category": "Field Manipulation",
                           "cost": 12000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Large Hyper Shields",
+                            "<b>Component</b>: Medium Hyper Shields",
+                            "<b>Component</b>: Small Hyper Shields"
+                          ],
                           "is_dangerous": false,
                           "is_rare": false,
                           "is_start_tech": false,
@@ -1599,7 +1700,11 @@
                               "base_weight": 1.0,
                               "category": "Field Manipulation",
                               "cost": 50000,
-                              "feature_unlocks": [],
+                              "feature_unlocks": [
+                                "<b>Component</b>: Large Dark Matter Deflectors",
+                                "<b>Component</b>: Medium Dark Matter Deflectors",
+                                "<b>Component</b>: Small Dark Matter Deflectors"
+                              ],
                               "is_dangerous": false,
                               "is_rare": true,
                               "is_start_tech": false,
@@ -1669,7 +1774,9 @@
                       "base_weight": 70.0,
                       "category": "Field Manipulation",
                       "cost": 2500,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Component</b>: Shield Capacitor"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -1696,11 +1803,13 @@
                       "name": "Planetary Shields",
                       "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
                       "area": "physics",
-                      "base_factor": 0.5,
-                      "base_weight": 32.5,
+                      "base_factor": 2.0,
+                      "base_weight": 130.0,
                       "category": "Field Manipulation",
                       "cost": 4000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Building</b>: Planetary Shield Generator"
+                      ],
                       "is_dangerous": false,
                       "is_rare": true,
                       "is_start_tech": false,
@@ -1745,7 +1854,9 @@
           "base_weight": 0.0,
           "category": "Computing",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Component</b>: Sentinel Point-Defense"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1764,7 +1875,9 @@
               "base_weight": 70.0,
               "category": "Computing",
               "cost": 2500,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Component</b>: Barrier Point-Defense"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -1792,7 +1905,9 @@
                   "base_weight": 45.0,
                   "category": "Computing",
                   "cost": 8000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Guardian Point-Defense"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1831,7 +1946,9 @@
           "base_weight": 0.0,
           "category": "Computing",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Research Labs"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -1880,7 +1997,10 @@
                   "base_weight": 90.0,
                   "category": "Computing",
                   "cost": 1000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Combat Computer",
+                    "<b>Component</b>: Starbase Fire Control"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -1944,7 +2064,10 @@
                       "base_weight": 65.0,
                       "category": "Computing",
                       "cost": 4000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Component</b>: Advanced Combat Computer",
+                        "<b>Component</b>: Starbase Fire Control"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -1973,11 +2096,13 @@
                           "name": "Sapient Combat Simulations",
                           "description": "Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.",
                           "area": "physics",
-                          "base_factor": 0.5,
-                          "base_weight": 20.0,
+                          "base_factor": 2.0,
+                          "base_weight": 80.0,
                           "category": "Computing",
                           "cost": 10000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Sapient Combat Computer"
+                          ],
                           "is_dangerous": true,
                           "is_rare": true,
                           "is_start_tech": false,
@@ -2015,11 +2140,13 @@
                           "name": "Autonomous Ship Intellects",
                           "description": "Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.",
                           "area": "physics",
-                          "base_factor": 0.5,
-                          "base_weight": 20.0,
+                          "base_factor": 2.0,
+                          "base_weight": 80.0,
                           "category": "Computing",
                           "cost": 10000,
-                          "feature_unlocks": [],
+                          "feature_unlocks": [
+                            "<b>Component</b>: Autonomous Ship Intellect"
+                          ],
                           "is_dangerous": false,
                           "is_rare": true,
                           "is_start_tech": false,
@@ -2157,6 +2284,52 @@
                   "potential": [],
                   "children": [
                     {
+                      "key": "tech_consumer_good_refinement_2",
+                      "name": "Predictive Consumerism",
+                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
+                      "area": "physics",
+                      "base_factor": 2.0,
+                      "base_weight": 90.0,
+                      "category": "Computing",
+                      "cost": 4000,
+                      "feature_unlocks": [
+                        "£job_artisan£ Artisans Output +10%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_self_aware_logic",
+                        "tech_consumer_good_refinement_1",
+                        "tech_luxuries_2"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "Replicator Kiosks",
+                          "key": "tech_luxuries_2"
+                        },
+                        {
+                          "name": "Market Analysis Algorithms",
+                          "key": "tech_consumer_good_refinement_1"
+                        },
+                        {
+                          "name": "Self-Evolving Logic",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                      ],
+                      "potential": [
+                        "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "is_gestalt": false,
+                      "source": "vanilla"
+                    },
+                    {
                       "key": "tech_positronic_implants",
                       "name": "Positronic Implants",
                       "description": "Expanding possibilities through the application of limited cybernetics.",
@@ -2233,11 +2406,13 @@
                       "name": "Synchronized Defenses",
                       "description": "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.",
                       "area": "physics",
-                      "base_factor": 0.5,
-                      "base_weight": 20.0,
+                      "base_factor": 2.0,
+                      "base_weight": 80.0,
                       "category": "Computing",
                       "cost": 10000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Starbase Building</b>: Defense-Grid Supercomputer"
+                      ],
                       "is_dangerous": false,
                       "is_rare": true,
                       "is_start_tech": false,
@@ -2267,6 +2442,47 @@
                   ],
                   "is_event": false,
                   "source": "vanilla"
+                },
+                {
+                  "key": "tech_consumer_good_refinement_1",
+                  "name": "Market Analysis Algorithms",
+                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 170.0,
+                  "category": "Computing",
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "£job_artisan£ Artisans Output +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_administrative_ai",
+                    "tech_luxuries_1"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "Nano-Circuit Assembly",
+                      "key": "tech_luxuries_1"
+                    },
+                    {
+                      "name": "Administrative AI",
+                      "key": "tech_administrative_ai"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                  ],
+                  "potential": [
+                    "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_gestalt": false,
+                  "source": "vanilla"
                 }
               ],
               "is_event": false,
@@ -2281,7 +2497,9 @@
               "base_weight": 90.0,
               "category": "Computing",
               "cost": 1000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Building</b>: Research Complexes"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2302,6 +2520,46 @@
               "potential": [],
               "children": [
                 {
+                  "key": "tech_global_research_initiative",
+                  "name": "Interplanetary Research Initiative",
+                  "description": "A bid for interplanetary resource pools and more flexible research grants.",
+                  "area": "physics",
+                  "base_factor": 1.5,
+                  "base_weight": 97.5,
+                  "category": "Computing",
+                  "cost": 4000,
+                  "feature_unlocks": [
+                    "<b>Building</b>: Planetary Supercomputer",
+                    "<b>Building</b>: Research Institute"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_basic_science_lab_2",
+                    "tech_colonial_centralization"
+                  ],
+                  "tier": 3,
+                  "prerequisites_names": [
+                    {
+                      "name": "Exotic Materials Labs",
+                      "key": "tech_basic_science_lab_2"
+                    },
+                    {
+                      "name": "Colonial Centralization",
+                      "key": "tech_colonial_centralization"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Computing Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                },
+                {
                   "key": "tech_basic_science_lab_3",
                   "name": "Multi-Dimensional Studies",
                   "description": "To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!",
@@ -2310,7 +2568,9 @@
                   "base_weight": 130.0,
                   "category": "Computing",
                   "cost": 4000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Building</b>: Advanced Research Complexes"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2640,43 +2900,6 @@
               ],
               "is_event": false,
               "source": "vanilla"
-            },
-            {
-              "key": "tech_global_research_initiative",
-              "name": "Interplanetary Research Initiative",
-              "description": "A bid for interplanetary resource pools and more flexible research grants.",
-              "area": "physics",
-              "base_factor": 1.5,
-              "base_weight": 97.5,
-              "category": "Computing",
-              "cost": 4000,
-              "feature_unlocks": [],
-              "is_dangerous": false,
-              "is_rare": false,
-              "is_start_tech": false,
-              "prerequisites": [
-                "tech_physics_1",
-                "tech_colonial_centralization"
-              ],
-              "tier": 3,
-              "prerequisites_names": [
-                {
-                  "name": "Quantum Theory",
-                  "key": "tech_physics_1"
-                },
-                {
-                  "name": "Colonial Centralization",
-                  "key": "tech_colonial_centralization"
-                }
-              ],
-              "weight_modifiers": [
-                "(×<b style='color:red'>0.25</b>) All must be false<br/>    •   Research Leader (Physics): <br/>\t    •   Is Computing Expert<br/>    •   Research Leader (Physics): <br/>\t    •   Is Curator",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
-              ],
-              "potential": [],
-              "children": [],
-              "is_event": false,
-              "source": "vanilla"
             }
           ],
           "is_event": false,
@@ -2691,7 +2914,10 @@
           "base_weight": 85.0,
           "category": "Computing",
           "cost": 1500,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Component</b>: Gravitic Sensors",
+            "<b>Starbase Building</b>: Listening Post"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -2709,8 +2935,8 @@
               "name": "Speculative Hyperlane Breaching",
               "description": "Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.",
               "area": "physics",
-              "base_factor": 0.5,
-              "base_weight": 37.5,
+              "base_factor": 2.0,
+              "base_weight": 150.0,
               "category": "Field Manipulation",
               "cost": 2500,
               "feature_unlocks": [
@@ -2747,7 +2973,10 @@
               "base_weight": 65.0,
               "category": "Computing",
               "cost": 4000,
-              "feature_unlocks": [],
+              "feature_unlocks": [
+                "<b>Component</b>: Subspace Sensors",
+                "<b>Starbase Building</b>: Black Hole Observatory"
+              ],
               "is_dangerous": false,
               "is_rare": false,
               "is_start_tech": false,
@@ -2776,7 +3005,9 @@
                   "base_weight": 45.0,
                   "category": "Computing",
                   "cost": 8000,
-                  "feature_unlocks": [],
+                  "feature_unlocks": [
+                    "<b>Component</b>: Tachyon Sensors"
+                  ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
@@ -2805,7 +3036,9 @@
                       "base_weight": 50.0,
                       "category": "Field Manipulation",
                       "cost": 6000,
-                      "feature_unlocks": [],
+                      "feature_unlocks": [
+                        "<b>Reveals Ressource</b>: Dark Matter"
+                      ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
@@ -2849,7 +3082,9 @@
           "base_weight": 0.0,
           "category": "Particles",
           "cost": 0,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Bio-Reactor"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": true,
@@ -2858,7 +3093,7 @@
           "prerequisites_names": [],
           "weight_modifiers": [],
           "potential": [
-            "One must be true\n    •   Has Machine Intelligence Authority\n    •   One must be true\n\t    •   Founder Species :\n\t\t    •   Is Mechanical\n\t    •   Has the synthetic_empire country flag\n    •   Owner Species is Lithoid"
+            "One must be true\n    •   Has Machine Intelligence Authority\n    •   One must be true\n\t    •   Founder Species :\n\t\t    •   Is Mechanical\n\t    •   Has the synthetic_empire country flag\n    •   is_lithoid_empire=yes"
           ],
           "children": [],
           "is_event": false,
@@ -2874,7 +3109,10 @@
           "base_weight": 170.0,
           "category": "Particles",
           "cost": 1500,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Mote Harvesting Traps",
+            "<b>Reveals Ressource</b>: Volatile Motes"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -2899,7 +3137,9 @@
           "base_weight": 170.0,
           "category": "Particles",
           "cost": 1500,
-          "feature_unlocks": [],
+          "feature_unlocks": [
+            "<b>Building</b>: Chemical Plants"
+          ],
           "is_dangerous": false,
           "is_rare": false,
           "is_start_tech": false,
@@ -2938,9 +3178,9 @@
             "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
             "(×<b style='color:lime'>1.25</b>) Has Discovery Traditions Tradition",
             "(×<b style='color:red'>0.0</b>) Number of years since game start is lower than 5",
-            "(×<b style='color:lime'>2.0</b>) All must be true<br/>    •   Is NOT AI<br/>    •   Number of years since game start is greater than 10",
-            "(×<b style='color:lime'>2.0</b>) All must be true<br/>    •   Is NOT AI<br/>    •   Number of years since game start is greater than 15",
-            "(×<b style='color:lime'>2.0</b>) All must be true<br/>    •   Is NOT AI<br/>    •   Number of years since game start is greater than 20",
+            "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 10",
+            "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 15",
+            "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 20",
             "(×<b style='color:lime'>2.0</b>) Number of owned planets is greater than 5",
             "(×<b style='color:lime'>2.0</b>) Number of owned planets is greater than 10",
             "(×<b style='color:lime'>2.0</b>) Number of owned planets is greater than 15",
@@ -2956,8 +3196,8 @@
           "name": "Curator Archaeology Lab",
           "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
           "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 85.0,
+          "base_factor": 2.0,
+          "base_weight": 170.0,
           "category": "Computing",
           "cost": 1500,
           "feature_unlocks": [
@@ -3018,8 +3258,8 @@
           "name": "Curator Exploration Lab",
           "description": "These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.",
           "area": "physics",
-          "base_factor": 1.0,
-          "base_weight": 85.0,
+          "base_factor": 2.0,
+          "base_weight": 170.0,
           "category": "Computing",
           "cost": 1500,
           "feature_unlocks": [
