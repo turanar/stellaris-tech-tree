@@ -54,6 +54,7 @@
               "category": "Biology",
               "cost": 500,
               "feature_unlocks": [
+                "<b>Edict</b>: Farming Subsidies",
                 "£food£ Food from £job_farmer£ Farmers +20%"
               ],
               "is_dangerous": false,
@@ -88,8 +89,7 @@
                   "category": "Biology",
                   "cost": 750,
                   "feature_unlocks": [
-                    "<b>Building</b>: Food Processing Facilities",
-                    "<b>Edict</b>: Farming Subsidies"
+                    "<b>Building</b>: Food Processing Facilities"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -161,8 +161,6 @@
                   "category": "Biology",
                   "cost": 1500,
                   "feature_unlocks": [
-                    "<b>Edict</b>: Expanded Breeding Program",
-                    "<b>Edict</b>: Nutritional Plenitude",
                     "£food£ Food from £job_farmer£ Farmers +20%"
                   ],
                   "is_dangerous": false,
@@ -433,8 +431,7 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:red'>0.5</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Biology Expert<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator<br/>    •   Research Leader (Society): <br/>\t    •   Is Spark of Genius",
-                    "(×<b style='color:red'>0.0</b>) Has Fanatic Egalitarian Ethic",
-                    "(×<b style='color:red'>0.25</b>) One must be true<br/>    •   Has Egalitarian Ethic<br/>    •   Has Fanatic Egalitarian Ethic",
+                    "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Egalitarian Ethic<br/>    •   Has Fanatic Egalitarian Ethic",
                     "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Authoritarian Ethic<br/>    •   Has Fanatic Authoritarian Ethic",
                     "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                     "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
@@ -470,7 +467,7 @@
                       ],
                       "weight_modifiers": [
                         "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Research Leader (Society): <br/>\t    •   Is Biology Expert<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator<br/>    •   Research Leader (Society): <br/>\t    •   Is Spark of Genius",
-                        "(×<b style='color:red'>0.0</b>) One must be true<br/>    •   Has Egalitarian Ethic<br/>    •   Has Fanatic Egalitarian Ethic",
+                        "(×<b style='color:red'>0.5</b>) One must be true<br/>    •   Has Egalitarian Ethic<br/>    •   Has Fanatic Egalitarian Ethic",
                         "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Authoritarian Ethic<br/>    •   Has Fanatic Authoritarian Ethic",
                         "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                         "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
@@ -1156,7 +1153,6 @@
           "category": "Military Theory",
           "cost": 1500,
           "feature_unlocks": [
-            "<b>Edict</b>: Fleet Supremacy",
             "Fleet Command Limit +20"
           ],
           "is_dangerous": false,
@@ -2894,6 +2890,7 @@
             "<b>Building</b>: Administrative Array",
             "<b>Building</b>: Administrative Offices",
             "<b>Building</b>: Hive Core",
+            "<b>Building</b>: Maintenance Depots",
             "<b>Building</b>: Planetary Administration",
             "<b>Building</b>: Precinct Houses",
             "<b>Building</b>: Sentinel Posts",
@@ -2918,6 +2915,7 @@
               "category": "Statecraft",
               "cost": 500,
               "feature_unlocks": [
+                "<b>Edict</b>: Peace Festivals",
                 "<b>Feature : </b>Additional Edicts (Campaigns)",
                 "Monthly Unity +2"
               ],
@@ -2982,8 +2980,6 @@
                       "category": "Statecraft",
                       "cost": 2000,
                       "feature_unlocks": [
-                        "<b>Building</b>: Corporate Embassy",
-                        "<b>Building</b>: Disinformation Center",
                         "<b>Building</b>: Embassy Complex",
                         "Diplomatic Weight +10%"
                       ],
@@ -3195,9 +3191,7 @@
                       "cost": 4000,
                       "feature_unlocks": [
                         "<b>Building</b>: Ministry of Production",
-                        "<b>Building</b>: Resource Processing Center",
-                        "<b>Edict</b>: Forge Subsidies",
-                        "<b>Edict</b>: Industrial Subsidies"
+                        "<b>Building</b>: Resource Processing Center"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
