@@ -1181,7 +1181,7 @@
                           "description": "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.",
                           "area": "physics",
                           "base_factor": 2.0,
-                          "base_weight": 40.0,
+                          "base_weight": 40000.0,
                           "category": "Particles",
                           "cost": 20000,
                           "feature_unlocks": [
@@ -1471,7 +1471,7 @@
               "cost": 1000,
               "feature_unlocks": [
                 "<b>Building</b>: Energy Grid",
-                "<b>Edict</b>: Capacity Subsidies"
+                "<b>Edict</b>: Capacity Overload"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -3201,7 +3201,7 @@
           "category": "Computing",
           "cost": 1500,
           "feature_unlocks": [
-            "Archaeology Skill +2"
+            "mod_country_ship_archeaological_site_clues_add +2"
           ],
           "is_dangerous": false,
           "is_rare": true,

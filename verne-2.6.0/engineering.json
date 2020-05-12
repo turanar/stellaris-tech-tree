@@ -156,7 +156,7 @@
                   "cost": 1000,
                   "feature_unlocks": [
                     "<b>Building</b>: Mineral Purification Plants",
-                    "<b>Edict</b>: Mining Subsidies"
+                    "<b>Edict</b>: Production Targets"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -1356,7 +1356,7 @@
               "category": "Industry",
               "cost": 1000,
               "feature_unlocks": [
-                "Planetary Build Speed +25%"
+                "Planet Build Speed +25%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1388,7 +1388,7 @@
                   "cost": 5000,
                   "feature_unlocks": [
                     "Empire Sprawl from Districts -10%",
-                    "Planetary Build Speed +50%"
+                    "Planet Build Speed +50%"
                   ],
                   "is_dangerous": false,
                   "is_rare": true,
@@ -1420,7 +1420,7 @@
                       "category": "Industry",
                       "cost": 50000,
                       "feature_unlocks": [
-                        "Planetary Build Speed +10%"
+                        "Planet Build Speed +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3703,128 +3703,91 @@
                         "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                       ],
                       "potential": [],
-                      "children": [],
-                      "is_event": false,
-                      "source": "vanilla"
-                    }
-                  ],
-                  "is_event": false,
-                  "source": "vanilla"
-                },
-                {
-                  "key": "tech_habitat_1",
-                  "name": "Orbital Habitats",
-                  "description": "Allows the construction of largely self-sustaining Orbital Habitats.",
-                  "area": "engineering",
-                  "base_factor": 1.0,
-                  "base_weight": 60.0,
-                  "category": "Voidcraft",
-                  "cost": 5000,
-                  "feature_unlocks": [],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [
-                    "tech_starbase_3"
-                  ],
-                  "tier": 3,
-                  "prerequisites_names": [
-                    {
-                      "name": "Starhold",
-                      "key": "tech_starbase_3"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×<b style='color:red'>0.1</b>) NOT Number of years since game start is greater than 50",
-                    "(×<b style='color:lime'>10.0</b>) Any Neighbor Country<br/>    •   Has Technology: Orbital Habitats",
-                    "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 60",
-                    "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 65",
-                    "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 70",
-                    "(×<b style='color:lime'>5.0</b>) Number of Starhold is greater than or equal to 3",
-                    "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Finished Tradition",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
-                  ],
-                  "potential": [
-                    "One must be true\n    •   has_origin=origin_void_dwellers\n    •   Has DLC Utopia"
-                  ],
-                  "children": [
-                    {
-                      "key": "tech_habitat_2",
-                      "name": "Habitat Expansion",
-                      "description": "Our early habitats were primitive things compared to the efficient designs we can now develop.",
-                      "area": "engineering",
-                      "base_factor": 10.0,
-                      "base_weight": 350.0,
-                      "category": "Voidcraft",
-                      "cost": 10000,
-                      "feature_unlocks": [],
-                      "is_dangerous": false,
-                      "is_rare": true,
-                      "is_start_tech": false,
-                      "prerequisites": [
-                        "tech_habitat_1",
-                        "tech_starbase_4"
-                      ],
-                      "tier": 4,
-                      "prerequisites_names": [
-                        {
-                          "name": "Orbital Habitats",
-                          "key": "tech_habitat_1"
-                        },
-                        {
-                          "name": "Star Fortress",
-                          "key": "tech_starbase_4"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×<b style='color:red'>0.0</b>) No Owned Planet<br/>    •   Is Orbital Habitat",
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
-                      ],
-                      "potential": [
-                        "One must be true\n    •   has_origin=origin_void_dwellers\n    •   Has DLC Utopia"
-                      ],
                       "children": [
                         {
-                          "key": "tech_habitat_3",
-                          "name": "Advanced Space Habitation",
-                          "description": "Years of improvements to our Orbital Habitats have led us to create newer more effective designs.",
+                          "key": "tech_juggernaut",
+                          "name": "Juggernaut",
+                          "description": "A mobile space base of unparalleled proportions, the Juggernaut ship class takes offensive warfare to a whole new level.",
                           "area": "engineering",
-                          "base_factor": 10.0,
-                          "base_weight": 350.0,
+                          "base_factor": 2.0,
+                          "base_weight": 40.0,
                           "category": "Voidcraft",
-                          "cost": 17500,
-                          "feature_unlocks": [],
+                          "cost": 20000,
+                          "feature_unlocks": [
+                            "<b>Starbase Building</b>: Colossal Assembly Yards"
+                          ],
                           "is_dangerous": false,
                           "is_rare": true,
                           "is_start_tech": false,
                           "prerequisites": [
-                            "tech_habitat_2",
-                            "tech_starbase_5"
+                            "tech_starbase_5",
+                            "tech_titans"
                           ],
-                          "tier": 4,
+                          "tier": 5,
                           "prerequisites_names": [
-                            {
-                              "name": "Habitat Expansion",
-                              "key": "tech_habitat_2"
-                            },
                             {
                               "name": "Citadel",
                               "key": "tech_starbase_5"
+                            },
+                            {
+                              "name": "Titans",
+                              "key": "tech_titans"
                             }
                           ],
                           "weight_modifiers": [
-                            "(×<b style='color:red'>0.0</b>) No Owned Planet<br/>    •   Is Orbital Habitat",
+                            "(×<b style='color:lime'>1.5</b>) One must be true<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal",
+                            "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
                             "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                           ],
                           "potential": [
-                            "One must be true\n    •   has_origin=origin_void_dwellers\n    •   Has DLC Utopia"
+                            "Has DLC Federations"
                           ],
                           "children": [],
                           "is_event": false,
                           "source": "vanilla"
                         }
                       ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
+                      "key": "tech_habitat_1",
+                      "name": "Orbital Habitats",
+                      "description": "Allows the construction of largely self-sustaining Orbital Habitats.",
+                      "area": "engineering",
+                      "base_factor": 1.0,
+                      "base_weight": 60.0,
+                      "category": "Voidcraft",
+                      "cost": 5000,
+                      "feature_unlocks": [],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_starbase_4"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "Star Fortress",
+                          "key": "tech_starbase_4"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.1</b>) NOT Number of years since game start is greater than 50",
+                        "(×<b style='color:lime'>10.0</b>) Any Neighbor Country<br/>    •   Has Technology: Orbital Habitats",
+                        "(×<b style='color:lime'>2.0</b>) Number of years since game start is greater than 60",
+                        "(×<b style='color:lime'>3.0</b>) Number of years since game start is greater than 65",
+                        "(×<b style='color:lime'>4.0</b>) Number of years since game start is greater than 70",
+                        "(×<b style='color:lime'>5.0</b>) Number of Starhold is greater than or equal to 3",
+                        "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Tradition",
+                        "(×<b style='color:lime'>1.25</b>) Has Expansion Traditions Finished Tradition",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
+                      ],
+                      "potential": [
+                        "Has DLC Utopia"
+                      ],
+                      "children": [],
                       "is_event": false,
                       "source": "vanilla"
                     }
@@ -4817,49 +4780,6 @@
                             "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
                           ],
                           "potential": [],
-                          "children": [],
-                          "is_event": false,
-                          "source": "vanilla"
-                        },
-                        {
-                          "key": "tech_juggernaut",
-                          "name": "Juggernaut",
-                          "description": "A mobile space base of unparalleled proportions, the Juggernaut ship class takes offensive warfare to a whole new level.",
-                          "area": "engineering",
-                          "base_factor": 2.0,
-                          "base_weight": 40.0,
-                          "category": "Voidcraft",
-                          "cost": 20000,
-                          "feature_unlocks": [
-                            "<b>Starbase Building</b>: Colossal Assembly Yards"
-                          ],
-                          "is_dangerous": false,
-                          "is_rare": true,
-                          "is_start_tech": false,
-                          "prerequisites": [
-                            "tech_battleships",
-                            "tech_starbase_5"
-                          ],
-                          "tier": 5,
-                          "prerequisites_names": [
-                            {
-                              "name": "Citadel",
-                              "key": "tech_starbase_5"
-                            },
-                            {
-                              "name": "Battleships",
-                              "key": "tech_battleships"
-                            }
-                          ],
-                          "weight_modifiers": [
-                            "(×<b style='color:lime'>1.5</b>) One must be true<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Voidcraft Expert<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Curator<br/>    •   Research Leader (Engineering): <br/>\t    •   Is Maniacal",
-                            "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                            "(×<b style='color:lime'>1.25</b>) Has Technology: Titans",
-                            "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Voidcraft Expert"
-                          ],
-                          "potential": [
-                            "Has DLC Federations"
-                          ],
                           "children": [],
                           "is_event": false,
                           "source": "vanilla"
