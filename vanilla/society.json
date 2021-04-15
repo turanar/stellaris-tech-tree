@@ -54,6 +54,7 @@
               "category": "Biology",
               "cost": 500,
               "feature_unlocks": [
+                "£food£ Food from Starbase Constructions +20%",
                 "£food£ Food from £job_farmer£ Farmers +20%"
               ],
               "is_dangerous": false,
@@ -163,6 +164,7 @@
                   "feature_unlocks": [
                     "<b>Edict</b>: Expanded Breeding Program",
                     "<b>Edict</b>: Nutritional Plenitude",
+                    "£food£ Food from Starbase Constructions +20%",
                     "£food£ Food from £job_farmer£ Farmers +20%"
                   ],
                   "is_dangerous": false,
@@ -197,6 +199,7 @@
                       "category": "Biology",
                       "cost": 4000,
                       "feature_unlocks": [
+                        "£food£ Food from Starbase Constructions +20%",
                         "£food£ Food from £job_farmer£ Farmers +20%"
                       ],
                       "is_dangerous": false,
@@ -231,6 +234,7 @@
                           "category": "Biology",
                           "cost": 12000,
                           "feature_unlocks": [
+                            "£food£ Food from Starbase Constructions +20%",
                             "£food£ Food from £job£ Jobs +15%"
                           ],
                           "is_dangerous": false,
@@ -526,6 +530,86 @@
               "source": "vanilla"
             },
             {
+              "key": "tech_subdermal_stimulation",
+              "name": "Subdermal Stimulation",
+              "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
+              "area": "society",
+              "base_factor": 2.0,
+              "base_weight": 150.0,
+              "category": "Biology",
+              "cost": 2000,
+              "feature_unlocks": [
+                "<b>Feature : </b>Chemical Bliss"
+              ],
+              "is_dangerous": false,
+              "is_rare": true,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_genome_mapping"
+              ],
+              "tier": 2,
+              "prerequisites_names": [
+                {
+                  "name": "Genome Mapping",
+                  "key": "tech_genome_mapping"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) All must be false<br/>    •   Has Egalitarian Ethic<br/>    •   Has Fanatic Egalitarian Ethic",
+                "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
+              ],
+              "potential": [
+                "Does NOT have Gestalt Consciousness Ethic"
+              ],
+              "children": [
+                {
+                  "key": "tech_tracking_implants",
+                  "name": "Tracking Implants",
+                  "description": "Further advancements in the field of subdermal implants can provide detailed information regarding the movements and actions of the implanted.",
+                  "area": "society",
+                  "base_factor": 2.0,
+                  "base_weight": 80.0,
+                  "category": "Statecraft",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "<b>Edict</b>: Tracking Implants"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_subdermal_stimulation",
+                    "tech_galactic_bureaucracy"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "Subdermal Stimulation",
+                      "key": "tech_subdermal_stimulation"
+                    },
+                    {
+                      "name": "Galactic Bureaucracy",
+                      "key": "tech_galactic_bureaucracy"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.2</b>) All must be false<br/>    •   Has the Curator Insight modifier<br/>    •   Research Leader (Society): <br/>\t    •   Is Curator<br/>    •   Research Leader (Society): <br/>\t    •   Is Statecraft Expert",
+                    "(×<b style='color:lime'>2.0</b>) One must be true<br/>    •   Has Authoritarian Ethic<br/>    •   Has Fanatic Authoritarian Ethic",
+                    "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
+                  ],
+                  "potential": [],
+                  "children": [],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "is_gestalt": false,
+              "source": "vanilla"
+            },
+            {
               "key": "tech_gene_tailoring",
               "name": "Gene Tailoring",
               "description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
@@ -555,7 +639,8 @@
               "weight_modifiers": [
                 "(×<b style='color:lime'>1.25</b>) Has Hive Mind Authority",
                 "(×<b style='color:lime'>1.25</b>) One must be true<br/>    •   Has Xenophile Ethic<br/>    •   Has Fanatic Xenophile Ethic",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
+                "(×<b style='color:lime'>1.25</b>) Is Necrophage"
               ],
               "potential": [
                 "One must be true\n    •   Does NOT have Machine Intelligence Authority\n    •   Has Government Civic: Driven Assimilator\n    •   Has Government Civic: Rogue Servitor"
@@ -571,6 +656,7 @@
                   "category": "Biology",
                   "cost": 6000,
                   "feature_unlocks": [
+                    "<b>Building</b>: House of Apotheosis",
                     "<b>Feature : </b>Habitability Modification"
                   ],
                   "is_dangerous": false,
@@ -588,7 +674,8 @@
                   ],
                   "weight_modifiers": [
                     "(×<b style='color:lime'>1.25</b>) Has Hive Mind Authority",
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
+                    "(×<b style='color:lime'>1.25</b>) Is Necrophage"
                   ],
                   "potential": [
                     "One must be true\n    •   Does NOT have Machine Intelligence Authority\n    •   Has Government Civic: Driven Assimilator\n    •   Has Government Civic: Rogue Servitor"
@@ -723,7 +810,7 @@
                 "(×<b style='color:lime'>1.25</b>) Has Xenophile Ethic",
                 "(×<b style='color:lime'>1.5</b>) Has Fanatic Xenophile Ethic",
                 "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert",
-                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has the found_presapients country flag<br/>    •   Any Planet within borders<br/>\t    •   Any Pop<br/>\t\t    •   Pop is NOT Sapient"
+                "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has the found_presapients country flag<br/>    •   Any Planet within borders<br/>\t    •   Any Owned Pop<br/>\t\t    •   Pop is NOT Sapient"
               ],
               "potential": [
                 "Does NOT have Government Civic: Fanatic Purifiers",
@@ -861,44 +948,6 @@
               "is_event": false,
               "is_machine_empire": false,
               "is_drive_assimilator": true,
-              "source": "vanilla"
-            },
-            {
-              "key": "tech_subdermal_stimulation",
-              "name": "Subdermal Stimulation",
-              "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
-              "area": "society",
-              "base_factor": 2.0,
-              "base_weight": 150.0,
-              "category": "Biology",
-              "cost": 2000,
-              "feature_unlocks": [
-                "<b>Feature : </b>Chemical Bliss"
-              ],
-              "is_dangerous": false,
-              "is_rare": true,
-              "is_start_tech": false,
-              "prerequisites": [
-                "tech_genome_mapping"
-              ],
-              "tier": 2,
-              "prerequisites_names": [
-                {
-                  "name": "Genome Mapping",
-                  "key": "tech_genome_mapping"
-                }
-              ],
-              "weight_modifiers": [
-                "(×<b style='color:lime'>1.25</b>) All must be false<br/>    •   Has Egalitarian Ethic<br/>    •   Has Fanatic Egalitarian Ethic",
-                "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
-                "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Biology Expert"
-              ],
-              "potential": [
-                "Does NOT have Gestalt Consciousness Ethic"
-              ],
-              "children": [],
-              "is_event": false,
-              "is_gestalt": false,
               "source": "vanilla"
             }
           ],
@@ -1356,6 +1405,7 @@
           "category": "Military Theory",
           "cost": 2000,
           "feature_unlocks": [
+            "<b>Building</b>: Dread Encampment",
             "<b>Building</b>: Military Academy",
             "Max Occupation Garrisons +2"
           ],
@@ -2749,7 +2799,8 @@
               "category": "Statecraft",
               "cost": 2000,
               "feature_unlocks": [
-                "<b>Building</b>: Synaptic Clusters"
+                "<b>Building</b>: Synaptic Clusters",
+                "<b>Edict</b>: Synaptic Reinforcement"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -2973,6 +3024,88 @@
                   "potential": [],
                   "children": [
                     {
+                      "key": "tech_planetary_infrastructure_1",
+                      "name": "Ceramo-Metal Infrastructure",
+                      "description": "Stronger alloys allow us to create prefabricated buildings, providing our colonies with the improved infrastructure.",
+                      "area": "society",
+                      "base_factor": 4.0,
+                      "base_weight": 280.0,
+                      "category": "New Worlds",
+                      "cost": 2500,
+                      "feature_unlocks": [
+                        "Building Slots +1"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_colonial_centralization",
+                        "tech_ship_armor_2"
+                      ],
+                      "tier": 2,
+                      "prerequisites_names": [
+                        {
+                          "name": "Colonial Centralization",
+                          "key": "tech_colonial_centralization"
+                        },
+                        {
+                          "name": "Ceramo-Metal Materials",
+                          "key": "tech_ship_armor_2"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is New Worlds Expert"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_planetary_infrastructure_2",
+                          "name": "Durasteel Infrastructure",
+                          "description": "Advances in metallurgy permit us to build vastly larger and more durable structures, greatly improving the infrastructure of our colonies.",
+                          "area": "society",
+                          "base_factor": 4.0,
+                          "base_weight": 140.0,
+                          "category": "New Worlds",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "Building Slots +1"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_planetary_infrastructure_1",
+                            "tech_galactic_administration",
+                            "tech_ship_armor_4"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "Galactic Administration",
+                              "key": "tech_galactic_administration"
+                            },
+                            {
+                              "name": "Durasteel Materials",
+                              "key": "tech_ship_armor_4"
+                            },
+                            {
+                              "name": "Ceramo-Metal Infrastructure",
+                              "key": "tech_planetary_infrastructure_1"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is New Worlds Expert"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    },
+                    {
                       "key": "tech_xeno_diplomacy",
                       "name": "Xeno Diplomacy",
                       "description": "Advancing our understanding of interactions with - and manipulations of - the xeno is a necessary step in forming more permanent interstellar alliances.",
@@ -3007,7 +3140,7 @@
                         "(×<b style='color:red'>0.01</b>) Has Government Civic: Inward Perfection"
                       ],
                       "potential": [
-                        "Does NOT have Gestalt Consciousness Ethic"
+                        "null\n    •   One must be true\n\t    •   Is of country type: default\n\t    •   Is of country type: Fallen Empire\n\t    •   Is of country type: Awakened Empire\n    •   Does NOT have Gestalt Consciousness Ethic"
                       ],
                       "children": [
                         {
@@ -3048,7 +3181,7 @@
                             "(×<b style='color:red'>0.01</b>) Has Government Civic: Inward Perfection"
                           ],
                           "potential": [
-                            "Does NOT have Gestalt Consciousness Ethic"
+                            "null\n    •   One must be true\n\t    •   Is of country type: default\n\t    •   Is of country type: Fallen Empire\n\t    •   Is of country type: Awakened Empire\n    •   Does NOT have Gestalt Consciousness Ethic"
                           ],
                           "children": [],
                           "is_event": false,
@@ -3070,6 +3203,7 @@
                       "category": "Statecraft",
                       "cost": 2500,
                       "feature_unlocks": [
+                        "Available Envoys +1",
                         "Monthly Influence +1"
                       ],
                       "is_dangerous": false,
@@ -3106,6 +3240,7 @@
                           "category": "Statecraft",
                           "cost": 6000,
                           "feature_unlocks": [
+                            "Available Envoys +1",
                             "Leader Level Cap +1",
                             "Leader Upkeep -10%"
                           ],
@@ -3204,8 +3339,7 @@
                       "is_start_tech": false,
                       "prerequisites": [
                         "tech_colonial_centralization",
-                        "tech_alloys_1",
-                        "tech_luxuries_1"
+                        "tech_alloys_1"
                       ],
                       "tier": 3,
                       "prerequisites_names": [
@@ -3214,15 +3348,12 @@
                           "key": "tech_alloys_1"
                         },
                         {
-                          "name": "Nano-Circuit Assembly",
-                          "key": "tech_luxuries_1"
-                        },
-                        {
                           "name": "Colonial Centralization",
                           "key": "tech_colonial_centralization"
                         }
                       ],
                       "weight_modifiers": [
+                        "(×<b style='color:red'>0.0</b>) All must be false<br/>    •   Has Technology: Nano-Circuit Assembly<br/>    •   country_uses_consumer_goods=no",
                         "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
                       ],
                       "potential": [],
@@ -3443,7 +3574,8 @@
                       "feature_unlocks": [
                         "<b>Building</b>: Administrative Park",
                         "<b>Building</b>: Network Junction",
-                        "Administrative Capacity +10"
+                        "Administrative Capacity +10",
+                        "Base Intel Level +10"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -3479,7 +3611,8 @@
                           "feature_unlocks": [
                             "<b>Building</b>: Administrative Complex",
                             "<b>Building</b>: System Conflux",
-                            "Administrative Capacity +10"
+                            "Administrative Capacity +10",
+                            "Base Intel Level +10"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -3582,6 +3715,120 @@
                   ],
                   "is_event": false,
                   "source": "vanilla"
+                },
+                {
+                  "key": "tech_capital_productivity_1",
+                  "name": "Improved Production",
+                  "description": "As our planets become more developed, we can gain significant improvements to our throughput.",
+                  "area": "society",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "Statecraft",
+                  "cost": 2500,
+                  "feature_unlocks": [
+                    "Capital Buildings:\n  Resources from £job£ Jobs: +10%\n  Upkeep from £job£ Jobs: +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_planetary_unification"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "Planetary Unification",
+                      "key": "tech_planetary_unification"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.25</b>) Does NOT have Prosperity Traditions Finished Tradition",
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_capital_productivity_2",
+                      "name": "Efficiencies of Scale",
+                      "description": "Increased population density gives us an opportunity to further increase productivity.",
+                      "area": "society",
+                      "base_factor": 1.0,
+                      "base_weight": 70.0,
+                      "category": "Statecraft",
+                      "cost": 6000,
+                      "feature_unlocks": [
+                        "Upgraded Capital Buildings:\n  Resources from £job£ Jobs: +20%\n  Upkeep from £job£ Jobs: +20%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_capital_productivity_1",
+                        "tech_colonial_centralization"
+                      ],
+                      "tier": 3,
+                      "prerequisites_names": [
+                        {
+                          "name": "Colonial Centralization",
+                          "key": "tech_colonial_centralization"
+                        },
+                        {
+                          "name": "Improved Production",
+                          "key": "tech_capital_productivity_1"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:red'>0.25</b>) Does NOT have Prosperity Traditions Finished Tradition",
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
+                      ],
+                      "potential": [],
+                      "children": [
+                        {
+                          "key": "tech_capital_productivity_3",
+                          "name": "Maximized Productivity",
+                          "description": "Continued advancements in technology allow our most developed planets to reach productivity levels unheard of in earlier times.",
+                          "area": "society",
+                          "base_factor": 1.0,
+                          "base_weight": 70.0,
+                          "category": "Statecraft",
+                          "cost": 12000,
+                          "feature_unlocks": [
+                            "Major Capital Buildings:\n  Resources from £job£ Jobs: +30%\n  Upkeep from £job£ Jobs: +30%"
+                          ],
+                          "is_dangerous": false,
+                          "is_rare": false,
+                          "is_start_tech": false,
+                          "prerequisites": [
+                            "tech_capital_productivity_2",
+                            "tech_galactic_administration"
+                          ],
+                          "tier": 4,
+                          "prerequisites_names": [
+                            {
+                              "name": "Galactic Administration",
+                              "key": "tech_galactic_administration"
+                            },
+                            {
+                              "name": "Efficiencies of Scale",
+                              "key": "tech_capital_productivity_2"
+                            }
+                          ],
+                          "weight_modifiers": [
+                            "(×<b style='color:red'>0.25</b>) Does NOT have Prosperity Traditions Finished Tradition",
+                            "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert"
+                          ],
+                          "potential": [],
+                          "children": [],
+                          "is_event": false,
+                          "source": "vanilla"
+                        }
+                      ],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
                 }
               ],
               "is_event": false,
@@ -3657,7 +3904,8 @@
                   "category": "Statecraft",
                   "cost": 4000,
                   "feature_unlocks": [
-                    "<b>Building</b>: Commerce Megaplexes"
+                    "<b>Building</b>: Commerce Megaplexes",
+                    "<b>Starbase Building</b>: Hyperlane Registrar"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3707,8 +3955,12 @@
           "feature_unlocks": [
             "<b>Building</b>: Autochthon Monument",
             "<b>Building</b>: Corporate Culture Site",
+            "<b>Building</b>: Sacrificial Temple",
             "<b>Building</b>: Simulation Site",
-            "<b>Building</b>: Temple"
+            "<b>Building</b>: Temple",
+            "<b>Edict</b>: Sacrifice: Bounty",
+            "<b>Edict</b>: Sacrifice: Harmony",
+            "<b>Edict</b>: Sacrifice: Togetherness"
           ],
           "is_dangerous": false,
           "is_rare": false,
@@ -3814,6 +4066,7 @@
               "category": "Statecraft",
               "cost": 2000,
               "feature_unlocks": [
+                "<b>Building</b>: Grim Holotemple",
                 "<b>Building</b>: Holotemple"
               ],
               "is_dangerous": false,
@@ -3847,7 +4100,8 @@
                   "category": "Statecraft",
                   "cost": 5000,
                   "feature_unlocks": [
-                    "<b>Building</b>: Sacred Nexus"
+                    "<b>Building</b>: Sacred Nexus",
+                    "<b>Building</b>: Temple of Grand Sacrifice"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3932,8 +4186,8 @@
           "name": "Neural Implants",
           "description": "Cognition is little but the processing of sensory input. It can be altered.",
           "area": "society",
-          "base_factor": 1.0,
-          "base_weight": 90.0,
+          "base_factor": 2.0,
+          "base_weight": 180.0,
           "category": "Statecraft",
           "cost": 1000,
           "feature_unlocks": [
@@ -3947,9 +4201,6 @@
           "tier": 1,
           "prerequisites_names": [],
           "weight_modifiers": [
-            "(×<b style='color:lime'>1.5</b>) Has a number of pop greater than 9<br/>    •   Pop is enslaved",
-            "(×<b style='color:lime'>2.0</b>) Has a number of pop greater than 19<br/>    •   Pop is enslaved",
-            "(×<b style='color:lime'>2.0</b>) Has a number of pop greater than 29<br/>    •   Pop is enslaved",
             "(×<b style='color:lime'>1.25</b>) Research Leader (Society): <br/>    •   Is Statecraft Expert",
             "(×<b style='color:red'>0.0</b>) One must be true<br/>    •   All must be false<br/>\t    •   Has policy Slavery Allowed<br/>\t    •   Has Gestalt Consciousness Ethic<br/>    •   No Owned Pop<br/>\t    •   Pop is enslaved"
           ],
@@ -4434,6 +4685,49 @@
                   "is_event": false,
                   "is_gestalt": false,
                   "source": "vanilla"
+                },
+                {
+                  "key": "tech_thought_enforcement",
+                  "name": "Thought Enforcement",
+                  "description": "Telepaths can monitor the citizenry for incorrect thoughts, but with some study they could also correct thought abberations that they find.",
+                  "area": "society",
+                  "base_factor": 2.0,
+                  "base_weight": 80.0,
+                  "category": "Psionics",
+                  "cost": 10000,
+                  "feature_unlocks": [
+                    "<b>Edict</b>: Thought Enforcement"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": true,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_telepathy"
+                  ],
+                  "tier": 4,
+                  "prerequisites_names": [
+                    {
+                      "name": "Telepathy",
+                      "key": "tech_telepathy"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:red'>0.0</b>) Has DLC Utopia",
+                    "(×<b style='color:red'>0.5</b>) NOT Research Leader (Society): <br/>    •   Is Psionics Expert",
+                    "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
+                    "(×<b style='color:lime'>2.0</b>) Has Authoritarian Ethic",
+                    "(×<b style='color:lime'>3.0</b>) Has Fanatic Authoritarian Ethic",
+                    "(×<b style='color:lime'>2.0</b>) Has Government Civic: Police State",
+                    "(×<b style='color:lime'>2.0</b>) Research Leader (Society): <br/>    •   Is Maniacal",
+                    "(×<b style='color:lime'>4.0</b>) Research Leader (Society): <br/>    •   Is Psionics Expert"
+                  ],
+                  "potential": [
+                    "Does NOT have Gestalt Consciousness Ethic"
+                  ],
+                  "children": [],
+                  "is_event": false,
+                  "is_gestalt": false,
+                  "source": "vanilla"
                 }
               ],
               "is_event": false,
@@ -4510,7 +4804,7 @@
             "(×<b style='color:red'>0.0</b>) No Owned Planet<br/>    •   Has deposit Isolated Valley"
           ],
           "potential": [
-            "Does NOT have Gestalt Consciousness Ethic"
+            "null\n    •   One must be true\n\t    •   Is of country type: default\n\t    •   Is of country type: Fallen Empire\n\t    •   Is of country type: Awakened Empire\n    •   Does NOT have Gestalt Consciousness Ethic"
           ],
           "children": [],
           "is_event": false,

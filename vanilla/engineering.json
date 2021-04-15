@@ -58,6 +58,7 @@
               "category": "Industry",
               "cost": 500,
               "feature_unlocks": [
+                "£minerals£ Minerals from Starbase Constructions +20%",
                 "£minerals£ Minerals from £job_miner£ Miners +20%"
               ],
               "is_dangerous": false,
@@ -88,6 +89,7 @@
                   "category": "Industry",
                   "cost": 1500,
                   "feature_unlocks": [
+                    "£minerals£ Minerals from Starbase Constructions +20%",
                     "£minerals£ Minerals from £job_miner£ Miners +20%"
                   ],
                   "is_dangerous": false,
@@ -118,6 +120,7 @@
                       "category": "Industry",
                       "cost": 4000,
                       "feature_unlocks": [
+                        "£minerals£ Minerals from Starbase Constructions +20%",
                         "£minerals£ Minerals from £job_miner£ Miners +20%"
                       ],
                       "is_dangerous": false,
@@ -565,7 +568,8 @@
                               "weight_modifiers": [
                                 "(×<b style='color:red'>0.0</b>) Has policy Robotic Workers Outlawed",
                                 "(×<b style='color:red'>0.0</b>) Has policy AI Outlawed",
-                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 3"
+                                "(×<b style='color:lime'>1.25</b>) Research Leader (Engineering): <br/>    •   Is Industry Expert<br/>    •   Skill level is greater than 3",
+                                "(×<b style='color:red'>0.33</b>) Is Necrophage"
                               ],
                               "potential": [
                                 "Does NOT have Gestalt Consciousness Ethic"
@@ -1079,7 +1083,7 @@
                       "category": "Industry",
                       "cost": 1500,
                       "feature_unlocks": [
-                        "Mining Station Output +10%"
+                        "Mining Station Output +15%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -1109,7 +1113,7 @@
                           "category": "Industry",
                           "cost": 2500,
                           "feature_unlocks": [
-                            "Mining Station Output +10%"
+                            "Mining Station Output +15%"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -1139,7 +1143,7 @@
                               "category": "Industry",
                               "cost": 4000,
                               "feature_unlocks": [
-                                "Mining Station Output +10%"
+                                "Mining Station Output +30%"
                               ],
                               "is_dangerous": false,
                               "is_rare": false,
@@ -4290,7 +4294,7 @@
                                   "potential": [
                                     "Has DLC Apocalypse",
                                     "Has the Colossus Project country flag",
-                                    "All must be false\n    •   Has Spiritualist Ethic\n    •   Has Fanatic Spiritualist Ethic",
+                                    "One must be true\n    •   All must be false\n\t    •   Has Spiritualist Ethic\n\t    •   Has Fanatic Spiritualist Ethic\n    •   All must be false\n\t    •   All must be true\n\t\t    •   Does NOT have DLC Utopia\n\t\t    •   Has Technology: Telepathy\n\t    •   All must be true\n\t\t    •   Has DLC Utopia\n\t\t    •   Has Mind over Matter Ascension Perk",
                                     "All must be false\n    •   Has Pacifist Ethic\n    •   Has Fanatic Pacifist Ethic"
                                   ],
                                   "children": [],
@@ -5284,7 +5288,8 @@
           "cost": 500,
           "feature_unlocks": [
             "<b>Army</b>: Assault Army\nThese armies can be embarked and used for invasion on other planets.",
-            "<b>Army</b>: Hunter-Killer Army"
+            "<b>Army</b>: Hunter-Killer Army",
+            "<b>Army</b>: Undead Army"
           ],
           "is_dangerous": false,
           "is_rare": false,

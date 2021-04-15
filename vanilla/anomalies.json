@@ -171,6 +171,33 @@
     "source": "vanilla"
   },
   {
+    "key": "tech_btc_1",
+    "name": "Star Cracker",
+    "description": "A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.\n\nWhen the star detonates, ALL colonies, megastructures, and stations in the system are destroyed - including our own. All fleets in the system will go MIA. The Star-Eater itself is the only exception.",
+    "area": "engineering",
+    "base_factor": 0.0,
+    "base_weight": 0.0,
+    "category": "Voidcraft",
+    "cost": 20000,
+    "feature_unlocks": [
+      "<b>Component</b>: Star Cracker"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has Become the Crisis Ascension Perk",
+      "Has the can_build_star_eaters country flag"
+    ],
+    "children": [],
+    "is_event": true,
+    "source": "vanilla"
+  },
+  {
     "key": "tech_crystal_armor_1",
     "name": "Crystal-Infused Plating",
     "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",

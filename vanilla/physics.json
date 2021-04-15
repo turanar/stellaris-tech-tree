@@ -1088,7 +1088,7 @@
               "cost": 2000,
               "feature_unlocks": [
                 "<b>Component</b>: Hyper Drive II",
-                "<b>Starbase Building</b>: Hyperlane Registrar"
+                "<b>Starbase Building</b>: Transit Hub"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1335,7 +1335,8 @@
               "category": "Field Manipulation",
               "cost": 500,
               "feature_unlocks": [
-                "£energy£ Energy Credits from £job_technician£ Technicians +20%"
+                "£energy£ Energy Credits from £job_technician£ Technicians +20%",
+                "£energy£ Energy from Starbase Constructions +20%"
               ],
               "is_dangerous": false,
               "is_rare": false,
@@ -1366,7 +1367,8 @@
                   "category": "Field Manipulation",
                   "cost": 1500,
                   "feature_unlocks": [
-                    "£energy£ Energy Credits from £job_technician£ Technicians +20%"
+                    "£energy£ Energy Credits from £job_technician£ Technicians +20%",
+                    "£energy£ Energy from Starbase Constructions +20%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -1397,7 +1399,8 @@
                       "category": "Field Manipulation",
                       "cost": 4000,
                       "feature_unlocks": [
-                        "£energy£ Energy Credits from £job_technician£ Technicians +20%"
+                        "£energy£ Energy Credits from £job_technician£ Technicians +20%",
+                        "£energy£ Energy from Starbase Constructions +20%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2254,6 +2257,94 @@
                   "source": "vanilla"
                 },
                 {
+                  "key": "tech_consumer_good_refinement_1",
+                  "name": "Market Analysis Algorithms",
+                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
+                  "area": "physics",
+                  "base_factor": 2.0,
+                  "base_weight": 170.0,
+                  "category": "Computing",
+                  "cost": 1500,
+                  "feature_unlocks": [
+                    "£job_artisan£ Artisans Output +10%"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_administrative_ai",
+                    "tech_luxuries_1"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "Nano-Circuit Assembly",
+                      "key": "tech_luxuries_1"
+                    },
+                    {
+                      "name": "Administrative AI",
+                      "key": "tech_administrative_ai"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                  ],
+                  "potential": [
+                    "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
+                  ],
+                  "children": [
+                    {
+                      "key": "tech_consumer_good_refinement_2",
+                      "name": "Predictive Consumerism",
+                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
+                      "area": "physics",
+                      "base_factor": 2.0,
+                      "base_weight": 90.0,
+                      "category": "Computing",
+                      "cost": 8000,
+                      "feature_unlocks": [
+                        "£job_artisan£ Artisans Output +10%"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_consumer_good_refinement_1",
+                        "tech_self_aware_logic",
+                        "tech_luxuries_2"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "Replicator Kiosks",
+                          "key": "tech_luxuries_2"
+                        },
+                        {
+                          "name": "Market Analysis Algorithms",
+                          "key": "tech_consumer_good_refinement_1"
+                        },
+                        {
+                          "name": "Self-Evolving Logic",
+                          "key": "tech_self_aware_logic"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
+                      ],
+                      "potential": [
+                        "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
+                      ],
+                      "children": [],
+                      "is_event": false,
+                      "is_gestalt": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "is_gestalt": false,
+                  "source": "vanilla"
+                },
+                {
                   "key": "tech_self_aware_logic",
                   "name": "Self-Evolving Logic",
                   "description": "Introspective prioritization.",
@@ -2284,52 +2375,6 @@
                   "potential": [],
                   "children": [
                     {
-                      "key": "tech_consumer_good_refinement_2",
-                      "name": "Predictive Consumerism",
-                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
-                      "area": "physics",
-                      "base_factor": 2.0,
-                      "base_weight": 90.0,
-                      "category": "Computing",
-                      "cost": 4000,
-                      "feature_unlocks": [
-                        "£job_artisan£ Artisans Output +10%"
-                      ],
-                      "is_dangerous": false,
-                      "is_rare": false,
-                      "is_start_tech": false,
-                      "prerequisites": [
-                        "tech_self_aware_logic",
-                        "tech_consumer_good_refinement_1",
-                        "tech_luxuries_2"
-                      ],
-                      "tier": 4,
-                      "prerequisites_names": [
-                        {
-                          "name": "Replicator Kiosks",
-                          "key": "tech_luxuries_2"
-                        },
-                        {
-                          "name": "Market Analysis Algorithms",
-                          "key": "tech_consumer_good_refinement_1"
-                        },
-                        {
-                          "name": "Self-Evolving Logic",
-                          "key": "tech_self_aware_logic"
-                        }
-                      ],
-                      "weight_modifiers": [
-                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
-                      ],
-                      "potential": [
-                        "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
-                      ],
-                      "children": [],
-                      "is_event": false,
-                      "is_gestalt": false,
-                      "source": "vanilla"
-                    },
-                    {
                       "key": "tech_positronic_implants",
                       "name": "Positronic Implants",
                       "description": "Expanding possibilities through the application of limited cybernetics.",
@@ -2339,6 +2384,7 @@
                       "category": "Computing",
                       "cost": 8000,
                       "feature_unlocks": [
+                        "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
                       ],
                       "is_dangerous": false,
@@ -2375,6 +2421,7 @@
                       "category": "Computing",
                       "cost": 8000,
                       "feature_unlocks": [
+                        "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
                       ],
                       "is_dangerous": false,
@@ -2441,47 +2488,6 @@
                     }
                   ],
                   "is_event": false,
-                  "source": "vanilla"
-                },
-                {
-                  "key": "tech_consumer_good_refinement_1",
-                  "name": "Market Analysis Algorithms",
-                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
-                  "area": "physics",
-                  "base_factor": 2.0,
-                  "base_weight": 170.0,
-                  "category": "Computing",
-                  "cost": 4000,
-                  "feature_unlocks": [
-                    "£job_artisan£ Artisans Output +10%"
-                  ],
-                  "is_dangerous": false,
-                  "is_rare": false,
-                  "is_start_tech": false,
-                  "prerequisites": [
-                    "tech_administrative_ai",
-                    "tech_luxuries_1"
-                  ],
-                  "tier": 2,
-                  "prerequisites_names": [
-                    {
-                      "name": "Nano-Circuit Assembly",
-                      "key": "tech_luxuries_1"
-                    },
-                    {
-                      "name": "Administrative AI",
-                      "key": "tech_administrative_ai"
-                    }
-                  ],
-                  "weight_modifiers": [
-                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert"
-                  ],
-                  "potential": [
-                    "One must be true\n    •   Does NOT have Gestalt Consciousness Ethic\n    •   Has Government Civic: Rogue Servitor"
-                  ],
-                  "children": [],
-                  "is_event": false,
-                  "is_gestalt": false,
                   "source": "vanilla"
                 }
               ],
@@ -2668,7 +2674,7 @@
                   "category": "Computing",
                   "cost": 1500,
                   "feature_unlocks": [
-                    "Research Station Output +10%"
+                    "Research Station Output +15%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2698,7 +2704,7 @@
                       "category": "Computing",
                       "cost": 2500,
                       "feature_unlocks": [
-                        "Research Station Output +10%"
+                        "Research Station Output +15%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
@@ -2728,7 +2734,7 @@
                           "category": "Computing",
                           "cost": 4000,
                           "feature_unlocks": [
-                            "Research Station Output +10%"
+                            "Research Station Output +30%"
                           ],
                           "is_dangerous": false,
                           "is_rare": false,
@@ -2795,6 +2801,247 @@
           ],
           "potential": [],
           "children": [
+            {
+              "key": "tech_encryption_1",
+              "name": "Quantum Firewalls",
+              "description": "Advances in computing technology have given us new ways to protect our data from prying eyes.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "Computing",
+              "cost": 750,
+              "feature_unlocks": [
+                "Encryption +2"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_physics_1",
+                "tech_colonial_bureaucracy"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "Quantum Theory",
+                  "key": "tech_physics_1"
+                },
+                {
+                  "name": "Colonial Bureaucracy",
+                  "key": "tech_colonial_bureaucracy"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
+                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Is AI<br/>    •   Has the first_spynetwork country flag"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_encryption_2",
+                  "name": "Simultaneous-Collapse Storage",
+                  "description": "Further advances in unstable entanglement have given us new ways to prevent unauthorized intrusions into our databases.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "Computing",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "Encryption +2"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_encryption_1",
+                    "tech_physics_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "Quantum Firewalls",
+                      "key": "tech_encryption_1"
+                    },
+                    {
+                      "name": "Applied Quantum Physics",
+                      "key": "tech_physics_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
+                    "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Is AI<br/>    •   Has the first_spynetwork country flag"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_encryption_3",
+                      "name": "Negative-Time Keys",
+                      "description": "Our latest advances in encryption exploit recently discovered quirks of physics to require inputting a specialized key before it has been generated.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "Computing",
+                      "cost": 10000,
+                      "feature_unlocks": [
+                        "Encryption +2"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_encryption_2",
+                        "tech_physics_3"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "Simultaneous-Collapse Storage",
+                          "key": "tech_encryption_2"
+                        },
+                        {
+                          "name": "Space-Time Theory",
+                          "key": "tech_physics_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
+                        "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Is AI<br/>    •   Has the first_spynetwork country flag"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
+            {
+              "key": "tech_decryption_1",
+              "name": "Quantum Hacking",
+              "description": "Primitive encryption systems stand no chance against modern decryption tools.",
+              "area": "physics",
+              "base_factor": 1.0,
+              "base_weight": 90.0,
+              "category": "Computing",
+              "cost": 750,
+              "feature_unlocks": [
+                "<b>Edict</b>: Bureau of Espionage",
+                "<b>Edict</b>: Covert Analysis Algorithm",
+                "<b>Edict</b>: Observation Instinct",
+                "Codebreaking +2"
+              ],
+              "is_dangerous": false,
+              "is_rare": false,
+              "is_start_tech": false,
+              "prerequisites": [
+                "tech_physics_1",
+                "tech_colonial_bureaucracy"
+              ],
+              "tier": 1,
+              "prerequisites_names": [
+                {
+                  "name": "Quantum Theory",
+                  "key": "tech_physics_1"
+                },
+                {
+                  "name": "Colonial Bureaucracy",
+                  "key": "tech_colonial_bureaucracy"
+                }
+              ],
+              "weight_modifiers": [
+                "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
+                "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Is AI<br/>    •   Has the first_spynetwork country flag"
+              ],
+              "potential": [],
+              "children": [
+                {
+                  "key": "tech_decryption_2",
+                  "name": "Simulated Social Engineering",
+                  "description": "The weakest link in any security system are the individuals within it. By modeling their weaknesses in computer simulations we can find novel ways to bypass their security - or trick them into bypassing it for us.",
+                  "area": "physics",
+                  "base_factor": 1.0,
+                  "base_weight": 70.0,
+                  "category": "Computing",
+                  "cost": 2000,
+                  "feature_unlocks": [
+                    "Codebreaking +2"
+                  ],
+                  "is_dangerous": false,
+                  "is_rare": false,
+                  "is_start_tech": false,
+                  "prerequisites": [
+                    "tech_decryption_1",
+                    "tech_physics_2"
+                  ],
+                  "tier": 2,
+                  "prerequisites_names": [
+                    {
+                      "name": "Quantum Hacking",
+                      "key": "tech_decryption_1"
+                    },
+                    {
+                      "name": "Applied Quantum Physics",
+                      "key": "tech_physics_2"
+                    }
+                  ],
+                  "weight_modifiers": [
+                    "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
+                    "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Is AI<br/>    •   Has the first_spynetwork country flag"
+                  ],
+                  "potential": [],
+                  "children": [
+                    {
+                      "key": "tech_decryption_3",
+                      "name": "Quasi-Dimensional Reflection",
+                      "description": "Our operatives can access data from adjacent realities without risking setting off alarms in this reality.",
+                      "area": "physics",
+                      "base_factor": 1.0,
+                      "base_weight": 50.0,
+                      "category": "Computing",
+                      "cost": 10000,
+                      "feature_unlocks": [
+                        "Codebreaking +2"
+                      ],
+                      "is_dangerous": false,
+                      "is_rare": false,
+                      "is_start_tech": false,
+                      "prerequisites": [
+                        "tech_decryption_2",
+                        "tech_physics_3"
+                      ],
+                      "tier": 4,
+                      "prerequisites_names": [
+                        {
+                          "name": "Simulated Social Engineering",
+                          "key": "tech_decryption_2"
+                        },
+                        {
+                          "name": "Space-Time Theory",
+                          "key": "tech_physics_3"
+                        }
+                      ],
+                      "weight_modifiers": [
+                        "(×<b style='color:lime'>1.25</b>) Research Leader (Physics): <br/>    •   Is Computing Expert",
+                        "(×<b style='color:red'>0.1</b>) All must be false<br/>    •   Is AI<br/>    •   Has the first_spynetwork country flag"
+                      ],
+                      "potential": [],
+                      "children": [],
+                      "is_event": false,
+                      "source": "vanilla"
+                    }
+                  ],
+                  "is_event": false,
+                  "source": "vanilla"
+                }
+              ],
+              "is_event": false,
+              "source": "vanilla"
+            },
             {
               "key": "tech_physics_2",
               "name": "Applied Quantum Physics",
@@ -3165,7 +3412,7 @@
           "category": "Computing",
           "cost": 750,
           "feature_unlocks": [
-            "<b>Feature : </b>Automatic Exploration",
+            "<b>Feature : </b>Automatic Surveying",
             "Survey Speed +25%"
           ],
           "is_dangerous": false,
@@ -3201,7 +3448,7 @@
           "category": "Computing",
           "cost": 1500,
           "feature_unlocks": [
-            "Archaeology Skill +2"
+            "mod_country_ship_archeaological_site_clues_add +2"
           ],
           "is_dangerous": false,
           "is_rare": true,
