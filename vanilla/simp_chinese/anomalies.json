@@ -1,0 +1,802 @@
+[
+  {
+    "key": "null_void_beam",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "粒子物理",
+    "cost": 2500,
+    "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
+    "feature_unlocks": [
+      "<b>Component</b>: Large Null Void Beam",
+      "<b>Component</b>: Medium Null Void Beam",
+      "<b>Component</b>: Small Null Void Beam"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "太虚光束",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_akx_worm_1",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 60,
+    "category": "力场操控",
+    "cost": 4000,
+    "description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "熵递归",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) Always"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_akx_worm_2",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 60,
+    "category": "治国术",
+    "cost": 4000,
+    "description": "A set of social protocols based on paradoxical intuition, and on love. When we know the System of the Loop, we learn that we can influence by receiving instructions, as well as giving them.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "学说：奇异循环",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) Always"
+    ],
+    "potential": [],
+    "children": [
+      {
+        "key": "tech_akx_worm_3",
+        "area": "physics",
+        "base_factor": 1,
+        "base_weight": 60,
+        "category": "粒子物理",
+        "cost": 10000,
+        "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+        "feature_unlocks": [
+          "<b>Building</b>: Omega Alignment"
+        ],
+        "is_dangerous": false,
+        "is_rare": true,
+        "is_start_tech": false,
+        "name": "欧米伽理论",
+        "prerequisites": [
+          "tech_akx_worm_2",
+          "tech_akx_worm_1"
+        ],
+        "tier": 3,
+        "prerequisites_names": [
+          {
+            "name": "熵递归",
+            "key": "tech_akx_worm_1"
+          },
+          {
+            "name": "学说：奇异循环",
+            "key": "tech_akx_worm_2"
+          }
+        ],
+        "weight_modifiers": [],
+        "potential": [],
+        "children": [],
+        "is_event": true
+      }
+    ],
+    "is_event": true
+  },
+  {
+    "key": "tech_akx_worm_3",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 60,
+    "category": "粒子物理",
+    "cost": 10000,
+    "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+    "feature_unlocks": [
+      "<b>Building</b>: Omega Alignment"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "欧米伽理论",
+    "prerequisites": [
+      "tech_akx_worm_2",
+      "tech_akx_worm_1"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "熵递归",
+        "key": "tech_akx_worm_1"
+      },
+      {
+        "name": "学说：奇异循环",
+        "key": "tech_akx_worm_2"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_amoeba_strike_craft_1",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 6000,
+    "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
+    "feature_unlocks": [
+      "<b>Component</b>: Amoeba Flagella"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "变形虫育种计划",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_btc_1",
+    "area": "engineering",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "宇航技术",
+    "cost": 48000,
+    "description": "A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.\n\nWhen the star detonates, ALL colonies, megastructures, and stations in the system are destroyed - including our own. All fleets in the system will go MIA. The Star-Eater itself is the only exception.",
+    "feature_unlocks": [
+      "<b>Component</b>: Star Cracker"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "星爆器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Nemesis",
+      "Has Become the Crisis Ascension Perk",
+      "Has the can_build_star_eaters country flag"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_crystal_armor_1",
+    "area": "engineering",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "材料科学",
+    "cost": 6000,
+    "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+    "feature_unlocks": [
+      "<b>Component</b>: Medium Crystal-Infused Plating",
+      "<b>Component</b>: Large Crystal-Infused Plating",
+      "<b>Component</b>: Small Crystal-Infused Plating"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "水晶复合镀层",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(+<b style='color:lime'>1.0</b>) Has the crystal_armor_1_weight country flag"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_crystal_armor_2",
+    "area": "engineering",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "材料科学",
+    "cost": 16000,
+    "description": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
+    "feature_unlocks": [
+      "<b>Component</b>: Large Crystal-Forged Plating",
+      "<b>Component</b>: Small Crystal-Forged Plating",
+      "<b>Component</b>: Medium Crystal-Forged Plating"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "水晶锻造镀层",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_dragon_armor",
+    "area": "engineering",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "材料科学",
+    "cost": 50000,
+    "description": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
+    "feature_unlocks": [
+      "<b>Component</b>: Large Dragonscale Armor",
+      "<b>Component</b>: Medium Dragonscale Armor",
+      "<b>Component</b>: Small Dragonscale Armor"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "人造龙鳞装甲",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_dyson_sphere",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "力场操控",
+    "cost": 48000,
+    "description": "A Dyson Sphere fully envelops a given star, converting all solar output directly to £energy£ Energy Credits.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "戴森球",
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "巨型结构工程",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Utopia"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_enigmatic_decoder",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "计算技术",
+    "cost": 50000,
+    "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.",
+    "feature_unlocks": [
+      "<b>Component</b>: Enigmatic Decoder"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "神秘解码器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_enigmatic_encoder",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "计算技术",
+    "cost": 50000,
+    "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
+    "feature_unlocks": [
+      "<b>Component</b>: Enigmatic Encoder"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "神秘编码器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_extradimensional_weapon_1",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "粒子物理",
+    "cost": 48000,
+    "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
+    "feature_unlocks": [
+      "<b>Component</b>: Medium Matter Disintegrator",
+      "<b>Component</b>: Small Matter Disintegrator",
+      "<b>Component</b>: Large Matter Disintegrator"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "高维武器",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [
+      "(×<b style='color:red'>0.0</b>) Does NOT have the Covenant: End of the Cycle modifier",
+      "(×<b style='color:lime'>1.5</b>) Has Technological Ascendancy Ascension Perk",
+      "(×<b style='color:lime'>2.0</b>) Federation :<br/>    •   Has Scientific Inspiration Federation Perk<br/>    •   Any member<br/>\t    •   Has Technology: Extradimensional Weaponry"
+    ],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_gargantuan_evolution",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 8000,
+    "description": "Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.",
+    "feature_unlocks": [
+      "£energy£ Energy Credits from £job£ Jobs +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "超体进化",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_genetic_resequencing",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 32000,
+    "description": "No longer will we be limited by the basic biological structure of a species when striving to improve them. DNA is just another material to be shaped as the sculptor wills it.",
+    "feature_unlocks": [
+      "<b>Feature : </b>Genetic Resequencing",
+      "<b>Feature : </b>Advanced Traits"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "基因重组",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_lgate_activation",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "粒子物理",
+    "cost": 12000,
+    "description": "The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "L-星门启动",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [
+      "Does NOT have the l_cluster_opened global flag"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_matter_decompressor",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "力场操控",
+    "cost": 48000,
+    "description": "The Matter Decompressor lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "物质解压器",
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "巨型结构工程",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Megacorp"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_mining_drone_weapon_1",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "粒子物理",
+    "cost": 5000,
+    "description": "Using strong-focus lenses in combination with an oscillating firing frequence help create lasers strong enough to mine asteroids, or shoot down hostiles.",
+    "feature_unlocks": [
+      "<b>Component</b>: Medium Cutting Laser",
+      "<b>Component</b>: Small Cutting Laser"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "采矿无人机激光",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_nanite_repair_system",
+    "area": "engineering",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "宇航技术",
+    "cost": 48000,
+    "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
+    "feature_unlocks": [
+      "<b>Component</b>: Nanite Repair System"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "纳米修复系统",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_neuroregeneration",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 20000,
+    "description": "When tailored to a species' genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
+    "feature_unlocks": [
+      "Leader Level Cap +1",
+      "Species Leader Exp Gain +25%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "神经组织工程",
+    "prerequisites": [],
+    "tier": 4,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_orbital_trash_dispersal",
+    "area": "engineering",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "推进力学",
+    "cost": 8000,
+    "description": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
+    "feature_unlocks": [
+      "<b>Component</b>: Orbital Trash Disperser"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "轨道垃圾散布",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_prescient_data_modeling",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "治国术",
+    "cost": 8000,
+    "description": "Are the precognitive powers of Numa at work or is it a matter of skilled craftsmanship? Either way this galactic stock market prediction model will forecast fluctuations in the economy with divine accuracy.",
+    "feature_unlocks": [
+      "£energy£ Energy Credits from £job£ Jobs +5%"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "拜金教数据建模",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_psionic_barrier",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "灵能理论",
+    "cost": 8000,
+    "description": "These barriers are generated out of pure psychic energy by a cadre of psionic specialists. They will be able to stop some incoming fire, like our Energy deflector systems, but without the prohibitive power consumption.",
+    "feature_unlocks": [
+      "<b>Component</b>: Large Psionic Barrier",
+      "<b>Component</b>: Small Psionic Barrier",
+      "<b>Component</b>: Medium Psionic Barrier"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "灵能屏障",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 3,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_psionic_shield",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "灵能理论",
+    "cost": 48000,
+    "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
+    "feature_unlocks": [
+      "<b>Component</b>: Small Psionic Shield",
+      "<b>Component</b>: Medium Psionic Shield",
+      "<b>Component</b>: Large Psionic Shield"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "灵能护盾",
+    "prerequisites": [
+      "tech_psionic_theory"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "灵能理论",
+        "key": "tech_psionic_theory"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_regenerative_hull_tissue",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 10000,
+    "description": "A genetically altered version of silicon-based bacteria could potentially be manipulated to regenerate non-organic materials.",
+    "feature_unlocks": [
+      "<b>Component</b>: Regenerative Hull Tissue"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "再生舰体组织",
+    "prerequisites": [],
+    "tier": 3,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_ring_world",
+    "area": "engineering",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "宇航技术",
+    "cost": 48000,
+    "description": "A Ring World allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+    "feature_unlocks": [],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "环形世界",
+    "prerequisites": [
+      "tech_mega_engineering"
+    ],
+    "tier": 5,
+    "prerequisites_names": [
+      {
+        "name": "巨型结构工程",
+        "key": "tech_mega_engineering"
+      }
+    ],
+    "weight_modifiers": [],
+    "potential": [
+      "Has DLC Utopia"
+    ],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_scourge_missile_1",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 48000,
+    "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
+    "feature_unlocks": [
+      "<b>Component</b>: Large Scourge Missile"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "天灾导弹",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_space_cloud_weapon_1",
+    "area": "physics",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "粒子物理",
+    "cost": 6000,
+    "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
+    "feature_unlocks": [
+      "<b>Component</b>: Cloud Lightning"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "雷云导线",
+    "prerequisites": [],
+    "tier": 2,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_space_whale_weapon_1",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 3000,
+    "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
+    "feature_unlocks": [
+      "<b>Component</b>: Energy Siphon"
+    ],
+    "is_dangerous": false,
+    "is_rare": false,
+    "is_start_tech": false,
+    "name": "频率调谐",
+    "prerequisites": [],
+    "tier": 1,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  },
+  {
+    "key": "tech_swarm_strike_craft_1",
+    "area": "society",
+    "base_factor": 1,
+    "base_weight": 0,
+    "category": "生物学",
+    "cost": 48000,
+    "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
+    "feature_unlocks": [
+      "<b>Component</b>: Swarm Strikers"
+    ],
+    "is_dangerous": false,
+    "is_rare": true,
+    "is_start_tech": false,
+    "name": "虫群产卵池",
+    "prerequisites": [],
+    "tier": 5,
+    "prerequisites_names": [],
+    "weight_modifiers": [],
+    "potential": [],
+    "children": [],
+    "is_event": true
+  }
+]
