@@ -33,7 +33,7 @@
           "base_weight": 0,
           "category": "Industrie",
           "cost": 0,
-          "description": "The basic industrial infrastructure that is required to become a spacefaring civilization.",
+          "description": "Die grundlegende industrielle Infrastruktur, die eine Zivilisation benötigt, um zur Raumfahrt-Zivilisation aufzusteigen.",
           "feature_unlocks": [
             "<b>Building</b>: Resource Silos",
             "<b>Building</b>: Alloy Foundries",
@@ -56,7 +56,7 @@
               "base_weight": 100,
               "category": "Industrie",
               "cost": 2000,
-              "description": "New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust.",
+              "description": "Neue Fracking-Methoden werden uns ermöglichen, früher unerreichbare geothermische Ressourcen tief unterhalb der Kruste des Planeten zu erschließen.",
               "feature_unlocks": [
                 "£minerals£ Minerals from Starbase Constructions +10%",
                 "£minerals£ Minerals from £job_miner£ [GetMinerPlural] +20%"
@@ -87,7 +87,7 @@
                   "base_weight": 85,
                   "category": "Industrie",
                   "cost": 4000,
-                  "description": "These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core.",
+                  "description": "Diese riesigen Bohrer werden benötigt, um die reichen Mineralvorkommen zu erreichen, die oft nahe am Kern eines Planeten zu finden sind.",
                   "feature_unlocks": [
                     "£minerals£ Minerals from Starbase Constructions +10%",
                     "£minerals£ Minerals from £job_miner£ [GetMinerPlural] +20%"
@@ -118,7 +118,7 @@
                       "base_weight": 65,
                       "category": "Industrie",
                       "cost": 8000,
-                      "description": "Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.",
+                      "description": "Mit Hilfe von fortschrittlicher Spektometrie, Frackingmethoden und chemischen Ausspülungen können flache und mitteltiefe Vorkommen schnell abgebaut werden.",
                       "feature_unlocks": [
                         "£minerals£ Minerals from Starbase Constructions +10%",
                         "£minerals£ Minerals from £job_miner£ [GetMinerPlural] +20%"
@@ -154,7 +154,7 @@
                   "base_weight": 90,
                   "category": "Industrie",
                   "cost": 3000,
-                  "description": "Optimal processing of mined materials have allowed us to reach new levels of efficiency.",
+                  "description": "Über die optimale Verarbeitung abgebauter Materialien haben wir völlig neue Effizienzstufen erreicht.",
                   "feature_unlocks": [
                     "<b>Building</b>: Mineral Purification Plants",
                     "<b>Edict</b>: Mining Subsidies"
@@ -185,7 +185,7 @@
                       "base_weight": 140,
                       "category": "Industrie",
                       "cost": 6000,
-                      "description": "Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.",
+                      "description": "Die Weiterverarbeitung pseudoraffinierter Minerale ermöglicht effizienteres Lagern und Transportieren.",
                       "feature_unlocks": [
                         "<b>Building</b>: Mineral Purification Hubs"
                       ],
@@ -221,7 +221,7 @@
                           "base_weight": 12.5,
                           "category": "Industrie",
                           "cost": 50000,
-                          "description": "Changes in how mineral deposits are evaluated relative to each other lead to more efficient boring patterns.",
+                          "description": "Veränderungen bei den Bewertungen von Mineralvorkommen führen zu effizienteren Bergbaustrukturen.",
                           "feature_unlocks": [
                             "£minerals£ Minerals from £job£ Jobs +5%"
                           ],
@@ -260,7 +260,7 @@
               "base_weight": 150,
               "category": "Industrie",
               "cost": 2000,
-              "description": "Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency.",
+              "description": "Das Tragen eines energiebetriebenen Exoskeletts macht den Nutzer schneller und stärker. Die militärischen Anwendungsmöglichkeiten sind offensichtlich, aber auch die Arbeitseffizienz wird davon profitieren.",
               "feature_unlocks": [
                 "Army Damage +5%",
                 "£minerals£ Minerals from £job£ Jobs +5%"
@@ -291,7 +291,7 @@
                   "base_weight": 135,
                   "category": "Industrie",
                   "cost": 3000,
-                  "description": "These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
+                  "description": "Diese roboterhaften Arbeitseinheiten sind perfekt für niedere Tätigkeiten geeignet.  Sie arbeiten hart und sind in der Lage, einfachen Sprachanweisungen zu folgen. Treppensteigen sollte man von ihnen aber nicht erwarten.",
                   "feature_unlocks": [
                     "<b>Feature : </b>Robot Workers",
                     "<b>Building</b>: Robot Assembly Plants"
@@ -327,7 +327,7 @@
                       "base_weight": 85,
                       "category": "Industrie",
                       "cost": 4000,
-                      "description": "Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.",
+                      "description": "Überschreibbare Montagevorlagen ermöglichen die Erstellung von maßgeschneiderten synthetischen Arbeiterentwürfen.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Robomodding",
                         "Robot Modification Points +2"
@@ -361,7 +361,7 @@
                           "base_weight": 65,
                           "category": "Industrie",
                           "cost": 8000,
-                          "description": "Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.",
+                          "description": "Verbesserte Herstellungspraktiken erlauben eine größere Umbauten an synthetischen Arbeitern ohne Kompromisse bei der Kernfunktionalität zu machen.",
                           "feature_unlocks": [
                             "Robot Modification Points +1"
                           ],
@@ -400,7 +400,7 @@
                               "base_weight": 22.5,
                               "category": "Industrie",
                               "cost": 16000,
-                              "description": "Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.",
+                              "description": "Verbesserte Herstellungspraktiken erlauben eine größere Umbauten an synthetischen Arbeitern ohne Kompromisse bei der Kernfunktionalität zu machen.",
                               "feature_unlocks": [
                                 "Robot Modification Points +1"
                               ],
@@ -453,7 +453,7 @@
                       "base_weight": 70,
                       "category": "Industrie",
                       "cost": 6000,
-                      "description": "Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
+                      "description": "Verbesserte roboterhafte Arbeiter. Der erweiterte Bewegungsumfang entspricht dem der meisten organischen Wesen. Ihre Neuralprozessoren sind ebenfalls stark verbessert worden.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Droid Workers",
                         "<b>Army</b>: Robotic Assault Army"
@@ -495,7 +495,7 @@
                           "base_weight": 20,
                           "category": "Industrie",
                           "cost": 20000,
-                          "description": "Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
+                          "description": "Modernste Roboter, die stärker, schneller und belastbarer als die meisten organischen Wesen sind. Aufgrund ihrer verbesserten Neuralprozessoren können sie absolut selbständig handeln.",
                           "feature_unlocks": [
                             "Robot Output +10%",
                             "<b>Feature : </b>Synthetic Workers"
@@ -545,7 +545,7 @@
                               "base_weight": 35,
                               "category": "Industrie",
                               "cost": 24000,
-                              "description": "Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.",
+                              "description": "Nach der Einspeisung einer Persönlichkeit können Androiden mit dem Rest unserer Bürger gleichgestellt sozial interagieren. Einige Einheiten könnten sogar Führungspositionen einnehmen.",
                               "feature_unlocks": [
                                 "<b>Feature : </b>Synth Leaders"
                               ],
@@ -595,7 +595,7 @@
                   "base_weight": 85,
                   "category": "Industrie",
                   "cost": 4000,
-                  "description": "Standardization of assembly templates allow for improved specialization of the drone population.",
+                  "description": "Eine Standardisierung der Montagevorlagen ermöglicht eine Verbesserte Spezialisierung von Drohnenbewohnern.",
                   "feature_unlocks": [
                     "<b>Feature : </b>Robomodding",
                     "Machine Modification Points +1"
@@ -628,7 +628,7 @@
                       "base_weight": 65,
                       "category": "Industrie",
                       "cost": 8000,
-                      "description": "These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.",
+                      "description": "Diese fortgeschrittenen Motivatoren sind sowohl kleiner als auch leichter als bisherige Versionen, so dass Robotereinheiten zusätzlichen Platz für Subsysteme zuweisen können.",
                       "feature_unlocks": [
                         "Machine Modification Points +1"
                       ],
@@ -665,7 +665,7 @@
                           "base_weight": 22.5,
                           "category": "Industrie",
                           "cost": 16000,
-                          "description": "Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.",
+                          "description": "Der Einsatz von programmierbaren Naniten, um bei der Konstruktion von neuen Robotereinheiten zu helfen, erlaubt es fortschrittlichere Modelle, die mit einer noch größeren Reihe von Subsystemen ausgestattet sind, zu bauen.",
                           "feature_unlocks": [
                             "Machine Modification Points +1"
                           ],
@@ -708,7 +708,7 @@
                           "base_weight": 22.5,
                           "category": "Industrie",
                           "cost": 16000,
-                          "description": "Advanced templates allow us to drastically increase the assembly of new units.",
+                          "description": "Erweiterte Vorlagen ermöglichen es uns, die Montagegeschwindigkeit neuer Einheiten drastisch zu erhöhen.",
                           "feature_unlocks": [
                             "<b>Building</b>: Machine Assembly Complex"
                           ],
@@ -762,7 +762,7 @@
               "base_weight": 90,
               "category": "Materialien",
               "cost": 3000,
-              "description": "With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.",
+              "description": "Mit vorprogrammierten Nano-Schaltungen können viele Konsumgüter schnell von den Fabrikanten zusammengebaut werden.",
               "feature_unlocks": [
                 "<b>Building</b>: Civilian Fabricators"
               ],
@@ -795,7 +795,7 @@
                   "base_weight": 130,
                   "category": "Materialien",
                   "cost": 8000,
-                  "description": "These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.",
+                  "description": "Diese Anlagen können jedes zuvor gespeicherte Muster replizieren.",
                   "feature_unlocks": [
                     "<b>Building</b>: Civilian Repli-Complexes"
                   ],
@@ -839,7 +839,7 @@
               "base_weight": 90,
               "category": "Materialien",
               "cost": 3000,
-              "description": "Solid holographic casts can alter their shapes at a moment's notice, speeding up alloy production.",
+              "description": "Feste holographische Formen können ihre Form sofort verändern und die Legierungsbildung beschleunigen.",
               "feature_unlocks": [
                 "<b>Building</b>: Alloy Mega-Forges"
               ],
@@ -870,7 +870,7 @@
                   "base_weight": 130,
                   "category": "Materialien",
                   "cost": 8000,
-                  "description": "Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality.",
+                  "description": "Nano-Separatoren sind ein revolutionärer neuer Schritt bei der Herstellung von Legierungen. Sie vereinfach den Gießprozess und verbessern gleichzeitig die Gesamtqualität.",
                   "feature_unlocks": [
                     "<b>Building</b>: Alloy Nano-Plants"
                   ],
@@ -910,7 +910,7 @@
               "base_weight": 170,
               "category": "Materialien",
               "cost": 4000,
-              "description": "Exotic Gas can be produced artificially, but it is a difficult process that requires advanced refinery equipment.",
+              "description": "Exotisches Gas kann künstlich hergestellt werden, doch dies ist ein schwieriger Prozess, der fortschrittliche Raffinerieausrüstung benötigt.",
               "feature_unlocks": [
                 "<b>Building</b>: Exotic Gas Refineries"
               ],
@@ -943,7 +943,7 @@
               "base_weight": 170,
               "category": "Materialien",
               "cost": 4000,
-              "description": "The crystallization process is complicated and difficult, but synthetic crystals can be manufactured by using specialized industrial plants.",
+              "description": "Der Kristallisationsprozess ist kompliziert und schwierig, aber synthetische Kristalle können unter Verwendung spezieller Industrieanlagen hergestellt werden.",
               "feature_unlocks": [
                 "<b>Building</b>: Synthetic Crystal Plants",
                 "<b>Building</b>: Kha'lanka Crystal Plant"
@@ -980,7 +980,7 @@
           "base_weight": 0,
           "category": "Industrie",
           "cost": 0,
-          "description": "Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds.",
+          "description": "Bauvorhaben im Weltraum stellen unsere Ingenieure vor neue Designherausforderungen, die wir lösen müssen, bevor wir über anderen Welten Orbitalstationen bauen können.",
           "feature_unlocks": [
             "<b>Ship Size</b>: Constructor",
             "<b>Ship Size</b>: Research Station",
@@ -1003,7 +1003,7 @@
               "base_weight": 100,
               "category": "Industrie",
               "cost": 2000,
-              "description": "The addition of internal refineries on mining stations will substantially increase mineral production.",
+              "description": "Interne Raffinerien auf Minenstationen aufzubauen, wird die Mineralproduktion erheblich steigern.",
               "feature_unlocks": [
                 "<b>Starbase Building</b>: Nebula Refinery",
                 "Mining Station Output +10%"
@@ -1034,7 +1034,7 @@
                   "base_weight": 90,
                   "category": "Industrie",
                   "cost": 3000,
-                  "description": "Increased scanner range will allow us to more quickly identify mineral concentrations, and focus our mining efforts there.",
+                  "description": "Durch eine größere Scanner-Reichweite können wir Mineralkonzentrationen schneller identifizieren und unsere Bergbauaktivitäten dorthin konzentrieren.",
                   "feature_unlocks": [
                     "Mining Station Output +10%"
                   ],
@@ -1064,7 +1064,7 @@
                       "base_weight": 85,
                       "category": "Industrie",
                       "cost": 4000,
-                      "description": "These powerful short-range lasers can easily slice through rock, making the extraction of minerals a more efficient affair.",
+                      "description": "Diese leistungsstarken Laser mit kurzer Reichweite können leicht durch das Gestein schneiden und so die Extraktion von Mineralien zu einer effizienteren Angelegenheit machen.",
                       "feature_unlocks": [
                         "Mining Station Output +10%"
                       ],
@@ -1094,7 +1094,7 @@
                           "base_weight": 70,
                           "category": "Industrie",
                           "cost": 6000,
-                          "description": "Fleets of autonomous drones equipped with mining beams are deployed to quickly and efficiently gather nearby minerals.",
+                          "description": "Flotten autonomer Drohnen, die mit Bergbaugeräten ausgerüstet sind, werden dazu eingesetzt, um in der Nähe befindliche Mineralien schnell und effizient zu sammeln.",
                           "feature_unlocks": [
                             "Mining Station Output +10%"
                           ],
@@ -1124,7 +1124,7 @@
                               "base_weight": 65,
                               "category": "Industrie",
                               "cost": 8000,
-                              "description": "These special probes are equipped with swarms of nanites that identify previously unknown mineral concentrations and mark them for later extraction.",
+                              "description": "Diese Spezialsonden sind mit Naniten ausgestattet, die zuvor unbekannte Mineralkonzentrationen identifizieren und für die spätere Extraktion markieren.",
                               "feature_unlocks": [
                                 "Mining Station Output +10%"
                               ],
@@ -1168,7 +1168,7 @@
               "base_weight": 190,
               "category": "Materialien",
               "cost": 2500,
-              "description": "The Betharian minerals appear to have originated from singular source, but were scattered across the galaxy millennia ago. The minerals are most often encountered as pebble-sized clusters, and are highly flammable.",
+              "description": "Die Betharian-Mineralien scheinen von einer einzelnen Quelle zu stammen, wurden aber vor Jahrtausenden in der Galaxie verstreut. Meistens findet man die hochentzündlichen Mineralien als kieselsteinförmige Gruppen.",
               "feature_unlocks": [
                 "<b>Building</b>: Betharian Power Plant"
               ],
@@ -1201,7 +1201,7 @@
               "base_weight": 170,
               "category": "Materialien",
               "cost": 4000,
-              "description": "Pockets of Exotic Gas are rare and often inaccessible by conventional means. Such deposits can only be reached by using special extractor technology.",
+              "description": "Einschüsse von exotischem Gas sind selten und oft mit konventionellen Mitteln nicht zugänglich. Solche Ablagerungen können nur durch spezielle Absaugtechniken erreicht werden.",
               "feature_unlocks": [
                 "<b>Reveals Resource</b>: Exotic Gases",
                 "<b>Building</b>: Gas Extraction Wells"
@@ -1235,7 +1235,7 @@
               "base_weight": 170,
               "category": "Materialien",
               "cost": 4000,
-              "description": "Mining these crystals without damaging or even destroying them is an extremely delicate process. It requires advanced equipment capable of pinpoint precision.",
+              "description": "Diese Kristalle zu gewinnen, ohne sie zu beschädigen oder gar zu zerstören, ist ein äußerst heikler Prozess. Es erfordert hochentwickelte Ausrüstung, die zu äußerster Präzision in der Lage ist.",
               "feature_unlocks": [
                 "<b>Reveals Resource</b>: Rare Crystals",
                 "<b>Building</b>: Crystal Mines"
@@ -1269,7 +1269,7 @@
               "base_weight": 0,
               "category": "Materialien",
               "cost": 32000,
-              "description": "Mining and processing the rare living metals is exceedingly difficult, but successful application of the mutable alloys yields incomparable advantages.",
+              "description": "Der Abbau und die Verarbeitung des lebenden Metalls sind äußerst schwierig, aber die erfolgreiche Anwendung der wandelbaren Legierungen bietet unvergleichliche Vorteile.",
               "feature_unlocks": [
                 "<b>Edict</b>: Living Metal Mega-Construction",
                 "<b>Reveals Resource</b>: Living Metal"
@@ -1303,7 +1303,7 @@
           "base_weight": 100,
           "category": "Industrie",
           "cost": 2000,
-          "description": "Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.",
+          "description": "Fortschrittliche Instrumentierung ermöglicht das Studium und die praktische Anwendung physischer Systeme auf nanometrischen Maßstäben.",
           "feature_unlocks": [
             "£engineering£ Engineering Research from £job_researcher£ [GetResearcherPlural] +20%"
           ],
@@ -1331,7 +1331,7 @@
               "base_weight": 90,
               "category": "Industrie",
               "cost": 3000,
-              "description": "Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.",
+              "description": "Eine schnelle Wiederholung bei Konstruktionssimulationen bestimmt optimale Bauteilvorlagen für jedes Bauprojekt bereits vorzeitig.",
               "feature_unlocks": [
                 "Planetary Build Speed +25%"
               ],
@@ -1362,7 +1362,7 @@
                   "base_weight": 30,
                   "category": "Industrie",
                   "cost": 10000,
-                  "description": "Standardized pre-fab templates massively reduce on-site facility construction times.",
+                  "description": "Standardisierte Fabrikvorlagen reduzieren die Bauzeiten vor Ort massiv.",
                   "feature_unlocks": [
                     "Planetary Build Speed +50%",
                     "Empire Sprawl from Districts -10%"
@@ -1396,7 +1396,7 @@
                       "base_weight": 12.5,
                       "category": "Industrie",
                       "cost": 50000,
-                      "description": "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.",
+                      "description": "Die Anwendung der Spiel- und Puzzle-Theorie hat das Potenzial, die modulare Montage und den modularen Bau enorm zu verbessern.\" # through the use of advanced puzzle-logic we can make sure each building is assembled in the optimal order and pattern",
                       "feature_unlocks": [
                         "Planetary Build Speed +10%"
                       ],
@@ -1432,7 +1432,7 @@
               "base_weight": 70,
               "category": "Industrie",
               "cost": 6000,
-              "description": "The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.",
+              "description": "Das Produzieren und Verstehen suprasolider Materialien ist für jede Raumfahrt-Zivilisation von unschätzbarem Wert.",
               "feature_unlocks": [
                 "£engineering£ Engineering Research from £job_researcher£ [GetResearcherPlural] +20%"
               ],
@@ -1466,7 +1466,7 @@
                   "base_weight": 40,
                   "category": "Industrie",
                   "cost": 20000,
-                  "description": "The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.",
+                  "description": "Das Studium suprafluider Materialien verspricht, Quantenmechanik mit der fundamentalen Interaktion der Schwerkraft verbinden zu können.",
                   "feature_unlocks": [
                     "£engineering£ Engineering Research from £job_researcher£ [GetResearcherPlural] +20%"
                   ],
@@ -1508,7 +1508,7 @@
           "base_weight": 112.5,
           "category": "Industrie",
           "cost": 5000,
-          "description": "The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation.",
+          "description": "Die Fähigkeit Wetterbedingungen eines Planeten zu verändern, um zerstörerische Wetterphänomene zu unterdrücken, wird Wohngebäude leichter zu unterhalten lassen und neue Wohngebiete eröffnen.",
           "feature_unlocks": [
             "City District Housing: +1"
           ],
@@ -1531,7 +1531,7 @@
               "base_weight": 65,
               "category": "Staatskunst",
               "cost": 8000,
-              "description": "With the latest advances in architecture, landscaping and holographic technology, we shall build the homes of the future.",
+              "description": "Mit den neuesten Fortschritten in Architektur, Landschaftsgestaltung und holographischer Technologie werden wir die Häuser der Zukunft bauen.",
               "feature_unlocks": [
                 "<b>Building</b>: Utopian Communal Housing",
                 "<b>Building</b>: Paradise Dome",
@@ -1569,7 +1569,7 @@
               "base_weight": 97.5,
               "category": "Industrie",
               "cost": 8000,
-              "description": "With directional gravity technology, buildings on the surface of planets can reach higher than ever before without risking structural collapse. The sky is the limit!",
+              "description": "Mit der direktionalen Gravitationstechnologie können Gebäude auf der Oberfläche von Planeten höher als je zuvor werden, ohne einen strukturellen Zusammenbruch zu riskieren. Der Himmel ist die Grenze!",
               "feature_unlocks": [
                 "<b>Building</b>: Expanded Warren",
                 "City District Housing: +1"
@@ -1606,7 +1606,7 @@
           "base_weight": 112.5,
           "category": "Industrie",
           "cost": 5000,
-          "description": "Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.",
+          "description": "Mikroskopische Werkzeuge, die unsere Replikationseinheiten bei der Erstellung der komplexeren Schaltkreise unterstützen können und die für neue Drohnen benötigt werden.",
           "feature_unlocks": [
             "<b>Building</b>: Upgraded Drone Storage",
             "Pop Assembly Speed +10%"
@@ -1632,7 +1632,7 @@
               "base_weight": 75,
               "category": "Industrie",
               "cost": 12000,
-              "description": "Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.",
+              "description": "Nach dem Vorbild organischer DNA können diese mikroskopisch kleinen Maschinenintellekte die meisten Komponenten, die für neue Drohnen benötigt werden, automatisch zusammenbauen.",
               "feature_unlocks": [
                 "Pop Assembly Speed +10%"
               ],
@@ -1671,7 +1671,7 @@
           "base_weight": 0,
           "category": "Materialien",
           "cost": 2000,
-          "description": "Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.",
+          "description": "Verstärkte Nanokomposit-Rumpfplatten bieten eine zusätzliche Schutzschicht, die in Gefechtssituationen den Unterschied zwischen Leben und Tod ausmachen kann.",
           "feature_unlocks": [
             "<b>Component</b>: Large Nanocomposite Armor",
             "<b>Component</b>: Small Nanocomposite Armor",
@@ -1694,7 +1694,7 @@
               "base_weight": 118.75,
               "category": "Materialien",
               "cost": 2500,
-              "description": "A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.",
+              "description": "In dieser starken Panzerung werden verschiedene Metalle und Keramiken kombiniert, ohne auf Kosten der Flexibilität zu gehen.",
               "feature_unlocks": [
                 "<b>Component</b>: Medium Ceramo-Metal Armor",
                 "<b>Component</b>: Large Ceramo-Metal Armor",
@@ -1726,7 +1726,7 @@
                   "base_weight": 170,
                   "category": "Materialien",
                   "cost": 4000,
-                  "description": "The widespread use of advanced ceramics in industry can improve metallurgical yields.",
+                  "description": "Die weit verbreitete Verwendung von Hochleistungskeramik in der Industrie kann die metallurgische Ausbeute verbessern.",
                   "feature_unlocks": [
                     "£job_foundry£ [GetAlloyProducer] Output +10%"
                   ],
@@ -1761,7 +1761,7 @@
                       "base_weight": 90,
                       "category": "Materialien",
                       "cost": 16000,
-                      "description": "By replacing antiquated ceramo-metal equipment with cutting edge technology, we can run our forges hotter and longer, increasing production.",
+                      "description": "Indem wir veraltete Keramik-Metall-Ausrüstung durch modernste Technologie ersetzen, können wir unsere Schmieden heißer und länger laufen lassen und so die Produktion steigern.",
                       "feature_unlocks": [
                         "£job_foundry£ [GetAlloyProducer] Output +10%"
                       ],
@@ -1806,7 +1806,7 @@
                   "base_weight": 93.75,
                   "category": "Materialien",
                   "cost": 5000,
-                  "description": "Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.",
+                  "description": "Plastik-Stahl ist ein elastisches Material, das viele Qualitäten von Plastik und Stahl miteinander kombiniert. Es kann relativ kostengünstig hergestellt und auch zur Verstärkung von Schiffspanzerungen benutzt werden.",
                   "feature_unlocks": [
                     "<b>Component</b>: Small Plasteel Armor",
                     "<b>Component</b>: Medium Plasteel Armor",
@@ -1838,7 +1838,7 @@
                       "base_weight": 75,
                       "category": "Materialien",
                       "cost": 10000,
-                      "description": "This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.",
+                      "description": "Dieses starke und doch dehnbare Material kann selbst schwersten Gewalteinwirkungen widerstehen. Aus diesem Grund ist es gut als Schiffspanzerung geeignet.",
                       "feature_unlocks": [
                         "<b>Component</b>: Large Durasteel Armor",
                         "<b>Component</b>: Small Durasteel Armor",
@@ -1870,7 +1870,7 @@
                           "base_weight": 50,
                           "category": "Materialien",
                           "cost": 20000,
-                          "description": "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.",
+                          "description": "Dieses unglaublich dichte und starke Material kann Feindbeschuss aushalten, der alle Panzerungen aus anderen Legierungen in Schlacke verwandeln würde.",
                           "feature_unlocks": [
                             "<b>Component</b>: Small Neutronium Armor",
                             "<b>Component</b>: Large Neutronium Armor",
@@ -1907,7 +1907,7 @@
                       "base_weight": 12.5,
                       "category": "Materialien",
                       "cost": 50000,
-                      "description": "Compressing suitable materials into ultra-dense forms is a cheap and efficient way to improve their ability to absorb weapons-grade impacts.",
+                      "description": "Die Komprimierung geeigneter Materialien in ultra-dichte Formen ist eine günstige und effiziente Methode, ihre Fähigkeiten zur Absorbierung von Waffentreffern zu verbessern.",
                       "feature_unlocks": [
                         "Armor Hit Points +5%"
                       ],
@@ -1946,7 +1946,7 @@
           "base_weight": 0,
           "category": "Antrieb",
           "cost": 0,
-          "description": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.",
+          "description": "Geschützbatterien, die auf kurze Entfernung starke Schrapnellwirkung entfalten. Gegen feindliche Trägergeschwader sind sie besonders tödlich, können aber Raketen abwehren.",
           "feature_unlocks": [
             "<b>Component</b>: Flak Battery"
           ],
@@ -1967,7 +1967,7 @@
               "base_weight": 70,
               "category": "Antrieb",
               "cost": 6000,
-              "description": "Upgraded flak batteries with new, more powerful shrapnel rounds.",
+              "description": "Verbesserte Flakbatterien mit neuen, stärkeren Schrapnellgranaten.",
               "feature_unlocks": [
                 "<b>Component</b>: Flak Cannons"
               ],
@@ -1999,7 +1999,7 @@
                   "base_weight": 45,
                   "category": "Antrieb",
                   "cost": 16000,
-                  "description": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.",
+                  "description": "Vorausahnende Zielalgorithmen und noch leistungsstärkere Munition machen diese Batterien für feindliche Trägergeschwader unglaublich tödlich.",
                   "feature_unlocks": [
                     "<b>Component</b>: Flak Artillery"
                   ],
@@ -2039,7 +2039,7 @@
           "base_weight": 0,
           "category": "Antrieb",
           "cost": 0,
-          "description": "Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.",
+          "description": "Einfache, aber halbwegs effiziente chemische Triebwerke, die mit brennbaren Treibstoffen funktionieren.",
           "feature_unlocks": [
             "<b>Component</b>: Chemical Thrusters"
           ],
@@ -2060,7 +2060,7 @@
               "base_weight": 118.75,
               "category": "Antrieb",
               "cost": 2500,
-              "description": "These powerful thrusters provide additional combat speed but consume a great deal of power.",
+              "description": "Diese leistungsstarken Schubtriebwerke beschleunigen die Gefechtsgeschwindigkeit von Schiffen, haben aber einen hohen Energieverbrauch.",
               "feature_unlocks": [
                 "<b>Component</b>: Afterburners"
               ],
@@ -2092,7 +2092,7 @@
                   "base_weight": 75,
                   "category": "Antrieb",
                   "cost": 10000,
-                  "description": "This improved version of the standard afterburners provide an even greater boost to a ship's combat speed.",
+                  "description": "Diese verbesserte Version der Standard-Nachbrenner beschleunigt die Gefechtsgeschwindigkeit von Schiffen noch mehr.",
                   "feature_unlocks": [
                     "<b>Component</b>: Advanced Afterburners"
                   ],
@@ -2132,7 +2132,7 @@
               "base_weight": 106.25,
               "category": "Antrieb",
               "cost": 4000,
-              "description": "These electric thrusters use beams of ions to generate thrust without the need for propellant.",
+              "description": "Diese elektrischen Triebwerke erzeugen mit Hilfe von Ionenstrahlen Schub. Treibstoffe werden nicht benötigt.",
               "feature_unlocks": [
                 "<b>Component</b>: Ion Thrusters"
               ],
@@ -2163,7 +2163,7 @@
                   "base_weight": 81.25,
                   "category": "Antrieb",
                   "cost": 8000,
-                  "description": "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.",
+                  "description": "Plasma-Triebwerke sind eine fortschrittliche Form von Elektroantrieb und geben Schiffen bei Unterlichtbedingungen eine höhere Geschwindigkeit und Manövrierbarkeit.",
                   "feature_unlocks": [
                     "<b>Component</b>: Plasma Thrusters"
                   ],
@@ -2194,7 +2194,7 @@
                       "base_weight": 56.25,
                       "category": "Antrieb",
                       "cost": 16000,
-                      "description": "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.",
+                      "description": "Diese modernsten, mit Fusionsenergie gespeisten Triebwerke geben Schiffen bei Unterlichtbedingungen unerreichte Geschwindigkeiten und Manövrierbarkeit.",
                       "feature_unlocks": [
                         "<b>Component</b>: Impulse Thrusters"
                       ],
@@ -2225,7 +2225,7 @@
                           "base_weight": 1,
                           "category": "Antrieb",
                           "cost": 50000,
-                          "description": "These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.",
+                          "description": "Diese Triebwerke nutzen die Technologie der dunklen Materie, um in einer Weise Schub zu erzeugen, die zahlreichen physikalischen Gesetzen zu trotzen scheint.",
                           "feature_unlocks": [
                             "<b>Component</b>: Dark Matter Thrusters"
                           ],
@@ -2269,7 +2269,7 @@
           "base_weight": 0,
           "category": "Antrieb",
           "cost": 0,
-          "description": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
+          "description": "Raum-Raum-Raketen, die mit starken atomaren Sprengköpfen ausgerüstet sind. Diese kruden Fire-and-Forget-Waffen basieren zwar auf alter Vor-Raumfahrt-Technologie, können aber auf Entfernung überraschend effektiv sein.",
           "feature_unlocks": [
             "<b>Component</b>: Nuclear Missiles",
             "<b>Starbase Module</b>: Missile Battery"
@@ -2291,7 +2291,7 @@
               "base_weight": 95,
               "category": "Antrieb",
               "cost": 2500,
-              "description": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.",
+              "description": "Diese verbesserten Raum-Raum-Raketen besitzen stärkere atomare Sprengköpfe und weisen verbesserte Flugeigenschaften auf.",
               "feature_unlocks": [
                 "<b>Component</b>: Fusion Missiles"
               ],
@@ -2328,7 +2328,7 @@
                   "base_weight": 85,
                   "category": "Antrieb",
                   "cost": 4000,
-                  "description": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.",
+                  "description": "Fortschrittliche Raketen mit äußerst starken Antimaterie-Sprengköpfen. Ein neues und verbessertes Zielleitungssystem führt sie mit höherer Wahrscheinlichkeit zum Ziel.",
                   "feature_unlocks": [
                     "<b>Component</b>: Antimatter Missiles"
                   ],
@@ -2360,7 +2360,7 @@
                       "base_weight": 65,
                       "category": "Antrieb",
                       "cost": 8000,
-                      "description": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.",
+                      "description": "Diese verbesserte, neueste Version der Raum-Raum-Raketen hat einen enorm mächtigen Sprengkopf, der seine Energie aus einem Nullpunkt-Vakuum bezieht.",
                       "feature_unlocks": [
                         "<b>Component</b>: Quantum Missiles"
                       ],
@@ -2392,7 +2392,7 @@
                           "base_weight": 40,
                           "category": "Antrieb",
                           "cost": 20000,
-                          "description": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.",
+                          "description": "Diese höchst fortschrittlichen Raketen sind mit limitierten KI-Onboard-Piloten ausgerüstet, was ihre Leistungs- und Zielsuchfähigkeit erheblich verbessert.",
                           "feature_unlocks": [
                             "<b>Component</b>: Marauder Missiles"
                           ],
@@ -2429,7 +2429,7 @@
                       "base_weight": 12.5,
                       "category": "Antrieb",
                       "cost": 50000,
-                      "description": "With the chemical reaction tightly controlled by missile-board microprocessors, warhead detonations can be tuned for maximum effect for local conditions at the time of impact.",
+                      "description": "Wenn die chemischen Reaktionen von Sprengkopfdetonationen von Onboard-Mikroprozessoren der Raketen präzise kontrolliert werden, können sie für maximale Trefferwirkung auf die lokalen Bedingungen beim Einschlagszeitpunkt abgestimmt werden.",
                       "feature_unlocks": [
                         "Explosive Weapon Damage +5%"
                       ],
@@ -2459,7 +2459,7 @@
                       "base_weight": 12.5,
                       "category": "Antrieb",
                       "cost": 50000,
-                      "description": "Advances in miniaturization allow for more rapid loading and discharging of rocket-propelled payloads.",
+                      "description": "Fortschritte im Feld der Miniaturisierung ermöglichen das schnelle Laden und Verschießen von raketengetriebenen Sprengladungen.",
                       "feature_unlocks": [
                         "Explosive Weapon Attack Speed +5%"
                       ],
@@ -2492,7 +2492,7 @@
                   "base_weight": 75,
                   "category": "Antrieb",
                   "cost": 5000,
-                  "description": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.",
+                  "description": "Diese kleineren Raketen werden in Salven abgefeuert und sollen speziell feindliche Punktverteidigungssysteme überwinden.",
                   "feature_unlocks": [
                     "<b>Component</b>: Swarmer Missiles"
                   ],
@@ -2524,7 +2524,7 @@
                       "base_weight": 40,
                       "category": "Antrieb",
                       "cost": 20000,
-                      "description": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.",
+                      "description": "Neue Miniaturisierungsmethoden ermöglichen es uns, kleinere Schwarmraketen mit stärkeren Sprengköpfen und besseren Flugeigenschaften zu bauen.",
                       "feature_unlocks": [
                         "<b>Component</b>: Whirlwind Missiles"
                       ],
@@ -2564,7 +2564,7 @@
               "base_weight": 75,
               "category": "Antrieb",
               "cost": 5000,
-              "description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
+              "description": "Diese Torpedos sind im Prinzip riesige, langsam fliegende Raketen. Sie sind mit stärkeren Gefechtsköpfen und Schildmodulatoren ausgerüstet, mit denen sie Energieschilde unbehelligt durchdringen können.",
               "feature_unlocks": [
                 "<b>Component</b>: Space Torpedoes"
               ],
@@ -2596,7 +2596,7 @@
                   "base_weight": 60,
                   "category": "Antrieb",
                   "cost": 10000,
-                  "description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
+                  "description": "Verbesserte Weltraumtorpedos, deren Panzerung feindlichem Punktverteidigungsbeschuss widerstehen kann. Die Panzerung fragmentiert sich in Splitter, die bei der Detonation des Torpedos zusätzliche Schäden verursachen.",
                   "feature_unlocks": [
                     "<b>Component</b>: Armored Torpedoes"
                   ],
@@ -2628,7 +2628,7 @@
                       "base_weight": 40,
                       "category": "Antrieb",
                       "cost": 20000,
-                      "description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
+                      "description": "Fortschrittliche Torpedos mit äußerst starken Gefechtsköpfen. Sie sind schlanker, haben schnellere Antriebe und sind zum Durchdringen von Energieschilden mit besseren Schildmodulatoren ausgerüstet.",
                       "feature_unlocks": [
                         "<b>Component</b>: Devastator Torpedoes"
                       ],
@@ -2671,7 +2671,7 @@
           "base_weight": 0,
           "category": "Antrieb",
           "cost": 0,
-          "description": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.",
+          "description": "Diese elektromagnetischen Projektilwerfer beschleunigen panzerbrechende Geschosse mit Magneten auf hohe Geschwindigkeiten.",
           "feature_unlocks": [
             "<b>Starbase Module</b>: Gun Battery",
             "<b>Component</b>: Small Mass Driver",
@@ -2695,7 +2695,7 @@
               "base_weight": 95,
               "category": "Antrieb",
               "cost": 2500,
-              "description": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.",
+              "description": "Gauss-Geschütze sind leistungsstärkere Versionen der frühen Massebeschleuniger, die Geschosse mit elektromagnetischen Spulen auf enorme Geschwindigkeiten beschleunigen.",
               "feature_unlocks": [
                 "<b>Component</b>: Medium Coilgun",
                 "<b>Component</b>: Large Coilgun",
@@ -2729,7 +2729,7 @@
                   "base_weight": 85,
                   "category": "Antrieb",
                   "cost": 4000,
-                  "description": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.",
+                  "description": "Die modernste Entwicklung im Bereich elektromagnetischer Beschleunigungswaffen. Railguns feuern Projektile auf Zwillingsschienen mit unfassbaren Geschwindigkeiten ab.",
                   "feature_unlocks": [
                     "<b>Component</b>: Small Railgun",
                     "<b>Component</b>: Large Railgun",
@@ -2763,7 +2763,7 @@
                       "base_weight": 65,
                       "category": "Antrieb",
                       "cost": 8000,
-                      "description": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.",
+                      "description": "Eine neue Version der altehrwürdigen Railgun, aber mit robusteren Schienen und verbesserter Energieversorgung. Diese Waffen sind noch leistungsstärker und zielgenauer als ihre Vorgänger.",
                       "feature_unlocks": [
                         "<b>Component</b>: Medium Advanced Railgun",
                         "<b>Component</b>: Large Advanced Railgun",
@@ -2797,7 +2797,7 @@
                           "base_weight": 50,
                           "category": "Antrieb",
                           "cost": 12000,
-                          "description": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.",
+                          "description": "Langstrecken-Artillerie, die mächtige Geschosse mit extremer Reichweite und großer Zielgenauigkeit verschießt.",
                           "feature_unlocks": [
                             "<b>Component</b>: Kinetic Battery"
                           ],
@@ -2829,7 +2829,7 @@
                               "base_weight": 40,
                               "category": "Antrieb",
                               "cost": 20000,
-                              "description": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.",
+                              "description": "Ein noch weitreichenderes Stück Schiffsartillerie mit neuartigem Geschützrohr und verbesserter Feuerleitanlage.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Kinetic Artillery"
                               ],
@@ -2871,7 +2871,7 @@
                           "base_weight": 40,
                           "category": "Antrieb",
                           "cost": 20000,
-                          "description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
+                          "description": "Eine gewaltige Massebeschleunigerkanone, die nur spinal montiert werden kann und Geschosse mit fürchterlicher Schadenswirkung über große Distanzen verschießt.",
                           "feature_unlocks": [
                             "<b>Component</b>: Mega Cannon"
                           ],
@@ -2908,7 +2908,7 @@
                               "base_weight": 35,
                               "category": "Antrieb",
                               "cost": 24000,
-                              "description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
+                              "description": "Eine noch mächtigere Massebeschleunigerkanone, die selbst die stärksten Schilde mit Leichtigkeit durchdringen kann.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Giga Cannon"
                               ],
@@ -2950,7 +2950,7 @@
                           "base_weight": 45,
                           "category": "Antrieb",
                           "cost": 16000,
-                          "description": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.",
+                          "description": "Diese verbesserte Version des alten Gauss-Geschütz-Designs ist noch zerstörerischer als die neuesten Railgun-Designs. Sie kann Projektile mit unglaublicher Zielgenauigkeit und Geschwindigkeit verschießen.",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Gauss Cannon",
                             "<b>Component</b>: Medium Gauss Cannon",
@@ -2989,7 +2989,7 @@
                       "base_weight": 12.5,
                       "category": "Antrieb",
                       "cost": 50000,
-                      "description": "Ultra-dense slugs can punch through even the strongest of projected shields.",
+                      "description": "Ultra-dichte Geschosse können selbst die stärksten Schutzschilde durchdringen.",
                       "feature_unlocks": [
                         "Kinetic Weapon Damage +5%"
                       ],
@@ -3019,7 +3019,7 @@
                       "base_weight": 12.5,
                       "category": "Antrieb",
                       "cost": 50000,
-                      "description": "Minor technical advances combine with improved shipboard routines for handling munitions to provide a noticeable boost in fire rate.",
+                      "description": "Geringfügige technische Fortschritte sorgen in Kombination mit verbesserten Gefechtsroutinen zum Umgang mit Munition für eine spürbare Beschleunigung der Feuergeschwindigkeit.",
                       "feature_unlocks": [
                         "Kinetic Weapon Attack Speed +5%"
                       ],
@@ -3052,7 +3052,7 @@
                   "base_weight": 75,
                   "category": "Antrieb",
                   "cost": 5000,
-                  "description": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.",
+                  "description": "Großkalibrige, ballistische Waffe, die Sprenggranaten verschießt. Der Hauptvorteil dieser Kanonen liegt in ihrer hohen Feuergeschwindigkeit.",
                   "feature_unlocks": [
                     "<b>Component</b>: Autocannon"
                   ],
@@ -3085,7 +3085,7 @@
                       "base_weight": 65,
                       "category": "Antrieb",
                       "cost": 8000,
-                      "description": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.",
+                      "description": "Diese verbesserten, drehbaren Autokanonen verfügen über bessere Zielerfassungs- und Feuerleitsysteme. Dies ermöglicht eine sogar noch höhere Feuergeschwindigkeit.",
                       "feature_unlocks": [
                         "<b>Component</b>: Ripper Autocannon"
                       ],
@@ -3117,7 +3117,7 @@
                           "base_weight": 45,
                           "category": "Antrieb",
                           "cost": 16000,
-                          "description": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.",
+                          "description": "Fortschrittliche, drehbare Autokanonen, die Feinden einen Schwarm hochexplosiver Geschosse entgegenwerfen.",
                           "feature_unlocks": [
                             "<b>Component</b>: Stormfire Autocannon"
                           ],
@@ -3163,7 +3163,7 @@
           "base_weight": 0,
           "category": "Weltraumkunde",
           "cost": 0,
-          "description": "The earliest starbases were little more than makeshift outposts. Permanent starports will enable us to maintain a firmer grip on star systems.",
+          "description": "Die ersten Sternenbasen waren kaum mehr als improvisierte Außenposten. Permanente Sternenhäfen versetzen uns in die Lage, einen festeren halt über Sternensysteme zu erlangen.",
           "feature_unlocks": [
             "<b>Starbase Upgrade</b>: Starport"
           ],
@@ -3184,7 +3184,7 @@
               "base_weight": 90,
               "category": "Weltraumkunde",
               "cost": 3000,
-              "description": "These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.",
+              "description": "Diese bemannten Trägergeschwader starten von einem Mutterschiff und verlassen sich auf ihre Geschwindigkeit und geringe Größe, um die feindliche Verteidigung zu durchdringen.",
               "feature_unlocks": [
                 "<b>Component</b>: Basic Strike Craft",
                 "<b>Starbase Module</b>: Hangar Bay"
@@ -3215,7 +3215,7 @@
                   "base_weight": 70,
                   "category": "Weltraumkunde",
                   "cost": 6000,
-                  "description": "The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.",
+                  "description": "Die nächste Generation des Kurzstreckenjägers mit verbesserten Flugeigenschaften, besserer Steuerung und stärkerer Bewaffnung.",
                   "feature_unlocks": [
                     "<b>Component</b>: Improved Strike Craft"
                   ],
@@ -3245,7 +3245,7 @@
                       "base_weight": 50,
                       "category": "Weltraumkunde",
                       "cost": 12000,
-                      "description": "A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models.",
+                      "description": "Eine weitere Entwicklungsstufe des Trägergeschwaders. Diese fortschrittlichen Schiffe sind der Traum jedes Piloten. Ihre Leistungsfähigkeit übertrifft die früherer Modelle bei weitem.",
                       "feature_unlocks": [
                         "<b>Component</b>: Advanced Strike Craft"
                       ],
@@ -3275,7 +3275,7 @@
                           "base_weight": 12.5,
                           "category": "Weltraumkunde",
                           "cost": 50000,
-                          "description": "Increasing the speed at which fighter pilots can process and act upon enemy positioning data elevates strike craft a few steps up the food chain.",
+                          "description": "Indem wir dafür sorgen, dass Jagdpiloten feindliche Positionierungsdaten schneller verarbeiten und darauf reagieren können, wird die Rolle von Kampfschiffen auf dem Schlachtfeld aufgewertet.",
                           "feature_unlocks": [
                             "Strike Craft Damage +10%"
                           ],
@@ -3305,7 +3305,7 @@
                           "base_weight": 12.5,
                           "category": "Weltraumkunde",
                           "cost": 50000,
-                          "description": "Circulating excess heat from weapons discharge in order to prime munitions as they are loaded increases the rate of fire of strike craft weaponry.",
+                          "description": "Die Zirkulation der Überschusswärme von Waffenentladungen zur Schussvorbereitung von Munition während des Ladevorgangs erhöht die Feuergeschwindigkeit von Kampfschiffgeschützen.",
                           "feature_unlocks": [
                             "Strike Craft Attack Speed +10%"
                           ],
@@ -3344,7 +3344,7 @@
               "base_weight": 75,
               "category": "Weltraumkunde",
               "cost": 5000,
-              "description": "As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes.",
+              "description": "Mit zunehmendem Weltraumverkehr werden größere und besser zu verteidigende Sternenbasen benötigt.",
               "feature_unlocks": [
                 "<b>Starbase Upgrade</b>: Starhold"
               ],
@@ -3381,7 +3381,7 @@
                   "base_weight": 37.5,
                   "category": "Weltraumkunde",
                   "cost": 5000,
-                  "description": "A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure.",
+                  "description": "Ein verstärkter Rahmen und Schutzschilde mit erhöhter Einschlagsabsorption gewährleisten die strukturelle Integrität der Plattform, selbst unter immensem Druck.",
                   "feature_unlocks": [
                     "Defense Platform Hull Points +500"
                   ],
@@ -3413,7 +3413,7 @@
                       "base_weight": 12.5,
                       "category": "Weltraumkunde",
                       "cost": 50000,
-                      "description": "Additional layers of armor plating within the structure itself improves the resilience of Military Stations.",
+                      "description": "Zusätzliche Panzerungsschichten im Inneren von Militärstationen erhöhen deren Widerstandsfähigkeit.",
                       "feature_unlocks": [
                         "Defense Platform Hull Points +10%"
                       ],
@@ -3443,7 +3443,7 @@
                       "base_weight": 12.5,
                       "category": "Weltraumkunde",
                       "cost": 50000,
-                      "description": "Cross-linking weapon systems to fire in staggered volleys improves the actual damage output of Military Stations over time.",
+                      "description": "Die Vernetzung von Waffensystemen zum Feuern in gestaffelten Volleys verbessert mit der Zeit die tatsächliche Schadenswirkung von Militärstationen.",
                       "feature_unlocks": [
                         "Defense Platform Damage +10%"
                       ],
@@ -3476,7 +3476,7 @@
                   "base_weight": 35,
                   "category": "Weltraumkunde",
                   "cost": 6000,
-                  "description": "Streamlined starbase construction procedures, using modular designs, will reduce the present build cost and time.",
+                  "description": "Standardisierte Konstruktionsverfahren, die modulare Designs verwenden, reduzieren die derzeitigen Baukosten und die Bauzeit.",
                   "feature_unlocks": [
                     "Starbase Building Cost -25%",
                     "Starbase Module Cost -25%"
@@ -3510,7 +3510,7 @@
                       "base_weight": 25,
                       "category": "Weltraumkunde",
                       "cost": 12000,
-                      "description": "The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability.",
+                      "description": "Die Aufstellung eines festen Flotten-Pionierkorps unterstützt den Bau von Verteidigungsplattformen im Weltraum durch Reduzierung der Baukosten und Erhöhung der Belastbarkeit.",
                       "feature_unlocks": [
                         "Starbase Upgrade Speed +25%",
                         "Starbase Upgrade Cost -15%"
@@ -3554,7 +3554,7 @@
                   "base_weight": 60,
                   "category": "Weltraumkunde",
                   "cost": 10000,
-                  "description": "These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers.",
+                  "description": "Diese mächtigen Weltraumfestungen stellen den Brennpunkt für alle militärischen Operationen in einem Sternensystem dar und ihre Anwesenheit wird alle noch so hartnäckigen Angreifer sicher abschrecken.",
                   "feature_unlocks": [
                     "<b>Starbase Upgrade</b>: Star Fortress"
                   ],
@@ -3591,7 +3591,7 @@
                       "base_weight": 40,
                       "category": "Weltraumkunde",
                       "cost": 20000,
-                      "description": "Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs.",
+                      "description": "Der Plan für eine riesige Kampfstation, die sich gegen mehrere feindliche Flotten behaupten kann, wird momentan ausgearbeitet. Bei Verwirklichung, werden die Zitadellen nicht nur ein Monument von beachtlicher Größe, sondern auch der Knotenpunkt eines Systems werden.",
                       "feature_unlocks": [
                         "<b>Starbase Upgrade</b>: Citadel"
                       ],
@@ -3633,7 +3633,7 @@
                   "base_weight": 60,
                   "category": "Weltraumkunde",
                   "cost": 10000,
-                  "description": "Allows the construction of largely self-sustaining Orbital Habitats.",
+                  "description": "Ermöglicht den Bau weitgehend autarker Orbitalhabitate.",
                   "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3671,7 +3671,7 @@
                       "base_weight": 35,
                       "category": "Weltraumkunde",
                       "cost": 20000,
-                      "description": "Our early habitats were primitive things compared to the efficient designs we can now develop.",
+                      "description": "Unsere frühen Habitate waren primitiv im Vergleich zu den effizienten Entwürfen, die wir heutzutage entwickeln können.",
                       "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -3708,7 +3708,7 @@
                           "base_weight": 35,
                           "category": "Weltraumkunde",
                           "cost": 40000,
-                          "description": "Years of improvements to our Orbital Habitats have led us to create newer more effective designs.",
+                          "description": "Jahrelange Verbesserungen an unseren §YOrbitalhabitaten§! haben es uns ermöglicht, neue und effektivere Designs zu entwickeln.",
                           "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -3759,7 +3759,7 @@
           "base_weight": 0,
           "category": "Weltraumkunde",
           "cost": 0,
-          "description": "The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower.",
+          "description": "Der ÜL-Durchbruch ermöglichte früh Versuche, herkömmliche Hüllen von Space Shuttlen für militärische Anwendungen anzupassen, um schließlich relativ kleine, aber schnelle und manövrierbare Schiffe mit begrenzter Feuerkraft zu schaffen.",
           "feature_unlocks": [
             "<b>Ship Size</b>: Corvette"
           ],
@@ -3780,7 +3780,7 @@
               "base_weight": 85,
               "category": "Weltraumkunde",
               "cost": 4000,
-              "description": "While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats.",
+              "description": "Obwohl sie größer als Korvetten sind, bieten die Rumpfkonfigurationen von Zerstörern immer noch vergleichsweise wenig Kanonen.",
               "feature_unlocks": [
                 "Fleet Command Limit +10",
                 "<b>Ship Size</b>: Destroyer"
@@ -3817,7 +3817,7 @@
                   "base_weight": 70,
                   "category": "Weltraumkunde",
                   "cost": 6000,
-                  "description": "Advances in building techniques will allow for the construction of sturdier and more durable destroyers.",
+                  "description": "Fortschritte in der Bautechnik erlauben den Bau von robusteren und beständigeren Zerstörern.",
                   "feature_unlocks": [
                     "Destroyer Hull Points +200"
                   ],
@@ -3848,7 +3848,7 @@
                       "base_weight": 65,
                       "category": "Weltraumkunde",
                       "cost": 8000,
-                      "description": "The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads.",
+                      "description": "Die neuste Generation von Zerstörerrümpfen hat optimierte Integritätsfelder und verbesserte Schotte.",
                       "feature_unlocks": [
                         "Destroyer Hull Points +200"
                       ],
@@ -3887,7 +3887,7 @@
                   "base_weight": 65,
                   "category": "Weltraumkunde",
                   "cost": 8000,
-                  "description": "Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance.",
+                  "description": "Ursprünglich als Experiment für den Rumpf eines Kolonieschiffes gedacht, stellte sich der Entwurf der großen Waffenaufhängungen als Ideal für den Transport von schweren Waffen heraus.",
                   "feature_unlocks": [
                     "Fleet Command Limit +10",
                     "<b>Ship Size</b>: Cruiser"
@@ -3924,7 +3924,7 @@
                       "base_weight": 45,
                       "category": "Weltraumkunde",
                       "cost": 16000,
-                      "description": "The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries.",
+                      "description": "Als größtes der normalen Militärschiffe sind Schlachtschiffe schwer gepanzert und verfügen über mehrere Geschützbatterien.",
                       "feature_unlocks": [
                         "Fleet Command Limit +10",
                         "<b>Ship Size</b>: Battleship"
@@ -3961,7 +3961,7 @@
                           "base_weight": 35,
                           "category": "Weltraumkunde",
                           "cost": 24000,
-                          "description": "Advances in building techniques will allow for the construction of sturdier and more durable battleships.",
+                          "description": "Fortschritte in der Bautechnik erlauben den Bau von robusteren und beständigeren Schlachtschiffen.",
                           "feature_unlocks": [
                             "Battleship Hull Points +800"
                           ],
@@ -3992,7 +3992,7 @@
                               "base_weight": 30,
                               "category": "Weltraumkunde",
                               "cost": 32000,
-                              "description": "The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads.",
+                              "description": "Die neuste Generation von Schlachtschiffrümpfen hat optimierte Integritätsfelder und verbesserte Schotte.",
                               "feature_unlocks": [
                                 "Battleship Hull Points +800"
                               ],
@@ -4031,7 +4031,7 @@
                           "base_weight": 30,
                           "category": "Weltraumkunde",
                           "cost": 32000,
-                          "description": "Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.",
+                          "description": "Die Titan-Klasse ist nach den mächtigen Schatten, die im Kernsystem der ehemaligen Vormachtstellungen zu finden waren, modelliert und kann mit Waffen der Kategorie X ausgestattet werden.",
                           "feature_unlocks": [
                             "<b>Ship Size</b>: Titan",
                             "Fleet Command Limit +10",
@@ -4073,7 +4073,7 @@
                               "base_weight": 25,
                               "category": "Weltraumkunde",
                               "cost": 40000,
-                              "description": "Advances in building techniques will allow for the construction of sturdier and more durable titans.",
+                              "description": "Fortschritte in der Bautechnik erlauben den Bau von robusteren und beständigeren Titanen.",
                               "feature_unlocks": [
                                 "Titan Hull Points +2000"
                               ],
@@ -4107,7 +4107,7 @@
                                   "base_weight": 20,
                                   "category": "Weltraumkunde",
                                   "cost": 48000,
-                                  "description": "The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads.",
+                                  "description": "Die neuste Generation von Titanenrümpfen hat optimierte Integritätsfelder und verbesserte Schotte.",
                                   "feature_unlocks": [
                                     "Titan Hull Points +2000"
                                   ],
@@ -4146,7 +4146,7 @@
                               "base_weight": 0,
                               "category": "Weltraumkunde",
                               "cost": 48000,
-                              "description": "Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.",
+                              "description": "Die Fortschritte im Megabauwesen verwischen die Grenzen zwischen Realität und Phantasie und ermöglichen so den Bau von Militärschiffen der Koloss-Klasse, die Waffen tragen, mit denen ganze Welten auf Knopfdrück ausgelöscht oder grundlegend verändert werden können.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4174,7 +4174,7 @@
                                   "base_weight": 10,
                                   "category": "Partikel",
                                   "cost": 48000,
-                                  "description": "An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.",
+                                  "description": "Ein beschleunigter Neutronenstahl \"bemalt\" die Planetenoberfläche und schädigt dabei die meisten Materialien, wobei biologisches Gewebe direkt vernichtet wird.",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Neutron Sweep"
                                   ],
@@ -4214,7 +4214,7 @@
                                   "base_weight": 10,
                                   "category": "Feldmanipulation",
                                   "cost": 48000,
-                                  "description": "A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).",
+                                  "description": "Errichtet ein Abschirmungsfeld um den Planeten herum, wodurch eine permanente und undurchdringliche Barriere (mit Ausnahme einiger weniger Wellenlängen des Lichts) geschaffen wird.",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Global Pacifier"
                                   ],
@@ -4252,7 +4252,7 @@
                                   "base_weight": 10,
                                   "category": "Psionik",
                                   "cost": 48000,
-                                  "description": "An arcane catalyst amplifying certain psionic wavelengths, capable of inducing hallucinations (religious experiences) in biological brains, and severe disruption (brain death) in electronic ones.",
+                                  "description": "Ein mysteriöser Katalysator, der bestimmte psionische Wellenlängen verstärkt und in der Lage ist, Halluzinationen (religiöse Erfahrungen) in biologische Gehirne zu pflanzen und schwere Störungen (Hirntod) in elektronischen Gehirnen auszulösen.",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Divine Enforcer"
                                   ],
@@ -4291,7 +4291,7 @@
                                   "base_weight": 10,
                                   "category": "Weltraumkunde",
                                   "cost": 48000,
-                                  "description": "A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.",
+                                  "description": "Eine zielgerichtete Zufuhr von thermischer Energie überhitzt die Atmosphäre und bringt den Kern in aufruhe, was katastrophale tektonische Ereignisse auslöst. Schließlich wird ein vergleichsweise winziger Strahl geschossen, der den Planeten aufbricht.",
                                   "feature_unlocks": [
                                     "<b>Component</b>: World Cracker"
                                   ],
@@ -4329,7 +4329,7 @@
                                   "base_weight": 10,
                                   "category": "Weltraumkunde",
                                   "cost": 48000,
-                                  "description": "Nanobot Diffuser",
+                                  "description": "Nanobotzerstreuer",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Nanobot Diffuser"
                                   ],
@@ -4373,7 +4373,7 @@
                           "base_weight": 5,
                           "category": "Weltraumkunde",
                           "cost": 48000,
-                          "description": "To complete construction projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures.",
+                          "description": "Zum Bau von Projekten gigantischen Ausmaßes müssen wir zuerst ein fundamentales Verständnis der Anforderungen in puncto Bauwesen und Baumateriallagerung erlangen.",
                           "feature_unlocks": [
                             "<b>Feature : </b>Megastructure Restoration",
                             "Resource Storage Capacity +20000"
@@ -4431,7 +4431,7 @@
                               "base_weight": 5,
                               "category": "Informatik",
                               "cost": 48000,
-                              "description": "The research labs and databanks of a Science Nexus generate an immense flow of raw, undiluted science.",
+                              "description": "Die Labore und Datenbanken eines Forschungsnexus!s erzeugen einen immensen Fluss an unverfälschten Forschungsdaten.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4468,7 +4468,7 @@
                               "base_weight": 5,
                               "category": "Informatik",
                               "cost": 48000,
-                              "description": "The stages of the Sentry Array gradually expand sensor range, eventually covering the entire galaxy.",
+                              "description": "Die Stufen der Wachmatrix! führen zu einer Erweiterung der Sensorreichweite, bis schließlich die gesamte Galaxie abgedeckt wird.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4506,7 +4506,7 @@
                               "base_weight": 5,
                               "category": "Militärtheorie",
                               "cost": 48000,
-                              "description": "A facility synchronizing the national Starbase network, augmenting defensive and offensive capabilities.",
+                              "description": "Eine Einrichtung, die das nationale Sternenbasen-Netzwerk synchronisiert und so defensive und offensive Fähigkeiten erweitert.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4546,7 +4546,7 @@
                               "base_weight": 5,
                               "category": "Militärtheorie",
                               "cost": 48000,
-                              "description": "A zero-G construction yard of overwhelming proportion, capable of performing several space ship assembly projects simultaneously.",
+                              "description": "Eine Null-G-Anlage von überwältigendem Ausmaß, die mehrere Raumschiffmontageprojekte gleichzeitig ausführen kann.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4586,7 +4586,7 @@
                               "base_weight": 5,
                               "category": "Staatskunst",
                               "cost": 48000,
-                              "description": "A meeting place for galactic powers, increasing immigration attraction and global opinion of us.",
+                              "description": "Ein Treffpunkt für galaktische Mächte, zunehmende Immigrationsfragen und die globale Meinung von uns.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4625,7 +4625,7 @@
                               "base_weight": 5,
                               "category": "Staatskunst",
                               "cost": 48000,
-                              "description": "An artistic beacon on a stellar scale, this installation inspires and represents the spirit of its creators.",
+                              "description": "Diese Einrichtung ist ein künstlerisches Leuchtfeuer im Maßstab eines Sterns und inspiriert und repräsentiert den Geist ihrer Schöpfer.",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4668,7 +4668,7 @@
                           "base_weight": 40,
                           "category": "Weltraumkunde",
                           "cost": 20000,
-                          "description": "Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.",
+                          "description": "Die Etablierung neuer Standards für die Modellierung und Konstruktion von Schlachtschiffen verbessert die Effizienz der Produktion erheblich.",
                           "feature_unlocks": [
                             "Battleship Build Cost -5%",
                             "Battleship Build Speed +25%"
@@ -4701,7 +4701,7 @@
                           "base_weight": 5,
                           "category": "Weltraumkunde",
                           "cost": 48000,
-                          "description": "A mobile space base of unparalleled proportions, the Juggernaut ship class takes offensive warfare to a whole new level.",
+                          "description": "Die Juggernaut-Schiffsklasse ist eine mobile Sternenbasis von gewaltigen Ausmaßen und hebt die Offensivkriegsführung auf ein völlig neues Niveau.",
                           "feature_unlocks": [
                             "<b>Starbase Building</b>: Colossal Assembly Yards"
                           ],
@@ -4747,7 +4747,7 @@
                       "base_weight": 60,
                       "category": "Weltraumkunde",
                       "cost": 10000,
-                      "description": "Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.",
+                      "description": "Die Etablierung neuer Standards für die Modellierung und Konstruktion von Kreuzern verbessert die Effizienz der Produktion erheblich.",
                       "feature_unlocks": [
                         "Cruiser Build Cost -5%",
                         "Cruiser Build Speed +25%"
@@ -4780,7 +4780,7 @@
                       "base_weight": 50,
                       "category": "Weltraumkunde",
                       "cost": 12000,
-                      "description": "Advances in building techniques will allow for the construction of sturdier and more durable cruisers.",
+                      "description": "Fortschritte in der Bautechnik erlauben den Bau von robusteren und beständigeren Kreuzern.",
                       "feature_unlocks": [
                         "Cruiser Hull Points +500"
                       ],
@@ -4811,7 +4811,7 @@
                           "base_weight": 45,
                           "category": "Weltraumkunde",
                           "cost": 16000,
-                          "description": "The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads.",
+                          "description": "Die neuste Generation von Kreuzerrümpfen hat optimierte Integritätsfelder und verbesserte Schotte.",
                           "feature_unlocks": [
                             "Cruiser Hull Points +500"
                           ],
@@ -4853,7 +4853,7 @@
                   "base_weight": 75,
                   "category": "Weltraumkunde",
                   "cost": 5000,
-                  "description": "Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline.",
+                  "description": "Die Etablierung neuer Standards für die Modellierung und Konstruktion von Zerstörern verbessert die Effizienz der Produktion erheblich.",
                   "feature_unlocks": [
                     "Destroyer Build Cost -5%",
                     "Destroyer Build Speed +25%"
@@ -4889,7 +4889,7 @@
               "base_weight": 90,
               "category": "Weltraumkunde",
               "cost": 3000,
-              "description": "Advances in building techniques will allow for the construction of sturdier and more durable corvettes.",
+              "description": "Fortschritte in der Bautechnik erlauben den Bau von robusteren und beständigeren Korvetten.",
               "feature_unlocks": [
                 "Corvette Hull Points +100"
               ],
@@ -4919,7 +4919,7 @@
                   "base_weight": 70,
                   "category": "Weltraumkunde",
                   "cost": 6000,
-                  "description": "The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads.",
+                  "description": "Die neuste Generation von Korvettenrümpfen hat optimierte Integritätsfelder und verbesserte Schotte.",
                   "feature_unlocks": [
                     "Corvette Hull Points +100"
                   ],
@@ -4957,7 +4957,7 @@
               "base_weight": 95,
               "category": "Weltraumkunde",
               "cost": 2500,
-              "description": "Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline.",
+              "description": "Die Etablierung neuer Standards für die Modellierung und Konstruktion von Korvetten verbessert die Effizienz der Produktion erheblich.",
               "feature_unlocks": [
                 "Corvette Build Cost -5%",
                 "Corvette Build Speed +25%"
@@ -4993,7 +4993,7 @@
           "base_weight": 0,
           "category": "Industrie",
           "cost": 0,
-          "description": "The application of mechanical engineering to mineral extraction is a fundamental requirement for any industrial society.",
+          "description": "Die Anwendung des Maschinenbaus in der Mineralgewinnung ist eine Grundvoraussetzung für jede industrielle Gesellschaft.",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
@@ -5014,7 +5014,7 @@
           "base_weight": 35,
           "category": "Materialien",
           "cost": 6000,
-          "description": "The mass-production of these rare resources require particularly capable nanites.",
+          "description": "Die Massenproduktion dieser seltenen Ressourcen erfordert sehr fortschrittliche Naniten.",
           "feature_unlocks": [
             "<b>Building</b>: Nanite Transmuter"
           ],
@@ -5044,7 +5044,7 @@
           "base_weight": 0,
           "category": "Weltraumkunde",
           "cost": 0,
-          "description": "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.",
+          "description": "Die Realisierung von Reisen mit Überlichtgeschwindigkeit ist der Anbeginn eines neuen Zeitalters für die Weltraumforschung. Bemannte Missionen zu anderen Sternensystemen sind jetzt nicht nur möglich, sondern notwendig.",
           "feature_unlocks": [
             "<b>Ship Size</b>: Science Ship"
           ],
@@ -5067,7 +5067,7 @@
           "base_weight": 0,
           "category": "Weltraumkunde",
           "cost": 0,
-          "description": "Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however.",
+          "description": "Fortschritte im Bereich der Solarzellentechnologie könnten die Betriebskosten unserer Sternenbasen möglicherweise ausgleichen. Für die Solarzellen müsste aber ein gesamtes Sternenbasenmodul reserviert werden, um genügend Energie zu erzeugen.",
           "feature_unlocks": [
             "<b>Starbase Module</b>: Solar Panel Network"
           ],
@@ -5093,7 +5093,7 @@
           "base_weight": 0,
           "category": "Weltraumkunde",
           "cost": 0,
-          "description": "A centralized space installation built in close orbit around the system primary is necessary to make full use of the resources in a star system.",
+          "description": "Eine zentralisierte Raumstation, die in einer engen Umlaufbahn um den Primärstern kreist, ist notwendig, um die Ressourcen eines Systems vollständig nutzen zu können.",
           "feature_unlocks": [
             "<b>Starbase Upgrade</b>: Outpost"
           ],
@@ -5116,7 +5116,7 @@
           "base_weight": 0,
           "category": "Weltraumkunde",
           "cost": 0,
-          "description": "This will enable the construction of defensive deep space platforms to protect our Starbases.",
+          "description": "Dies ermöglicht den Bau von Verteidigungsplattformen im Weltraum, um unsere Sternenbasen zu verteidigen.",
           "feature_unlocks": [
             "<b>Ship Size</b>: Defense Platform"
           ],
@@ -5139,7 +5139,7 @@
           "base_weight": 0,
           "category": "Weltraumkunde",
           "cost": 2000,
-          "description": "The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.",
+          "description": "Die Invasion einer anderen Welt ist eine gewaltige und hochkomplexe Unternehmung. Bevor wir unsere ersten interplanetaren Armeen aufstellen können, gilt es noch immense logistische Herausforderungen zu bewältigen.",
           "feature_unlocks": [
             "<b>Army</b>: Hunter-Killer Army",
             "<b>Army</b>: Assault Army\nThese armies can be embarked and used for invasion on other planets.",
@@ -5164,7 +5164,7 @@
           "base_weight": 70,
           "category": "Weltraumkunde",
           "cost": 2000,
-          "description": "Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new L-Gate Insight into the Disabled L-Gate mystery.",
+          "description": "Intensive Studien auf dem Gebiet der Nanomechanik und der Subraumphänome können schließlich zu neuen Erkenntnis über das Enigmatische Tor! für das \"$lgate_disabled$\"-Mysterium führen.",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": true,

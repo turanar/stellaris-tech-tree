@@ -33,7 +33,7 @@
           "base_weight": 0,
           "category": "Частицы",
           "cost": 0,
-          "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
+          "description": "Лазерное оружие поражает цели фокусированными пучками света, причиняя урон за счет нагрева до очень высокой температуры.",
           "feature_unlocks": [
             "<b>Component</b>: Small Red Laser",
             "<b>Component</b>: Medium Red Laser",
@@ -56,7 +56,7 @@
               "base_weight": 95,
               "category": "Частицы",
               "cost": 2500,
-              "description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
+              "description": "Синие лазеры мощнее, чем красные — они генерируют электромагнитное излучение, которое воспринимается большинством органических форм жизни как синий или фиолетовый свет благодаря длине волны.",
               "feature_unlocks": [
                 "<b>Component</b>: Large Blue Laser",
                 "<b>Component</b>: Medium Blue Laser",
@@ -90,7 +90,7 @@
                   "base_weight": 85,
                   "category": "Частицы",
                   "cost": 4000,
-                  "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
+                  "description": "Ультрафиолетовый лазер — более современный и мощный вариант синего. Точное, обладающее высокой разрушительной силой, это оружие наносит большой урон.",
                   "feature_unlocks": [
                     "<b>Component</b>: Large UV Laser",
                     "<b>Component</b>: Small UV Laser",
@@ -124,7 +124,7 @@
                       "base_weight": 65,
                       "category": "Частицы",
                       "cost": 8000,
-                      "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
+                      "description": "Эти лазеры излучают более короткие волны, чем ультрафиолетовые, но их разрушительная сила еще выше.",
                       "feature_unlocks": [
                         "<b>Component</b>: Large X-Ray Laser",
                         "<b>Component</b>: Small X-Ray Laser",
@@ -158,7 +158,7 @@
                           "base_weight": 45,
                           "category": "Частицы",
                           "cost": 16000,
-                          "description": "The electromagnetic radiation emitted by gamma lasers is of an extremely high frequency. Their destructive potential is unmatched in the field of laser weapons.",
+                          "description": "Гамма-лазеры генерируют электромагнитное излучение с очень высокой частотой. Это — самый разрушительный вид лазерного оружия.",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Gamma Laser",
                             "<b>Component</b>: Medium Gamma Laser",
@@ -194,7 +194,7 @@
                           "base_weight": 40,
                           "category": "Частицы",
                           "cost": 20000,
-                          "description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.",
+                          "description": "Это тяжелое энергетическое оружие наносит серьезный урон, используя сфокусированные пучки частиц. Большие габариты излучателя позволяют устанавливать его лишь на линкорах и «Титанах».",
                           "feature_unlocks": [
                             "<b>Component</b>: Particle Lance"
                           ],
@@ -231,7 +231,7 @@
                               "base_weight": 35,
                               "category": "Частицы",
                               "cost": 24000,
-                              "description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.",
+                              "description": "Усиленный вариант лучевого копья. Это оружие генерирует мощные пучки тахионной энергии. Подобно своему предшественнику, оно годится только для установки на линкорах и «Титанах».",
                               "feature_unlocks": [
                                 "<b>Component</b>: Tachyon Lance"
                               ],
@@ -273,7 +273,7 @@
                           "base_weight": 50,
                           "category": "Частицы",
                           "cost": 12000,
-                          "description": "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.",
+                          "description": "Эти энергетические снаряды состоят из плотных скоплений протонов и способны вызвать сильнейшие повреждения обшивки вражеского корабля.",
                           "feature_unlocks": [
                             "<b>Component</b>: Proton Launchers"
                           ],
@@ -306,7 +306,7 @@
                               "base_weight": 40,
                               "category": "Частицы",
                               "cost": 20000,
-                              "description": "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.",
+                              "description": "Улучшенные энергетические снаряды, использующие нейтроны вместо протонов. Подобно предшественникам, они свободно проходят сквозь энергетические щиты.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Neutron Launchers"
                               ],
@@ -343,7 +343,7 @@
                           "base_weight": 12.5,
                           "category": "Частицы",
                           "cost": 50000,
-                          "description": "Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.",
+                          "description": "Доведение до совершенства темпа стрельбы лазерного оружия является задачей, на решение которой у инженерной элиты любой планеты могут уйти столетия.",
                           "feature_unlocks": [
                             "Energy Weapon Damage +5%"
                           ],
@@ -379,7 +379,7 @@
                   "base_weight": 75,
                   "category": "Частицы",
                   "cost": 5000,
-                  "description": "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.",
+                  "description": "Дезинтеграторы выпускают энергетические стрелы, которые ослабляют и разрывают связи между молекулами, составляющими атомы цели. Они способны проникать сквозь броню и щиты, чтобы наносить урон непосредственно корпусу и экипажу вражеского корабля.",
                   "feature_unlocks": [
                     "<b>Component</b>: Medium Disruptor",
                     "<b>Component</b>: Small Disruptor"
@@ -413,7 +413,7 @@
                       "base_weight": 65,
                       "category": "Частицы",
                       "cost": 8000,
-                      "description": "These upgraded disruptors fire bolts of more destructive ion particles at targets.",
+                      "description": "Эти улучшенные дезинтеграторы поражают цели более мощными ионными стрелами.",
                       "feature_unlocks": [
                         "<b>Component</b>: Small Ion Disruptor",
                         "<b>Component</b>: Medium Ion Disruptor"
@@ -446,7 +446,7 @@
                           "base_weight": 45,
                           "category": "Частицы",
                           "cost": 16000,
-                          "description": "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their way.",
+                          "description": "Особо мощные дезинтеграторы, чьи сгустки энергии наносят огромный урон всякому, кому «повезет» оказаться на их пути.",
                           "feature_unlocks": [
                             "<b>Component</b>: Small Phased Disruptor",
                             "<b>Component</b>: Medium Phased Disruptor"
@@ -479,7 +479,7 @@
                               "base_weight": 40,
                               "category": "Частицы",
                               "cost": 20000,
-                              "description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
+                              "description": "Мощное оружие, поражающее цели энергетическим разрядом, способным частично игнорировать броню и щиты.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Arc Emitter"
                               ],
@@ -516,7 +516,7 @@
                                   "base_weight": 35,
                                   "category": "Частицы",
                                   "cost": 24000,
-                                  "description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
+                                  "description": "Эти улучшенные излучатели оснащены более точными фокусирующими линзами, что позволяет им наносить больший урон.",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Focused Arc Emitter"
                                   ],
@@ -562,7 +562,7 @@
                   "base_weight": 75,
                   "category": "Частицы",
                   "cost": 5000,
-                  "description": "Weapons that eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor.",
+                  "description": "Оружие, поражающее цели сгустками высокоэнергетической плазмы. Эти плазменные заряды особенно эффективны против корабельной брони.",
                   "feature_unlocks": [
                     "<b>Component</b>: Medium Plasma Thrower",
                     "<b>Component</b>: Large Plasma Thrower",
@@ -597,7 +597,7 @@
                       "base_weight": 65,
                       "category": "Частицы",
                       "cost": 8000,
-                      "description": "These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.",
+                      "description": "Эти новые ускорители стреляют сгустками высокоэнергетической плазмы, заключенной в улучшенные сдерживающие поля. Благодаря этому заряд медленнее теряет энергию, пока летит к цели.",
                       "feature_unlocks": [
                         "<b>Component</b>: Medium Plasma Accelerator",
                         "<b>Component</b>: Small Plasma Accelerator",
@@ -631,7 +631,7 @@
                           "base_weight": 45,
                           "category": "Частицы",
                           "cost": 16000,
-                          "description": "The latest in plasma weaponry, these cannons are fully militarized versions of the older, somewhat improvised plasma throwers. Their plasma projectiles are even deadlier.",
+                          "description": "Новейшая разработка в области плазменного оружия. Эта пушка — военизированный вариант старого и в чем-то недоработанного плазмомета. Ее сгустки плазмы еще опаснее.",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Plasma Cannon",
                             "<b>Component</b>: Small Plasma Cannon",
@@ -673,7 +673,7 @@
                   "base_weight": 12.5,
                   "category": "Частицы",
                   "cost": 50000,
-                  "description": "New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.",
+                  "description": "Новые разработки в технологиях постоянного охлаждения поверхности повышают стабильность и эффективность наших систем корабельного вооружения, предохраняя их от взрыва.",
                   "feature_unlocks": [
                     "Energy Weapon Attack Speed +5%"
                   ],
@@ -709,7 +709,7 @@
           "base_weight": 0,
           "category": "Частицы",
           "cost": 0,
-          "description": "This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.",
+          "description": "Ядерный реактор вырабатывает энергию для кораблей за счет реакции вынужденного деления, но также производит опасные радиоактивные отходы.",
           "feature_unlocks": [
             "<b>Component</b>: Fission Reactor"
           ],
@@ -730,7 +730,7 @@
               "base_weight": 190,
               "category": "Частицы",
               "cost": 2500,
-              "description": "Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.",
+              "description": "Термоядерный реактор создает огромное количество энергии для кораблей и при этом значительно безопаснее, чем ядерный реактор.",
               "feature_unlocks": [
                 "<b>Component</b>: Fusion Reactor"
               ],
@@ -761,7 +761,7 @@
                   "base_weight": 150,
                   "category": "Частицы",
                   "cost": 5000,
-                  "description": "The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.",
+                  "description": "Научившись поддерживать термоядерную реакцию при сравнительно низкой температуре, мы создали новое поколение термоядерных реакторов для наших кораблей.",
                   "feature_unlocks": [
                     "<b>Component</b>: Cold Fusion Reactor"
                   ],
@@ -792,7 +792,7 @@
                       "base_weight": 120,
                       "category": "Частицы",
                       "cost": 10000,
-                      "description": "By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.",
+                      "description": "Улавливая энергию, возникающую при столкновении материи и антиматерии, мы создали для наших кораблей источник энергии, во много раз превосходящий термоядерные реакторы по эффективности.",
                       "feature_unlocks": [
                         "<b>Component</b>: Antimatter Reactor"
                       ],
@@ -823,7 +823,7 @@
                           "base_weight": 80,
                           "category": "Частицы",
                           "cost": 20000,
-                          "description": "These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.",
+                          "description": "Эти генераторы извлекают энергию вакуума и являются почти бесконечным источником энергии для кораблей. Нет более эффективного способа генерировать энергию.",
                           "feature_unlocks": [
                             "<b>Component</b>: Zero Point Reactor"
                           ],
@@ -854,7 +854,7 @@
                               "base_weight": 3,
                               "category": "Частицы",
                               "cost": 32000,
-                              "description": "A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.",
+                              "description": "Прыжковый двигатель — технологическое чудо. Он расщепляет пространственно-временной континуум и перестраивает его на квантовом уровне до получения идентичности с точкой назначения. В итоге корабль почти мгновенно «прыгает» из одной системы в другую.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Jump Drive",
                                 "<b>Feature : </b>Jump Drive Travel"
@@ -890,7 +890,7 @@
                               "base_weight": 1,
                               "category": "Частицы",
                               "cost": 50000,
-                              "description": "These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.",
+                              "description": "Похоже, эти корабельные генераторы каким-то образом извлекают энергию напрямую из темной материи, обеспечивая большую мощность, чем это должно быть возможно, если верить законам физики.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Dark Matter Reactor"
                               ],
@@ -937,7 +937,7 @@
           "base_weight": 0,
           "category": "Частицы",
           "cost": 0,
-          "description": "Additional power generation systems increase the ship's reactor output.",
+          "description": "$REACTOR_BOOSTER_1_DESC$",
           "feature_unlocks": [
             "<b>Component</b>: Reactor Booster"
           ],
@@ -958,7 +958,7 @@
               "base_weight": 135,
               "category": "Частицы",
               "cost": 3000,
-              "description": "The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.",
+              "description": "$REACTOR_BOOSTER_2_DESC$",
               "feature_unlocks": [
                 "<b>Component</b>: Improved Reactor Booster"
               ],
@@ -993,7 +993,7 @@
                   "base_weight": 75,
                   "category": "Частицы",
                   "cost": 12000,
-                  "description": "The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.",
+                  "description": "$REACTOR_BOOSTER_3_DESC$",
                   "feature_unlocks": [
                     "<b>Component</b>: Advanced Reactor Booster"
                   ],
@@ -1036,7 +1036,7 @@
           "base_weight": 0,
           "category": "Частицы",
           "cost": 0,
-          "description": "Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.",
+          "description": "Подобно нитям паутины экстрамерное подпространство соединяет гравитационные колодцы большинства звезд. Перемещение по этим гиперкоридорам со сверхсветовой скоростью является теоретически возможным.",
           "feature_unlocks": [
             "<b>Component</b>: Hyper Drive I"
           ],
@@ -1057,7 +1057,7 @@
               "base_weight": 75,
               "category": "Частицы",
               "cost": 5000,
-              "description": "We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.",
+              "description": "Мы узнали о существовании точек пространства, где корабль затратит меньше энергии на создание «бреши» в гиперкоридор. Это открытие позволит нам создать гипердвигатели нового поколения.",
               "feature_unlocks": [
                 "<b>Component</b>: Hyper Drive II",
                 "<b>Starbase Building</b>: Transit Hub"
@@ -1089,7 +1089,7 @@
                   "base_weight": 50,
                   "category": "Частицы",
                   "cost": 12000,
-                  "description": "A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.",
+                  "description": "Новое поколение гипердвигателей использует подпространственные потоки, пронизывающие гиперпространство. Это резко увеличивает эффективность двигателей.",
                   "feature_unlocks": [
                     "<b>Component</b>: Hyper Drive III"
                   ],
@@ -1120,7 +1120,7 @@
                       "base_weight": 17.5,
                       "category": "Частицы",
                       "cost": 24000,
-                      "description": "The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.",
+                      "description": "Повторная активация заброшенных станций с вратами, находимых в разных местах галактики, потенциально может значительно сократить время путешествий.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Gateway Travel"
                       ],
@@ -1156,7 +1156,7 @@
                           "base_weight": 10,
                           "category": "Частицы",
                           "cost": 48000,
-                          "description": "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.",
+                          "description": "Строительство новых станций с вратами позволит нам создать сеть для быстрого перемещения, которая может совершить революцию в межзвездных путешествиях.",
                           "feature_unlocks": [
                             "<b>Feature : </b>Gateway Construction"
                           ],
@@ -1204,7 +1204,7 @@
                   "base_weight": 32.5,
                   "category": "Частицы",
                   "cost": 8000,
-                  "description": "A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.",
+                  "description": "Подпространственная червоточина естественного происхождения — штука нестабильная, а колебания ее уровней энергии обычно делают невозможным безопасное перемещение между выходами, которые она связывает. Однако есть способы временно стабилизировать ее матрицу.",
                   "feature_unlocks": [
                     "<b>Feature : </b>Wormhole Travel"
                   ],
@@ -1245,7 +1245,7 @@
               "base_weight": 340,
               "category": "Частицы",
               "cost": 4000,
-              "description": "Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.",
+              "description": "Проекторы гравитационного колодца можно использовать для создания локализованных карманов пространства там, где безопасный вход в гиперпространство невозможен. Огромные требования к мощности и размер проекторов не позволяют их использовать на объектах меньше космической базы.",
               "feature_unlocks": [
                 "<b>Component</b>: FTL Inhibitor",
                 "<b>Feature : </b>Planetary FTL Inhibitors"
@@ -1282,7 +1282,7 @@
           "base_weight": 0,
           "category": "Управление полями",
           "cost": 0,
-          "description": "Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.",
+          "description": "Конденсаторы, способные накапливать и хранить огромные объемы энергии — один из краеугольных камней любой современной цивилизации.",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
@@ -1301,7 +1301,7 @@
               "base_weight": 100,
               "category": "Управление полями",
               "cost": 2000,
-              "description": "Modulated fields allow for increased production and improved energy yield.",
+              "description": "Модуляция полем повышает производительность и увеличивает объем производимой энергии.",
               "feature_unlocks": [
                 "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                 "£energy£ Energy from Starbase Constructions +10%"
@@ -1333,7 +1333,7 @@
                   "base_weight": 85,
                   "category": "Управление полями",
                   "cost": 4000,
-                  "description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
+                  "description": "Применение базовых принципов квантовой запутанности заметно увеличивает объем производимой энергии.",
                   "feature_unlocks": [
                     "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                     "£energy£ Energy from Starbase Constructions +10%"
@@ -1365,7 +1365,7 @@
                       "base_weight": 65,
                       "category": "Управление полями",
                       "cost": 8000,
-                      "description": "Quantum superposition of energy coils, simultaneously drained and charged.",
+                      "description": "Квантовая суперпозиция энергокатушек, которые одновременно расходуют энергию и заряжаются.",
                       "feature_unlocks": [
                         "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                         "£energy£ Energy from Starbase Constructions +10%"
@@ -1399,7 +1399,7 @@
                       "base_weight": 12.5,
                       "category": "Управление полями",
                       "cost": 50000,
-                      "description": "Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.",
+                      "description": "Мелкие улучшения эффективности передачи энергии позволяют значительно сократить общие энергопотери.",
                       "feature_unlocks": [
                         "£energy£ Energy Credits from £job£ Jobs +5%"
                       ],
@@ -1435,7 +1435,7 @@
               "base_weight": 180,
               "category": "Управление полями",
               "cost": 3000,
-              "description": "Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.",
+              "description": "Оборудование, обеспечивающее сбалансированность нагрузки, может значительно повысить стабильность работы локальных энергосистем, а также способно отдавать избыточную энергию назад в централизованные конденсаторы.",
               "feature_unlocks": [
                 "<b>Edict</b>: Capacity Subsidies",
                 "<b>Building</b>: Energy Grid"
@@ -1467,7 +1467,7 @@
                   "base_weight": 70,
                   "category": "Управление полями",
                   "cost": 6000,
-                  "description": "A re-engineered and unified grid further reduces energy losses over distance.",
+                  "description": "Модернизированная и унифицированная энергосистема снижает потери энергии на расстоянии.",
                   "feature_unlocks": [
                     "<b>Building</b>: Energy Nexus"
                   ],
@@ -1512,7 +1512,7 @@
           "base_weight": 0,
           "category": "Управление полями",
           "cost": 0,
-          "description": "Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.",
+          "description": "Отражатели энергии поглощают некоторую часть вражеских залпов, а потом отключаются из-за перегрузки. Их главный недостаток — они потребляют огромное количество энергии.",
           "feature_unlocks": [
             "<b>Component</b>: Medium Deflectors",
             "<b>Component</b>: Large Deflectors",
@@ -1535,7 +1535,7 @@
               "base_weight": 112.5,
               "category": "Управление полями",
               "cost": 3000,
-              "description": "These updated deflector screens are capable of soaking up even more punishment before they overload.",
+              "description": "Эти улучшенные отражатели способны принять на себя больше ударов до возникновения перегрузки.",
               "feature_unlocks": [
                 "<b>Component</b>: Large Improved Deflectors",
                 "<b>Component</b>: Medium Improved Deflectors",
@@ -1567,7 +1567,7 @@
                   "base_weight": 87.5,
                   "category": "Управление полями",
                   "cost": 6000,
-                  "description": "These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.",
+                  "description": "Эти новые генераторы щитов — следующее поколение силовых барьеров, призванное заменить устаревшие отражатели. Они обеспечивают более надежную защиту.",
                   "feature_unlocks": [
                     "<b>Component</b>: Large Shields",
                     "<b>Component</b>: Small Shields",
@@ -1599,7 +1599,7 @@
                       "base_weight": 62.5,
                       "category": "Управление полями",
                       "cost": 12000,
-                      "description": "An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.",
+                      "description": "Улучшенный генератор щитов, создающий более мощное поле. Этот барьер можно пробить только постоянным шквальным огнем.",
                       "feature_unlocks": [
                         "<b>Component</b>: Small Advanced Shields",
                         "<b>Component</b>: Large Advanced Shields",
@@ -1631,7 +1631,7 @@
                           "base_weight": 43.75,
                           "category": "Управление полями",
                           "cost": 24000,
-                          "description": "These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.",
+                          "description": "Невероятно прочные энергетические щиты. Им нет равных по степени защиты.",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Hyper Shields",
                             "<b>Component</b>: Medium Hyper Shields",
@@ -1663,7 +1663,7 @@
                               "base_weight": 1,
                               "category": "Управление полями",
                               "cost": 50000,
-                              "description": "These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.",
+                              "description": "Эти отражатели используют темную материю, чтобы отбрасывать снаряды способом, который, кажется, полностью нарушает законы природы.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Small Dark Matter Deflectors",
                                 "<b>Component</b>: Large Dark Matter Deflectors",
@@ -1700,7 +1700,7 @@
                           "base_weight": 12.5,
                           "category": "Управление полями",
                           "cost": 50000,
-                          "description": "The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.",
+                          "description": "В базовых принципах действия корабельных щитов разобраться непросто, но их можно настраивать и улучшать множеством способов.",
                           "feature_unlocks": [
                             "Shield Hit Points +5%"
                           ],
@@ -1733,7 +1733,7 @@
                       "base_weight": 70,
                       "category": "Управление полями",
                       "cost": 6000,
-                      "description": "These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields.",
+                      "description": "Эти накопители конденсируют излишки энергии, чтобы быстро перенаправить на усиление щитов корабля.",
                       "feature_unlocks": [
                         "<b>Component</b>: Shield Capacitor"
                       ],
@@ -1765,7 +1765,7 @@
                       "base_weight": 32.5,
                       "category": "Управление полями",
                       "cost": 8000,
-                      "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
+                      "description": "Создать мощный энергетический щит в атмосфере планеты значительно сложнее, чем в космическом вакууме, но он надежно защищает от орбитальных бомбардировок.",
                       "feature_unlocks": [
                         "<b>Building</b>: Planetary Shield Generator"
                       ],
@@ -1809,7 +1809,7 @@
           "base_weight": 0,
           "category": "Вычислительная техника",
           "cost": 0,
-          "description": "The best defense is a good offense.",
+          "description": "Лучшая защита — нападение.",
           "feature_unlocks": [
             "<b>Component</b>: Sentinel Point-Defense"
           ],
@@ -1830,7 +1830,7 @@
               "base_weight": 70,
               "category": "Вычислительная техника",
               "cost": 6000,
-              "description": "Arrays of defensive armaments prove much more effective than independent countermeasures.",
+              "description": "Комплексы оборонительных средств действуют гораздо эффективнее, чем каждое из них по отдельности.",
               "feature_unlocks": [
                 "<b>Component</b>: Barrier Point-Defense"
               ],
@@ -1860,7 +1860,7 @@
                   "base_weight": 45,
                   "category": "Вычислительная техника",
                   "cost": 16000,
-                  "description": "Advanced prediction greatly increases the accuracy of active countermeasure systems.",
+                  "description": "Улучшенные методы прогнозирования повышают точность систем активного противодействия.",
                   "feature_unlocks": [
                     "<b>Component</b>: Guardian Point-Defense"
                   ],
@@ -1898,7 +1898,7 @@
           "base_weight": 0,
           "category": "Вычислительная техника",
           "cost": 0,
-          "description": "Testable predictions of observable phenomena.",
+          "description": "Экспериментальная проверка наблюдаемых феноменов.",
           "feature_unlocks": [
             "<b>Building</b>: Research Labs"
           ],
@@ -1919,7 +1919,7 @@
               "base_weight": 100,
               "category": "Вычислительная техника",
               "cost": 2000,
-              "description": "Organizational circuitry rerouting academic fervor.",
+              "description": "Организационные электронные схемы управляют академическим рвением.",
               "feature_unlocks": [
                 "Research Speed +5%"
               ],
@@ -1949,7 +1949,7 @@
                   "base_weight": 90,
                   "category": "Вычислительная техника",
                   "cost": 3000,
-                  "description": "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.",
+                  "description": "Активные матрицы, ориентированные на выполнение конкретных военных задач, значительно повышают боевую эффективность.\" # The development of active combat personalities allows combat-AI to specialize heavily in specific tasks.",
                   "feature_unlocks": [
                     "<b>Component</b>: Starbase Fire Control",
                     "<b>Component</b>: Combat Computer"
@@ -1983,7 +1983,7 @@
                       "base_weight": 90,
                       "category": "Вычислительная техника",
                       "cost": 3000,
-                      "description": "By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.",
+                      "description": "Устанавливая вспомогательную систему управления огнем, наши корабли могут позволить себе выполнять более сложные расчеты, что повышает точность.",
                       "feature_unlocks": [
                         "<b>Component</b>: Auxiliary Fire-control"
                       ],
@@ -2015,7 +2015,7 @@
                       "base_weight": 65,
                       "category": "Вычислительная техника",
                       "cost": 8000,
-                      "description": "Further advances in predictive algorithms allow for augmented tactical decision-making in the field.",
+                      "description": "Дальнейшее развитие прогнозирующих алгоритмов облегчает принятие тактических решений на поле боя.",
                       "feature_unlocks": [
                         "<b>Component</b>: Advanced Combat Computer",
                         "<b>Component</b>: Starbase Fire Control"
@@ -2051,7 +2051,7 @@
                           "base_weight": 20,
                           "category": "Вычислительная техника",
                           "cost": 20000,
-                          "description": "Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.",
+                          "description": "Использование разумных ИИ в интенсивных боевых симуляциях позволяет оптимизировать методы оценки риска.\" # The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.",
                           "feature_unlocks": [
                             "<b>Component</b>: Sapient Combat Computer"
                           ],
@@ -2095,7 +2095,7 @@
                           "base_weight": 20,
                           "category": "Вычислительная техника",
                           "cost": 20000,
-                          "description": "Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.",
+                          "description": "Наделение наших кораблей собственным полуавтономным интеллектом резко повысит их эффективность в бою.",
                           "feature_unlocks": [
                             "<b>Component</b>: Autonomous Ship Intellect"
                           ],
@@ -2139,7 +2139,7 @@
                   "base_weight": 90,
                   "category": "Вычислительная техника",
                   "cost": 3000,
-                  "description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.",
+                  "description": "Если отдать управление колониальным кораблем искусственному интеллекту, экипаж и колонисты могут быть погружены в глубокий сон.",
                   "feature_unlocks": [
                     "Colony Development Speed +50%"
                   ],
@@ -2169,7 +2169,7 @@
                       "base_weight": 70,
                       "category": "Вычислительная техника",
                       "cost": 6000,
-                      "description": "Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.",
+                      "description": "Достаточно продвинутые системы способны к самостоятельной оптимизации, если они четко знают цель, для которой сделаны.",
                       "feature_unlocks": [
                         "Colony Development Speed +50%"
                       ],
@@ -2208,15 +2208,15 @@
                   "base_factor": 1,
                   "base_weight": 170,
                   "category": "Вычислительная техника",
-                  "name": "Алгоритмы рыночного анализа",
                   "cost": 4000,
-                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
+                  "description": "Простой административный ИИ может предсказывать колебания спроса и предложения, чтобы снизить производственные затраты.",
                   "feature_unlocks": [
                     "£job_artisan£ [GetArtisan] Output +10%"
                   ],
                   "is_dangerous": false,
                   "is_rare": false,
                   "is_start_tech": false,
+                  "name": "Алгоритмы рыночного анализа",
                   "prerequisites": [
                     "tech_administrative_ai",
                     "tech_luxuries_1"
@@ -2242,18 +2242,18 @@
                     {
                       "key": "tech_consumer_good_refinement_2",
                       "area": "physics",
-                      "name": "Прогноз потребления",
                       "base_factor": 1,
                       "base_weight": 90,
                       "category": "Вычислительная техника",
                       "cost": 16000,
-                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
+                      "description": "Современный ИИ может уверенно предсказывать колебания спроса и предложения задолго до того, как они возникнут.",
                       "feature_unlocks": [
                         "£job_artisan£ [GetArtisan] Output +10%"
                       ],
                       "is_dangerous": false,
                       "is_rare": false,
                       "is_start_tech": false,
+                      "name": "Прогноз потребления",
                       "prerequisites": [
                         "tech_consumer_good_refinement_1",
                         "tech_self_aware_logic",
@@ -2295,7 +2295,7 @@
                   "base_weight": 75,
                   "category": "Вычислительная техника",
                   "cost": 5000,
-                  "description": "Introspective prioritization.",
+                  "description": "Интроспективная расстановка приоритетов.",
                   "feature_unlocks": [
                     "Research Alternatives +1"
                   ],
@@ -2325,7 +2325,7 @@
                       "base_weight": 45,
                       "category": "Вычислительная техника",
                       "cost": 16000,
-                      "description": "Expanding possibilities through the application of limited cybernetics.",
+                      "description": "Ограниченное применение кибернетики открывает поистине неограниченные возможности.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
@@ -2361,7 +2361,7 @@
                       "base_weight": 45,
                       "category": "Вычислительная техника",
                       "cost": 16000,
-                      "description": "Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.",
+                      "description": "Развитие искусственного интеллекта открывает дверь к созданию полноценного синтетического разума.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
@@ -2397,7 +2397,7 @@
                       "base_weight": 20,
                       "category": "Вычислительная техника",
                       "cost": 20000,
-                      "description": "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.",
+                      "description": "Синхронизировав парадигмы поведения наступательных и оборонительных средств, мы повысим их эффективность.",
                       "feature_unlocks": [
                         "<b>Starbase Building</b>: Defense-Grid Supercomputer"
                       ],
@@ -2441,7 +2441,7 @@
               "base_weight": 90,
               "category": "Вычислительная техника",
               "cost": 3000,
-              "description": "As we explore the galaxy, we continually encounter new materials and substances that are unfamiliar to us. Cataloging and analyzing these discoveries will require new facilities.",
+              "description": "По мере исследования галактики мы продолжаем находить новые материалы и вещества, ранее нам не известные. Для составления каталогов и анализа подобных находок потребуются новые научные комплексы.",
               "feature_unlocks": [
                 "<b>Building</b>: Research Complexes"
               ],
@@ -2472,7 +2472,7 @@
                   "base_weight": 97.5,
                   "category": "Вычислительная техника",
                   "cost": 8000,
-                  "description": "A bid for interplanetary resource pools and more flexible research grants.",
+                  "description": "Запрос на межпланетные пулы ресурсов и более свободные гранты на исследования.",
                   "feature_unlocks": [
                     "<b>Building</b>: Planetary Supercomputer",
                     "<b>Building</b>: Research Institute"
@@ -2511,7 +2511,7 @@
                   "base_weight": 130,
                   "category": "Вычислительная техника",
                   "cost": 8000,
-                  "description": "To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!",
+                  "description": "Чтобы расширить нашу базу знаний, мы должны учитывать все уровни существования. Наука откроет нам совершенно новую реальность!",
                   "feature_unlocks": [
                     "<b>Building</b>: Advanced Research Complexes"
                   ],
@@ -2554,7 +2554,7 @@
           "base_weight": 100,
           "category": "Вычислительная техника",
           "cost": 2000,
-          "description": "A lot of critical research can only be done in a zero gravity environment, which these specialized laboratories are eminently designed for.",
+          "description": "Множество критически важных исследований можно проводить только в условиях нулевой гравитации, для чего в сущности и предназначены эти специализированные лаборатории.",
           "feature_unlocks": [
             "Research Station Output +10%"
           ],
@@ -2577,7 +2577,7 @@
               "base_weight": 90,
               "category": "Вычислительная техника",
               "cost": 3000,
-              "description": "Containment force fields are excellent for isolating and holding various substances or specimens so they can be analyzed in detail.",
+              "description": "Сдерживающие силовые поля превосходно подходят для изоляции и удержания различных субстанций или образцов, которые нужно подробно проанализировать.",
               "feature_unlocks": [
                 "Research Station Output +10%"
               ],
@@ -2607,7 +2607,7 @@
                   "base_weight": 85,
                   "category": "Вычислительная техника",
                   "cost": 4000,
-                  "description": "Advanced probes that can thoroughly analyze subjects on a sub-atomic level, generating a wealth of valuable research data.",
+                  "description": "Продвинутые зонды, которые могут подробно проанализировать объекты на субатомном уровне, выдав множество ценных исследовательских данных.",
                   "feature_unlocks": [
                     "Research Station Output +10%"
                   ],
@@ -2637,7 +2637,7 @@
                       "base_weight": 70,
                       "category": "Вычислительная техника",
                       "cost": 6000,
-                      "description": "Increased automation of station functions will free up more staff for research duties.",
+                      "description": "Повышение автоматизации станций позволит освободить больше персонала для выполнения исследовательских работ.",
                       "feature_unlocks": [
                         "Research Station Output +10%"
                       ],
@@ -2667,7 +2667,7 @@
                           "base_weight": 65,
                           "category": "Вычислительная техника",
                           "cost": 8000,
-                          "description": "Studying something from the limited perspective of a single dimensional reality does not paint the whole picture. Every angle must be considered.",
+                          "description": "Изучение чего-либо с ограниченной точки зрения, присущей стандартной реальности, не дает возможности увидеть полную картину. Нужно смотреть со всех сторон.",
                           "feature_unlocks": [
                             "Research Station Output +10%"
                           ],
@@ -2711,7 +2711,7 @@
           "base_weight": 100,
           "category": "Вычислительная техника",
           "cost": 2000,
-          "description": "Exploring the mediation of fundamental forces through subatomic particles.",
+          "description": "Изучение фундаментальных взаимодействий через поведение элементарных частиц.",
           "feature_unlocks": [
             "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
           ],
@@ -2739,7 +2739,7 @@
               "base_weight": 90,
               "category": "Вычислительная техника",
               "cost": 2500,
-              "description": "Advances in computing technology have given us new ways to protect our data from prying eyes.",
+              "description": "Развитие компьютерных технологий предоставило нам новые возможности по защите данных от посторонних.",
               "feature_unlocks": [
                 "Encryption +2"
               ],
@@ -2775,7 +2775,7 @@
                   "base_weight": 70,
                   "category": "Вычислительная техника",
                   "cost": 5000,
-                  "description": "Further advances in unstable entanglement have given us new ways to prevent unauthorized intrusions into our databases.",
+                  "description": "Дальнейшие исследования нестабильной запутанности открыли нам новые способы препятствовать неавторизованному доступу в наши базы данных.",
                   "feature_unlocks": [
                     "Encryption +2"
                   ],
@@ -2811,7 +2811,7 @@
                       "base_weight": 50,
                       "category": "Вычислительная техника",
                       "cost": 20000,
-                      "description": "Our latest advances in encryption exploit recently discovered quirks of physics to require inputting a specialized key before it has been generated.",
+                      "description": "Наши последние достижения в шифровании основаны на новых открытиях в физике и требуют ввести особый ключ еще до того, как он был сгенерирован.",
                       "feature_unlocks": [
                         "Encryption +2"
                       ],
@@ -2855,7 +2855,7 @@
               "base_weight": 90,
               "category": "Вычислительная техника",
               "cost": 2500,
-              "description": "Primitive encryption systems stand no chance against modern decryption tools.",
+              "description": "Примитивные шифровальные системы не выстоят против современных инструментов расшифровки.",
               "feature_unlocks": [
                 "Codebreaking +2",
                 "<b>Edict</b>: Observation Instinct",
@@ -2894,7 +2894,7 @@
                   "base_weight": 70,
                   "category": "Вычислительная техника",
                   "cost": 5000,
-                  "description": "The weakest link in any security system are the individuals within it. By modeling their weaknesses in computer simulations we can find novel ways to bypass their security - or trick them into bypassing it for us.",
+                  "description": "В любой системе безопасности самое слабое звено — это включенные в нее индивидуумы. Смоделировав их слабости в компьютерных симуляциях, мы сможем найти новые способы обойти систему безопасности или убедить их обойти ее вместо нас.",
                   "feature_unlocks": [
                     "Codebreaking +2"
                   ],
@@ -2930,7 +2930,7 @@
                       "base_weight": 50,
                       "category": "Вычислительная техника",
                       "cost": 20000,
-                      "description": "Our operatives can access data from adjacent realities without risking setting off alarms in this reality.",
+                      "description": "Наши оперативники могут получить доступ к данным из смежных реальностей, не рискуя поднять тревогу в нашей реальности.",
                       "feature_unlocks": [
                         "Codebreaking +2"
                       ],
@@ -2974,7 +2974,7 @@
               "base_weight": 70,
               "category": "Вычислительная техника",
               "cost": 6000,
-              "description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
+              "description": "Поведение малейших частиц, кажущееся хаотичным, может в корне изменить наше представление о крупных объектах.",
               "feature_unlocks": [
                 "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
               ],
@@ -3008,7 +3008,7 @@
                   "base_weight": 40,
                   "category": "Вычислительная техника",
                   "cost": 20000,
-                  "description": "Three dimensions, inextricable from the fourth.",
+                  "description": "Три измерения, неразрывно связанных с четвертым.",
                   "feature_unlocks": [
                     "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
                   ],
@@ -3044,7 +3044,7 @@
                   "base_weight": 12.5,
                   "category": "Вычислительная техника",
                   "cost": 50000,
-                  "description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
+                  "description": "Развитие вычислительных парадигм позволяет нам адаптировать строительные проекты под гравитационные условия каждой планеты.\" #by adapting each construction-project to local gravitational conditions we can save on materials used",
                   "feature_unlocks": [
                     "Building Cost -5%"
                   ],
@@ -3080,7 +3080,7 @@
           "base_weight": 85,
           "category": "Вычислительная техника",
           "cost": 4000,
-          "description": "These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.",
+          "description": "Эти сенсоры улавливают малейшие изменения гравитационных полей, создаваемые, например, космическим кораблем.",
           "feature_unlocks": [
             "<b>Starbase Building</b>: Listening Post",
             "<b>Component</b>: Gravitic Sensors"
@@ -3105,7 +3105,7 @@
               "base_weight": 37.5,
               "category": "Управление полями",
               "cost": 6000,
-              "description": "Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.",
+              "description": "Одинокие научные корабли могут вырваться из гиперкоридоров естественного происхождения и попытаться добраться до известных, но иным образом недостижимых мест.",
               "feature_unlocks": [
                 "<b>Feature : </b>Experimental Subspace Navigation"
               ],
@@ -3139,7 +3139,7 @@
               "base_weight": 65,
               "category": "Вычислительная техника",
               "cost": 8000,
-              "description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
+              "description": "Эти сенсоры обнаруживают колебания подпространства, создаваемые кораблями. Их точность и дальность действия значительно выше, чем у гравитационных.",
               "feature_unlocks": [
                 "<b>Starbase Building</b>: Black Hole Observatory",
                 "<b>Component</b>: Subspace Sensors"
@@ -3171,7 +3171,7 @@
                   "base_weight": 45,
                   "category": "Вычислительная техника",
                   "cost": 16000,
-                  "description": "Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.",
+                  "description": "Современные сенсоры, чьи вращающиеся пучки тахионов регистрируют перемещение кораблей даже на очень большом расстоянии.",
                   "feature_unlocks": [
                     "<b>Component</b>: Tachyon Sensors"
                   ],
@@ -3202,7 +3202,7 @@
                       "base_weight": 50,
                       "category": "Управление полями",
                       "cost": 12000,
-                      "description": "This exotic substance has many properties that seemingly defy the laws of physics. Harvestable concentrations can only be found near Black Holes or in certain nebulas.",
+                      "description": "Темную материю можно получить, конденсируя едва уловимые элементы межзвездного пространства.",
                       "feature_unlocks": [
                         "<b>Reveals Resource</b>: Dark Matter"
                       ],
@@ -3244,7 +3244,7 @@
           "base_weight": 0,
           "category": "Частицы",
           "cost": 0,
-          "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
+          "description": "Прибор, в котором органическая материя преобразуется в энергию с высокой эффективностью.",
           "feature_unlocks": [
             "<b>Building</b>: Bio-Reactor"
           ],
@@ -3270,7 +3270,7 @@
           "base_weight": 170,
           "category": "Частицы",
           "cost": 4000,
-          "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
+          "description": "Летучие пылинки — это нестабильные частицы, с которыми опасно работать. Чтобы безопасно собирать их, не спровоцировав при этом цепную реакцию в виде взрывов, нужно использовать энергетические поля для стабилизации пылинок.",
           "feature_unlocks": [
             "<b>Building</b>: Mote Harvesting Traps",
             "<b>Reveals Resource</b>: Volatile Motes"
@@ -3297,7 +3297,7 @@
           "base_weight": 170,
           "category": "Частицы",
           "cost": 4000,
-          "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
+          "description": "Помимо очевидных проблем с безопасностью, создание искусственных летучих пылинок — это весьма деликатный и сложный процесс, требующий узкоспециализированного оборудования.",
           "feature_unlocks": [
             "<b>Building</b>: Chemical Plants"
           ],
@@ -3323,7 +3323,7 @@
           "base_weight": 95,
           "category": "Вычислительная техника",
           "cost": 2500,
-          "description": "An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.",
+          "description": "Развитый ИИ поможет ведущим ученым исследовать новые чужие миры, искать новую жизнь и новые цивилизации, смело идти туда, где не ступала конечность блорга. При помощи ИИ научный корабль сможет исследовать галактику.",
           "feature_unlocks": [
             "<b>Feature : </b>Automatic Surveying",
             "Survey Speed +25%"
@@ -3358,7 +3358,7 @@
           "base_weight": 85,
           "category": "Вычислительная техника",
           "cost": 4000,
-          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "description": "Бортовая лаборатория с продвинутыми археологическими инструментами и обширной базой данных, которую предоставил Орден кураторов для быстрого перекрестного анализа новых находок.",
           "feature_unlocks": [
             "mod_country_ship_archeaological_site_clues_add +2"
           ],
@@ -3389,7 +3389,7 @@
           "base_weight": 85,
           "category": "Вычислительная техника",
           "cost": 4000,
-          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "description": "Бортовая лаборатория с продвинутыми археологическими инструментами и обширной базой данных, которую предоставил Орден кураторов для быстрого перекрестного анализа новых находок.",
           "feature_unlocks": [
             "Anomaly Discovery Chance +10%",
             "Anomaly Research Speed +25%"
@@ -3419,7 +3419,7 @@
           "base_weight": 85,
           "category": "Вычислительная техника",
           "cost": 4000,
-          "description": "These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.",
+          "description": "Эти бортовые лаборатории используют продвинутые технологии древнего Ордена кураторов, ускоряющие темпы изучения.",
           "feature_unlocks": [
             "Survey Speed +33%"
           ],

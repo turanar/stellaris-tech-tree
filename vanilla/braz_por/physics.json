@@ -33,7 +33,7 @@
           "base_weight": 0,
           "category": "Partículas",
           "cost": 0,
-          "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
+          "description": "Armas laser disparam raios de luz focada nos alvos, causando dano através da geração de calor intenso.\\n\\n",
           "feature_unlocks": [
             "<b>Component</b>: Small Red Laser",
             "<b>Component</b>: Medium Red Laser",
@@ -56,7 +56,7 @@
               "base_weight": 95,
               "category": "Partículas",
               "cost": 2500,
-              "description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
+              "description": "Mais poderosos que os lasers vermelhos, essas variantes azuis emitem radiação eletromagnética em um comprimento de onda que aparenta ser azul ou violeta para a maioria dos orgânicos.\\n\\n",
               "feature_unlocks": [
                 "<b>Component</b>: Large Blue Laser",
                 "<b>Component</b>: Medium Blue Laser",
@@ -90,7 +90,7 @@
                   "base_weight": 85,
                   "category": "Partículas",
                   "cost": 4000,
-                  "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
+                  "description": "Lasers ultravioletas são uma versão aperfeiçoada e mais poderosa de seus predecessores azuis. Precisos e destrutivos, essas armas são capazes de causar grande dano.\\n\\n",
                   "feature_unlocks": [
                     "<b>Component</b>: Large UV Laser",
                     "<b>Component</b>: Small UV Laser",
@@ -124,7 +124,7 @@
                       "base_weight": 65,
                       "category": "Partículas",
                       "cost": 8000,
-                      "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
+                      "description": "Estes lasers possuem um comprimento de onda menor que as armas laser baseadas em UV, mas são ainda mais poderosos.\\n\\n",
                       "feature_unlocks": [
                         "<b>Component</b>: Large X-Ray Laser",
                         "<b>Component</b>: Small X-Ray Laser",
@@ -158,7 +158,7 @@
                           "base_weight": 45,
                           "category": "Partículas",
                           "cost": 16000,
-                          "description": "The electromagnetic radiation emitted by gamma lasers is of an extremely high frequency. Their destructive potential is unmatched in the field of laser weapons.",
+                          "description": "A radiação eletromagnética emitida por lasers gama é de uma frequência extremamente alta. Seu potencial destrutivo é inigualável no campo de armas laser.\\n\\n",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Gamma Laser",
                             "<b>Component</b>: Medium Gamma Laser",
@@ -194,7 +194,7 @@
                           "base_weight": 40,
                           "category": "Partículas",
                           "cost": 20000,
-                          "description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.",
+                          "description": "Estas armas de energia pesada disparam raios de partículas focadas que causam grande dano. O tamanho das redes emissoras limita o seu uso a encouraçados e titãs.",
                           "feature_unlocks": [
                             "<b>Component</b>: Particle Lance"
                           ],
@@ -231,7 +231,7 @@
                               "base_weight": 35,
                               "category": "Partículas",
                               "cost": 24000,
-                              "description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.",
+                              "description": "Uma versão mais poderosa da lança de partículas, essa arma dispara um raio taquiônico de imenso poder. Como o seu predecessor, o seu uso é limitado a encouraçados e titãs.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Tachyon Lance"
                               ],
@@ -273,7 +273,7 @@
                           "base_weight": 50,
                           "category": "Partículas",
                           "cost": 12000,
-                          "description": "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.",
+                          "description": "Estes projéteis de energia consistem de prótons fortemente concentrados capazes de causar dano imenso ao casco de naves inimigas.",
                           "feature_unlocks": [
                             "<b>Component</b>: Proton Launchers"
                           ],
@@ -306,7 +306,7 @@
                               "base_weight": 40,
                               "category": "Partículas",
                               "cost": 20000,
-                              "description": "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.",
+                              "description": "Projéteis energéticos que dependem de nêutrons em vez de prótons para sua força destrutiva.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Neutron Launchers"
                               ],
@@ -343,7 +343,7 @@
                           "base_weight": 12.5,
                           "category": "Partículas",
                           "cost": 50000,
-                          "description": "Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.",
+                          "description": "Aperfeiçoar a cadência de disparos de armas a laser é uma tarefa que pode manter a elite de engenharia de um planeta qualquer ocupada por séculos.\\n\\n",
                           "feature_unlocks": [
                             "Energy Weapon Damage +5%"
                           ],
@@ -379,7 +379,7 @@
                   "base_weight": 75,
                   "category": "Partículas",
                   "cost": 5000,
-                  "description": "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.",
+                  "description": "Disruptores disparam raios de alta energia que enfraquecem e destroem as ligações moleculares que mantêm os átomos constituintes unidos. Eles são capazes de atravessar escudos e armadura para causar estrago diretamente no casco e tripulação inimiga.",
                   "feature_unlocks": [
                     "<b>Component</b>: Medium Disruptor",
                     "<b>Component</b>: Small Disruptor"
@@ -413,7 +413,7 @@
                       "base_weight": 65,
                       "category": "Partículas",
                       "cost": 8000,
-                      "description": "These upgraded disruptors fire bolts of more destructive ion particles at targets.",
+                      "description": "Estes perturbadores atualizados disparam raios de partículas de íons mais destrutivas nos alvos.\\n\\n",
                       "feature_unlocks": [
                         "<b>Component</b>: Small Ion Disruptor",
                         "<b>Component</b>: Medium Ion Disruptor"
@@ -446,7 +446,7 @@
                           "base_weight": 45,
                           "category": "Partículas",
                           "cost": 16000,
-                          "description": "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their way.",
+                          "description": "Disruptores de alto rendimento que disparam cargas de energia quântica que causam dano incrível aos que são infelizes o suficiente de estar no caminho deles.",
                           "feature_unlocks": [
                             "<b>Component</b>: Small Phased Disruptor",
                             "<b>Component</b>: Medium Phased Disruptor"
@@ -479,7 +479,7 @@
                               "base_weight": 40,
                               "category": "Partículas",
                               "cost": 20000,
-                              "description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
+                              "description": "Armas poderosas que lançam um arco de raios de energia caótica nos alvos, que ignoram em parte a armadura e os escudos.\\n\\n",
                               "feature_unlocks": [
                                 "<b>Component</b>: Arc Emitter"
                               ],
@@ -516,7 +516,7 @@
                                   "base_weight": 35,
                                   "category": "Partículas",
                                   "cost": 24000,
-                                  "description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
+                                  "description": "Esses emissores aprimorados são equipados com lentes de foco melhores, resultando em uma descarga de energia mais poderosa.\\n\\n",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Focused Arc Emitter"
                                   ],
@@ -562,7 +562,7 @@
                   "base_weight": 75,
                   "category": "Partículas",
                   "cost": 5000,
-                  "description": "Weapons that eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor.",
+                  "description": "Armas que ejetam bolas destruidoras de plasma de alta-energia em direção a alvos. Esses projéteis de plasma são extremamente eficazes em perfurar armadura de naves.\\n\\n",
                   "feature_unlocks": [
                     "<b>Component</b>: Medium Plasma Thrower",
                     "<b>Component</b>: Large Plasma Thrower",
@@ -597,7 +597,7 @@
                       "base_weight": 65,
                       "category": "Partículas",
                       "cost": 8000,
-                      "description": "These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.",
+                      "description": "Esses novos aceleradores lançam projéteis de plasma de alta energia com campos de contenção aperfeiçoados. Isso resulta em um menor vazamento de energia, conforme o projétil viaja no espaço em direção ao seu alvo.\\n\\n",
                       "feature_unlocks": [
                         "<b>Component</b>: Medium Plasma Accelerator",
                         "<b>Component</b>: Small Plasma Accelerator",
@@ -631,7 +631,7 @@
                           "base_weight": 45,
                           "category": "Partículas",
                           "cost": 16000,
-                          "description": "The latest in plasma weaponry, these cannons are fully militarized versions of the older, somewhat improvised plasma throwers. Their plasma projectiles are even deadlier.",
+                          "description": "O mais recente no armamento de plasma, esses canhões são versões completamente militarizadas dos lançadores de plasma mais antigos e meio improvisados. Seus projéteis de plasma são ainda mais mortais.\\n\\n",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Plasma Cannon",
                             "<b>Component</b>: Small Plasma Cannon",
@@ -673,7 +673,7 @@
                   "base_weight": 12.5,
                   "category": "Partículas",
                   "cost": 50000,
-                  "description": "New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.",
+                  "description": "Novos desenvolvimentos na tecnologia de resfriamento regular de superfície melhoram a estabilidade e eficiência de nossos sistemas de armas, impedindo-os de explodir as naves sobre as quais estão montados.\\n\\n",
                   "feature_unlocks": [
                     "Energy Weapon Attack Speed +5%"
                   ],
@@ -709,7 +709,7 @@
           "base_weight": 0,
           "category": "Partículas",
           "cost": 0,
-          "description": "This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.",
+          "description": "Essa fonte de energia gera força para naves através de fissão induzida, mas também produz lixo tóxico nuclear nocivo.",
           "feature_unlocks": [
             "<b>Component</b>: Fission Reactor"
           ],
@@ -730,7 +730,7 @@
               "base_weight": 190,
               "category": "Partículas",
               "cost": 2500,
-              "description": "Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.",
+              "description": "Processos de fusão nuclear geram uma grande quantidade de força para naves, mas sem os riscos associados à energia por fissão.",
               "feature_unlocks": [
                 "<b>Component</b>: Fusion Reactor"
               ],
@@ -761,7 +761,7 @@
                   "base_weight": 150,
                   "category": "Partículas",
                   "cost": 5000,
-                  "description": "The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.",
+                  "description": "A capacidade de sustentar uma reação de fusão a temperaturas relativamente baixas resultará em uma nova geração de reatores de fusão para nossas naves.",
                   "feature_unlocks": [
                     "<b>Component</b>: Cold Fusion Reactor"
                   ],
@@ -792,7 +792,7 @@
                       "base_weight": 120,
                       "category": "Partículas",
                       "cost": 10000,
-                      "description": "By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.",
+                      "description": "Ao extrair a energia produzida pelas aniquilações matéria/anti-matéria, nossa eficiência em gerar força para a nave será melhor que fusão várias ordens de magnitude.",
                       "feature_unlocks": [
                         "<b>Component</b>: Antimatter Reactor"
                       ],
@@ -823,7 +823,7 @@
                           "base_weight": 80,
                           "category": "Partículas",
                           "cost": 20000,
-                          "description": "These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.",
+                          "description": "Esses geradores extraem energia do vácuo, fornecendo uma quantidade quase ilimitada de energia para a nave. Não existe maneira mais eficiente de gerar energia.",
                           "feature_unlocks": [
                             "<b>Component</b>: Zero Point Reactor"
                           ],
@@ -854,7 +854,7 @@
                               "base_weight": 3,
                               "category": "Partículas",
                               "cost": 32000,
-                              "description": "A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.",
+                              "description": "Uma maravilha tecnológica revolucionária, o Propulsor de Salto destrói o espaço-tempo local e o reorganiza no nível quântico para ser idêntico ao do destino final - com isso a nave parece \"saltar\" quase que de maneira instantânea de sistema para sistema.\\n\\n",
                               "feature_unlocks": [
                                 "<b>Component</b>: Jump Drive",
                                 "<b>Feature : </b>Jump Drive Travel"
@@ -890,7 +890,7 @@
                               "base_weight": 1,
                               "category": "Partículas",
                               "cost": 50000,
-                              "description": "These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.",
+                              "description": "Estes geradores parecem de alguma forma extrair energia diretamente da matéria escura, fornecendo mais energia para a nave do que deveria ser possível de acordo com as leis da física.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Dark Matter Reactor"
                               ],
@@ -937,7 +937,7 @@
           "base_weight": 0,
           "category": "Partículas",
           "cost": 0,
-          "description": "Additional power generation systems increase the ship's reactor output.",
+          "description": "$REACTOR_BOOSTER_1_DESC$",
           "feature_unlocks": [
             "<b>Component</b>: Reactor Booster"
           ],
@@ -958,7 +958,7 @@
               "base_weight": 135,
               "category": "Partículas",
               "cost": 3000,
-              "description": "The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.",
+              "description": "$REACTOR_BOOSTER_2_DESC$",
               "feature_unlocks": [
                 "<b>Component</b>: Improved Reactor Booster"
               ],
@@ -993,7 +993,7 @@
                   "base_weight": 75,
                   "category": "Partículas",
                   "cost": 12000,
-                  "description": "The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.",
+                  "description": "$REACTOR_BOOSTER_3_DESC$",
                   "feature_unlocks": [
                     "<b>Component</b>: Advanced Reactor Booster"
                   ],
@@ -1036,7 +1036,7 @@
           "base_weight": 0,
           "category": "Partículas",
           "cost": 0,
-          "description": "Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.",
+          "description": "Como os fios de uma teia de aranha, o reino extra-dimensional do hiperespaço corre através dos poços gravitacionais da maioria das estrelas. A viagem mais rápida que a luz é teoricamente possível usando essas hiperestradas.\\n\\n",
           "feature_unlocks": [
             "<b>Component</b>: Hyper Drive I"
           ],
@@ -1057,7 +1057,7 @@
               "base_weight": 75,
               "category": "Partículas",
               "cost": 5000,
-              "description": "We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.",
+              "description": "Identificamos a existência de pontos no espaço em que uma nave gasta menos energia para 'romper' dentro de uma hiperestrada. Isso levará a uma nova geração de hiper propulsores.\\n\\n",
               "feature_unlocks": [
                 "<b>Component</b>: Hyper Drive II",
                 "<b>Starbase Building</b>: Transit Hub"
@@ -1089,7 +1089,7 @@
                   "base_weight": 50,
                   "category": "Partículas",
                   "cost": 12000,
-                  "description": "A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.",
+                  "description": "Uma nova geração de hiper propulsores capazes de acessar as correntes de vácuo no subespaço que estão presentes dentro do hiperespaço. Isso gera um desempenho de propulsão dramaticamente aprimorada.\\n\\n",
                   "feature_unlocks": [
                     "<b>Component</b>: Hyper Drive III"
                   ],
@@ -1120,7 +1120,7 @@
                       "base_weight": 17.5,
                       "category": "Partículas",
                       "cost": 24000,
-                      "description": "The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.",
+                      "description": "A capacidade de reativar as estações de Portais abandonados que podem ser encontradas espalhadas através da galáxia, apresenta o potencial de diminuir dramaticamente os tempos de viagem.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Gateway Travel"
                       ],
@@ -1156,7 +1156,7 @@
                           "base_weight": 10,
                           "category": "Partículas",
                           "cost": 48000,
-                          "description": "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.",
+                          "description": "A construção de novas estações de Portal nos permite construir uma rede de viagem rápida que poderia revolucionar a viagem interestelar.",
                           "feature_unlocks": [
                             "<b>Feature : </b>Gateway Construction"
                           ],
@@ -1204,7 +1204,7 @@
                   "base_weight": 32.5,
                   "category": "Partículas",
                   "cost": 8000,
-                  "description": "A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.",
+                  "description": "Um buraco de minhoca subespecial que ocorre naturalmente é algo instável, e seus níveis de energia flutuantes tipicamente impossibilitam uma viagem segura entre suas aberturas conectadas. Porém, há maneiras de estabilizar sua matriz temporariamente.",
                   "feature_unlocks": [
                     "<b>Feature : </b>Wormhole Travel"
                   ],
@@ -1245,7 +1245,7 @@
               "base_weight": 340,
               "category": "Partículas",
               "cost": 4000,
-              "description": "Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.",
+              "description": "Projetores de poços de gravidade podem ser usados para criar bolsões localizados de espaço onde a entrada segura no hiperespaço é impossível. A imensa quantidade de poder necessária e o tamanho dos projetores proíbe o seu uso em qualquer coisa menor que uma base estelar.",
               "feature_unlocks": [
                 "<b>Component</b>: FTL Inhibitor",
                 "<b>Feature : </b>Planetary FTL Inhibitors"
@@ -1282,7 +1282,7 @@
           "base_weight": 0,
           "category": "Manipulação de Campo",
           "cost": 0,
-          "description": "Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.",
+          "description": "Capacitores capazes de armazenar grandes quantidades de energia são uma das pedras fundamentais de qualquer civilização moderna.",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
@@ -1301,7 +1301,7 @@
               "base_weight": 100,
               "category": "Manipulação de Campo",
               "cost": 2000,
-              "description": "Modulated fields allow for increased production and improved energy yield.",
+              "description": "Campos modulados permitem maior produção e rendimento energético aprimorado.",
               "feature_unlocks": [
                 "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                 "£energy£ Energy from Starbase Constructions +10%"
@@ -1333,7 +1333,7 @@
                   "base_weight": 85,
                   "category": "Manipulação de Campo",
                   "cost": 4000,
-                  "description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
+                  "description": "Princípios básicos de emaranhados aplicados à geração de energia fornecem um aumento substancial na produção energética.",
                   "feature_unlocks": [
                     "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                     "£energy£ Energy from Starbase Constructions +10%"
@@ -1365,7 +1365,7 @@
                       "base_weight": 65,
                       "category": "Manipulação de Campo",
                       "cost": 8000,
-                      "description": "Quantum superposition of energy coils, simultaneously drained and charged.",
+                      "description": "Superposição quântica de bobinas de energia, simultaneamente sugadas e carregadas.",
                       "feature_unlocks": [
                         "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                         "£energy£ Energy from Starbase Constructions +10%"
@@ -1399,7 +1399,7 @@
                       "base_weight": 12.5,
                       "category": "Manipulação de Campo",
                       "cost": 50000,
-                      "description": "Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.",
+                      "description": "Pequenas melhorias na eficiência de transmissão conseguem uma redução considerável na perda energética geral.\\n\\n",
                       "feature_unlocks": [
                         "£energy£ Energy Credits from £job£ Jobs +5%"
                       ],
@@ -1435,7 +1435,7 @@
               "base_weight": 180,
               "category": "Manipulação de Campo",
               "cost": 3000,
-              "description": "Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.",
+              "description": "Instalações de equilíbrio de carga podem melhorar imensamente a estabilidade de redes locais e fornecer energia em excesso de volta para os capacitores centralizados.",
               "feature_unlocks": [
                 "<b>Edict</b>: Capacity Subsidies",
                 "<b>Building</b>: Energy Grid"
@@ -1467,7 +1467,7 @@
                   "base_weight": 70,
                   "category": "Manipulação de Campo",
                   "cost": 6000,
-                  "description": "A re-engineered and unified grid further reduces energy losses over distance.",
+                  "description": "Uma rede unificada e reprojetada reduz as perdas de energia pela distância.",
                   "feature_unlocks": [
                     "<b>Building</b>: Energy Nexus"
                   ],
@@ -1512,7 +1512,7 @@
           "base_weight": 0,
           "category": "Manipulação de Campo",
           "cost": 0,
-          "description": "Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.",
+          "description": "Escudos defletores de energia podem parar uma quantidade limitada de fogo inimigo antes de sobrecarregarem. A desvantagem principal é que eles consumem grandes quantidades de energia.\\n\\n",
           "feature_unlocks": [
             "<b>Component</b>: Medium Deflectors",
             "<b>Component</b>: Large Deflectors",
@@ -1535,7 +1535,7 @@
               "base_weight": 112.5,
               "category": "Manipulação de Campo",
               "cost": 3000,
-              "description": "These updated deflector screens are capable of soaking up even more punishment before they overload.",
+              "description": "Esses escudos defletores aprimorados são capazes de absorver ainda mais dano antes de serem sobrecarregados.\\n\\n",
               "feature_unlocks": [
                 "<b>Component</b>: Large Improved Deflectors",
                 "<b>Component</b>: Medium Improved Deflectors",
@@ -1567,7 +1567,7 @@
                   "base_weight": 87.5,
                   "category": "Manipulação de Campo",
                   "cost": 6000,
-                  "description": "These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.",
+                  "description": "Esses novos geradores de escudo representam a próxima geração de escudos energéticos, substituindo a tecnologia defletora antiga. Eles oferecem uma proteção muito maior.\\n\\n",
                   "feature_unlocks": [
                     "<b>Component</b>: Large Shields",
                     "<b>Component</b>: Small Shields",
@@ -1599,7 +1599,7 @@
                       "base_weight": 62.5,
                       "category": "Manipulação de Campo",
                       "cost": 12000,
-                      "description": "An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.",
+                      "description": "Um gerador de escudos atualizado que produz um campo energético ainda mais forte. Somente o fogo inimigo sustentado ao longo do tempo pode penetrar essa barreira.\\n\\n",
                       "feature_unlocks": [
                         "<b>Component</b>: Small Advanced Shields",
                         "<b>Component</b>: Large Advanced Shields",
@@ -1631,7 +1631,7 @@
                           "base_weight": 43.75,
                           "category": "Manipulação de Campo",
                           "cost": 24000,
-                          "description": "These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.",
+                          "description": "Esses escudos energéticos reforçados e resistentes são incrivelmente poderosos. A proteção que eles oferecem é sem igual.\\n\\n",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Hyper Shields",
                             "<b>Component</b>: Medium Hyper Shields",
@@ -1663,7 +1663,7 @@
                               "base_weight": 1,
                               "category": "Manipulação de Campo",
                               "cost": 50000,
-                              "description": "These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.",
+                              "description": "Estes defletores utilizam matéria escura para refletir os projéteis inimigos de uma maneira que desafia totalmente as leis da natureza.",
                               "feature_unlocks": [
                                 "<b>Component</b>: Small Dark Matter Deflectors",
                                 "<b>Component</b>: Large Dark Matter Deflectors",
@@ -1700,7 +1700,7 @@
                           "base_weight": 12.5,
                           "category": "Manipulação de Campo",
                           "cost": 50000,
-                          "description": "The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.",
+                          "description": "A mecânica básica dos escudos de naves é complexa, mas eles podem ser ajustados e melhorados de diversas formas.\\n\\n",
                           "feature_unlocks": [
                             "Shield Hit Points +5%"
                           ],
@@ -1733,7 +1733,7 @@
                       "base_weight": 70,
                       "category": "Manipulação de Campo",
                       "cost": 6000,
-                      "description": "These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields.",
+                      "description": "Esses capacitores armazenam energia excedente que pode ser rapidamente transferida para reforçar os escudos de uma nave.",
                       "feature_unlocks": [
                         "<b>Component</b>: Shield Capacitor"
                       ],
@@ -1765,7 +1765,7 @@
                       "base_weight": 32.5,
                       "category": "Manipulação de Campo",
                       "cost": 8000,
-                      "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
+                      "description": "Gerar um forte escudo energético dentro de uma atmosfera planetária é um desafio maior que no vácuo do espaço, mas oferece uma defesa potente contra bombardeios orbitais.",
                       "feature_unlocks": [
                         "<b>Building</b>: Planetary Shield Generator"
                       ],
@@ -1809,7 +1809,7 @@
           "base_weight": 0,
           "category": "Computação",
           "cost": 0,
-          "description": "The best defense is a good offense.",
+          "description": "A melhor defesa é um bom ataque.",
           "feature_unlocks": [
             "<b>Component</b>: Sentinel Point-Defense"
           ],
@@ -1830,7 +1830,7 @@
               "base_weight": 70,
               "category": "Computação",
               "cost": 6000,
-              "description": "Arrays of defensive armaments prove much more effective than independent countermeasures.",
+              "description": "Redes de armamentos defensivos são muito mais eficazes que contramedidas independentes.",
               "feature_unlocks": [
                 "<b>Component</b>: Barrier Point-Defense"
               ],
@@ -1860,7 +1860,7 @@
                   "base_weight": 45,
                   "category": "Computação",
                   "cost": 16000,
-                  "description": "Advanced prediction greatly increases the accuracy of active countermeasure systems.",
+                  "description": "Predição avançada aumenta imensamente a precisão de sistemas de contramedidas ativas.",
                   "feature_unlocks": [
                     "<b>Component</b>: Guardian Point-Defense"
                   ],
@@ -1898,7 +1898,7 @@
           "base_weight": 0,
           "category": "Computação",
           "cost": 0,
-          "description": "Testable predictions of observable phenomena.",
+          "description": "Previsões que podem ser testadas de fenômenos que podem ser observados.",
           "feature_unlocks": [
             "<b>Building</b>: Research Labs"
           ],
@@ -1919,7 +1919,7 @@
               "base_weight": 100,
               "category": "Computação",
               "cost": 2000,
-              "description": "Organizational circuitry rerouting academic fervor.",
+              "description": "Circuitos organizacionais redirecionando o fervor acadêmico.",
               "feature_unlocks": [
                 "Research Speed +5%"
               ],
@@ -1949,7 +1949,7 @@
                   "base_weight": 90,
                   "category": "Computação",
                   "cost": 3000,
-                  "description": "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.",
+                  "description": "Matrizes ativas ajustadas especificamente para tarefas voltadas ao combate aumentam imensamente a eficiência na batalha.\" # The development of active combat personalities allows combat-AI to specialize heavily in specific tasks.",
                   "feature_unlocks": [
                     "<b>Component</b>: Starbase Fire Control",
                     "<b>Component</b>: Combat Computer"
@@ -1983,7 +1983,7 @@
                       "base_weight": 90,
                       "category": "Computação",
                       "cost": 3000,
-                      "description": "By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.",
+                      "description": "Ao instalar um sistema de controle de disparo auxiliar, nossas naves podem fazer cálculos mais avançados, aumentando a precisão.",
                       "feature_unlocks": [
                         "<b>Component</b>: Auxiliary Fire-control"
                       ],
@@ -2015,7 +2015,7 @@
                       "base_weight": 65,
                       "category": "Computação",
                       "cost": 8000,
-                      "description": "Further advances in predictive algorithms allow for augmented tactical decision-making in the field.",
+                      "description": "Maiores avanços em algoritmos preditivos permitem uma melhor tomada de decisão tática em campo.",
                       "feature_unlocks": [
                         "<b>Component</b>: Advanced Combat Computer",
                         "<b>Component</b>: Starbase Fire Control"
@@ -2051,7 +2051,7 @@
                           "base_weight": 20,
                           "category": "Computação",
                           "cost": 20000,
-                          "description": "Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.",
+                          "description": "Executar IAs sencientes através de simulações de combate de alta intensidade gera conhecimentos valiosos com relação a otimizações potenciais para técnicas de avaliação de riscos.\" # The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.",
                           "feature_unlocks": [
                             "<b>Component</b>: Sapient Combat Computer"
                           ],
@@ -2095,7 +2095,7 @@
                           "base_weight": 20,
                           "category": "Computação",
                           "cost": 20000,
-                          "description": "Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.",
+                          "description": "Ao conceder às nossas naves seu próprio intelecto semi-autônomo, sua capacidade de resposta aumenta imensamente.",
                           "feature_unlocks": [
                             "<b>Component</b>: Autonomous Ship Intellect"
                           ],
@@ -2139,7 +2139,7 @@
                   "base_weight": 90,
                   "category": "Computação",
                   "cost": 3000,
-                  "description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.",
+                  "description": "Ao ceder o controle da nave colonial para uma Inteligência Artificial, a tripulação e os colonizadores podem ser suspensos em um sono profundo.",
                   "feature_unlocks": [
                     "Colony Development Speed +50%"
                   ],
@@ -2169,7 +2169,7 @@
                       "base_weight": 70,
                       "category": "Computação",
                       "cost": 6000,
-                      "description": "Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.",
+                      "description": "Sistemas suficientemente avançados são capazes de otimizarem a si mesmos se forem programados como especialmente cientes do propósito para o qual foram criados.",
                       "feature_unlocks": [
                         "Colony Development Speed +50%"
                       ],
@@ -2209,7 +2209,7 @@
                   "base_weight": 170,
                   "category": "Computação",
                   "cost": 4000,
-                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
+                  "description": "IAs administrativas básicas podem ser usadas para simplificar as linhas de oferta e demanda, reduzindo o desperdício.",
                   "feature_unlocks": [
                     "£job_artisan£ [GetArtisan] Output +10%"
                   ],
@@ -2246,7 +2246,7 @@
                       "base_weight": 90,
                       "category": "Computação",
                       "cost": 16000,
-                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
+                      "description": "Usando IAs avançadas, podemos prever com confiança a demanda do consumidor antes dela existir.",
                       "feature_unlocks": [
                         "£job_artisan£ [GetArtisan] Output +10%"
                       ],
@@ -2295,7 +2295,7 @@
                   "base_weight": 75,
                   "category": "Computação",
                   "cost": 5000,
-                  "description": "Introspective prioritization.",
+                  "description": "Priorização introspectiva.",
                   "feature_unlocks": [
                     "Research Alternatives +1"
                   ],
@@ -2325,7 +2325,7 @@
                       "base_weight": 45,
                       "category": "Computação",
                       "cost": 16000,
-                      "description": "Expanding possibilities through the application of limited cybernetics.",
+                      "description": "Expandindo as possibilidades através da aplicação de cibernética limitada.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
@@ -2361,7 +2361,7 @@
                       "base_weight": 45,
                       "category": "Computação",
                       "cost": 16000,
-                      "description": "Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.",
+                      "description": "Intelectos artificiais evoluídos estão abrindo a porta para a possibilidade de uma sapiência verdadeiramente sintética.",
                       "feature_unlocks": [
                         "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
@@ -2397,7 +2397,7 @@
                       "base_weight": 20,
                       "category": "Computação",
                       "cost": 20000,
-                      "description": "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.",
+                      "description": "Alinhar paradigmas de execução de armas ofensivas e defensivas permite uma eficiência aumentada.",
                       "feature_unlocks": [
                         "<b>Starbase Building</b>: Defense-Grid Supercomputer"
                       ],
@@ -2441,7 +2441,7 @@
               "base_weight": 90,
               "category": "Computação",
               "cost": 3000,
-              "description": "As we explore the galaxy, we continually encounter new materials and substances that are unfamiliar to us. Cataloging and analyzing these discoveries will require new facilities.",
+              "description": "Conforme exploramos a galáxia, continuamos a encontrar novos materiais e substâncias que não conhecemos. Catalogar e analisar estas descobertas exigirá novas instalações.",
               "feature_unlocks": [
                 "<b>Building</b>: Research Complexes"
               ],
@@ -2472,7 +2472,7 @@
                   "base_weight": 97.5,
                   "category": "Computação",
                   "cost": 8000,
-                  "description": "A bid for interplanetary resource pools and more flexible research grants.",
+                  "description": "Uma iniciativa para reservas de recursos interplanetários e bolsas de pesquisa mais flexíveis.",
                   "feature_unlocks": [
                     "<b>Building</b>: Planetary Supercomputer",
                     "<b>Building</b>: Research Institute"
@@ -2511,7 +2511,7 @@
                   "base_weight": 130,
                   "category": "Computação",
                   "cost": 8000,
-                  "description": "To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!",
+                  "description": "Para expandir nossa base de conhecimento, devemos levar em consideração todos os níveis de existência. Um novo reino da ciência nos aguarda!",
                   "feature_unlocks": [
                     "<b>Building</b>: Advanced Research Complexes"
                   ],
@@ -2554,7 +2554,7 @@
           "base_weight": 100,
           "category": "Computação",
           "cost": 2000,
-          "description": "A lot of critical research can only be done in a zero gravity environment, which these specialized laboratories are eminently designed for.",
+          "description": "Muita pesquisa crítica só pode ser feita em um ambiente de zero gravidade, que estes laboratórios especializados foram eminentemente desenvolvidos para tal.",
           "feature_unlocks": [
             "Research Station Output +10%"
           ],
@@ -2577,7 +2577,7 @@
               "base_weight": 90,
               "category": "Computação",
               "cost": 3000,
-              "description": "Containment force fields are excellent for isolating and holding various substances or specimens so they can be analyzed in detail.",
+              "description": "Campos de força de contenção são excelentes para isolar e segurar várias substâncias ou espécimes para que possam ser analisados em detalhes.",
               "feature_unlocks": [
                 "Research Station Output +10%"
               ],
@@ -2607,7 +2607,7 @@
                   "base_weight": 85,
                   "category": "Computação",
                   "cost": 4000,
-                  "description": "Advanced probes that can thoroughly analyze subjects on a sub-atomic level, generating a wealth of valuable research data.",
+                  "description": "Sondas avançadas que conseguem analisar cobaias em um nível sub-atômico, gerando uma riqueza imensa de dados valiosos.",
                   "feature_unlocks": [
                     "Research Station Output +10%"
                   ],
@@ -2637,7 +2637,7 @@
                       "base_weight": 70,
                       "category": "Computação",
                       "cost": 6000,
-                      "description": "Increased automation of station functions will free up more staff for research duties.",
+                      "description": "Automação aumentada de funções de estação liberam os funcionários para os trabalhos de pesquisa.",
                       "feature_unlocks": [
                         "Research Station Output +10%"
                       ],
@@ -2667,7 +2667,7 @@
                           "base_weight": 65,
                           "category": "Computação",
                           "cost": 8000,
-                          "description": "Studying something from the limited perspective of a single dimensional reality does not paint the whole picture. Every angle must be considered.",
+                          "description": "Estudar algo da perspectiva limitada de uma única realidade dimensional não mostra o quadro completo. Todos os ângulos devem ser considerados.",
                           "feature_unlocks": [
                             "Research Station Output +10%"
                           ],
@@ -2711,7 +2711,7 @@
           "base_weight": 100,
           "category": "Computação",
           "cost": 2000,
-          "description": "Exploring the mediation of fundamental forces through subatomic particles.",
+          "description": "Explorar a mediação de forças fundamentais através de partículas subatômicas.",
           "feature_unlocks": [
             "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
           ],
@@ -2739,7 +2739,7 @@
               "base_weight": 90,
               "category": "Computação",
               "cost": 2500,
-              "description": "Advances in computing technology have given us new ways to protect our data from prying eyes.",
+              "description": "Avanços na tecnologia de computação nos deram novas maneiras de proteger nossos dados contra olhos curiosos.",
               "feature_unlocks": [
                 "Encryption +2"
               ],
@@ -2775,7 +2775,7 @@
                   "base_weight": 70,
                   "category": "Computação",
                   "cost": 5000,
-                  "description": "Further advances in unstable entanglement have given us new ways to prevent unauthorized intrusions into our databases.",
+                  "description": "Maiores avanços em emaranhados instáveis nos deram novas maneiras de impedir intrusões não autorizadas em nossos bancos de dados.",
                   "feature_unlocks": [
                     "Encryption +2"
                   ],
@@ -2811,7 +2811,7 @@
                       "base_weight": 50,
                       "category": "Computação",
                       "cost": 20000,
-                      "description": "Our latest advances in encryption exploit recently discovered quirks of physics to require inputting a specialized key before it has been generated.",
+                      "description": "Nossos avanços mais recentes em criptografia exploram detalhes da física recém-descobertos que necessitam da digitação de uma chave especializada antes que ela seja gerada.",
                       "feature_unlocks": [
                         "Encryption +2"
                       ],
@@ -2855,7 +2855,7 @@
               "base_weight": 90,
               "category": "Computação",
               "cost": 2500,
-              "description": "Primitive encryption systems stand no chance against modern decryption tools.",
+              "description": "Sistemas de criptografia primitivos não tem a menor chance contra ferramentas de decriptografia modernas.",
               "feature_unlocks": [
                 "Codebreaking +2",
                 "<b>Edict</b>: Observation Instinct",
@@ -2894,7 +2894,7 @@
                   "base_weight": 70,
                   "category": "Computação",
                   "cost": 5000,
-                  "description": "The weakest link in any security system are the individuals within it. By modeling their weaknesses in computer simulations we can find novel ways to bypass their security - or trick them into bypassing it for us.",
+                  "description": "O elo mais fraco em qualquer sistema de segurança são os indivíduos dentro dele. Ao modelar suas fraquezas em simulações de computadores, podemos encontrar novas formas de ultrapassar sua segurança, ou enganá-los para que ultrapassem para nós.",
                   "feature_unlocks": [
                     "Codebreaking +2"
                   ],
@@ -2930,7 +2930,7 @@
                       "base_weight": 50,
                       "category": "Computação",
                       "cost": 20000,
-                      "description": "Our operatives can access data from adjacent realities without risking setting off alarms in this reality.",
+                      "description": "Nossos agentes podem acessar dados de realidades adjacentes sem disparar alarmes nesta realidade.",
                       "feature_unlocks": [
                         "Codebreaking +2"
                       ],
@@ -2974,7 +2974,7 @@
               "base_weight": 70,
               "category": "Computação",
               "cost": 6000,
-              "description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
+              "description": "O comportamento aparentemente irregular de coisas pequenas pode alterar dramaticamente a forma que pensamos sobre coisas maiores.",
               "feature_unlocks": [
                 "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
               ],
@@ -3008,7 +3008,7 @@
                   "base_weight": 40,
                   "category": "Computação",
                   "cost": 20000,
-                  "description": "Three dimensions, inextricable from the fourth.",
+                  "description": "Três dimensões, inseparáveis da quarta.",
                   "feature_unlocks": [
                     "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
                   ],
@@ -3044,7 +3044,7 @@
                   "base_weight": 12.5,
                   "category": "Computação",
                   "cost": 50000,
-                  "description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
+                  "description": "Paradigmas de computação poderosos nos permitem adaptar projetos de construção individuais a condições planetárias e gravitacionais ultra locais.\\n\\n\" #by adapting each construction-project to local gravitational conditions we can save on materials used",
                   "feature_unlocks": [
                     "Building Cost -5%"
                   ],
@@ -3080,7 +3080,7 @@
           "base_weight": 85,
           "category": "Computação",
           "cost": 4000,
-          "description": "These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.",
+          "description": "Esses sensores foram ajustados para procurar quaisquer alterações gravitacionais no espaço, tais como as produzidas pela presença de uma nave espacial.\\n\\n",
           "feature_unlocks": [
             "<b>Starbase Building</b>: Listening Post",
             "<b>Component</b>: Gravitic Sensors"
@@ -3105,7 +3105,7 @@
               "base_weight": 37.5,
               "category": "Manipulação de Campo",
               "cost": 6000,
-              "description": "Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.",
+              "description": "Naves Científicas Solitárias podem escapar das hiperestradas que ocorrem naturalmente e tentarem navegar para destinos conhecidos, mas inatingíveis de outra forma.",
               "feature_unlocks": [
                 "<b>Feature : </b>Experimental Subspace Navigation"
               ],
@@ -3139,7 +3139,7 @@
               "base_weight": 65,
               "category": "Computação",
               "cost": 8000,
-              "description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
+              "description": "Sensores que detectam as flutuações subespaciais deixadas no rastro de naves espaciais. Sua sensibilidade e alcance são maiores que os de uma rede de sensores.\\n\\n",
               "feature_unlocks": [
                 "<b>Starbase Building</b>: Black Hole Observatory",
                 "<b>Component</b>: Subspace Sensors"
@@ -3171,7 +3171,7 @@
                   "base_weight": 45,
                   "category": "Computação",
                   "cost": 16000,
-                  "description": "Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.",
+                  "description": "Sensores avançados que dependem de raios de rotação de táquions para detectar movimentos de naves até em distâncias extremas.\\n\\n",
                   "feature_unlocks": [
                     "<b>Component</b>: Tachyon Sensors"
                   ],
@@ -3202,7 +3202,7 @@
                       "base_weight": 50,
                       "category": "Manipulação de Campo",
                       "cost": 12000,
-                      "description": "This exotic substance has many properties that seemingly defy the laws of physics. Harvestable concentrations can only be found near Black Holes or in certain nebulas.",
+                      "description": "Esta substância exótica possui muitas propriedades que parecem desafiar as leis da física. Concentrações extraíveis só podem ser encontradas próximas a Buracos Negros ou em certas nébulas.",
                       "feature_unlocks": [
                         "<b>Reveals Resource</b>: Dark Matter"
                       ],
@@ -3244,7 +3244,7 @@
           "base_weight": 0,
           "category": "Partículas",
           "cost": 0,
-          "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
+          "description": "Uma instalação onde a matéria orgânica é convertida em energia em uma taxa altamente eficiente.",
           "feature_unlocks": [
             "<b>Building</b>: Bio-Reactor"
           ],
@@ -3270,7 +3270,7 @@
           "base_weight": 170,
           "category": "Partículas",
           "cost": 4000,
-          "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
+          "description": "Partículas Voláteis são partículas inconstantes que são difíceis de serem trabalhadas. Para poder extraí-las sem causar uma reação em cadeia de explosões, campos de energia devem ser usados para estabilizar as partículas.",
           "feature_unlocks": [
             "<b>Building</b>: Mote Harvesting Traps",
             "<b>Reveals Resource</b>: Volatile Motes"
@@ -3297,7 +3297,7 @@
           "base_weight": 170,
           "category": "Partículas",
           "cost": 4000,
-          "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
+          "description": "Além das preocupações científicas óbvias, a criação artificial de Partículas Voláteis é um processo extremamente delicado e complicado que requer equipamento altamente especializado.",
           "feature_unlocks": [
             "<b>Building</b>: Chemical Plants"
           ],
@@ -3323,7 +3323,7 @@
           "base_weight": 95,
           "category": "Computação",
           "cost": 2500,
-          "description": "An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.",
+          "description": "Uma IA avançada ajudará os oficiais científicos na sua tarefa de explorar novos mundos estranhos, buscar nova vida e novas civilizações, e ir audaciosamente onde nenhum Blorg jamais esteve. A Nave Científica conseguirá explorar a galáxia com a ajuda de uma IA.",
           "feature_unlocks": [
             "<b>Feature : </b>Automatic Surveying",
             "Survey Speed +25%"
@@ -3358,7 +3358,7 @@
           "base_weight": 85,
           "category": "Computação",
           "cost": 4000,
-          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "description": "Um laboratório a bordo com equipamentos arqueológicos avançados, incluindo um grande banco de dados fornecidos pela Ordem Curadora onde novas descobertas podem facilmente ser referenciadas.",
           "feature_unlocks": [
             "mod_country_ship_archeaological_site_clues_add +2"
           ],
@@ -3389,7 +3389,7 @@
           "base_weight": 85,
           "category": "Computação",
           "cost": 4000,
-          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "description": "Um laboratório a bordo com equipamentos arqueológicos avançados, incluindo um grande banco de dados fornecidos pela Ordem Curadora onde novas descobertas podem facilmente ser referenciadas.",
           "feature_unlocks": [
             "Anomaly Discovery Chance +10%",
             "Anomaly Research Speed +25%"
@@ -3419,7 +3419,7 @@
           "base_weight": 85,
           "category": "Computação",
           "cost": 4000,
-          "description": "These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.",
+          "description": "Estas instalações de laboratórios a bordo incorporam tecnologias avançadas da antiga Ordem Curadora para aumentar ainda mais as velocidades de inspeção.",
           "feature_unlocks": [
             "Survey Speed +33%"
           ],

@@ -33,7 +33,7 @@
           "base_weight": 0,
           "category": "Biologie",
           "cost": 0,
-          "description": "Large-scale industrial farms growing nutrient-rich produce allows a civilization to grow its population manifold.",
+          "description": "Großflächige industrielle Farmen, die nährstoffreiche Produkte anbauen, erlauben einer Zivilisation ihre Bevölkerung zu vervielfältigen.",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
@@ -52,7 +52,7 @@
               "base_weight": 100,
               "category": "Biologie",
               "cost": 2000,
-              "description": "Farming techniques can be further refined through sophisticated computer simulations of different environments and weather patterns. This allows for more predictable crop yields.",
+              "description": "Landwirtschaftliche Techniken können durch ausgefeilte Computersimulationen verschiedener Umgebungen und Wettermuster weiter verfeinert werden. Dies ermöglicht vorhersehbare Ernteerträge.",
               "feature_unlocks": [
                 "£food£ Food from £job_farmer£ [GetFarmerPlural] +20%",
                 "£food£ Food from Starbase Constructions +10%"
@@ -87,7 +87,7 @@
                   "base_weight": 95,
                   "category": "Biologie",
                   "cost": 2500,
-                  "description": "Improved food processing techniques will lead to better preservation methods and less spoilage.",
+                  "description": "Verbesserte Nahrungsverarbeitungstechniken werden zu besseren Konservierungsmethoden und weniger Verderb führen.",
                   "feature_unlocks": [
                     "<b>Edict</b>: Farming Subsidies",
                     "<b>Building</b>: Food Processing Facilities"
@@ -120,7 +120,7 @@
                       "base_weight": 130,
                       "category": "Biologie",
                       "cost": 8000,
-                      "description": "New cryopreservation and protein resequencing methods will make food processing much more efficient.",
+                      "description": "Neue Kryokonservierungs- und Protein-Resequenzierungsmethoden werden die Lebensmittelverarbeitung wesentlich effizienter machen.",
                       "feature_unlocks": [
                         "<b>Building</b>: Food Processing Centers"
                       ],
@@ -158,7 +158,7 @@
                   "base_weight": 85,
                   "category": "Biologie",
                   "cost": 4000,
-                  "description": "Sophisticated genetic engineering of crops helps increase yield and further improves both taste and nutrient levels.",
+                  "description": "Durchdachte Genmanipulation von Feldfrüchten führt zu gesteigerten Ernteerträgen und verbessert ihren Geschmack und Nährstoffgehalt.",
                   "feature_unlocks": [
                     "<b>Edict</b>: Nutritional Plenitude",
                     "£food£ Food from £job_farmer£ [GetFarmerPlural] +20%",
@@ -195,7 +195,7 @@
                       "base_weight": 65,
                       "category": "Biologie",
                       "cost": 8000,
-                      "description": "Infusing crop strands with small amounts of nano-machines help create a type of produce that is ultra resilient, and the chemical composition of which can be tailored and altered during its entire lifetime.",
+                      "description": "Indem wir verschiedene Feldfruchtstränge mit einer geringen Anzahl von Nanomaschinen durchsetzen, können wir ultra-resistente Feldfrüchte schaffen, deren chemische Zusammensetzung wir während ihrer gesamten Lebensdauer abstimmen und verändern können.",
                       "feature_unlocks": [
                         "£food£ Food from £job_farmer£ [GetFarmerPlural] +20%",
                         "£food£ Food from Starbase Constructions +10%"
@@ -230,7 +230,7 @@
                           "base_weight": 35,
                           "category": "Biologie",
                           "cost": 24000,
-                          "description": "The process of synthetically replicating crops requires a lot of collected waste to create a small amount of produce, but nevertheless provides a significant boost to agricultural output.",
+                          "description": "Der Vorgang der synthetischen Replikation von Feldfrüchten führt zum Entstehen großer Abfallmengen für die Produktion einer geringen nutzbaren Menge, gibt der Agrarleistung aber trotzdem einen deutlichen Schub.",
                           "feature_unlocks": [
                             "£food£ Food from £job£ Jobs +15%",
                             "£food£ Food from Starbase Constructions +10%"
@@ -275,7 +275,7 @@
                       "base_weight": 12.5,
                       "category": "Biologie",
                       "cost": 50000,
-                      "description": "Transgenic crops offer the nutritional elements of several standard food crops in one convenient package.",
+                      "description": "Transgene Feldfrüchte bieten die Nahrungsbestandteile mehrerer herkömmlicher Feldfrüchte in einer praktischen Einheit.",
                       "feature_unlocks": [
                         "£food£ Food from £job£ Jobs +5%"
                       ],
@@ -311,7 +311,7 @@
               "base_weight": 200,
               "category": "Biologie",
               "cost": 2000,
-              "description": "Hydroponics Farming in a controlled environment allows for crops to be grown in climates where farming would normally be impossible.",
+              "description": "Hydrokulturen in einer kontrollierten Umgebung ermöglichen den Anbau von Kulturen in Klimazonen, in denen Landwirtschaft normalerweise unmöglich wäre.",
               "feature_unlocks": [
                 "<b>Building</b>: Hydroponics Farms",
                 "<b>Starbase Building</b>: Hydroponics Bay"
@@ -349,7 +349,7 @@
           "base_weight": 150,
           "category": "Biologie",
           "cost": 2000,
-          "description": "Mapping the genome of an individual through the sequencing of their DNA opens up for tailored medical treatments and therapies.",
+          "description": "Die Kartierung des Genoms eines Individuums durch die Sequentialisierung seiner DNS ermöglicht die Entwicklung abgestimmter medikamentöser Behandlungen und Therapien.",
           "feature_unlocks": [
             "Pop Growth Speed +10%"
           ],
@@ -376,7 +376,7 @@
               "base_weight": 112.5,
               "category": "Biologie",
               "cost": 5000,
-              "description": "Where the body fails, science intervenes.",
+              "description": "Wo der Körper versagt, greift die Wissenschaft ein.",
               "feature_unlocks": [
                 "Age: $AGE|Y$ +10"
               ],
@@ -410,7 +410,7 @@
                   "base_weight": 30,
                   "category": "Biologie",
                   "cost": 10000,
-                  "description": "Careful reproductive planning should be incentivized, lest we waste valuable genetic legacies.",
+                  "description": "Wir sollten Anreize für umsichtige Familienplanung bieten, da wir sonst wertvolle genetische Vermächtnisse verschwenden.",
                   "feature_unlocks": [
                     "<b>Policy</b>: Selected Lineages"
                   ],
@@ -448,7 +448,7 @@
                       "base_weight": 17.5,
                       "category": "Biologie",
                       "cost": 24000,
-                      "description": "We leave nothing to chance, no matter the cost. Through exacting curation of DNA banks do we build the leaders of tomorrow.",
+                      "description": "Wir überlassen nichts dem Zufall - egal, was es kostet. Durch die exakte Kuratierung von DNS-Banken schaffen wir die Führer der Zukunft.",
                       "feature_unlocks": [
                         "<b>Policy</b>: Capacity Boosters"
                       ],
@@ -492,7 +492,7 @@
                   "base_weight": 12.5,
                   "category": "Biologie",
                   "cost": 50000,
-                  "description": "Regimens of periodic cell revitalization treatments keep the leader class spry and active beyond traditionally expected lifespans.",
+                  "description": "Regelmäßige Zellrevitalisierungskuren sorgen dafür, dass die Führungselite noch lange nach ihrer natürlichen Lebenserwartung munter und aktiv ist.",
                   "feature_unlocks": [
                     "Age: $AGE|Y$ +5"
                   ],
@@ -527,7 +527,7 @@
               "base_weight": 37.5,
               "category": "Biologie",
               "cost": 5000,
-              "description": "Deep-tissue implants are the latest innovation in the revolutionary overlapping of sensory engineering and entertainment experiences. \"Where we're going, we won't need skin to feel!\"",
+              "description": "Tiefliegende Implantate sind die neueste Innovation bei der revolutionären Kombination von Sensorik und Unterhaltung. \"Wo wir hingehen, da braucht man zum Fühlen keine Haut!",
               "feature_unlocks": [
                 "<b>Feature : </b>Chemical Bliss"
               ],
@@ -562,7 +562,7 @@
                   "base_weight": 20,
                   "category": "Staatskunst",
                   "cost": 20000,
-                  "description": "Further advancements in the field of subdermal implants can provide detailed information regarding the movements and actions of the implanted.",
+                  "description": "Fortschritte auf dem Gebiet der subkutanen Implantate können detaillierte Informationen über Bewegungen und Handlungen der Implantatsträger liefern.",
                   "feature_unlocks": [
                     "<b>Edict</b>: Tracking Implants"
                   ],
@@ -607,7 +607,7 @@
               "base_weight": 130,
               "category": "Biologie",
               "cost": 8000,
-              "description": "Making gene-editing tools widely available is sure to have a positive impact on our development as a species.",
+              "description": "Die Bereitstellung der Werkzeuge zur Genbearbeitung wird unsere Entwicklung als Spezies sicherlich positiv beeinflussen.",
               "feature_unlocks": [
                 "<b>Feature : </b>Self-Modification",
                 "Gene Modification Points: +1",
@@ -644,7 +644,7 @@
                   "base_weight": 75,
                   "category": "Biologie",
                   "cost": 12000,
-                  "description": "Through glandular biological tailoring we can change the environmental tolerance of a species to suit our needs.",
+                  "description": "Durch drüsenartigen biologischen Beschnitt können wir die Umweltverträglichkeit einer Spezies an unsere Bedürfnisse anpassen.",
                   "feature_unlocks": [
                     "<b>Building</b>: House of Apotheosis",
                     "<b>Feature : </b>Habitability Modification"
@@ -684,7 +684,7 @@
                   "base_weight": 50,
                   "category": "Biologie",
                   "cost": 12000,
-                  "description": "Stricter control of RNA and protein production on the cellular level.",
+                  "description": "Strengere Kontrolle der RNS- und Proteinproduktion auf zellulärer Ebene.",
                   "feature_unlocks": [
                     "Gene Modification Points: +1"
                   ],
@@ -725,7 +725,7 @@
                   "base_weight": 45,
                   "category": "Biologie",
                   "cost": 16000,
-                  "description": "Nucleotide purification techniques allow for the isolation and refinement of particularly desirable genetic traits.",
+                  "description": "Nukleotid-Reinigungstechniken ermöglichen die Isolierung und Raffinierung besonders wünschenswerter genetischer Eigenschaften.",
                   "feature_unlocks": [
                     "<b>Army</b>: Gene Warrior Army"
                   ],
@@ -775,7 +775,7 @@
               "base_weight": 75,
               "category": "Biologie",
               "cost": 5000,
-              "description": "Advanced DNA methylation techniques allow for functionally significant alterations to be made to arbitrary genomes.",
+              "description": "Fortschrittliche DNS-Methylierungstechniken ermöglichen funktional signifikante Änderungen an beliebigen Genomen.",
               "feature_unlocks": [
                 "<b>Feature : </b>Uplift"
               ],
@@ -813,7 +813,7 @@
                   "base_weight": 22.5,
                   "category": "Biologie",
                   "cost": 16000,
-                  "description": "From its cradle as a purely pharmaceutical venture, advancements in our understanding of the morphogenetic field allow for direct, subconscious interfaces with organic units.",
+                  "description": "Seit den Anfangstagen als rein pharmazeutisches Unterfangen haben unsere Verständnisfortschritte im morphogenetischen Feld die Entwicklung direkter, unterbewusster Schnittstellen in organischen Einheiten ermöglicht.",
                   "feature_unlocks": [
                     "<b>Army</b>: Xenomorph Army"
                   ],
@@ -864,7 +864,7 @@
               "base_weight": 112.5,
               "category": "Biologie",
               "cost": 5000,
-              "description": "Breakthroughs in enucleation and artificial womb technology allows for the mass-production of individuals based on a common genetic template.",
+              "description": "Durchbrüche in den Bereichen Enukleation und Kunst-Uterus ermöglichen die Massenproduktion von Individuen basierend auf herkömmlichen genetischen Vorlagen.",
               "feature_unlocks": [
                 "Pop Growth Speed +10%"
               ],
@@ -898,7 +898,7 @@
                   "base_weight": 35,
                   "category": "Biologie",
                   "cost": 6000,
-                  "description": "Gene Banks filter and curate available genomes for deployment in clones.",
+                  "description": "Genbanken filtern und kuratieren verfügbare Genome zur Verwendung für Klone.",
                   "feature_unlocks": [
                     "<b>Army</b>: Clone Army"
                   ],
@@ -950,7 +950,7 @@
           "base_weight": 100,
           "category": "Biologie",
           "cost": 2000,
-          "description": "Studying the different forms of life that appear on our world helps us better understand ourselves and the life that surrounds us.",
+          "description": "Das Studium der unterschiedlichen Lebensformen, die auf unserer Welt vorkommen, würde unser Verständnis unserer selbst und des Lebens um uns herum verbessern.",
           "feature_unlocks": [
             "£society£ Society Research from £job_researcher£ [GetResearcherPlural] +20%"
           ],
@@ -978,7 +978,7 @@
               "base_weight": 70,
               "category": "Biologie",
               "cost": 6000,
-              "description": "Studying the life that arises on other worlds and beyond allows us to understand fundamental aspects of biology that were previously beyond our reach.",
+              "description": "Das Studium des auf anderen Welten und darüber hinaus entstehenden Lebens lässt uns fundamentale biologische Aspekte verstehen, die früher unser Verständnis überstiegen.",
               "feature_unlocks": [
                 "£society£ Society Research from £job_researcher£ [GetResearcherPlural] +20%"
               ],
@@ -1012,7 +1012,7 @@
                   "base_weight": 40,
                   "category": "Biologie",
                   "cost": 20000,
-                  "description": "Having the opportunity to study the multitudes of life lets us find some common ground for all living beings. The foundational building blocks of life.",
+                  "description": "Da wir die Möglichkeit haben, die Vielfältigkeit des Lebens zu studieren, können wir eine gemeinsame Basis aller Lebewesen finden: Die fundamentalen Bausteine des Lebens.",
                   "feature_unlocks": [
                     "£society£ Society Research from £job_researcher£ [GetResearcherPlural] +20%"
                   ],
@@ -1048,7 +1048,7 @@
                   "base_weight": 35,
                   "category": "Staatskunst",
                   "cost": 6000,
-                  "description": "Various artifacts and technologies functioning by arcane means that cannot be understood or replicated... at least not by conventional science as it is known to us.",
+                  "description": "Viele Artefakte und Technologien funktionieren auf mysteriöse Weise, die nicht verstanden oder reproduziert werden können ... zumindest nicht durch die uns bekannte konventionelle Wissenschaft.",
                   "feature_unlocks": [
                     "<b>Feature : </b>Reverse-Engineer Minor Artifacts"
                   ],
@@ -1088,7 +1088,7 @@
           "base_weight": 0,
           "category": "Militärtheorie",
           "cost": 0,
-          "description": "There may come a time when intellects, vast and cool and unsympathetic, regard our worlds with envy and draw plans against us. We must be ready.",
+          "description": "Eines Tages könnte die Zeit kommen, in der Aliens unsere Welten kühl und mitleidslos mit großem Neid betrachten - und dann Angriffspläne gegen uns schmieden. Wir müssen uns vorbereiten.",
           "feature_unlocks": [
             "<b>Building</b>: Stronghold"
           ],
@@ -1109,7 +1109,7 @@
               "base_weight": 190,
               "category": "Militärtheorie",
               "cost": 2500,
-              "description": "There are many alien empires who would gladly seize our worlds for themselves. We must be prepared for them, should the worst come to pass.",
+              "description": "Es gibt viele fremde Reiche, die gerne unsere Welten für sich beanspruchen würden. Wir müssen auf sie vorbereitet sein, sollte das Schlimmste eintreten.",
               "feature_unlocks": [
                 "mod_country_show_only_custom_tooltip no",
                 "mod_country_custom_tooltip ",
@@ -1142,7 +1142,7 @@
                   "base_weight": 170,
                   "category": "Militärtheorie",
                   "cost": 4000,
-                  "description": "The strategic value of a good defense remains as relevant today as it was to our predecessors in the far distant past. Technology does not render fortifications obsolete - it merely changes their requirements.",
+                  "description": "Der strategische Wert einer guten Verteidigung ist heute ebenso wichtig, wie bei unseren Vorgängern. Die Technik macht Befestigungen nicht obsolet, sie ändert lediglich ihre Anforderungen.",
                   "feature_unlocks": [
                     "<b>Building</b>: Fortress",
                     "Defense Army Health +25%"
@@ -1182,7 +1182,7 @@
           "base_weight": 255,
           "category": "Militärtheorie",
           "cost": 4000,
-          "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+          "description": "Die allmähliche Anpassung an die Realitäten des Weltraumkampfs ermöglicht es uns, größere Manöver effizienter zu koordinieren.",
           "feature_unlocks": [
             "Fleet Command Limit +20",
             "<b>Edict</b>: Fleet Supremacy"
@@ -1207,7 +1207,7 @@
               "base_weight": 210,
               "category": "Militärtheorie",
               "cost": 6000,
-              "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+              "description": "Die allmähliche Anpassung an die Realitäten des Weltraumkampfs ermöglicht es uns, größere Manöver effizienter zu koordinieren.",
               "feature_unlocks": [
                 "Fleet Command Limit +20"
               ],
@@ -1238,7 +1238,7 @@
                   "base_weight": 180,
                   "category": "Militärtheorie",
                   "cost": 10000,
-                  "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+                  "description": "Die allmähliche Anpassung an die Realitäten des Weltraumkampfs ermöglicht es uns, größere Manöver effizienter zu koordinieren.",
                   "feature_unlocks": [
                     "Fleet Command Limit +20"
                   ],
@@ -1269,7 +1269,7 @@
                       "base_weight": 135,
                       "category": "Militärtheorie",
                       "cost": 16000,
-                      "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+                      "description": "Die allmähliche Anpassung an die Realitäten des Weltraumkampfs ermöglicht es uns, größere Manöver effizienter zu koordinieren.",
                       "feature_unlocks": [
                         "Fleet Command Limit +20"
                       ],
@@ -1300,7 +1300,7 @@
                           "base_weight": 105,
                           "category": "Militärtheorie",
                           "cost": 24000,
-                          "description": "Gradual adaptation to the realities of deep-space combat allows us to effectively coordinate larger maneuvers.",
+                          "description": "Die allmähliche Anpassung an die Realitäten des Weltraumkampfs ermöglicht es uns, größere Manöver effizienter zu koordinieren.",
                           "feature_unlocks": [
                             "Fleet Command Limit +20"
                           ],
@@ -1331,7 +1331,7 @@
                               "base_weight": 12.5,
                               "category": "Militärtheorie",
                               "cost": 50000,
-                              "description": "Improving the support staff available to our admirals will increase the number of ships they can command in a single fleet.",
+                              "description": "Durch die Verbesserung des Betreuerstabs unserer Admiräle können wir die Anzahl der Schiffe, die sie in einer einzelnen Flotte befehligen können, erhöhen.",
                               "feature_unlocks": [
                                 "Fleet Command Limit +10"
                               ],
@@ -1376,7 +1376,7 @@
           "base_weight": 75,
           "category": "Militärtheorie",
           "cost": 5000,
-          "description": "Creating dedicated headquarters for all levels of military operations shapes an efficient fleet, and lays a better foundation for future military training.",
+          "description": "Die Bildung dedizierter Hauptquartiere für alle Ebenen militärischer Operationen sorgt für eine effiziente Flotte und legt das Fundament für eine bessere zukünftige Militärausbildung.",
           "feature_unlocks": [
             "Max Occupation Garrisons +2",
             "<b>Building</b>: Military Academy"
@@ -1401,7 +1401,7 @@
               "base_weight": 65,
               "category": "Militärtheorie",
               "cost": 8000,
-              "description": "A more extensive training program for new recruits, including realistic combat scenarios, prepare them for the field.",
+              "description": "Ein umfangreicheres Ausbildungsprogramm für neue Rekruten, um sie für den Einsatz vorzubereiten. Beinhaltet realistische Gefechtsszenarien.",
               "feature_unlocks": [
                 "Assault Army Damage +15%",
                 "Assault Army Morale +15%"
@@ -1433,7 +1433,7 @@
                   "base_weight": 12.5,
                   "category": "Militärtheorie",
                   "cost": 50000,
-                  "description": "Iterating on the standard conditioning regimen for ground troops has proven to make them more effective in direct combat.",
+                  "description": "Das Wiederholen der Standardausbildung für Bodentruppen hat bewiesen, dass sie dadurch bei direkten Kampfhandlungen effektiver kämpfen.",
                   "feature_unlocks": [
                     "Army Damage +10%"
                   ],
@@ -1463,7 +1463,7 @@
                   "base_weight": 12.5,
                   "category": "Militärtheorie",
                   "cost": 50000,
-                  "description": "Careful tuning of pain receptors allow soldiers to fight through what would previously have been debilitating injuries.",
+                  "description": "Die vorsichtige Feinabstimmung von Schmerzrezeptoren ermöglicht es Soldaten, trotz Verletzungen, die sie früher gelähmt hätten, weiterzukämpfen.",
                   "feature_unlocks": [
                     "£ship_stats_hitpoints£ VALUE +10%"
                   ],
@@ -1499,7 +1499,7 @@
           "base_weight": 225,
           "category": "Militärtheorie",
           "cost": 5000,
-          "description": "As extrasolar expeditions become more common, it is important to provide planetside relief for returning fleets.",
+          "description": "Da extrasolare Expeditionen immer häufiger werden, ist es wichtig, zurückkehrenden Flotten planetare Erholungszeiten zu verschaffen.",
           "feature_unlocks": [
             "Naval Capacity +30"
           ],
@@ -1523,7 +1523,7 @@
               "base_weight": 600,
               "category": "Militärtheorie",
               "cost": 10000,
-              "description": "A fleet does not run on zeal alone. To ensure steady access to critical supplies, we should organize our logistics corps into dedicated support vessels.",
+              "description": "Eine Flotte läuft nicht von alleine. Um einen stetigen Zugang an notwendigen Dingen zu gewährleisten, sollten wir unsere Logistik in spezielle Unterstützungsflotten organisieren.",
               "feature_unlocks": [
                 "Naval Capacity +30"
               ],
@@ -1554,7 +1554,7 @@
                   "base_weight": 135,
                   "category": "Militärtheorie",
                   "cost": 16000,
-                  "description": "Amateurs talk about tactics. Professionals study logistics. By ensuring our fleets are regularly and efficiently supplied, we can increase the number of vessels we can effectively support.",
+                  "description": "Leien sprechen von Taktik. Profis studieren Logistik. Indem wir sicherstellen, dass unsere Flotten regelmäßig und effizient versorgt werden, können wir die Anzahl der Schiffe erhöhen, die wir effektiv unterstützen können.",
                   "feature_unlocks": [
                     "Naval Capacity +30"
                   ],
@@ -1585,7 +1585,7 @@
                       "base_weight": 105,
                       "category": "Militärtheorie",
                       "cost": 24000,
-                      "description": "By maintaining a professional corps of fleet liasions, we can improve communications and the flow of orders throughout the chain of command.",
+                      "description": "Indem wir ein professionelles Korps von Kontakten unterhalten, können wir die Kommunikation und die Befehlskette im gesamten verbessern.",
                       "feature_unlocks": [
                         "Naval Capacity +30"
                       ],
@@ -1616,7 +1616,7 @@
                           "base_weight": 12.5,
                           "category": "Militärtheorie",
                           "cost": 50000,
-                          "description": "Improved fleet management procedures will free up the resources needed to maintain a bigger fleet.",
+                          "description": "Verbesserte Flottenmanagementverfahren können Ressourcen freisetzten, die zur Aufrechterhaltung einer größeren Flotte erforderlich sind.",
                           "feature_unlocks": [
                             "Naval Capacity +20"
                           ],
@@ -1658,7 +1658,7 @@
           "base_weight": 112.5,
           "category": "Militärtheorie",
           "cost": 5000,
-          "description": "Organics often fight using illogical and unpredictable tactics that can be difficult to effectively counter. Adaptive tactics and new, more maneuverable warforms should provide a decisive advantage.",
+          "description": "Organische Wesen kämpfen oft mit unlogischen und unvorhersehbaren Taktiken, denen schwer etwas entgegenzusetzten ist. Anpassungsfähige Taktiken und neue, manövrierfähigere Kriegsformen sollten einen entscheidenden Vorteil bieten.",
           "feature_unlocks": [
             "<b>Army</b>: Battle Frame Army"
           ],
@@ -1683,7 +1683,7 @@
               "base_weight": 40,
               "category": "Biologie",
               "cost": 20000,
-              "description": "Millions of years of organic evolution will sometimes, through sheer persistence, produce elegant solutions that can also be applied to machine designs.",
+              "description": "Million von Jahren an organischer Evolution können manchmal, durch reine Beharrlichkeit, elegante Lösungen produzieren, die auch auf Maschinenentwürfe angewandt werden können.",
               "feature_unlocks": [
                 "<b>Army</b>: Mega-Warform"
               ],
@@ -1726,7 +1726,7 @@
           "base_weight": 225,
           "category": "Militärtheorie",
           "cost": 5000,
-          "description": "A body of knowledge regarding combat behaviors is useless without a strong code governing its use.",
+          "description": "Vorhandenes Wissen über das Verhalten im Gefecht ist nutzlos, wenn es keinen strikten Code gibt, der seine Umsetzung regelt.",
           "feature_unlocks": [
             "<b>Starbase Building</b>: Naval Logistics Office",
             "<b>Starbase Building</b>: Fleet Academy"
@@ -1751,7 +1751,7 @@
               "base_weight": 65,
               "category": "Militärtheorie",
               "cost": 8000,
-              "description": "Standardizing workflows for upgrading and retrofitting ship components can lead to massive efficiency gains.",
+              "description": "Die Standardisierung der Arbeitsabläufe zum Verbessern und Nachrüsten von Schiffskomponenten kann zu gewaltigen Effizienzsteigerungen führen.",
               "feature_unlocks": [
                 "Ship Upkeep -5%",
                 "Ship Upgrade Cost -20%"
@@ -1783,7 +1783,7 @@
                   "base_weight": 150,
                   "category": "Militärtheorie",
                   "cost": 12000,
-                  "description": "Restructuring the chain of command and deciding what interdependencies are set between officers, make fleets more responsive and effective.",
+                  "description": "Die Umstrukturierung der Befehlskette und die Entscheidung, welche Abhängigkeiten zwischen Offizieren bestehen, machen Flotten reaktionsfähiger und effektiver.",
                   "feature_unlocks": [
                     "<b>Starbase Building</b>: Command Center",
                     "Ship Fire Rate +5%"
@@ -1823,7 +1823,7 @@
           "base_weight": 0,
           "category": "Neue Welten",
           "cost": 0,
-          "description": "Calculating required resources and gear required to establish a planetary colony allows us to herd brave pioneers into grand \"ark ships,\" confident that they will survive the long voyage across the stars to a new home.",
+          "description": "Durch die genaue Berechnung benötigter Ressourcen und Ausrüstung zur Etablierung einer Kolonie können wir tapfere Kolonisten nun an Bord von \"Archeschiffen\" gehen lassen, in denen sie die Reise durch den Weltraum überleben werden.",
           "feature_unlocks": [
             "<b>Ship Size</b>: Lithoid Meteorite",
             "<b>Ship Size</b>: Colony Ship",
@@ -1846,7 +1846,7 @@
               "base_weight": 90,
               "category": "Neue Welten",
               "cost": 3000,
-              "description": "By adjusting atmospheric filtering on a per-site basis to better filter out undesirable elements, colonial living conditions may be improved.",
+              "description": "Durch die Anpassung der atmosphärischen Filterung an die örtlichen Gegebenheiten können unerwünschte Luftbestandteile herausgefiltert und die Lebensbedingungen der Kolonisten auf diese Weise verbessert werden.",
               "feature_unlocks": [
                 "Habitability +5%"
               ],
@@ -1879,7 +1879,7 @@
                   "base_weight": 70,
                   "category": "Neue Welten",
                   "cost": 6000,
-                  "description": "Further study into the hazardous environments found on other planets help alleviate the difficulties that colonizers encounter in their day-to-day lives on foreign worlds.",
+                  "description": "Weiterführende Studien der gefährlichen Umweltbedingungen auf anderen Planeten helfen den Kolonisten dabei, die Schwierigkeiten zu bewältigen, mit denen sie es in ihrem Alltag auf fremden Welten zu tun bekommen.",
                   "feature_unlocks": [
                     "Habitability +5%"
                   ],
@@ -1912,7 +1912,7 @@
                       "base_weight": 50,
                       "category": "Neue Welten",
                       "cost": 12000,
-                      "description": "Extensive study into different soil types and their ability to support crops will help improve the living conditions of our settlers on foreign worlds.",
+                      "description": "Das intensive Studium verschiedener Bodentypen und ihrer Fähigkeit, Feldfrüchte mit Nährstoffen zu versorgen, wird die Lebensbedingungen unserer Siedler auf fremden Welten verbessern.",
                       "feature_unlocks": [
                         "Habitability +5%"
                       ],
@@ -1945,7 +1945,7 @@
                           "base_weight": 35,
                           "category": "Neue Welten",
                           "cost": 24000,
-                          "description": "Additional study into different planetary climates will allow us to settle our population on worlds previously thought too hostile to support them.",
+                          "description": "Das zusätzliche Studium verschiedener planetarer Klimata wird es uns ermöglichen, Welten zu besiedeln, die wir zuvor für zu lebensfeindlich gehalten haben.",
                           "feature_unlocks": [
                             "Habitability +5%"
                           ],
@@ -1989,7 +1989,7 @@
                       "base_weight": 32.5,
                       "category": "Neue Welten",
                       "cost": 8000,
-                      "description": "Through comprehensive study of irradiated environments we will allow our settlers to colonize worlds that have been devastated by nuclear warfare.",
+                      "description": "Unsere umfassenden Untersuchungen verstrahlter Umgebungen ermöglichen unseren Siedlern die Kolonisierung von Welten, die durch atomare Kriegsführung verwüstet wurden.",
                       "feature_unlocks": [
                         "Tomb World Habitability +20%"
                       ],
@@ -2041,7 +2041,7 @@
               "base_weight": 190,
               "category": "Biologie",
               "cost": 2500,
-              "description": "The colonization of alien worlds has opened up an entirely new field of biomedical research.",
+              "description": "Die Kolonisierung von Alien-Welten hat ein gänzlich neues Feld der biomedizinischen Forschung eröffnet.",
               "feature_unlocks": [
                 "<b>Building</b>: Gene Clinics"
               ],
@@ -2079,7 +2079,7 @@
                   "base_weight": 70,
                   "category": "Biologie",
                   "cost": 6000,
-                  "description": "As our empire grows, so does our understanding of our own biology. Advanced medical treatments on a cellular level have allowed for significant advancements in population health.",
+                  "description": "So wie unser Reich wächst, wächst auch das Verständnis über unsere Biologie. Fortgeschrittene medizinische Behandlungen auf zellulärer Ebene haben erhebliche Fortschritte in der Bevölkerungsgesundheit ermöglicht.",
                   "feature_unlocks": [
                     "<b>Building</b>: Cyto-Revitalization Centers"
                   ],
@@ -2125,7 +2125,7 @@
               "base_weight": 95,
               "category": "Neue Welten",
               "cost": 2500,
-              "description": "Many planets exhibit extensive subsurface voids. Subterranean exploration, exploitation, and construction techniques can greatly increase the habitable area of some worlds.",
+              "description": "Mit spezialisierten Aerosol-Baustabilisatoren können bestehende Sinklöcher schnell und sauber bereinigt werden, und auch unterirdische Hohlräume, die mitunter diese Sinklöcher hervorrufen.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2160,7 +2160,7 @@
               "base_weight": 95,
               "category": "Neue Welten",
               "cost": 2500,
-              "description": "Orbital systems of mirrors and shades can effect dramatic changes in planetary climates, when managed properly.",
+              "description": "Durch den Einsatz von Blitzverdampfungsmaschinen kann Gletschereis schnell und effizient geschmolzen werden, wenngleich auf Kosten erhöhter Temperaturen und atmosphärischer Feuchtigkeit im Einsatzgebiet.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2195,7 +2195,7 @@
               "base_weight": 95,
               "category": "Neue Welten",
               "cost": 2500,
-              "description": "Sapient races have been reclaiming swampland for thousands of years. A coordinated system of modular aquaducts, pump stations, chemical remediation crawlers and automated soil compactors can reclaim land at unprecedented speeds.",
+              "description": "Durch konzentrierte Entwässerung und Entgiftung kann Sumpfland vollständig beseitigt werden.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2230,7 +2230,7 @@
               "base_weight": 95,
               "category": "Neue Welten",
               "cost": 2500,
-              "description": "Thorough cataloging, gene sequencing, and computer modeling of exobotanical ecosystems, coupled with gene editing and dispersal mechanisms, will allow us to reshape alien plant communities to our liking.",
+              "description": "Blitzartige Waldzerstörung ist an sich nichts Revolutionäres. Sie in einem streng kontrollierten Gebiet mit engen Zeitvorgaben zu erreichen dagegen schon.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2265,7 +2265,7 @@
               "base_weight": 95,
               "category": "Neue Welten",
               "cost": 2500,
-              "description": "The process of soil deposition normally takes millions of years. With advanced fracking, chemical engineering, and hydraulic management technologies even the poorest substrate can be turned into fertile topsoil.",
+              "description": "Die Einführung von Hydrogels zu Stabilisierungszwecken ermöglicht die fast augenblickliche Verfestigung von Treibsand-Bassins.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2300,7 +2300,7 @@
               "base_weight": 95,
               "category": "Neue Welten",
               "cost": 2500,
-              "description": "Given enough processing power, networked sensors and distributed stations, even the ocean currents can be managed to a fine level of control.",
+              "description": "Spezialisierte Drohnen können riesige Sümpfe mechanisch bei minimalem Biozideinsatz von giftigem Kelp befreien.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2335,7 +2335,7 @@
               "base_weight": 75,
               "category": "Neue Welten",
               "cost": 5000,
-              "description": "Advances in material technology and deep-shaft mining techniques allow geo-engineering at previously unthinkable depths and temperatures. Magma hotspots can now be exploited, suppressed, or even relocated.",
+              "description": "Tektonische Stabilisierungsmethoden ermöglichen die Beruhigung aktiver Vulkane.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2370,7 +2370,7 @@
               "base_weight": 105,
               "category": "Neue Welten",
               "cost": 6000,
-              "description": "There is no simple solution to the problem of macro-scale reshaping of planetary crusts - only bigger trowels and orbitally-deployed drills.",
+              "description": "Für die Umgestaltung planetarer Krusten gibt es keine einfache Lösung auf Makroebene - nur größere Schaufeln und Orbitalbohrer.",
               "feature_unlocks": [
                 "<b>Feature : </b>Terraforming",
                 "<b>Edict</b>: Terraforming Gases"
@@ -2403,7 +2403,7 @@
                   "base_weight": 60,
                   "category": "Neue Welten",
                   "cost": 10000,
-                  "description": "By adapting planetary ecosystems to large-scale environmental changes we can turn terraformation into a less disruptive process.",
+                  "description": "Durch die Anpassung planetarer Ökosysteme auf großangelegte Umweltveränderungen können wir die einschneidenden Auswirkungen des Terraformings vermindern.",
                   "feature_unlocks": [
                     "<b>Feature : </b>Ecological Adaptation"
                   ],
@@ -2436,7 +2436,7 @@
                   "base_weight": 45,
                   "category": "Neue Welten",
                   "cost": 16000,
-                  "description": "By advancing our understanding of atmospheric transformation, we will be able to terraform even the most ecologically devastated worlds.",
+                  "description": "Indem wir unser Verständnis der atmosphärischen Umwandlung vorantreiben, werden wir auch die ökologisch verwüsteten Welten terraformen können.",
                   "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -2470,7 +2470,7 @@
               "base_weight": 75,
               "category": "Neue Welten",
               "cost": 5000,
-              "description": "With the advent of clean fusion, automation, and matter compression technologies, it was only a matter of time before mountain top removal became mountain range removal.",
+              "description": "Manchmal ist zwischen Terraforming und Vernichtung kaum ein Unterschied zu bemerken.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2505,7 +2505,7 @@
               "base_weight": 75,
               "category": "Neue Welten",
               "cost": 5000,
-              "description": "Tactical disruption of natural habitats combined with converging search-and-destroy patterns can effectively eliminate hostile wildlife in a very short span of time.",
+              "description": "Die taktische Störung natürlicher Habitate kann in Kombination mit konvergierenden Vernichtungsmustern in einer äußerst kurzen Zeitspanne feindselige Wildtiere auslöschen.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -2543,7 +2543,7 @@
           "base_weight": 75,
           "category": "Neue Welten",
           "cost": 5000,
-          "description": "Our future lies in the sea of stars.",
+          "description": "Unsere Zukunft liegt im Meer der Sterne.",
           "feature_unlocks": [
             "Starbase Capacity +2"
           ],
@@ -2570,7 +2570,7 @@
               "base_weight": 70,
               "category": "Militärtheorie",
               "cost": 6000,
-              "description": "A well-oiled war machine is the key to exerting influence on a galactic scale. Backed by the might of our military, we can lay claim to almost anything we want.",
+              "description": "Eine gut geölte Kriegsmaschinerie ist der Schlüssel zur galaxieweiten Einflussausübung. Mit unserem mächtigen Militär im Rücken können wir beanspruchen, was wir wollen.",
               "feature_unlocks": [
                 "Claim Influence Cost -10%",
                 "War Exhaustion Gain -10%"
@@ -2606,7 +2606,7 @@
                   "base_weight": 45,
                   "category": "Militärtheorie",
                   "cost": 16000,
-                  "description": "Further improvements to administration grant an extended power projection across the stars, and the military clout needed to enforce our demands.",
+                  "description": "Weitere administrative Verbesserungen erweitern unsere galaxieweite Machtprojektion und die zur Durchsetzung unserer Forderungen notwendige militärische Schlagkraft.",
                   "feature_unlocks": [
                     "Claim Influence Cost -10%",
                     "War Exhaustion Gain -10%"
@@ -2647,7 +2647,7 @@
               "base_weight": 40,
               "category": "Neue Welten",
               "cost": 20000,
-              "description": "We must have to courage to seize our fate and make true what was always meant to be.",
+              "description": "Wir müssen den Mut haben, unser Schicksal am Schopf zu packen und das wahr werden zu lassen, was schon immer sein sollte. Reduziert die Kriegsforderungskosten für \"Planet abtreten\" und \"Militärstation abtreten\" stark.",
               "feature_unlocks": [
                 "Starbase Capacity +2"
               ],
@@ -2683,7 +2683,7 @@
               "base_weight": 12.5,
               "category": "Neue Welten",
               "cost": 50000,
-              "description": "The immense logistical support networks needed to maintain an upgraded Starbase can be further improved, allowing us to support more of these stations.",
+              "description": "Die immensen logistischen Unterstützungsnetzwerke, die zur Aufrechterhaltung einer aufgerüsteten Sternenbasis benötigt werden, können weiter verbessert werden, wodurch wir mehr dieser Stationen unterstützen können.",
               "feature_unlocks": [
                 "Starbase Capacity +1"
               ],
@@ -2716,7 +2716,7 @@
           "base_weight": 0,
           "category": "Staatskunst",
           "cost": 0,
-          "description": "Through the development of macroscopic synaptic nodes, the will of the Hive will be strengthened.",
+          "description": "Durch die Entwicklung von makroskopischen synaptischen Knoten wird der Wille des Schwarms gestärkt.",
           "feature_unlocks": [
             "<b>Building</b>: Synaptic Nodes"
           ],
@@ -2741,7 +2741,7 @@
               "base_weight": 75,
               "category": "Staatskunst",
               "cost": 5000,
-              "description": "By clustering networks of macroscopic synaptic nodes, maximum meganeuron transmission per available surface area can be attained.",
+              "description": "Durch das Klustern von Netzwerken makroskopischer synaptischer Knoten kann eine maximale Meganeuron-Transmission pro verfügbarer Oberfläche erreicht werden.",
               "feature_unlocks": [
                 "<b>Building</b>: Synaptic Clusters",
                 "<b>Edict</b>: Synaptic Reinforcement"
@@ -2772,7 +2772,7 @@
                   "base_weight": 60,
                   "category": "Staatskunst",
                   "cost": 10000,
-                  "description": "The will of the Hive will be further strengthened and coordinated with the expansion and development of a massive nervous center of meganeurons.",
+                  "description": "Der Wille des Schwarms wird weiter gestärkt und koordiniert mit dem Ausbau und der Entwicklung eines massiven Nervensystems von Meganeuronen.",
                   "feature_unlocks": [
                     "<b>Building</b>: Confluence of Thought"
                   ],
@@ -2816,7 +2816,7 @@
           "base_weight": 0,
           "category": "Staatskunst",
           "cost": 0,
-          "description": "Pioneering use of holographic technology allows for the creation of artificial environments that seem as authentic as the real world. It is the next step of immersive entertainment.",
+          "description": "Die zukunftsweisende Nutzung holografischer Technologie ermöglicht die Schaffung künstlicher Umgebungen, die so authentisch sind wie die reale Welt. Es ist der nächste Schritt zur immersiven Unterhaltung.",
           "feature_unlocks": [
             "<b>Building</b>: Holo-Theatres"
           ],
@@ -2839,7 +2839,7 @@
               "base_weight": 90,
               "category": "Staatskunst",
               "cost": 3000,
-              "description": "These massive entertainment complexes is where dreams come true. Shopping malls, restaurants, amusement parks, virtual arcades, and more. You dream it - we are it!",
+              "description": "In diesem gewaltigen Unterhaltungskomplex werden Träume wahr. Einkaufszentren, Restaurants, Vergnügungsparks, virtuelle Arkaden, und vieles mehr. Sie träumen davon - wir haben es!",
               "feature_unlocks": [
                 "<b>Building</b>: Hyper-Entertainment Forums"
               ],
@@ -2879,7 +2879,7 @@
           "base_weight": 0,
           "category": "Staatskunst",
           "cost": 0,
-          "description": "Once a colony has been firmly established and pioneers turn into citizens, the need for a strong local government providing stability trumps the colonial need for flexibility.",
+          "description": "Nachdem eine Kolonie fest etabliert wurde und die Pioniere sich zu Siedlern gewandelt haben, übertrumpft das Bedürfnis einer starken lokalen Regierung das koloniale Bedürfnis von Flexibilität.",
           "feature_unlocks": [
             "<b>Building</b>: Precinct Houses",
             "<b>Building</b>: Sentinel Posts",
@@ -2906,7 +2906,7 @@
               "base_weight": 400,
               "category": "Staatskunst",
               "cost": 2000,
-              "description": "Ancient warring tribes, historical nations in conflict, now unified in empire. We must not, will not, crumble.",
+              "description": "Uralte, kriegführende Stämme, historische, im Konflikt stehende Nationen ... nun vereint in einem Reich. Wir dürfen und werden nicht auseinanderfallen.\" # We have progressed from warring tribes, from conflicting nations, to a unified Empire, a single will ready to grasp the stars.",
               "feature_unlocks": [
                 "Monthly Unity +2",
                 "<b>Feature : </b>Additional Edicts (Campaigns)"
@@ -2937,7 +2937,7 @@
                   "base_weight": 300,
                   "category": "Neue Welten",
                   "cost": 5000,
-                  "description": "Robust frameworks for local governance created on a per-case basis, to meet each colony's needs.",
+                  "description": "Robuste Rahmenbedingungen für die Lokalverwaltung werden auf Einzelfallbasis erstellt, um den Bedürfnissen jeder Kolonie zu entsprechen.",
                   "feature_unlocks": [
                     "<b>Building</b>: Hive Nexus",
                     "<b>Building</b>: Hall of Judgment",
@@ -2970,7 +2970,7 @@
                       "base_weight": 280,
                       "category": "Neue Welten",
                       "cost": 6000,
-                      "description": "Stronger alloys allow us to create prefabricated buildings, providing our colonies with the improved infrastructure.",
+                      "description": "Stärkere Legierungen ermöglichen es uns, vorgefertigte Gebäude zu errichten, die unseren Kolonien eine verbesserte Infrastruktur bieten.",
                       "feature_unlocks": [
                         "Building Slots +1",
                         "Colony Development Speed +25%"
@@ -3006,7 +3006,7 @@
                           "base_weight": 140,
                           "category": "Neue Welten",
                           "cost": 24000,
-                          "description": "Advances in metallurgy permit us to build vastly larger and more durable structures, greatly improving the infrastructure of our colonies.",
+                          "description": "Fortschritte in der Metallurgie ermöglichen es uns, weitaus größere und haltbarere Bauwerke zu errichten, wodurch die Infrastruktur unserer Kolonien erheblich verbessert werden kann.",
                           "feature_unlocks": [
                             "Building Slots +1",
                             "Colony Development Speed +25%"
@@ -3052,7 +3052,7 @@
                       "base_weight": 170,
                       "category": "Staatskunst",
                       "cost": 5000,
-                      "description": "Advancing our understanding of interactions with - and manipulations of - the xeno is a necessary step in forming more permanent interstellar alliances.",
+                      "description": "Das Voranbringen unseres Verständnisses von Interaktionen mit den Xeno und ihre Manipulation ist ein notwendiger Schritt, um langfristigere interstellare Bündnisse zu bilden.",
                       "feature_unlocks": [
                         "Diplomatic Weight +10%",
                         "<b>Building</b>: Embassy Complex",
@@ -3091,7 +3091,7 @@
                           "base_weight": 130,
                           "category": "Staatskunst",
                           "cost": 10000,
-                          "description": "The complexities of interstellar diplomacy necessitate the forming of bonds with foreign powers in order to further one's goals.",
+                          "description": "Die Komplexitäten der interstellaren Diplomatie machen es notwendig, Bündnisse mit fremden Mächten einzugehen, um die eigenen Ziele zu erreichen.",
                           "feature_unlocks": [
                             "Diplomatic Weight +10%",
                             "<b>Building</b>: Grand Embassy Complex"
@@ -3140,7 +3140,7 @@
                       "base_weight": 70,
                       "category": "Staatskunst",
                       "cost": 6000,
-                      "description": "Semi-independent units have proved critical to the success of the greater whole.",
+                      "description": "Halbunabhängige Einheiten haben sich als entscheidend für den Erfolg des Ganzen erwiesen.",
                       "feature_unlocks": [
                         "Monthly Influence +1",
                         "Available Envoys +1"
@@ -3177,7 +3177,7 @@
                           "base_weight": 50,
                           "category": "Staatskunst",
                           "cost": 12000,
-                          "description": "Initiative and some measure of ambition must be promoted in our autonomous leader units, while still making certain that they do not stray too far from the directives of the core intelligence.",
+                          "description": "Initiative und ein gewisses Maß an Ehrgeiz müssen bei unseren autonomen Anführereinheiten gefördert werden, wobei immer sichergestellt wird, dass sie nicht zu weit von den Richtlinien der Kernintelligenz abweichen.",
                           "feature_unlocks": [
                             "Leader Level Cap +1",
                             "Leader Upkeep -10%",
@@ -3222,7 +3222,7 @@
                       "base_weight": 70,
                       "category": "Staatskunst",
                       "cost": 6000,
-                      "description": "The Empire lives, the Empire breathes. We may make up its body, but it is not for the left hand to know what the right hand is doing.",
+                      "description": "Das Reich lebt, das Reich atmet. Wir mögen ja seinen Körper stellen, aber trotzdem geht es die linke Hand nichts an, was die rechte tut.\" # Our Empire is a living thing, all of us vital organs in its future well-being. OR At some point the system took on a purpose of its own.",
                       "feature_unlocks": [
                         "Faction Influence Gain +1",
                         "<b>Starbase Building</b>: Deep Space Black Site"
@@ -3263,7 +3263,7 @@
                       "base_weight": 97.5,
                       "category": "Staatskunst",
                       "cost": 8000,
-                      "description": "Planets are big and production sites are often separated by vast distances. A coherent strategy for making certain that everyone is pulling in the same direction is often needed.",
+                      "description": "Planeten sind groß und Produktionsstätten sind oft durch große Entfernungen getrennt. Eine kohärente Strategie, die sicherstellt, dass alle in die gleiche Richtung ziehen, wird daher oft benötigt.",
                       "feature_unlocks": [
                         "<b>Edict</b>: Industrial Subsidies",
                         "<b>Building</b>: Resource Processing Center",
@@ -3304,7 +3304,7 @@
                       "base_weight": 65,
                       "category": "Staatskunst",
                       "cost": 8000,
-                      "description": "Continuous, asynchronous analysis of disparate data sets allows for the accurate modeling of hitherto-unpredictable fluctuations in social currents.",
+                      "description": "Eine kontinuierliche, asynchrone Analyse uneinheitlicher Datensätze ermöglicht die akkurate Simulation bislang unvorhersehbarer Fluktuationen in sozialen Strömungen.",
                       "feature_unlocks": [
                         "<b>Building</b>: Alpha Hub",
                         "<b>Building</b>: Auto-Curating Vault",
@@ -3345,7 +3345,7 @@
                       "base_weight": 200,
                       "category": "Staatskunst",
                       "cost": 12000,
-                      "description": "The administrative needs of a star empire are as numerous as they are complex. We will rise to the occasion.",
+                      "description": "Die administrativen Bedürfnisse eines Sternenreichs sind so zahlreich wie kompliziert. Wir werden diese Aufgabe meistern.",
                       "feature_unlocks": [
                         "Civic Slots +1",
                         "<b>Building</b>: System Capital-Complex",
@@ -3379,7 +3379,7 @@
                       "base_weight": 50,
                       "category": "Staatskunst",
                       "cost": 12000,
-                      "description": "Finding aspects of the self within the group is natural and inevitable; eventually those shared aspects must be valued higher than individual identities.",
+                      "description": "Individuelle Aspekte in der Gruppe zu finden, ist natürlich und unvermeidbar. Letztendlich aber müssen die geteilten Aspekte höher gestellt werden als einzelne Individuen.",
                       "feature_unlocks": [
                         "Leader Level Cap +1",
                         "Leader Upkeep -10%"
@@ -3420,7 +3420,7 @@
                       "base_weight": 22.5,
                       "category": "Staatskunst",
                       "cost": 16000,
-                      "description": "By engaging in free trade of goods and services we allow for a more specialized economy, where an individual can excel in a narrow field and trade for their needs.",
+                      "description": "Indem wir am freien Handel mit Gütern und Dienstleistungen teilnehmen, ermöglichen wir eine spezialisiertere Wirtschaft. Jedes Individuum kann sich darauf konzentrieren, was es gut beherrscht, und seine restlichen Bedürfnisse über den Handel decken.",
                       "feature_unlocks": [
                         "<b>Building</b>: Galactic Stock Exchange"
                       ],
@@ -3467,7 +3467,7 @@
                   "base_weight": 95,
                   "category": "Staatskunst",
                   "cost": 2500,
-                  "description": "The progress we make calls for a new, nimbler form of administration that may aid rather than hinder us in our pursuits.",
+                  "description": "Unser Fortschritt ruft nach einer neuen, beweglicheren Verwaltungsform, die uns bei unserem Streben unterstützt, anstatt zu behindern.\" # The leaps/progress/discoveries we have made demand a new form of administrative system, one that can be shaped by opportunity rather than limit it.",
                   "feature_unlocks": [
                     "Administrative Capacity +5%"
                   ],
@@ -3501,7 +3501,7 @@
                       "base_weight": 85,
                       "category": "Staatskunst",
                       "cost": 4000,
-                      "description": "Local administrative developments allow for closer supervision of colonial affairs without excessively burdening central decision-making.",
+                      "description": "Lokale administrative Entwicklungen ermöglichen die genauere Überwachung kolonialer Angelegenheiten, ohne die zentrale Entscheidungsfindung allzu sehr zu belasten.",
                       "feature_unlocks": [
                         "<b>Building</b>: Administrative Park",
                         "Administrative Capacity +10",
@@ -3538,7 +3538,7 @@
                           "base_weight": 65,
                           "category": "Staatskunst",
                           "cost": 8000,
-                          "description": "Multiple administrative strata efficiently surface only the most vital information to the upper levels of government.",
+                          "description": "Mehrere administrative Stufen sorgen dafür, das nur entscheidende Informationen die oberen Regierungsebenen erreichen.",
                           "feature_unlocks": [
                             "Administrative Capacity +10",
                             "Base Intel Level +10",
@@ -3575,7 +3575,7 @@
                               "base_weight": 12.5,
                               "category": "Neue Welten",
                               "cost": 50000,
-                              "description": "Restructuring the managerial web linking core worlds to the capital can help alleviate the administrative stressors and information chokepoints that frequently arise within a budding empire.",
+                              "description": "Über die Umstrukturierung des Verwaltungsnetzes, das Kernwelten mit der Hauptwelt verbindet, können wir die administrativen Stressfaktoren und Informationsengpässe lindern, zu denen es bei aufstrebenden Reichen oft kommt.",
                               "feature_unlocks": [
                                 "Administrative Capacity +15"
                               ],
@@ -3611,7 +3611,7 @@
                       "base_weight": 85,
                       "category": "Staatskunst",
                       "cost": 4000,
-                      "description": "Improved algorithms for processing and organizing vast amounts of data has streamlined decision-making and information-sharing throughout the empire.",
+                      "description": "Verbesserte Algorithmen für die Verarbeitung und Organisation großer Datenmengen haben die Entscheidungsfindung und den Informationsaustausch im gesamten Reich optimiert.",
                       "feature_unlocks": [
                         "Administrative Capacity +5%"
                       ],
@@ -3650,7 +3650,7 @@
                   "base_weight": 70,
                   "category": "Staatskunst",
                   "cost": 6000,
-                  "description": "As our planets become more developed, we can gain significant improvements to our throughput.",
+                  "description": "Da unsere Planeten immer weiter entwickelt sind, können wir unseren Durchsatz erheblich steigern.",
                   "feature_unlocks": [
                     "Capital Buildings:\n  Resources from £job£ Jobs: +10%\n  Upkeep from £job£ Jobs: +10%"
                   ],
@@ -3681,7 +3681,7 @@
                       "base_weight": 70,
                       "category": "Staatskunst",
                       "cost": 12000,
-                      "description": "Increased population density gives us an opportunity to further increase productivity.",
+                      "description": "Eine höhere Bevölkerungsdichte gibt uns die Möglichkeit, die Produktivität weiter zu steigern.",
                       "feature_unlocks": [
                         "Upgraded Capital Buildings:\n  Resources from £job£ Jobs: +20%\n  Upkeep from £job£ Jobs: +20%"
                       ],
@@ -3717,7 +3717,7 @@
                           "base_weight": 70,
                           "category": "Staatskunst",
                           "cost": 24000,
-                          "description": "Continued advancements in technology allow our most developed planets to reach productivity levels unheard of in earlier times.",
+                          "description": "Ständige Fortschritte in der Technologie ermöglichen es unseren am weitesten entwickelten Planeten, Produktivitätsniveaus zu erreichen, die in früheren Zeiten schier unvorstellbar waren.",
                           "feature_unlocks": [
                             "Major Capital Buildings:\n  Resources from £job£ Jobs: +30%\n  Upkeep from £job£ Jobs: +30%"
                           ],
@@ -3767,7 +3767,7 @@
           "base_weight": 0,
           "category": "Staatskunst",
           "cost": 0,
-          "description": "With new planetary markets comes new opportunities for commerce. Business will be booming.",
+          "description": "Mit neuen planetaren Märkten eröffnen sich neue Möglichkeiten für den Handel. Das Geschäft boomt.",
           "feature_unlocks": [
             "<b>Building</b>: Commercial Zones"
           ],
@@ -3790,7 +3790,7 @@
               "base_weight": 90,
               "category": "Staatskunst",
               "cost": 3000,
-              "description": "Trade across interstellar distances presents a new set of challenges to overcome. It is critical to achieve the transfer of goods from one system to another in a timely and above all cost efficient manner.",
+              "description": "Der Handel über interstellare Entfernungen bringt eine Reihe neuer Herausforderungen, die es zu bewältigen gibt. Es ist wichtig, den Transfer von Waren von einem zum anderen System zeit- und vor allem kosteneffizient zu bewerkstelligen.",
               "feature_unlocks": [
                 "<b>Starbase Building</b>: Offworld Trading Company"
               ],
@@ -3823,7 +3823,7 @@
                   "base_weight": 130,
                   "category": "Staatskunst",
                   "cost": 8000,
-                  "description": "As we journeyed into the cosmos and ventured beyond our home system, we also entered a new era of economics. New markets are appearing a startling rate, and economic theorists are struggling to keep up.",
+                  "description": "Als wir in den Kosmos reisten und uns über unser Heimatsystem hinauswagten, traten wir auch in eine neue Ära der Ökonomie ein. Neue Märkte müssen erschlossen werden und Wirtschaftstheoretiker haben Mühe mitzuhalten.",
                   "feature_unlocks": [
                     "<b>Starbase Building</b>: Hyperlane Registrar",
                     "<b>Building</b>: Commerce Megaplexes"
@@ -3869,7 +3869,7 @@
           "base_weight": 0,
           "category": "Staatskunst",
           "cost": 0,
-          "description": "An understanding of a shared past is necessary in order to make any significant strides into the future.",
+          "description": "Für bedeutende Schritte in die Zukunft ist das Verständnis einer gemeinsamen Vergangenheit erforderlich.",
           "feature_unlocks": [
             "<b>Edict</b>: Sacrifice: Bounty",
             "<b>Edict</b>: Sacrifice: Togetherness",
@@ -3901,7 +3901,7 @@
               "base_weight": 90,
               "category": "Staatskunst",
               "cost": 3000,
-              "description": "Physical reminders of how far we have come both instill a reverence for past achievements and bolster ambitions for the future.",
+              "description": "Physische Erinnerungen daran, wie weit wir es geschafft haben, flößen Ehrfurcht vor vergangenen Errungenschaften ein und machen Mut für zukünftige Bestrebungen.",
               "feature_unlocks": [
                 "<b>Building</b>: Simulation Center",
                 "<b>Building</b>: Heritage Site",
@@ -3936,7 +3936,7 @@
                   "base_weight": 65,
                   "category": "Staatskunst",
                   "cost": 8000,
-                  "description": "Not all research into faster-than-light communication channels produces useful results, but some outcomes may find new purpose in bringing our people together.",
+                  "description": "Nicht alle Forschungen im Bereich ÜL-Kommunikationskanäle bringen nützliche Resultate hervor. Manche aber können dazu dienen, unser Volk näher zusammenbringen.",
                   "feature_unlocks": [
                     "<b>Building</b>: Hypercomms Forum",
                     "<b>Building</b>: Synergy Forum",
@@ -3980,7 +3980,7 @@
               "base_weight": 75,
               "category": "Staatskunst",
               "cost": 5000,
-              "description": "Seeing is believing, and belief begets reality.",
+              "description": "Sehen ist glauben, und Glauben bedingt Realität.",
               "feature_unlocks": [
                 "<b>Building</b>: Grim Holotemple",
                 "<b>Building</b>: Holotemple"
@@ -4014,7 +4014,7 @@
                   "base_weight": 60,
                   "category": "Staatskunst",
                   "cost": 10000,
-                  "description": "Through our understanding of physics and field manipulation, our holy places shall we seen and felt by all.",
+                  "description": "Durch unser Verständnis von Physik und Feldmanipulation werden unsere heiligen Orte von allen gesehen und gefühlt.",
                   "feature_unlocks": [
                     "<b>Building</b>: Temple of Grand Sacrifice",
                     "<b>Building</b>: Sacred Nexus"
@@ -4052,7 +4052,7 @@
                       "base_weight": 40,
                       "category": "Staatskunst",
                       "cost": 20000,
-                      "description": "Leaving our planetary cradle has opened us up to a new understanding of faith, and its place in a wider context.",
+                      "description": "Das Verlassen unserer planetaren Wiege hat uns für ein neues Verständnis des Glaubens und seiner Einordnung in einen breiteren Kontext geöffnet.",
                       "feature_unlocks": [
                         "<b>Building</b>: Citadel of Faith"
                       ],
@@ -4101,7 +4101,7 @@
           "base_weight": 90,
           "category": "Staatskunst",
           "cost": 3000,
-          "description": "Cognition is little but the processing of sensory input. It can be altered.",
+          "description": "Wahrnehmung ist kaum mehr als die Verarbeitung von Reizeinströmungen. Sie kann verändert werden.",
           "feature_unlocks": [
             "<b>Building</b>: Slave Processing Facility",
             "<b>Army</b>: Slave Army"
@@ -4131,7 +4131,7 @@
               "base_weight": 35,
               "category": "Staatskunst",
               "cost": 6000,
-              "description": "Through the creation of special slave-breeding worlds, we can ensure that we will always have a steady supply of disposable laborers.",
+              "description": "Durch die Schaffung spezieller Sklaven-Zuchtwelten können wir sicherstellen, dass wir ständig verfügbare Arbeitskräfte haben.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": false,
@@ -4171,7 +4171,7 @@
           "base_weight": 105,
           "category": "Staatskunst",
           "cost": 6000,
-          "description": "The purpose of one is the purpose of all. Together, we are greater than the sum of our parts.",
+          "description": "Der Zweck des Einen ist der Zweck von allen. Zusammen sind wir größer als die Summe unserer Teile.",
           "feature_unlocks": [
             "Amenities +5%",
             "Deviancy -15%"
@@ -4197,7 +4197,7 @@
               "base_weight": 65,
               "category": "Staatskunst",
               "cost": 8000,
-              "description": "Efficiency in all things.",
+              "description": "Effizienz in allen Belangen.",
               "feature_unlocks": [
                 "Resources from £job£ Jobs +5%"
               ],
@@ -4232,7 +4232,7 @@
               "base_weight": 65,
               "category": "Staatskunst",
               "cost": 12000,
-              "description": "Together, we build the future.",
+              "description": "Zusammen errichten wir die Zukunft.",
               "feature_unlocks": [
                 "Resources from £job£ Jobs +5%"
               ],
@@ -4271,7 +4271,7 @@
           "base_weight": 105,
           "category": "Staatskunst",
           "cost": 6000,
-          "description": "It is circumstance that dictates what is moral. Define the circumstances, and ethics is like clay in your hands.",
+          "description": "Die Umstände schreiben vor, was moralisch gut und schlecht ist. Wenn man die Umstände definiert, kann man die Moral wie Ton formen.",
           "feature_unlocks": [
             "Crime -15%",
             "Amenities +5%"
@@ -4297,7 +4297,7 @@
               "base_weight": 32.5,
               "category": "Staatskunst",
               "cost": 8000,
-              "description": "Through the development of special penal worlds, criminals can be rehabilitated through honest, hard labor. Some may be in need of permanent rehabilitation.",
+              "description": "Durch die Entwicklung spezieller Strafkolonien können Kriminelle durch harte Arbeit rehabilitiert werden. Einige benötigen möglicherweise eine dauerhafte Rehabilitation.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": true,
@@ -4335,7 +4335,7 @@
               "base_weight": 32.5,
               "category": "Staatskunst",
               "cost": 8000,
-              "description": "With careful study devoted to landscaping, climate control, and the science of fun,  construction of entire worlds dedicated to leisure can be made possible.",
+              "description": "Durch sorgfältiges Studium der Landschaftsgestaltung, Klimatisierung und der Wissenschaft des Spaßes kann der Bau ganzer Freizeitwelten ermöglicht werden.",
               "feature_unlocks": [],
               "is_dangerous": false,
               "is_rare": true,
@@ -4372,7 +4372,7 @@
               "base_weight": 75,
               "category": "Staatskunst",
               "cost": 12000,
-              "description": "Thinking outside the box merely places you in another, somewhat larger box.",
+              "description": "Wenn man über den Tellerrand hinausblickt, sieht man nur einen etwas größeren Teller.",
               "feature_unlocks": [
                 "Resources from £job£ Jobs +5%"
               ],
@@ -4407,7 +4407,7 @@
               "base_weight": 12.5,
               "category": "Staatskunst",
               "cost": 50000,
-              "description": "More aggressive information campaigns improve the populace's receptiveness to Edicts.",
+              "description": "Über aggressivere Informationskampagnen kann die Aufnahmebereitschaft der Bevölkerung für Erlasse verbessert werden.",
               "feature_unlocks": [
                 "Edict Duration +10%"
               ],
@@ -4441,7 +4441,7 @@
           "base_weight": 32.5,
           "category": "Psionik",
           "cost": 8000,
-          "description": "The mind is in many ways a reflection of the universe itself, a microcosmos. All species may not reach this insight, but their minds are tools greater than any other.",
+          "description": "Der Verstand ist in vielerlei Hinsicht eine Reflektion des Universums selbst, eine Art Mikrokosmos. Zu dieser Einsicht mögen nicht alle Spezies gelangen, aber ihr Verstand ist ein größeres Werkzeug als alle anderen.",
           "feature_unlocks": [
             "Empire Sprawl from Pops -10%"
           ],
@@ -4475,7 +4475,7 @@
               "base_weight": 25,
               "category": "Psionik",
               "cost": 12000,
-              "description": "Once fully adapted to the basics of Psionics, the mind is capable of connecting to other individuals, becoming something greater.",
+              "description": "Nachdem sich der Verstand einmal an die Grundlagen der Psionik angepasst hat, kann er sich mit anderen Individuen verbinden und zu etwas Größerem werden.",
               "feature_unlocks": [
                 "<b>Army</b>: Psionic Army"
               ],
@@ -4516,7 +4516,7 @@
                   "base_weight": 20,
                   "category": "Psionik",
                   "cost": 20000,
-                  "description": "Advances in the field of Psionics suggest the possibility of creating combat computers capable of reading and analysing the impulses of telepathic operatives before they are cognitively processed.",
+                  "description": "Fortschritte im Bereich der Psionik lassen darauf schließen, dass es möglich ist, Gefechtscomputer zu entwickeln, die in der Lage sind, die Impulse telepathischen Bedienungspersonals zu lesen und zu analysieren, bevor sie kognitiv verarbeitet wurden.",
                   "feature_unlocks": [
                     "<b>Component</b>: Precognitive Interface"
                   ],
@@ -4555,7 +4555,7 @@
                       "base_weight": 2.5,
                       "category": "Psionik",
                       "cost": 40000,
-                      "description": "The Psi Jump Drive harnesses the psi energies emitted by the crew to force the vessel through the very fabric of reality, instantly \"jumping\" vast distances.",
+                      "description": "Der Psi-Sprungantrieb nutzt die Psi-Energien der Besatzung, um das Schiff direkt durch das Realitätsgefüge zu zwingen. Dadurch können große Entfernungen quasi per \"Sprung\" überbrückt werden.",
                       "feature_unlocks": [
                         "<b>Component</b>: Psi Jump Drive",
                         "<b>Feature : </b>Jump Drive Travel"
@@ -4598,7 +4598,7 @@
                   "base_weight": 20,
                   "category": "Psionik",
                   "cost": 20000,
-                  "description": "Telepaths can monitor the citizenry for incorrect thoughts, but with some study they could also correct thought abberations that they find.",
+                  "description": "Telepathen können die Bürger auf falsche Gedanken hin überwachen und nach gewissen Forschungen könnten sie auch in der Lage sein, von ihnen gefundene Gedankenstränge, die von der Norm abweichen, zu korrigieren.",
                   "feature_unlocks": [
                     "<b>Edict</b>: Thought Enforcement"
                   ],
@@ -4644,7 +4644,7 @@
               "base_weight": 60,
               "category": "Psionik",
               "cost": 10000,
-              "description": "An extremely rare aerosol of exotic particles. It has been deposited on a number of worlds through meteor impacts, but its true origin is a mystery. If ingested by psionically-gifted individuals, Zro acts as a very potent (and addictive) drug that enhances Psi abilities.",
+              "description": "Ein extrem seltenes Aerosol aus exotischen Partikeln. Es gibt einige durch Meteoriteneinschläge hervorgerufene Vorkommen, doch der eigentliche Ursprung ist unbekannt. Wenn Zro von psionisch begabten Individuen eingeatmet wird, wirkt es wie eine äußerst starke Droge, welche die Psi-Fähigkeiten verstärkt.",
               "feature_unlocks": [
                 "<b>Reveals Resource</b>: Zro"
               ],
@@ -4688,7 +4688,7 @@
           "base_weight": 95,
           "category": "Biologie",
           "cost": 2500,
-          "description": "Studying the fauna of other worlds gives insight into alien behaviors, allowing us to identify and domesticate docile entities.",
+          "description": "Das Studium der Fauna anderer Welten gibt uns Einblick in fremde Verhaltensweisen und ermöglicht uns, sanftmütige Wesen zu identifizieren und zu zähmen.",
           "feature_unlocks": [
             "<b>Building</b>: Alien Zoo"
           ],
@@ -4719,7 +4719,7 @@
           "base_weight": 65,
           "category": "Staatskunst",
           "cost": 8000,
-          "description": "This corporate agency promotes a wide variety of interstellar tourist attractions, as well as offering employment packages and signing bonuses to potential emigrants interested in relocating to corporate space.",
+          "description": "Diese Unternehmensagentur fördert eine Vielzahl interstellarer Touristenattraktionen und bietet potenziellen Auswanderern, die an einem Umzug in ein anderes Unternehmensumfeld interessiert sind, Beschäftigungspakete und Boni.",
           "feature_unlocks": [
             "<b>Building</b>: Xeno-Outreach Agency"
           ],
@@ -4747,7 +4747,7 @@
           "base_weight": 65,
           "category": "Staatskunst",
           "cost": 8000,
-          "description": "A luxurious resort complex for high ranking corporate officers. Here they can sample the local planetary culture in a high security environment.",
+          "description": "Ein luxuriöser Ferienkomplex für hochrangige Führungskräfte. Hier können sie die lokale planetarische Kultur in einer Hochsicherheitsumgebung ausprobieren.",
           "feature_unlocks": [
             "<b>Building</b>: Executive Retreat"
           ],
@@ -4775,7 +4775,7 @@
           "base_weight": 97.5,
           "category": "Staatskunst",
           "cost": 8000,
-          "description": "Through the establishment of weather-controlled rural communes, we can support a larger population without disrupting our agrarian way of life.",
+          "description": "Durch die Gründung wettergeführter ländlicher Gemeinden können wir eine größere Bevölkerung unterstützen, ohne unsere landwirtschaftliche Lebensweise zu stören.",
           "feature_unlocks": [
             "Agriculture District Housing: +1"
           ],
@@ -4801,7 +4801,7 @@
           "base_weight": 12.5,
           "category": "Staatskunst",
           "cost": 40000,
-          "description": "Our history is a repeating cycle of dramatic technological, political, and cultural leaps; these leaps are often preceded by periods of upheaval and followed by times of relative stability. By identifying the core, recurring premises of these leaps, we may be able to effectively short-circuit the cycle for our own benefit.",
+          "description": "Unsere Geschichte ist ein wiederkehrender Kreislauf dramatischer technologischer, politischer und kultureller Sprünge. Vor Letzteren gibt es oftmals Perioden der Umwälzung, danach dann Zeiten relativer Stabilität. Indem wir die wiederkehrenden Kernprämissen dieser Sprünge identifizieren, können wir den Kreislauf zu unserem Vorteil verkürzen.",
           "feature_unlocks": [
             "Ascension Perks Unlocked +1",
             "<b>Feature : </b>Unity Ambitions"

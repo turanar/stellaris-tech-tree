@@ -6,7 +6,7 @@
     "base_weight": 0,
     "category": "Partículas",
     "cost": 2500,
-    "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
+    "description": "Ao extrair a natureza entrópica do Vazio Nulo, este raio consegue de fato destruir energia.",
     "feature_unlocks": [
       "<b>Component</b>: Large Null Void Beam",
       "<b>Component</b>: Medium Null Void Beam",
@@ -31,7 +31,7 @@
     "base_weight": 60,
     "category": "Manipulação de Campo",
     "cost": 4000,
-    "description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
+    "description": "O universo irresistivelmente tende a ir para frente e para trás. Esta tendência não pode ser revertida... mas pode ser subvertida, por um preço.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -54,7 +54,7 @@
     "base_weight": 60,
     "category": "Estudo de Estado",
     "cost": 4000,
-    "description": "A set of social protocols based on paradoxical intuition, and on love. When we know the System of the Loop, we learn that we can influence by receiving instructions, as well as giving them.",
+    "description": "Um conjunto de protocolos sociais baseados na intuição paradoxal, e no amor. Quando conhecemos o Sistema do Loop, aprendemos que podemos influenciá-lo ao receber instruções, bem como dá-las.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -75,7 +75,7 @@
         "base_weight": 60,
         "category": "Partículas",
         "cost": 10000,
-        "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+        "description": "Quando um paradoxo temporal se torna embaralhado, um tipo de consciência surge, com suas próprias necessidades, seus próprios desejos. Isso é o que ocorreu com a consciência que alguns chamam de Minhoca em Espera. Se conseguirmos nos alinhar com essa consciência, talvez poderemos atingir um certo tipo de imortalidade.",
         "feature_unlocks": [
           "<b>Building</b>: Omega Alignment"
         ],
@@ -113,7 +113,7 @@
     "base_weight": 60,
     "category": "Partículas",
     "cost": 10000,
-    "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+    "description": "Quando um paradoxo temporal se torna embaralhado, um tipo de consciência surge, com suas próprias necessidades, seus próprios desejos. Isso é o que ocorreu com a consciência que alguns chamam de Minhoca em Espera. Se conseguirmos nos alinhar com essa consciência, talvez poderemos atingir um certo tipo de imortalidade.",
     "feature_unlocks": [
       "<b>Building</b>: Omega Alignment"
     ],
@@ -148,7 +148,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 6000,
-    "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
+    "description": "Ao cultivar Amebas Espaciais em cativeiro, podemos programar seus flagelos simbióticos para agirem como naves de ataque orgânicas para nossa marinha.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Amoeba Flagella"
     ],
@@ -171,7 +171,7 @@
     "base_weight": 0,
     "category": "Ciência do vazio",
     "cost": 48000,
-    "description": "A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.\n\nWhen the star detonates, ALL colonies, megastructures, and stations in the system are destroyed - including our own. All fleets in the system will go MIA. The Star-Eater itself is the only exception.",
+    "description": "Um raio de energia taquiônica direcionada é disparado na estrela, causando uma supernova. A energia incrível lançada por este evento então é usada para gerar grandes quantidades de matéria escura.\\n\\nQuando a estrela detona, TODAS as colônias, megaestruturas e estações no sistema são destruídas, incluindo a nossa. Todas as frotas no sistema ficam desaparecidas. A única exceção é o comedor de estrelas.§!",
     "feature_unlocks": [
       "<b>Component</b>: Star Cracker"
     ],
@@ -198,7 +198,7 @@
     "base_weight": 0,
     "category": "Materiais",
     "cost": 6000,
-    "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+    "description": "Ao infundir blindagem de armadura com matéria Cristalina conseguimos melhorar ainda mais a durabilidade dos cascos protetores de nossas naves.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Medium Crystal-Infused Plating",
       "<b>Component</b>: Large Crystal-Infused Plating",
@@ -225,7 +225,7 @@
     "base_weight": 0,
     "category": "Materiais",
     "cost": 16000,
-    "description": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
+    "description": "Introduzir matéria Cristalina ao processo de forja melhora ainda mais as qualidades ultra-duras de metais infundidos com cristais.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Large Crystal-Forged Plating",
       "<b>Component</b>: Small Crystal-Forged Plating",
@@ -250,7 +250,7 @@
     "base_weight": 0,
     "category": "Materiais",
     "cost": 50000,
-    "description": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
+    "description": "As escamas do Dragonete do Éter são feitas de muitas camadas de nanoestruturas minerais únicas. Técnicas de manufatura não ortodoxas permitem-nos reproduzir de perto estas estruturas auto-reparadoras.",
     "feature_unlocks": [
       "<b>Component</b>: Large Dragonscale Armor",
       "<b>Component</b>: Medium Dragonscale Armor",
@@ -275,7 +275,7 @@
     "base_weight": 0,
     "category": "Manipulação de Campo",
     "cost": 48000,
-    "description": "A Dyson Sphere fully envelops a given star, converting all solar output directly to £energy£ Energy Credits.",
+    "description": "Uma Esfera de Dyson! envolve completamente uma estrela qualquer, convertendo toda a produção solar diretamente em £energy£ Créditos Energéticos.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -305,7 +305,7 @@
     "base_weight": 0,
     "category": "Computação",
     "cost": 50000,
-    "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.",
+    "description": "Apesar de produzir resultados na média em testes padrões, a precisão dos algoritmos de previsão do Decodificador Enigmático aumenta conforme o plano de voo do alvo se torna mais instável.",
     "feature_unlocks": [
       "<b>Component</b>: Enigmatic Decoder"
     ],
@@ -328,7 +328,7 @@
     "base_weight": 0,
     "category": "Computação",
     "cost": 50000,
-    "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
+    "description": "O Decodificador Enigmático embaralha os dados de voo usando um projeto indeterminável, antes de alimentar novamente ao comando da frota.",
     "feature_unlocks": [
       "<b>Component</b>: Enigmatic Encoder"
     ],
@@ -351,7 +351,7 @@
     "base_weight": 0,
     "category": "Partículas",
     "cost": 48000,
-    "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
+    "description": "Ao aplicar princípios de manipulação energética da 5ª dimensão em planos dimensionais menores, é possível criar armas energéticas poderosas.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Medium Matter Disintegrator",
       "<b>Component</b>: Small Matter Disintegrator",
@@ -380,7 +380,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 8000,
-    "description": "Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.",
+    "description": "Ovos da Mortenascida evoluíram para aguentar as condições duras do espaço ao absorver e conservar energia da sua estrela mais próxima.",
     "feature_unlocks": [
       "£energy£ Energy Credits from £job£ Jobs +5%"
     ],
@@ -403,7 +403,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 32000,
-    "description": "No longer will we be limited by the basic biological structure of a species when striving to improve them. DNA is just another material to be shaped as the sculptor wills it.",
+    "description": "Não mais estaremos limitados à estrutura biológica básica de uma espécie quando lutarmos para aprimorá-la. O DNA é só mais um material para ser esculpido conforme a vontade do escultor.",
     "feature_unlocks": [
       "<b>Feature : </b>Genetic Resequencing",
       "<b>Feature : </b>Advanced Traits"
@@ -427,7 +427,7 @@
     "base_weight": 0,
     "category": "Partículas",
     "cost": 12000,
-    "description": "The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.",
+    "description": "Os Portões-L desafiam nossa compreensão atual de mecânica subespacial. Isso deve ser resolvido antes de eles poderem ser abertos para viagem.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -450,7 +450,7 @@
     "base_weight": 0,
     "category": "Manipulação de Campo",
     "cost": 48000,
-    "description": "The Matter Decompressor lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
+    "description": "O Descompressor de Matéria! capta a gravidade de um buraco negro, formando uma sonda de forças gravitacionais para recuperar £minerals£ Minerais da singularidade.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -480,7 +480,7 @@
     "base_weight": 0,
     "category": "Partículas",
     "cost": 5000,
-    "description": "Using strong-focus lenses in combination with an oscillating firing frequence help create lasers strong enough to mine asteroids, or shoot down hostiles.",
+    "description": "Usar lentes de foco forte combinadas a uma frequência de disparos oscilante ajuda a criar lasers fortes o suficiente para serem usados em minas de asteróides ou para abater inimigos.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Medium Cutting Laser",
       "<b>Component</b>: Small Cutting Laser"
@@ -504,7 +504,7 @@
     "base_weight": 0,
     "category": "Ciência do vazio",
     "cost": 48000,
-    "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
+    "description": "Um sistema de auto-reparo de casco que consiste de bilhões de nanomáquinas microscópicas foi encontrado entre os restos fumegantes do Escavador, e foi reutilizado para nossos usos próprios. Não sabemos se o Escavador saqueou este sistema de um naufrágio antigo, ou se foi originalmente construído com ele.",
     "feature_unlocks": [
       "<b>Component</b>: Nanite Repair System"
     ],
@@ -527,7 +527,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 20000,
-    "description": "When tailored to a species' genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
+    "description": "Ao ser feito sob medida para o genoma de uma espécie, esta forma de engenharia de tecido possui propriedades neuroregenerativas intensivas, aumentando significativamente o desenvolvimento de neurônios, axônios e sinapses no seu destinatário.",
     "feature_unlocks": [
       "Leader Level Cap +1",
       "Species Leader Exp Gain +25%"
@@ -551,7 +551,7 @@
     "base_weight": 0,
     "category": "Propulsão",
     "cost": 8000,
-    "description": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
+    "description": "Este sistema de gerenciamento de bombardeio orbital lança milhões de projéteis pequenos e de alta velocidade em um planeta, sobrecarregando as redes defensivas com dados de lixo. Naves equipadas com este componente causam mais dano durante o bombardeio orbital.",
     "feature_unlocks": [
       "<b>Component</b>: Orbital Trash Disperser"
     ],
@@ -574,7 +574,7 @@
     "base_weight": 0,
     "category": "Estudo de Estado",
     "cost": 8000,
-    "description": "Are the precognitive powers of Numa at work or is it a matter of skilled craftsmanship? Either way this galactic stock market prediction model will forecast fluctuations in the economy with divine accuracy.",
+    "description": "Os poderes precognitivos de Numa estão em ação ou é apenas uma questão de habilidades manuais? De qualquer forma, este modelo de previsão da bolsa de valores galáctica fará a previsão das flutuações na economia com precisão divina.",
     "feature_unlocks": [
       "£energy£ Energy Credits from £job£ Jobs +5%"
     ],
@@ -597,7 +597,7 @@
     "base_weight": 0,
     "category": "Psiônica",
     "cost": 8000,
-    "description": "These barriers are generated out of pure psychic energy by a cadre of psionic specialists. They will be able to stop some incoming fire, like our Energy deflector systems, but without the prohibitive power consumption.",
+    "description": "Estas barreiras são geradas a partir de pura energia psíquica por um quadro de especialistas psiônicos. Eles conseguirão impedir parte dos disparos, como nossos sistemas de defletor de Energia, mas sem o custo de energia proibitivo.",
     "feature_unlocks": [
       "<b>Component</b>: Large Psionic Barrier",
       "<b>Component</b>: Small Psionic Barrier",
@@ -629,7 +629,7 @@
     "base_weight": 0,
     "category": "Psiônica",
     "cost": 48000,
-    "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
+    "description": "Estes escudos extremamente poderosos são gerados a partir de energia psíquica pura por um quadro de especialistas psiônicos. Seus poderes são aumentados ainda mais por grandes redes de emissores psi.",
     "feature_unlocks": [
       "<b>Component</b>: Small Psionic Shield",
       "<b>Component</b>: Medium Psionic Shield",
@@ -661,7 +661,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 10000,
-    "description": "A genetically altered version of silicon-based bacteria could potentially be manipulated to regenerate non-organic materials.",
+    "description": "Uma versão geneticamente alterada de bactérias baseadas em silicone poderia potencialmente ser manipulada para regenerar materiais não-orgânicos.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Regenerative Hull Tissue"
     ],
@@ -684,7 +684,7 @@
     "base_weight": 0,
     "category": "Ciência do vazio",
     "cost": 48000,
-    "description": "A Ring World allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+    "description": "Um Mundo em Anel! permite várias zonas similares a planetas, canibalizando todos os demais planetas no sistema em busca de materiais.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -714,7 +714,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 48000,
-    "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
+    "description": "Ao analisar o armamento biológico usado pela Praga podemos criar armas projéteis auto-propulsionadas que espalham a mesma destruição horrenda.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Large Scourge Missile"
     ],
@@ -737,7 +737,7 @@
     "base_weight": 0,
     "category": "Partículas",
     "cost": 6000,
-    "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
+    "description": "Nuvens do Vazio usam as cargas elétricas geradas pelos gases densos que compõem a maior parte do seu núcleo para soltar feixes de plasma ardente. Usar a mesma composição gasosa junto com um conduíte especializado resulta em um armamento de raios poderoso.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Cloud Lightning"
     ],
@@ -760,7 +760,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 3000,
-    "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
+    "description": "Ao adaptar o método Tiyanki de extração energética de matéria gasosa, é possível construir armas que sugam energia das naves inimigas.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Energy Siphon"
     ],
@@ -783,7 +783,7 @@
     "base_weight": 0,
     "category": "Biologia",
     "cost": 48000,
-    "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
+    "description": "Coletar espécimes de Prethoryn derrotados nos permite clonar e programar geneticamente uma cria de guerra para nosso uso.\\n\\n",
     "feature_unlocks": [
       "<b>Component</b>: Swarm Strikers"
     ],

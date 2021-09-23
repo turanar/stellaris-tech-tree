@@ -53,7 +53,7 @@ function init_tooltips() {
         functionReady: function(instance, helper) {
             $(helper.tooltip).find('.tooltip-content').each(function(div){
                 var content = $(this).html();
-                content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
+                content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../../assets/icons/$1.png" />');
                 $(this).html(content);
             });
             $(helper.tooltip).find('.node-status').each(function() {

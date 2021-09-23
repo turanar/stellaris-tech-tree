@@ -33,7 +33,7 @@
           "base_weight": 0,
           "category": "粒子物理",
           "cost": 0,
-          "description": "Laser weapons fire focused beams of light at targets, causing damage through the generation of intense heat.",
+          "description": "激光武器可以向目标发射聚焦光束，通过高热量给敌方造成伤害。",
           "feature_unlocks": [
             "<b>Component</b>: Small Red Laser",
             "<b>Component</b>: Medium Red Laser",
@@ -56,7 +56,7 @@
               "base_weight": 95,
               "category": "粒子物理",
               "cost": 2500,
-              "description": "More powerful than red lasers, these blue variants emit electromagnetic radiation at a wavelength that appears blue or violet to most organics.",
+              "description": "比红色激光器更加强大，对有机生物来说，这种波长的电磁辐射看上去是蓝色或紫色的。",
               "feature_unlocks": [
                 "<b>Component</b>: Large Blue Laser",
                 "<b>Component</b>: Medium Blue Laser",
@@ -90,7 +90,7 @@
                   "base_weight": 85,
                   "category": "粒子物理",
                   "cost": 4000,
-                  "description": "Ultraviolet lasers are an updated and more powerful version of their blue predecessors. Accurate and destructive, these weapons are capable of inflicting great damage.",
+                  "description": "紫外激光器是它的前身蓝激光器的更新强化版本。这些武器精准而充满毁灭性，可以造成巨大的杀伤。",
                   "feature_unlocks": [
                     "<b>Component</b>: Large UV Laser",
                     "<b>Component</b>: Small UV Laser",
@@ -124,7 +124,7 @@
                       "base_weight": 65,
                       "category": "粒子物理",
                       "cost": 8000,
-                      "description": "These lasers have a shorter wavelength than UV-based laser weaponry, but are even more destructive.",
+                      "description": "这种激光的波长较紫外线短一些，但是更具毁灭性。",
                       "feature_unlocks": [
                         "<b>Component</b>: Large X-Ray Laser",
                         "<b>Component</b>: Small X-Ray Laser",
@@ -158,7 +158,7 @@
                           "base_weight": 45,
                           "category": "粒子物理",
                           "cost": 16000,
-                          "description": "The electromagnetic radiation emitted by gamma lasers is of an extremely high frequency. Their destructive potential is unmatched in the field of laser weapons.",
+                          "description": "伽马激光的电磁辐射频率极高。在激光武器领域，其破坏力是无可比拟的。",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Gamma Laser",
                             "<b>Component</b>: Medium Gamma Laser",
@@ -194,7 +194,7 @@
                           "base_weight": 40,
                           "category": "粒子物理",
                           "cost": 20000,
-                          "description": "These heavy energy weapons fire focused particle beams that cause massive damage. The size of the emitter arrays limits their use to battleships and titans.",
+                          "description": "这些重型能量武器能够发射聚焦的粒子射线并造成巨幅伤害。发射阵列的规模限制了它们只能运用在战列舰和泰坦上。",
                           "feature_unlocks": [
                             "<b>Component</b>: Particle Lance"
                           ],
@@ -231,7 +231,7 @@
                               "base_weight": 35,
                               "category": "粒子物理",
                               "cost": 24000,
-                              "description": "A more powerful version of the particle lance, this weapon fires a tachyon beam of immense power. Like its predecessor, its use is limited to battleships and titans.",
+                              "description": "粒子光矛更为强力的版本，该武器发射携带有巨大能量的快子光束。和它的之前版本一样，只能运用在战列舰和泰坦上。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Tachyon Lance"
                               ],
@@ -273,7 +273,7 @@
                           "base_weight": 50,
                           "category": "粒子物理",
                           "cost": 12000,
-                          "description": "These energy projectiles consist of tightly concentrated protons capable of causing immense damage to the hull of enemy ships.",
+                          "description": "这些能量抛射体由紧密聚集的质子组成，能够对敌方船体造成巨额伤害。",
                           "feature_unlocks": [
                             "<b>Component</b>: Proton Launchers"
                           ],
@@ -306,7 +306,7 @@
                               "base_weight": 40,
                               "category": "粒子物理",
                               "cost": 20000,
-                              "description": "Upgraded energy projectiles that rely on neutrons instead of protons for their destructive power.",
+                              "description": "由于中子具有毁灭性的能量，升级的能量发射物将依赖中子而非质子对敌方进行打击。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Neutron Launchers"
                               ],
@@ -343,7 +343,7 @@
                           "base_weight": 12.5,
                           "category": "粒子物理",
                           "cost": 50000,
-                          "description": "Perfecting the firing cadence of laser weaponry is a task that could keep the engineering elite of any given planet busy for centuries.",
+                          "description": "完善激光武器的发射节奏是一个可以让任何行星的工程精英忙几个世纪的任务。",
                           "feature_unlocks": [
                             "Energy Weapon Damage +5%"
                           ],
@@ -379,7 +379,7 @@
                   "base_weight": 75,
                   "category": "粒子物理",
                   "cost": 5000,
-                  "description": "Disruptors fire high-energy bolts that weaken and destroy the molecular bonds that hold the target's constituent atoms together. They are capable of passing through shields and armor to wreak havoc directly on enemy hull and crew.",
+                  "description": "裂解炮发射出的高能射束，能够同时弱化并破坏构成目标原子间的分子键。它们能够穿透护盾和护甲，对敌方的船体和船员直接造成毁灭性的打击。",
                   "feature_unlocks": [
                     "<b>Component</b>: Medium Disruptor",
                     "<b>Component</b>: Small Disruptor"
@@ -413,7 +413,7 @@
                       "base_weight": 65,
                       "category": "粒子物理",
                       "cost": 8000,
-                      "description": "These upgraded disruptors fire bolts of more destructive ion particles at targets.",
+                      "description": "这些升级版的裂解炮可以对目标发射出更具威力的离子流。",
                       "feature_unlocks": [
                         "<b>Component</b>: Small Ion Disruptor",
                         "<b>Component</b>: Medium Ion Disruptor"
@@ -446,7 +446,7 @@
                           "base_weight": 45,
                           "category": "粒子物理",
                           "cost": 16000,
-                          "description": "Extremely high-yield disruptors that fire quantum energy charges causing incredible damage to those unfortunate enough to get in their way.",
+                          "description": "这种极限强化版的裂解炮能够发射量子能，任何被命中的目标都会承受极大的伤害。",
                           "feature_unlocks": [
                             "<b>Component</b>: Small Phased Disruptor",
                             "<b>Component</b>: Medium Phased Disruptor"
@@ -479,7 +479,7 @@
                               "base_weight": 40,
                               "category": "粒子物理",
                               "cost": 20000,
-                              "description": "Powerful weapons that launch a lightning arc of chaotic energy at targets, which in part can ignore armor and shields.",
+                              "description": "该武器可以向目标发射带有混乱能量的电弧。可以在某种程度上无视装甲和护盾。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Arc Emitter"
                               ],
@@ -516,7 +516,7 @@
                                   "base_weight": 35,
                                   "category": "粒子物理",
                                   "cost": 24000,
-                                  "description": "These upgraded emitters are equipped with better focusing lenses, resulting in a more powerful energy discharge.",
+                                  "description": "这些升级后的发射器装备了更优秀的聚焦透镜，这使得它们可以发射出更加强大的能量。",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Focused Arc Emitter"
                                   ],
@@ -562,7 +562,7 @@
                   "base_weight": 75,
                   "category": "粒子物理",
                   "cost": 5000,
-                  "description": "Weapons that eject destructive balls of high-energy plasma at targets. These plasma projectiles are extremely effective at eating through ship armor.",
+                  "description": "可以向目标发射毁灭性的高能等离子球体的武器。这种等离子抛射体在对付大型舰船的装甲时特别有效。",
                   "feature_unlocks": [
                     "<b>Component</b>: Medium Plasma Thrower",
                     "<b>Component</b>: Large Plasma Thrower",
@@ -597,7 +597,7 @@
                       "base_weight": 65,
                       "category": "粒子物理",
                       "cost": 8000,
-                      "description": "These new accelerators launch projectiles of high-energy plasma with improved containment fields. This results in less energy leakage as the projectile travels in space towards its target.",
+                      "description": "这种新的加速炮利发射具有更先进约束场的高能等离子体。这种技术可以降低等离子体向目标飞行过程中所逸散的能量。",
                       "feature_unlocks": [
                         "<b>Component</b>: Medium Plasma Accelerator",
                         "<b>Component</b>: Small Plasma Accelerator",
@@ -631,7 +631,7 @@
                           "base_weight": 45,
                           "category": "粒子物理",
                           "cost": 16000,
-                          "description": "The latest in plasma weaponry, these cannons are fully militarized versions of the older, somewhat improvised plasma throwers. Their plasma projectiles are even deadlier.",
+                          "description": "最先进的等离子武器，这种火炮是之前的升级版等离子发射器完全军事化的成果。它们的等离子抛射体更加致命。",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Plasma Cannon",
                             "<b>Component</b>: Small Plasma Cannon",
@@ -673,7 +673,7 @@
                   "base_weight": 12.5,
                   "category": "粒子物理",
                   "cost": 50000,
-                  "description": "New developments in tech cooling regularly surface, improving the stability and efficiency of our weapons systems, keeping them from blowing up the ships upon which they are mounted.",
+                  "description": "可以定期冷却表面的新科技，提高了我们的武器系统的稳定性和效率。让它们在使用的时候不至于炸掉我们的舰船。",
                   "feature_unlocks": [
                     "Energy Weapon Attack Speed +5%"
                   ],
@@ -709,7 +709,7 @@
           "base_weight": 0,
           "category": "粒子物理",
           "cost": 0,
-          "description": "This energy source generates power for ships through induced fission, but it also produces harmful nuclear waste.",
+          "description": "引发核裂变为舰船提供能源，但同时也会生成有害核废料。",
           "feature_unlocks": [
             "<b>Component</b>: Fission Reactor"
           ],
@@ -730,7 +730,7 @@
               "base_weight": 190,
               "category": "粒子物理",
               "cost": 2500,
-              "description": "Nuclear fusion processes generate a great amount of power for ships, but without many of the risks associated with fission power.",
+              "description": "核聚变可为舰船提供大量能源，且风险小于裂变。",
               "feature_unlocks": [
                 "<b>Component</b>: Fusion Reactor"
               ],
@@ -761,7 +761,7 @@
                   "base_weight": 150,
                   "category": "粒子物理",
                   "cost": 5000,
-                  "description": "The ability to sustain a fusion reaction at relatively low temperatures will result in a new generation of fusion reactors for our ships.",
+                  "description": "低温核聚变技术将促进新一代舰载聚变反应堆诞生。",
                   "feature_unlocks": [
                     "<b>Component</b>: Cold Fusion Reactor"
                   ],
@@ -792,7 +792,7 @@
                       "base_weight": 120,
                       "category": "粒子物理",
                       "cost": 10000,
-                      "description": "By harnessing the energy produced by matter/antimatter annihilations, our efficiency at generating ship power will be orders of magnitude better than fusion.",
+                      "description": "利用正反物质结合产生舰船能源，效率远超核聚变。",
                       "feature_unlocks": [
                         "<b>Component</b>: Antimatter Reactor"
                       ],
@@ -823,7 +823,7 @@
                           "base_weight": 80,
                           "category": "粒子物理",
                           "cost": 20000,
-                          "description": "These generators extract vacuum energy, providing an almost limitless supply of ship power. There is no more efficient way to generate energy.",
+                          "description": "提取真空零点能是目前最高效的产能方式，可以近乎无限地供应舰船能源。",
                           "feature_unlocks": [
                             "<b>Component</b>: Zero Point Reactor"
                           ],
@@ -854,7 +854,7 @@
                               "base_weight": 3,
                               "category": "粒子物理",
                               "cost": 32000,
-                              "description": "A groundbreaking technological marvel, the Jump Drive shreds the local space-time continuum and rearranges it on the quantum level to be identical to that of the target destination - and thus the ship appears to near-instantly \"jump\" from system to system.",
+                              "description": "一项开创性科技奇迹，跃迁引擎可以粉碎当地的时空连续性并在量子层面上重组至与目标地点完全相同的状态，于是这艘舰船基几乎在一瞬间完成了星系间的“跃迁”。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Jump Drive",
                                 "<b>Feature : </b>Jump Drive Travel"
@@ -890,7 +890,7 @@
                               "base_weight": 1,
                               "category": "粒子物理",
                               "cost": 50000,
-                              "description": "These generators appear to somehow draw energy directly from dark matter, providing more ship power than should be possible according to the laws of physics.",
+                              "description": "以某种违背物理法则的方法，直接从暗物质中汲取巨量能源，为舰船供能。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Dark Matter Reactor"
                               ],
@@ -937,7 +937,7 @@
           "base_weight": 0,
           "category": "粒子物理",
           "cost": 0,
-          "description": "Additional power generation systems increase the ship's reactor output.",
+          "description": "$REACTOR_BOOSTER_1_DESC$",
           "feature_unlocks": [
             "<b>Component</b>: Reactor Booster"
           ],
@@ -958,7 +958,7 @@
               "base_weight": 135,
               "category": "粒子物理",
               "cost": 3000,
-              "description": "The discovery of fusion power allows for better reactor boosters to be fitted onto our ships.",
+              "description": "$REACTOR_BOOSTER_2_DESC$",
               "feature_unlocks": [
                 "<b>Component</b>: Improved Reactor Booster"
               ],
@@ -993,7 +993,7 @@
                   "base_weight": 75,
                   "category": "粒子物理",
                   "cost": 12000,
-                  "description": "The discovery of antimatter power allows for highly advanced reactor boosters that can greatly enhance ship reactors.",
+                  "description": "$REACTOR_BOOSTER_3_DESC$",
                   "feature_unlocks": [
                     "<b>Component</b>: Advanced Reactor Booster"
                   ],
@@ -1036,7 +1036,7 @@
           "base_weight": 0,
           "category": "粒子物理",
           "cost": 0,
-          "description": "Like the strands of a spider web, the extra-dimensional realm of hyperspace runs between the gravity wells of most stars. Faster than light travel is theoretically possible along these hyperlanes.",
+          "description": "就像蜘蛛网上的丝线一样，多维空间的其他维度在大多数恒星的重力井之间运动。在这些超空间航道间理论上是可以进行超光速旅行的。",
           "feature_unlocks": [
             "<b>Component</b>: Hyper Drive I"
           ],
@@ -1057,7 +1057,7 @@
               "base_weight": 75,
               "category": "粒子物理",
               "cost": 5000,
-              "description": "We have identified the existence of points in space where a ship expends less energy to \"breach\" their way into a hyperlane. This will lead to a new generation of hyper drives.",
+              "description": "我们已经确定太空中有能使舰船消耗更少的能源“突破”并进入一个超空间航道的点的存在。这将产生新一代的超级引擎。",
               "feature_unlocks": [
                 "<b>Component</b>: Hyper Drive II",
                 "<b>Starbase Building</b>: Transit Hub"
@@ -1089,7 +1089,7 @@
                   "base_weight": 50,
                   "category": "粒子物理",
                   "cost": 12000,
-                  "description": "A new generation of hyper drives capable of accessing the subspace slipstreams that are present within hyperspace. This leads to dramatically improved drive performance.",
+                  "description": "新一代的超级引擎能够通过超空间中存在的亚空间滑流。这使得引擎的性能显着提高。",
                   "feature_unlocks": [
                     "<b>Component</b>: Hyper Drive III"
                   ],
@@ -1120,7 +1120,7 @@
                       "base_weight": 17.5,
                       "category": "粒子物理",
                       "cost": 24000,
-                      "description": "The ability to reactivate the derelict Gateway stations that can be found scattered throughout the galaxy has the potential to dramatically shorten travel times.",
+                      "description": "激活在星系中四散的废弃星门空间站的能力，可以极大地缩短星际旅行的时间。",
                       "feature_unlocks": [
                         "<b>Feature : </b>Gateway Travel"
                       ],
@@ -1156,7 +1156,7 @@
                           "base_weight": 10,
                           "category": "粒子物理",
                           "cost": 48000,
-                          "description": "The construction of new Gateway stations enables us to build a fast-travel network that could revolutionize interstellar travel.",
+                          "description": "建造新的星门空间站使我们可以建立一个快速通行网络，给星际通行带来革命。",
                           "feature_unlocks": [
                             "<b>Feature : </b>Gateway Construction"
                           ],
@@ -1204,7 +1204,7 @@
                   "base_weight": 32.5,
                   "category": "粒子物理",
                   "cost": 8000,
-                  "description": "A naturally occurring subspace wormhole is a fickle thing, and its fluctuating energy levels typically make it impossible to travel safely between its linked apertures. There are ways to temporarily stabilize its matrix, however.",
+                  "description": "天然产生的虫洞变幻无常，而其波动的能级通常使舰船无法安全地穿行其连接的开口。不过，暂时稳定其基体的方法还是存在的。",
                   "feature_unlocks": [
                     "<b>Feature : </b>Wormhole Travel"
                   ],
@@ -1245,7 +1245,7 @@
               "base_weight": 340,
               "category": "粒子物理",
               "cost": 4000,
-              "description": "Gravity well projectors can be used to create localized pockets of space where safe entry into hyperspace is impossible. The immense power requirements and the size of the projectors prohibits their use on anything smaller than a starbase.",
+              "description": "重力井投射器可以创造出局部无法安全进入超空间的区域。其能源需求与体积都十分巨大，只有恒星基地及以上等级的空间站才能安装。",
               "feature_unlocks": [
                 "<b>Component</b>: FTL Inhibitor",
                 "<b>Feature : </b>Planetary FTL Inhibitors"
@@ -1282,7 +1282,7 @@
           "base_weight": 0,
           "category": "力场操控",
           "cost": 0,
-          "description": "Capacitors capable of storing vast amounts of energy is one of the cornerstones for any modern civilization.",
+          "description": "可以储存巨量能源的电容器是现代文明的基础。",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
@@ -1301,7 +1301,7 @@
               "base_weight": 100,
               "category": "力场操控",
               "cost": 2000,
-              "description": "Modulated fields allow for increased production and improved energy yield.",
+              "description": "调整过的力场可以增加能源产量并提高能源输出。",
               "feature_unlocks": [
                 "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                 "£energy£ Energy from Starbase Constructions +10%"
@@ -1333,7 +1333,7 @@
                   "base_weight": 85,
                   "category": "力场操控",
                   "cost": 4000,
-                  "description": "Basic entanglement principles applied to energy generation provide a substantial increase in energy output.",
+                  "description": "基本的纠缠理论在能量生产中的应用使得能源输出量大幅增加。",
                   "feature_unlocks": [
                     "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                     "£energy£ Energy from Starbase Constructions +10%"
@@ -1365,7 +1365,7 @@
                       "base_weight": 65,
                       "category": "力场操控",
                       "cost": 8000,
-                      "description": "Quantum superposition of energy coils, simultaneously drained and charged.",
+                      "description": "处于量子叠加态下的能量线圈，可同时充放电。",
                       "feature_unlocks": [
                         "£energy£ Energy Credits from £job_technician£ [GetTechnicianPlural] +20%",
                         "£energy£ Energy from Starbase Constructions +10%"
@@ -1399,7 +1399,7 @@
                       "base_weight": 12.5,
                       "category": "力场操控",
                       "cost": 50000,
-                      "description": "Minor improvements to transmission efficiency adds up to a sizeable reduction in overall energy loss.",
+                      "description": "轻微改善传输效率可以相当大的减少总能量损失。",
                       "feature_unlocks": [
                         "£energy£ Energy Credits from £job£ Jobs +5%"
                       ],
@@ -1435,7 +1435,7 @@
               "base_weight": 180,
               "category": "力场操控",
               "cost": 3000,
-              "description": "Load-balancing facilities can greatly improve the stability of local grids and feed excess power back into centralized capacitors.",
+              "description": "负载平衡设施可以大幅提升本地电网的稳定性，并将多余的能源返还中央电容器。",
               "feature_unlocks": [
                 "<b>Edict</b>: Capacity Subsidies",
                 "<b>Building</b>: Energy Grid"
@@ -1467,7 +1467,7 @@
                   "base_weight": 70,
                   "category": "力场操控",
                   "cost": 6000,
-                  "description": "A re-engineered and unified grid further reduces energy losses over distance.",
+                  "description": "重新设计后统一的电网将会进一步减少远距离传输的能源损耗。",
                   "feature_unlocks": [
                     "<b>Building</b>: Energy Nexus"
                   ],
@@ -1512,7 +1512,7 @@
           "base_weight": 0,
           "category": "力场操控",
           "cost": 0,
-          "description": "Energy deflector screens can stop a limited amount of incoming enemy fire before overloading. Their main drawback is that they consume large amounts of power.",
+          "description": "能量偏射屏障可在过载前化解一定敌方火力，主要缺点是能耗高。",
           "feature_unlocks": [
             "<b>Component</b>: Medium Deflectors",
             "<b>Component</b>: Large Deflectors",
@@ -1535,7 +1535,7 @@
               "base_weight": 112.5,
               "category": "力场操控",
               "cost": 3000,
-              "description": "These updated deflector screens are capable of soaking up even more punishment before they overload.",
+              "description": "升级能量偏射屏障，在过载前化解更多火力。",
               "feature_unlocks": [
                 "<b>Component</b>: Large Improved Deflectors",
                 "<b>Component</b>: Medium Improved Deflectors",
@@ -1567,7 +1567,7 @@
                   "base_weight": 87.5,
                   "category": "力场操控",
                   "cost": 6000,
-                  "description": "These new shield generators represent the next generation of energy screens, replacing the older deflector technology. They offer significantly better protection.",
+                  "description": "新型护盾生成器是新一代能量屏障，取代旧式能量偏转器，提供更优秀的防护能力。",
                   "feature_unlocks": [
                     "<b>Component</b>: Large Shields",
                     "<b>Component</b>: Small Shields",
@@ -1599,7 +1599,7 @@
                       "base_weight": 62.5,
                       "category": "力场操控",
                       "cost": 12000,
-                      "description": "An updated shield generator that produces an even stronger energy field. Only sustained enemy fire can penetrate this barrier.",
+                      "description": "升级护盾发生器以制造出更强能量场。只有持续不断的火力可以击穿此屏障。",
                       "feature_unlocks": [
                         "<b>Component</b>: Small Advanced Shields",
                         "<b>Component</b>: Large Advanced Shields",
@@ -1631,7 +1631,7 @@
                           "base_weight": 43.75,
                           "category": "力场操控",
                           "cost": 24000,
-                          "description": "These reinforced and hardened energy shields are incredibly powerful. The protection they offer is second to none.",
+                          "description": "加强、加固能源护盾，提供首屈一指的防护能力。",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Hyper Shields",
                             "<b>Component</b>: Medium Hyper Shields",
@@ -1663,7 +1663,7 @@
                               "base_weight": 1,
                               "category": "力场操控",
                               "cost": 50000,
-                              "description": "These deflectors utilize dark matter to deflect incoming projectiles in a way that seems to utterly defy the laws of nature.",
+                              "description": "这些偏导护盾利用暗物质以一种似乎完全违反自然规律的方式偏转来袭的炮火。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Small Dark Matter Deflectors",
                                 "<b>Component</b>: Large Dark Matter Deflectors",
@@ -1700,7 +1700,7 @@
                           "base_weight": 12.5,
                           "category": "力场操控",
                           "cost": 50000,
-                          "description": "The basic mechanics of ship shields are complex, but they can be adjusted and improved in a multitude of ways.",
+                          "description": "舰体护盾的基本力学是很复杂的，但是他们可以用多种方式进行调整和改进。",
                           "feature_unlocks": [
                             "Shield Hit Points +5%"
                           ],
@@ -1733,7 +1733,7 @@
                       "base_weight": 70,
                       "category": "力场操控",
                       "cost": 6000,
-                      "description": "These capacitors store surplus energy which can quickly be transferred to reinforce a ship's shields.",
+                      "description": "储能电容器可用于增强舰船护盾。",
                       "feature_unlocks": [
                         "<b>Component</b>: Shield Capacitor"
                       ],
@@ -1765,7 +1765,7 @@
                       "base_weight": 32.5,
                       "category": "力场操控",
                       "cost": 8000,
-                      "description": "Generating a strong energy shield within a planetary atmosphere is a greater challenge than in the vacuum of space, but it offers a potent defense against orbital bombardment.",
+                      "description": "在行星大气层中制造出强大护盾比在真空中困难，但能够有效防护轨道轰炸。",
                       "feature_unlocks": [
                         "<b>Building</b>: Planetary Shield Generator"
                       ],
@@ -1809,7 +1809,7 @@
           "base_weight": 0,
           "category": "计算技术",
           "cost": 0,
-          "description": "The best defense is a good offense.",
+          "description": "进攻是最好的防御。",
           "feature_unlocks": [
             "<b>Component</b>: Sentinel Point-Defense"
           ],
@@ -1830,7 +1830,7 @@
               "base_weight": 70,
               "category": "计算技术",
               "cost": 6000,
-              "description": "Arrays of defensive armaments prove much more effective than independent countermeasures.",
+              "description": "经验证，防御武器阵列比自主防御体系更有效。",
               "feature_unlocks": [
                 "<b>Component</b>: Barrier Point-Defense"
               ],
@@ -1860,7 +1860,7 @@
                   "base_weight": 45,
                   "category": "计算技术",
                   "cost": 16000,
-                  "description": "Advanced prediction greatly increases the accuracy of active countermeasure systems.",
+                  "description": "推动预测系统进步，提升主动防御精确度。",
                   "feature_unlocks": [
                     "<b>Component</b>: Guardian Point-Defense"
                   ],
@@ -1898,7 +1898,7 @@
           "base_weight": 0,
           "category": "计算技术",
           "cost": 0,
-          "description": "Testable predictions of observable phenomena.",
+          "description": "对观察现象给出可验证的预测。",
           "feature_unlocks": [
             "<b>Building</b>: Research Labs"
           ],
@@ -1919,7 +1919,7 @@
               "base_weight": 100,
               "category": "计算技术",
               "cost": 2000,
-              "description": "Organizational circuitry rerouting academic fervor.",
+              "description": "逻辑电路经特殊重组后有着相当的学术热情。",
               "feature_unlocks": [
                 "Research Speed +5%"
               ],
@@ -1949,7 +1949,7 @@
                   "base_weight": 90,
                   "category": "计算技术",
                   "cost": 3000,
-                  "description": "Active matrices tuned for specific combat-centric tasks greatly improve engagement efficiency.",
+                  "description": "根据特定任务主动调试矩阵，能令战斗事半功倍。\" # The development of active combat personalities allows combat-AI to specialize heavily in specific tasks.",
                   "feature_unlocks": [
                     "<b>Component</b>: Starbase Fire Control",
                     "<b>Component</b>: Combat Computer"
@@ -1983,7 +1983,7 @@
                       "base_weight": 90,
                       "category": "计算技术",
                       "cost": 3000,
-                      "description": "By installing an auxiliary fire-control system our ships can afford to make more advanced calculations, increasing accuracy.",
+                      "description": "安装辅助火控系统后，我们的舰船可以完成更加精密的计算以及准确的射击。",
                       "feature_unlocks": [
                         "<b>Component</b>: Auxiliary Fire-control"
                       ],
@@ -2015,7 +2015,7 @@
                       "base_weight": 65,
                       "category": "计算技术",
                       "cost": 8000,
-                      "description": "Further advances in predictive algorithms allow for augmented tactical decision-making in the field.",
+                      "description": "预测算法更进一步，战场决策胜人一筹。",
                       "feature_unlocks": [
                         "<b>Component</b>: Advanced Combat Computer",
                         "<b>Component</b>: Starbase Fire Control"
@@ -2051,7 +2051,7 @@
                           "base_weight": 20,
                           "category": "计算技术",
                           "cost": 20000,
-                          "description": "Running sapient AIs through high-intensity combat simulations yields valuable insight into potential optimizations for risk-evaluation techniques.",
+                          "description": "知性人工智能在经过高强度战争模拟试验后对于风险评估技术的潜在优化有着宝贵的洞察力。\" # The effectiveness of Ship-AIs have proved far greater with the sensation of a fear of death.",
                           "feature_unlocks": [
                             "<b>Component</b>: Sapient Combat Computer"
                           ],
@@ -2095,7 +2095,7 @@
                           "base_weight": 20,
                           "category": "计算技术",
                           "cost": 20000,
-                          "description": "Granting our ships their own semi-autonomous intellect will greatly enhance their responsiveness in combat.",
+                          "description": "赋予舰船以半自主智能，增强其战场响应能力。",
                           "feature_unlocks": [
                             "<b>Component</b>: Autonomous Ship Intellect"
                           ],
@@ -2139,7 +2139,7 @@
                   "base_weight": 90,
                   "category": "计算技术",
                   "cost": 3000,
-                  "description": "By giving control of the colony ship to an Artificial Intelligence, the crew and colonists can be suspended in a deep sleep.",
+                  "description": "将殖民船交由人工智能控制，而船员和殖民者可以进入深度睡眠。",
                   "feature_unlocks": [
                     "Colony Development Speed +50%"
                   ],
@@ -2169,7 +2169,7 @@
                       "base_weight": 70,
                       "category": "计算技术",
                       "cost": 6000,
-                      "description": "Sufficiently advanced systems are capable of optimizing themselves if they are made acutely aware of the purpose for which they were made.",
+                      "description": "相当先进的系统，知悉目标后，能自动选择执行最优方案。",
                       "feature_unlocks": [
                         "Colony Development Speed +50%"
                       ],
@@ -2209,7 +2209,7 @@
                   "base_weight": 170,
                   "category": "计算技术",
                   "cost": 4000,
-                  "description": "Basic administrative AIs can be used to streamline supply and demand lines, reducing waste.",
+                  "description": "基础的行政人工智能可以用于精简供需线，减少浪费。",
                   "feature_unlocks": [
                     "£job_artisan£ [GetArtisan] Output +10%"
                   ],
@@ -2246,7 +2246,7 @@
                       "base_weight": 90,
                       "category": "计算技术",
                       "cost": 16000,
-                      "description": "Using advanced AIs, we can reliably predict consumer demand before it exists.",
+                      "description": "通过高级人工智能，我们能够在消费需求存在之前便可靠地做出预测。",
                       "feature_unlocks": [
                         "£job_artisan£ [GetArtisan] Output +10%"
                       ],
@@ -2295,7 +2295,7 @@
                   "base_weight": 75,
                   "category": "计算技术",
                   "cost": 5000,
-                  "description": "Introspective prioritization.",
+                  "description": "优先进行自我反省。",
                   "feature_unlocks": [
                     "Research Alternatives +1"
                   ],
@@ -2325,7 +2325,7 @@
                       "base_weight": 45,
                       "category": "计算技术",
                       "cost": 16000,
-                      "description": "Expanding possibilities through the application of limited cybernetics.",
+                      "description": "有限控制论，无限可能性。",
                       "feature_unlocks": [
                         "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
@@ -2361,7 +2361,7 @@
                       "base_weight": 45,
                       "category": "计算技术",
                       "cost": 16000,
-                      "description": "Evolving artificial intellects are opening the door to the possibility for true synthetic sapience.",
+                      "description": "演进人工智能是追求合成智能的必由之路。",
                       "feature_unlocks": [
                         "<b>Feature : </b>Auto-Research Technologies",
                         "Research Speed +5%"
@@ -2397,7 +2397,7 @@
                       "base_weight": 20,
                       "category": "计算技术",
                       "cost": 20000,
-                      "description": "Aligning defensive and offensive weapon execution paradigms allows for increased efficiency.",
+                      "description": "统一防御和攻击武器使用规范以提高效率。",
                       "feature_unlocks": [
                         "<b>Starbase Building</b>: Defense-Grid Supercomputer"
                       ],
@@ -2441,7 +2441,7 @@
               "base_weight": 90,
               "category": "计算技术",
               "cost": 3000,
-              "description": "As we explore the galaxy, we continually encounter new materials and substances that are unfamiliar to us. Cataloging and analyzing these discoveries will require new facilities.",
+              "description": "在探索宇宙的过程中，我们不断发现陌生的新材料、新物质。我们需要新的设施来对这些发现进行分析与整理。",
               "feature_unlocks": [
                 "<b>Building</b>: Research Complexes"
               ],
@@ -2472,7 +2472,7 @@
                   "base_weight": 97.5,
                   "category": "计算技术",
                   "cost": 8000,
-                  "description": "A bid for interplanetary resource pools and more flexible research grants.",
+                  "description": "注资行星际资源库，灵活审批研究计划。",
                   "feature_unlocks": [
                     "<b>Building</b>: Planetary Supercomputer",
                     "<b>Building</b>: Research Institute"
@@ -2511,7 +2511,7 @@
                   "base_weight": 130,
                   "category": "计算技术",
                   "cost": 8000,
-                  "description": "To expand our knowledge base, we must consider all levels of existence. A new realm of science awaits us!",
+                  "description": "为了拓展知识库，我们必须考虑到所有层次的存在。一个新的研究领域正在等着我们！",
                   "feature_unlocks": [
                     "<b>Building</b>: Advanced Research Complexes"
                   ],
@@ -2554,7 +2554,7 @@
           "base_weight": 100,
           "category": "计算技术",
           "cost": 2000,
-          "description": "A lot of critical research can only be done in a zero gravity environment, which these specialized laboratories are eminently designed for.",
+          "description": "许多重要的特殊实验只有在零重力环境下才能进行。因此我们设计了这种专用实验室。",
           "feature_unlocks": [
             "Research Station Output +10%"
           ],
@@ -2577,7 +2577,7 @@
               "base_weight": 90,
               "category": "计算技术",
               "cost": 3000,
-              "description": "Containment force fields are excellent for isolating and holding various substances or specimens so they can be analyzed in detail.",
+              "description": "有了这些遏制力场，就可以隔离收纳各种物质或者样本，以便对其进行详细研究。",
               "feature_unlocks": [
                 "Research Station Output +10%"
               ],
@@ -2607,7 +2607,7 @@
                   "base_weight": 85,
                   "category": "计算技术",
                   "cost": 4000,
-                  "description": "Advanced probes that can thoroughly analyze subjects on a sub-atomic level, generating a wealth of valuable research data.",
+                  "description": "这些先进的探测器可以对物体进行次原子级别的详细分析从而获取大量宝贵的研究资料。",
                   "feature_unlocks": [
                     "Research Station Output +10%"
                   ],
@@ -2637,7 +2637,7 @@
                       "base_weight": 70,
                       "category": "计算技术",
                       "cost": 6000,
-                      "description": "Increased automation of station functions will free up more staff for research duties.",
+                      "description": "更加自动化的空间站可以解放更多的工作人员进行科研开发。",
                       "feature_unlocks": [
                         "Research Station Output +10%"
                       ],
@@ -2667,7 +2667,7 @@
                           "base_weight": 65,
                           "category": "计算技术",
                           "cost": 8000,
-                          "description": "Studying something from the limited perspective of a single dimensional reality does not paint the whole picture. Every angle must be considered.",
+                          "description": "单从我们现处的维度世界对事物进行分析，所得到的成果只可能是片面的。一定要从多角度出发进行思考。",
                           "feature_unlocks": [
                             "Research Station Output +10%"
                           ],
@@ -2711,7 +2711,7 @@
           "base_weight": 100,
           "category": "计算技术",
           "cost": 2000,
-          "description": "Exploring the mediation of fundamental forces through subatomic particles.",
+          "description": "通过亚原子粒子探索基本力的作用机理。",
           "feature_unlocks": [
             "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
           ],
@@ -2739,7 +2739,7 @@
               "base_weight": 90,
               "category": "计算技术",
               "cost": 2500,
-              "description": "Advances in computing technology have given us new ways to protect our data from prying eyes.",
+              "description": "计算机领域的新突破让我们能够有更多新手段保护我的数据免遭窥视。",
               "feature_unlocks": [
                 "Encryption +2"
               ],
@@ -2775,7 +2775,7 @@
                   "base_weight": 70,
                   "category": "计算技术",
                   "cost": 5000,
-                  "description": "Further advances in unstable entanglement have given us new ways to prevent unauthorized intrusions into our databases.",
+                  "description": "不稳定纠缠态领域的进一步突破让我们能够有更多新手段保护我们的数据遭受非法入侵。",
                   "feature_unlocks": [
                     "Encryption +2"
                   ],
@@ -2811,7 +2811,7 @@
                       "base_weight": 50,
                       "category": "计算技术",
                       "cost": 20000,
-                      "description": "Our latest advances in encryption exploit recently discovered quirks of physics to require inputting a specialized key before it has been generated.",
+                      "description": "我们最近在加密领域发现了一个奇怪的物理学现象，我们能够先输入一个特殊密钥再生成它。",
                       "feature_unlocks": [
                         "Encryption +2"
                       ],
@@ -2855,7 +2855,7 @@
               "base_weight": 90,
               "category": "计算技术",
               "cost": 2500,
-              "description": "Primitive encryption systems stand no chance against modern decryption tools.",
+              "description": "原始的加密机制在现代破译技术面前毫无胜算。",
               "feature_unlocks": [
                 "Codebreaking +2",
                 "<b>Edict</b>: Observation Instinct",
@@ -2894,7 +2894,7 @@
                   "base_weight": 70,
                   "category": "计算技术",
                   "cost": 5000,
-                  "description": "The weakest link in any security system are the individuals within it. By modeling their weaknesses in computer simulations we can find novel ways to bypass their security - or trick them into bypassing it for us.",
+                  "description": "任何安保机制中最脆弱的环节一定是其中的人。通过计算机模拟，我们能够建立他们的弱点模型，从而发现崭新的方法避开他们的安保系统——又或者骗过他们瞒天过海。",
                   "feature_unlocks": [
                     "Codebreaking +2"
                   ],
@@ -2930,7 +2930,7 @@
                       "base_weight": 50,
                       "category": "计算技术",
                       "cost": 20000,
-                      "description": "Our operatives can access data from adjacent realities without risking setting off alarms in this reality.",
+                      "description": "我们的特工可以在临近的现实映射中获取数据，这样就不用冒着在真实现实中触发警报的风险来获取情报。",
                       "feature_unlocks": [
                         "Codebreaking +2"
                       ],
@@ -2974,7 +2974,7 @@
               "base_weight": 70,
               "category": "计算技术",
               "cost": 6000,
-              "description": "The seemingly erratic behavior of tiny things can dramatically alter the way we think about bigger things.",
+              "description": "微观事物看似不规律的行为，将会彻底改变我们对宏观物体的看法。",
               "feature_unlocks": [
                 "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
               ],
@@ -3008,7 +3008,7 @@
                   "base_weight": 40,
                   "category": "计算技术",
                   "cost": 20000,
-                  "description": "Three dimensions, inextricable from the fourth.",
+                  "description": "三维空间，离不开第四个维度。",
                   "feature_unlocks": [
                     "£physics£ Physics Research from £job_researcher£ [GetResearcherPlural] +20%"
                   ],
@@ -3044,7 +3044,7 @@
                   "base_weight": 12.5,
                   "category": "计算技术",
                   "cost": 50000,
-                  "description": "Increasingly powerful computation paradigms allow us to adapt individual construction projects to planetary and ultra-local gravitational conditions.",
+                  "description": "计算模型的日益强大使得单体建筑项目能够更好地适应星球的极端重力条件。\" #by adapting each construction-project to local gravitational conditions we can save on materials used",
                   "feature_unlocks": [
                     "Building Cost -5%"
                   ],
@@ -3080,7 +3080,7 @@
           "base_weight": 85,
           "category": "计算技术",
           "cost": 4000,
-          "description": "These sensors have been tuned to look for any gravitational changes in space, such as those produced by the presence of a starship.",
+          "description": "这些传感器已经过调整，可以检测太空中的任何引力变化，例如由舰船出现导致的力场扭曲波动。",
           "feature_unlocks": [
             "<b>Starbase Building</b>: Listening Post",
             "<b>Component</b>: Gravitic Sensors"
@@ -3105,7 +3105,7 @@
               "base_weight": 37.5,
               "category": "力场操控",
               "cost": 6000,
-              "description": "Solitary Science Ships can break out of the naturally-occurring hyperlanes and attempt to navigate to known but otherwise unreachable destinations.",
+              "description": "单独的科研船可以突破自然形成的超空间来抵达那些用正常手段无法抵达的已知星域。",
               "feature_unlocks": [
                 "<b>Feature : </b>Experimental Subspace Navigation"
               ],
@@ -3139,7 +3139,7 @@
               "base_weight": 65,
               "category": "计算技术",
               "cost": 8000,
-              "description": "Sensors that detect the subspace fluctuations left in the wake of traveling starships. Their sensitivity and range is greater than that of a gravitic sensor array.",
+              "description": "这些传感器能检测到旅行舰船启动后遗留的亚空间波动。它们的灵敏度和范围比重力传感器阵列更大。",
               "feature_unlocks": [
                 "<b>Starbase Building</b>: Black Hole Observatory",
                 "<b>Component</b>: Subspace Sensors"
@@ -3171,7 +3171,7 @@
                   "base_weight": 45,
                   "category": "计算技术",
                   "cost": 16000,
-                  "description": "Advanced sensors that rely on rotating tachyon beams to detect ship movements even at extreme distances.",
+                  "description": "先进的传感器依靠旋转的快子束，即使在极远距离也能检测船舶运动。",
                   "feature_unlocks": [
                     "<b>Component</b>: Tachyon Sensors"
                   ],
@@ -3202,7 +3202,7 @@
                       "base_weight": 50,
                       "category": "力场操控",
                       "cost": 12000,
-                      "description": "This exotic substance has many properties that seemingly defy the laws of physics. Harvestable concentrations can only be found near Black Holes or in certain nebulas.",
+                      "description": "这种独特的物质具有许多打破物理原理的特性。仅在黑洞周围或部分星云附近能获得。",
                       "feature_unlocks": [
                         "<b>Reveals Resource</b>: Dark Matter"
                       ],
@@ -3244,7 +3244,7 @@
           "base_weight": 0,
           "category": "粒子物理",
           "cost": 0,
-          "description": "A facility where organic matter is converted into energy at a highly efficient rate.",
+          "description": "此设施可以高效地将有机物质转化为能源。",
           "feature_unlocks": [
             "<b>Building</b>: Bio-Reactor"
           ],
@@ -3270,7 +3270,7 @@
           "base_weight": 170,
           "category": "粒子物理",
           "cost": 4000,
-          "description": "Volatile Motes are fickle particles that are dangerous to work with. In order to safely harvest them without setting off a chain-reaction of explosions, energy fields must be used to stabilize the motes.",
+          "description": "我们需要收集的易爆微粒性质十分不稳定，采集工作也危险重重。为了不在该过程中引起连环爆炸，需要使用能量场对微粒进行稳定化。",
           "feature_unlocks": [
             "<b>Building</b>: Mote Harvesting Traps",
             "<b>Reveals Resource</b>: Volatile Motes"
@@ -3297,7 +3297,7 @@
           "base_weight": 170,
           "category": "粒子物理",
           "cost": 4000,
-          "description": "Aside from the obvious safety concerns, the artificial creation of Volatile Motes is an extremely delicate and complicated process that requires highly specialized equipment.",
+          "description": "除了明显的安全问题之外，人造易爆微粒本身就是极端精密且复杂的工作，需要高度专业化的设备。",
           "feature_unlocks": [
             "<b>Building</b>: Chemical Plants"
           ],
@@ -3323,7 +3323,7 @@
           "base_weight": 95,
           "category": "计算技术",
           "cost": 2500,
-          "description": "An advanced AI will aid science officers in their task to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no Blorg has gone before. The Science Ship will be able to explore the galaxy with help from an AI.",
+          "description": "先进的人工智能可以辅助科学专员探索新的世界、寻找新的生命和新的文明、以及前往从未有任何布洛葛去过的地方。通过人工智能的帮助，科研船可以探索宇宙。",
           "feature_unlocks": [
             "<b>Feature : </b>Automatic Surveying",
             "Survey Speed +25%"
@@ -3358,7 +3358,7 @@
           "base_weight": 85,
           "category": "计算技术",
           "cost": 4000,
-          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "description": "舰载实验室装备有先进的考古学装备，包括由策展人提供的大容量数据库，新的发现可以很容易地在其中标注出来。",
           "feature_unlocks": [
             "mod_country_ship_archeaological_site_clues_add +2"
           ],
@@ -3389,7 +3389,7 @@
           "base_weight": 85,
           "category": "计算技术",
           "cost": 4000,
-          "description": "A shipboard lab with advanced archaeological equipment, including a vast database supplied by the Curator Order where new discoveries can easily be cross-referenced.",
+          "description": "舰载实验室装备有先进的考古学装备，包括由策展人提供的大容量数据库，新的发现可以很容易地在其中标注出来。",
           "feature_unlocks": [
             "Anomaly Discovery Chance +10%",
             "Anomaly Research Speed +25%"
@@ -3419,7 +3419,7 @@
           "base_weight": 85,
           "category": "计算技术",
           "cost": 4000,
-          "description": "These shipboard lab facilities incorporate advanced technologies from the ancient Curator Order to further increase survey speeds.",
+          "description": "这些船载实验设施集成了古代策展人的先进科技，能够进一步增加调查速度。",
           "feature_unlocks": [
             "Survey Speed +33%"
           ],

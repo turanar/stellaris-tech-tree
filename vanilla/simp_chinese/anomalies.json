@@ -6,7 +6,7 @@
     "base_weight": 0,
     "category": "粒子物理",
     "cost": 2500,
-    "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
+    "description": "利用太虚的熵特性，这种光束可以真正地摧毁能量。",
     "feature_unlocks": [
       "<b>Component</b>: Large Null Void Beam",
       "<b>Component</b>: Medium Null Void Beam",
@@ -31,7 +31,7 @@
     "base_weight": 60,
     "category": "力场操控",
     "cost": 4000,
-    "description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
+    "description": "宇宙似乎不可避免的在向前进。这一趋势无法逆转……但只要付出的代价足够，现在这一切都可以颠覆。",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -54,7 +54,7 @@
     "base_weight": 60,
     "category": "治国术",
     "cost": 4000,
-    "description": "A set of social protocols based on paradoxical intuition, and on love. When we know the System of the Loop, we learn that we can influence by receiving instructions, as well as giving them.",
+    "description": "这是一整套基于自相矛盾的直觉，还有爱，之上的社会准则。当我们通晓圆环之理后，我们了解到，无论是发出指令抑或是接受指令，我们都可以对其产生影响。",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -75,7 +75,7 @@
         "base_weight": 60,
         "category": "粒子物理",
         "cost": 10000,
-        "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+        "description": "当时间悖论开始相互纠缠之时，一个难以形容的意识在黑暗深处渐渐苏醒，它渴望着，索求着。之前发生的一切就是这个意识——某些人口中所称的“时之螶”所引起的。如果我们能够让自己同这个意识进行同调的话，我们或许可以触摸到永生的大门。",
         "feature_unlocks": [
           "<b>Building</b>: Omega Alignment"
         ],
@@ -113,7 +113,7 @@
     "base_weight": 60,
     "category": "粒子物理",
     "cost": 10000,
-    "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+    "description": "当时间悖论开始相互纠缠之时，一个难以形容的意识在黑暗深处渐渐苏醒，它渴望着，索求着。之前发生的一切就是这个意识——某些人口中所称的“时之螶”所引起的。如果我们能够让自己同这个意识进行同调的话，我们或许可以触摸到永生的大门。",
     "feature_unlocks": [
       "<b>Building</b>: Omega Alignment"
     ],
@@ -148,7 +148,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 6000,
-    "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
+    "description": "通过饲养太空变形虫，我们可以修改基因让它们的鞭毛成为我们军队的攻击机。",
     "feature_unlocks": [
       "<b>Component</b>: Amoeba Flagella"
     ],
@@ -171,7 +171,7 @@
     "base_weight": 0,
     "category": "宇航技术",
     "cost": 48000,
-    "description": "A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.\n\nWhen the star detonates, ALL colonies, megastructures, and stations in the system are destroyed - including our own. All fleets in the system will go MIA. The Star-Eater itself is the only exception.",
+    "description": "一束定向的快子能量被注入到这颗恒星，引发了一次超新星爆炸。这次事件释放的巨额能量被用来产生足量的暗物质。\\n\\n当恒星被引爆时，恒星系内包括我方在内的所有殖民地，巨型结构和空间站都会被摧毁。只有焚天神兵能够幸免遇难。§!",
     "feature_unlocks": [
       "<b>Component</b>: Star Cracker"
     ],
@@ -198,7 +198,7 @@
     "base_weight": 0,
     "category": "材料科学",
     "cost": 6000,
-    "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+    "description": "灌注水晶的镀层可使船体更加耐用。",
     "feature_unlocks": [
       "<b>Component</b>: Medium Crystal-Infused Plating",
       "<b>Component</b>: Large Crystal-Infused Plating",
@@ -225,7 +225,7 @@
     "base_weight": 0,
     "category": "材料科学",
     "cost": 16000,
-    "description": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
+    "description": "锻造时加入水晶材料，则合金硬度更上一层楼。",
     "feature_unlocks": [
       "<b>Component</b>: Large Crystal-Forged Plating",
       "<b>Component</b>: Small Crystal-Forged Plating",
@@ -250,7 +250,7 @@
     "base_weight": 0,
     "category": "材料科学",
     "cost": 50000,
-    "description": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
+    "description": "以太龙麟由多层独特矿物质纳米结构构成，具自我修复能力。采用非常规制造手段能够让我们精确仿制出这些能够自我修复的结构。",
     "feature_unlocks": [
       "<b>Component</b>: Large Dragonscale Armor",
       "<b>Component</b>: Medium Dragonscale Armor",
@@ -275,7 +275,7 @@
     "base_weight": 0,
     "category": "力场操控",
     "cost": 48000,
-    "description": "A Dyson Sphere fully envelops a given star, converting all solar output directly to £energy£ Energy Credits.",
+    "description": "一个 戴森球!完全的包裹住一个特定的恒星，直接将恒星辐射输出转化为£energy£ 能量币。",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -305,7 +305,7 @@
     "base_weight": 0,
     "category": "计算技术",
     "cost": 50000,
-    "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.",
+    "description": "虽然神秘解码器在标准测试中表现平平，但目标的战斗路径越不规则，该编码器预测算法的准确度似乎就越高。",
     "feature_unlocks": [
       "<b>Component</b>: Enigmatic Decoder"
     ],
@@ -328,7 +328,7 @@
     "base_weight": 0,
     "category": "计算技术",
     "cost": 50000,
-    "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
+    "description": "神秘编码器在将战斗路径数据返回舰队指挥中心前，会根据某种未知的法则对数据进行加密。",
     "feature_unlocks": [
       "<b>Component</b>: Enigmatic Encoder"
     ],
@@ -351,7 +351,7 @@
     "base_weight": 0,
     "category": "粒子物理",
     "cost": 48000,
-    "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
+    "description": "在低次元中使用第五维的能量操纵原理，可以造就强大的能量武器。",
     "feature_unlocks": [
       "<b>Component</b>: Medium Matter Disintegrator",
       "<b>Component</b>: Small Matter Disintegrator",
@@ -380,7 +380,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 8000,
-    "description": "Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.",
+    "description": "虚空孳孽的卵进化出了通过吸收邻近恒星的能源来忍受严酷太空环境的能力。",
     "feature_unlocks": [
       "£energy£ Energy Credits from £job£ Jobs +5%"
     ],
@@ -403,7 +403,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 32000,
-    "description": "No longer will we be limited by the basic biological structure of a species when striving to improve them. DNA is just another material to be shaped as the sculptor wills it.",
+    "description": "当我们试图改进某物种时，对基因序列的深入了解将使我们不再受限于该物种的基本生物结构，而是能够通过改变其基因的方式来对物种作出改进。",
     "feature_unlocks": [
       "<b>Feature : </b>Genetic Resequencing",
       "<b>Feature : </b>Advanced Traits"
@@ -427,7 +427,7 @@
     "base_weight": 0,
     "category": "粒子物理",
     "cost": 12000,
-    "description": "The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.",
+    "description": "L-星门超出了我们对亚空间原理的理解。在将其开启之前，我们必须对此进行补救。",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -450,7 +450,7 @@
     "base_weight": 0,
     "category": "力场操控",
     "cost": 48000,
-    "description": "The Matter Decompressor lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
+    "description": "这个物质解压器!将黑洞的引力聚焦于一处，形成了一个引力钻头，我们可以用这个钻头从黑洞的奇点中钻取物质，并转化为£minerals£矿物。",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -480,7 +480,7 @@
     "base_weight": 0,
     "category": "粒子物理",
     "cost": 5000,
-    "description": "Using strong-focus lenses in combination with an oscillating firing frequence help create lasers strong enough to mine asteroids, or shoot down hostiles.",
+    "description": "使用高度聚焦透镜结合振荡发射频率来创造出足够开采小行星或击落敌人的激光。",
     "feature_unlocks": [
       "<b>Component</b>: Medium Cutting Laser",
       "<b>Component</b>: Small Cutting Laser"
@@ -504,7 +504,7 @@
     "base_weight": 0,
     "category": "宇航技术",
     "cost": 48000,
-    "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
+    "description": "在拾荒者机器人的残骸里发现了一种高效的船壳自动维修系统，由数十亿个微型纳米机器人组成，并已改造成可为我们所用。至于拾荒者是从远古残骸中夺取了这个系统，还是原本就自带该系统则不得而知。",
     "feature_unlocks": [
       "<b>Component</b>: Nanite Repair System"
     ],
@@ -527,7 +527,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 20000,
-    "description": "When tailored to a species' genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
+    "description": "当适应了一个物种的基因组之后，这种经工程设计出来的组织能够表现出强烈的神经再生特性，显著加速了其受体中神经元、轴突和突触的发育。",
     "feature_unlocks": [
       "Leader Level Cap +1",
       "Species Leader Exp Gain +25%"
@@ -551,7 +551,7 @@
     "base_weight": 0,
     "category": "推进力学",
     "cost": 8000,
-    "description": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
+    "description": "这种轨道轰炸管理系统将会向目标星球同时发射上百万高速小型投射物，籍此试图用垃圾信息过载该星球的防卫系统。装有该装置的船只在进行轨道轰炸时，将会造成更多伤害。",
     "feature_unlocks": [
       "<b>Component</b>: Orbital Trash Disperser"
     ],
@@ -574,7 +574,7 @@
     "base_weight": 0,
     "category": "治国术",
     "cost": 8000,
-    "description": "Are the precognitive powers of Numa at work or is it a matter of skilled craftsmanship? Either way this galactic stock market prediction model will forecast fluctuations in the economy with divine accuracy.",
+    "description": "这到底是拜金神教的预知能力真的生效了？还是只是精密的计算方式的成果？无论如何，这个星际股市推算模型真的可以准确地推算出金融市场的走向。",
     "feature_unlocks": [
       "£energy£ Energy Credits from £job£ Jobs +5%"
     ],
@@ -597,7 +597,7 @@
     "base_weight": 0,
     "category": "灵能理论",
     "cost": 8000,
-    "description": "These barriers are generated out of pure psychic energy by a cadre of psionic specialists. They will be able to stop some incoming fire, like our Energy deflector systems, but without the prohibitive power consumption.",
+    "description": "这种屏障是由一群灵能专家用纯粹的灵能生成的。它可以阻挡一些敌方火力，就像我们的偏导护盾系统一样，不过无需耗费大量的能量。",
     "feature_unlocks": [
       "<b>Component</b>: Large Psionic Barrier",
       "<b>Component</b>: Small Psionic Barrier",
@@ -629,7 +629,7 @@
     "base_weight": 0,
     "category": "灵能理论",
     "cost": 48000,
-    "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
+    "description": "这种强大无比的护盾是由一群精英灵能专家使用纯粹的灵能之力生成的。护盾经由大型灵能发射阵列强化后，能量进一步提升。",
     "feature_unlocks": [
       "<b>Component</b>: Small Psionic Shield",
       "<b>Component</b>: Medium Psionic Shield",
@@ -661,7 +661,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 10000,
-    "description": "A genetically altered version of silicon-based bacteria could potentially be manipulated to regenerate non-organic materials.",
+    "description": "转基因的硅基细菌可被操控进行非有机材料的再生。",
     "feature_unlocks": [
       "<b>Component</b>: Regenerative Hull Tissue"
     ],
@@ -684,7 +684,7 @@
     "base_weight": 0,
     "category": "宇航技术",
     "cost": 48000,
-    "description": "A Ring World allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+    "description": "一个环形世界!容纳了数个行星大小的区块，但需要拆除星系中其他的行星天体作为材料。",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -714,7 +714,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 48000,
-    "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
+    "description": "通过分析虫群使用的生物武器，我们可以造出同样可怕的自航炮弹用以传播杀伤。",
     "feature_unlocks": [
       "<b>Component</b>: Large Scourge Missile"
     ],
@@ -737,7 +737,7 @@
     "base_weight": 0,
     "category": "粒子物理",
     "cost": 6000,
-    "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
+    "description": "虚空之云可以通过构成其核心的大部分的密集气体所产生的电荷来释放出燃烧的等离子体电弧。按照此原理，利用相同成分的气体配合上导管即可以制造出威力强大的闪电武器。",
     "feature_unlocks": [
       "<b>Component</b>: Cloud Lightning"
     ],
@@ -760,7 +760,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 3000,
-    "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
+    "description": "改进缇扬奇提取气态物质的能量的方法，就有可能造出可以从敌方舰船中汲取能量的武器。",
     "feature_unlocks": [
       "<b>Component</b>: Energy Siphon"
     ],
@@ -783,7 +783,7 @@
     "base_weight": 0,
     "category": "生物学",
     "cost": 48000,
-    "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
+    "description": "从击败的索林原虫处收集样本能使我们克隆其基因并进行重编程，从而造出我们自己的战斗武器。",
     "feature_unlocks": [
       "<b>Component</b>: Swarm Strikers"
     ],

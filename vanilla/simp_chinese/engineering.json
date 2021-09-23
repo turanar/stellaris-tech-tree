@@ -33,7 +33,7 @@
           "base_weight": 0,
           "category": "工业技术",
           "cost": 0,
-          "description": "The basic industrial infrastructure that is required to become a spacefaring civilization.",
+          "description": "建立基础工业是远航宇宙的必要条件。",
           "feature_unlocks": [
             "<b>Building</b>: Resource Silos",
             "<b>Building</b>: Alloy Foundries",
@@ -56,7 +56,7 @@
               "base_weight": 100,
               "category": "工业技术",
               "cost": 2000,
-              "description": "New fracking techniques will allow us to tap into previously unattainable pockets of geothermal resources deep beneath the planet's crust.",
+              "description": "新的水力压裂技术可使我们深入地壳，开采过去无法获得的地热资源。",
               "feature_unlocks": [
                 "£minerals£ Minerals from Starbase Constructions +10%",
                 "£minerals£ Minerals from £job_miner£ [GetMinerPlural] +20%"
@@ -87,7 +87,7 @@
                   "base_weight": 85,
                   "category": "工业技术",
                   "cost": 4000,
-                  "description": "These massive drills are needed to access the rich mineral deposits that can often be found close to a planet's core.",
+                  "description": "借助这些大型钻机，我们可以开采接近地心附近常见的深层富矿。",
                   "feature_unlocks": [
                     "£minerals£ Minerals from Starbase Constructions +10%",
                     "£minerals£ Minerals from £job_miner£ [GetMinerPlural] +20%"
@@ -118,7 +118,7 @@
                       "base_weight": 65,
                       "category": "工业技术",
                       "cost": 8000,
-                      "description": "Advanced spectrometry combines with fracking techniques and chemical flushing to rapidly exploit shallow and mid-depth deposits.",
+                      "description": "用先进光谱测定法配合水力压裂技术与化学冲刷，可以快速开采浅层与中层的矿脉。",
                       "feature_unlocks": [
                         "£minerals£ Minerals from Starbase Constructions +10%",
                         "£minerals£ Minerals from £job_miner£ [GetMinerPlural] +20%"
@@ -154,7 +154,7 @@
                   "base_weight": 90,
                   "category": "工业技术",
                   "cost": 3000,
-                  "description": "Optimal processing of mined materials have allowed us to reach new levels of efficiency.",
+                  "description": "优化开采矿物的加工流程可使我们的效率达到新的水平。",
                   "feature_unlocks": [
                     "<b>Building</b>: Mineral Purification Plants",
                     "<b>Edict</b>: Mining Subsidies"
@@ -185,7 +185,7 @@
                       "base_weight": 140,
                       "category": "工业技术",
                       "cost": 6000,
-                      "description": "Second-stage processing of pseudo-refined minerals allow for more efficient storage and transportation.",
+                      "description": "对半精炼的矿物进行二级处理，可使矿物的存储和运输更为高效。",
                       "feature_unlocks": [
                         "<b>Building</b>: Mineral Purification Hubs"
                       ],
@@ -221,7 +221,7 @@
                           "base_weight": 12.5,
                           "category": "工业技术",
                           "cost": 50000,
-                          "description": "Changes in how mineral deposits are evaluated relative to each other lead to more efficient boring patterns.",
+                          "description": "评估矿物沉积的变动形式可以帮助建立更有效的钻探模式。",
                           "feature_unlocks": [
                             "£minerals£ Minerals from £job£ Jobs +5%"
                           ],
@@ -260,7 +260,7 @@
               "base_weight": 150,
               "category": "工业技术",
               "cost": 2000,
-              "description": "Wearing a powered exoskeleton suit augments the user's strength and speed. The military applications are obvious, but it will also increase labor efficiency.",
+              "description": "外骨骼动力套装能增加穿戴者的力量和速度。其军事用途显而易见，但同样可以用来提升劳动效率。",
               "feature_unlocks": [
                 "Army Damage +5%",
                 "£minerals£ Minerals from £job£ Jobs +5%"
@@ -291,7 +291,7 @@
                   "base_weight": 135,
                   "category": "工业技术",
                   "cost": 3000,
-                  "description": "These robotic work units are perfect for menial labor tasks. They are hard-working and capable of following simple vocal instructions, but should not be expected to climb stairs.",
+                  "description": "此种机器人单位是完美的廉价低端劳动力，能在简单的语音指令下完成重体力劳动，但无法胜任诸如爬楼梯等较为高级的任务。",
                   "feature_unlocks": [
                     "<b>Feature : </b>Robot Workers",
                     "<b>Building</b>: Robot Assembly Plants"
@@ -327,7 +327,7 @@
                       "base_weight": 85,
                       "category": "工业技术",
                       "cost": 4000,
-                      "description": "Rewritable assembly templates allow for the creation of bespoke synthetic worker designs.",
+                      "description": "可擦写的配装模板允许我们创造定制的合成人劳工的设计。",
                       "feature_unlocks": [
                         "<b>Feature : </b>Robomodding",
                         "Robot Modification Points +2"
@@ -361,7 +361,7 @@
                           "base_weight": 65,
                           "category": "工业技术",
                           "cost": 8000,
-                          "description": "Improved production practices allow for greater alterations to synthetic workers without compromising core functionality.",
+                          "description": "经过改良的生成过程可以在不影响核心功能的情况下更大幅度地改造合成人工人。",
                           "feature_unlocks": [
                             "Robot Modification Points +1"
                           ],
@@ -400,7 +400,7 @@
                               "base_weight": 22.5,
                               "category": "工业技术",
                               "cost": 16000,
-                              "description": "Improved production practices allow for fundamental changes to synthetic workers without compromising core functionality.",
+                              "description": "经过改良的生产过程可以在不影响核心功能的情况下对合成人工人进行底层改造。",
                               "feature_unlocks": [
                                 "Robot Modification Points +1"
                               ],
@@ -453,7 +453,7 @@
                       "base_weight": 70,
                       "category": "工业技术",
                       "cost": 6000,
-                      "description": "Upgraded robotic workers, these units have an expanded movement range equal to that of most organics. Their neural processors have also been greatly improved.",
+                      "description": "升级版机器人劳工，行动能力可与大多数有机生物相媲美。其神经处理器也进步巨大。",
                       "feature_unlocks": [
                         "<b>Feature : </b>Droid Workers",
                         "<b>Army</b>: Robotic Assault Army"
@@ -495,7 +495,7 @@
                           "base_weight": 20,
                           "category": "工业技术",
                           "cost": 20000,
-                          "description": "Highly advanced robots that are stronger, faster and more durable than the vast majority of organics. With their upgraded neural processors they are fully capable of independent operations.",
+                          "description": "高级机器人，比绝大多数有机生物更强，更快，更耐用。其神经处理器有很大提高，拥有独立运作的能力。",
                           "feature_unlocks": [
                             "Robot Output +10%",
                             "<b>Feature : </b>Synthetic Workers"
@@ -545,7 +545,7 @@
                               "base_weight": 35,
                               "category": "工业技术",
                               "cost": 24000,
-                              "description": "Equipped with a personality, synthetics will finally be able to interact socially on equal terms with the rest of our citizens. Some units may even assume leadership roles.",
+                              "description": "合成人被赋予人格后，终于能与其他人们平等地进行社会交流。有些合成人甚至能够成为领袖。",
                               "feature_unlocks": [
                                 "<b>Feature : </b>Synth Leaders"
                               ],
@@ -595,7 +595,7 @@
                   "base_weight": 85,
                   "category": "工业技术",
                   "cost": 4000,
-                  "description": "Standardization of assembly templates allow for improved specialization of the drone population.",
+                  "description": "标准化的装配模板能进一步细化机械人口的分工。",
                   "feature_unlocks": [
                     "<b>Feature : </b>Robomodding",
                     "Machine Modification Points +1"
@@ -628,7 +628,7 @@
                       "base_weight": 65,
                       "category": "工业技术",
                       "cost": 8000,
-                      "description": "These advanced motivators are both smaller and lighter than previous versions, allowing robotic units to allocate additional space for subsystems.",
+                      "description": "这些先进的内驱程序比早先版本量级更轻，能让机器人单位为为子系统分配额外的空间。",
                       "feature_unlocks": [
                         "Machine Modification Points +1"
                       ],
@@ -665,7 +665,7 @@
                           "base_weight": 22.5,
                           "category": "工业技术",
                           "cost": 16000,
-                          "description": "Using programmable nanites to assist in the construction of new robotic units will allow for more advanced models that are equipped with an even greater array of subsystems.",
+                          "description": "使用程控的纳米机器人辅助新机器单位的建造能够让其使用更为先进的模板并装备更好的子系统阵列。",
                           "feature_unlocks": [
                             "Machine Modification Points +1"
                           ],
@@ -708,7 +708,7 @@
                           "base_weight": 22.5,
                           "category": "工业技术",
                           "cost": 16000,
-                          "description": "Advanced templates allow us to drastically increase the assembly of new units.",
+                          "description": "先进的装配模板系统，可以大幅提高我们装配新单位的效率。",
                           "feature_unlocks": [
                             "<b>Building</b>: Machine Assembly Complex"
                           ],
@@ -762,7 +762,7 @@
               "base_weight": 90,
               "category": "材料科学",
               "cost": 3000,
-              "description": "With pre-programmed nano-circuits, many consumer products can be rapidly assembled in fabricators.",
+              "description": "有了提前编写过的纳米电路，很多消费品能够快速地在工厂中进行组装。",
               "feature_unlocks": [
                 "<b>Building</b>: Civilian Fabricators"
               ],
@@ -795,7 +795,7 @@
                   "base_weight": 130,
                   "category": "材料科学",
                   "cost": 8000,
-                  "description": "These kiosks can replicate any pre-approved object if its pattern has been stored within their memory banks.",
+                  "description": "对物件的图样进行储存后，这些终端可以复制生产已储存的物件。",
                   "feature_unlocks": [
                     "<b>Building</b>: Civilian Repli-Complexes"
                   ],
@@ -839,7 +839,7 @@
               "base_weight": 90,
               "category": "材料科学",
               "cost": 3000,
-              "description": "Solid holographic casts can alter their shapes at a moment's notice, speeding up alloy production.",
+              "description": "固态全息铸模可以瞬间改变自身形态，从而提升合金的生产速度。",
               "feature_unlocks": [
                 "<b>Building</b>: Alloy Mega-Forges"
               ],
@@ -870,7 +870,7 @@
                   "base_weight": 130,
                   "category": "材料科学",
                   "cost": 8000,
-                  "description": "Nano-separators are a revolutionary new step in the creation of alloys, simplifying the casting process while improving overall production quality.",
+                  "description": "纳米分离器乃是合金制造业改革性的新一步。大幅简化铸模过程，还能够提升总体生产质量。",
                   "feature_unlocks": [
                     "<b>Building</b>: Alloy Nano-Plants"
                   ],
@@ -910,7 +910,7 @@
               "base_weight": 170,
               "category": "材料科学",
               "cost": 4000,
-              "description": "Exotic Gas can be produced artificially, but it is a difficult process that requires advanced refinery equipment.",
+              "description": "异星天然气可以人工生产，但是较为困难，需要先进的精炼设备。",
               "feature_unlocks": [
                 "<b>Building</b>: Exotic Gas Refineries"
               ],
@@ -943,7 +943,7 @@
               "base_weight": 170,
               "category": "材料科学",
               "cost": 4000,
-              "description": "The crystallization process is complicated and difficult, but synthetic crystals can be manufactured by using specialized industrial plants.",
+              "description": "结晶化的过程复杂且困难，但只要有专门的生产工厂，我们就可以生产人工制造水晶。",
               "feature_unlocks": [
                 "<b>Building</b>: Synthetic Crystal Plants",
                 "<b>Building</b>: Kha'lanka Crystal Plant"
@@ -980,7 +980,7 @@
           "base_weight": 0,
           "category": "工业技术",
           "cost": 0,
-          "description": "Construction in space presents our engineers with new design challenges that must be solved before we can build orbital stations above other worlds.",
+          "description": "在我们能够在其他星球上建立轨道空间站之前，工程师们必须首先解决空间建设中遇到的全新的设计挑战。",
           "feature_unlocks": [
             "<b>Ship Size</b>: Constructor",
             "<b>Ship Size</b>: Research Station",
@@ -1003,7 +1003,7 @@
               "base_weight": 100,
               "category": "工业技术",
               "cost": 2000,
-              "description": "The addition of internal refineries on mining stations will substantially increase mineral production.",
+              "description": "在矿物开采站中内置精炼厂将会大幅提升采矿效率。",
               "feature_unlocks": [
                 "<b>Starbase Building</b>: Nebula Refinery",
                 "Mining Station Output +10%"
@@ -1034,7 +1034,7 @@
                   "base_weight": 90,
                   "category": "工业技术",
                   "cost": 3000,
-                  "description": "Increased scanner range will allow us to more quickly identify mineral concentrations, and focus our mining efforts there.",
+                  "description": "增加扫描仪距离后，可以更快辨识矿物分布，从而增加矿物开采效率。",
                   "feature_unlocks": [
                     "Mining Station Output +10%"
                   ],
@@ -1064,7 +1064,7 @@
                       "base_weight": 85,
                       "category": "工业技术",
                       "cost": 4000,
-                      "description": "These powerful short-range lasers can easily slice through rock, making the extraction of minerals a more efficient affair.",
+                      "description": "短距离高能镭射，可以轻而易举地切开岩石，大幅提升采矿的效率。",
                       "feature_unlocks": [
                         "Mining Station Output +10%"
                       ],
@@ -1094,7 +1094,7 @@
                           "base_weight": 70,
                           "category": "工业技术",
                           "cost": 6000,
-                          "description": "Fleets of autonomous drones equipped with mining beams are deployed to quickly and efficiently gather nearby minerals.",
+                          "description": "配置了采矿镭射的无人机群可以在附近进行高效采矿。",
                           "feature_unlocks": [
                             "Mining Station Output +10%"
                           ],
@@ -1124,7 +1124,7 @@
                               "base_weight": 65,
                               "category": "工业技术",
                               "cost": 8000,
-                              "description": "These special probes are equipped with swarms of nanites that identify previously unknown mineral concentrations and mark them for later extraction.",
+                              "description": "装配了成千上万纳米机器人的特殊探测器。可以探索到之前无法识别的矿脉，并将其加以标记，以便以后进行采集。",
                               "feature_unlocks": [
                                 "Mining Station Output +10%"
                               ],
@@ -1168,7 +1168,7 @@
               "base_weight": 190,
               "category": "材料科学",
               "cost": 2500,
-              "description": "The Betharian minerals appear to have originated from singular source, but were scattered across the galaxy millennia ago. The minerals are most often encountered as pebble-sized clusters, and are highly flammable.",
+              "description": "贝塞里安矿最早似乎出自单一矿源，但千年前，开始出现于星系各处。此类矿物成鹅卵石大小，群状分布，并且高度易燃。",
               "feature_unlocks": [
                 "<b>Building</b>: Betharian Power Plant"
               ],
@@ -1201,7 +1201,7 @@
               "base_weight": 170,
               "category": "材料科学",
               "cost": 4000,
-              "description": "Pockets of Exotic Gas are rare and often inaccessible by conventional means. Such deposits can only be reached by using special extractor technology.",
+              "description": "异星天然气十分珍贵，但以传统方式进行采集是不可取的。只有特殊的采集技术才能对其进行收集。",
               "feature_unlocks": [
                 "<b>Reveals Resource</b>: Exotic Gases",
                 "<b>Building</b>: Gas Extraction Wells"
@@ -1235,7 +1235,7 @@
               "base_weight": 170,
               "category": "材料科学",
               "cost": 4000,
-              "description": "Mining these crystals without damaging or even destroying them is an extremely delicate process. It requires advanced equipment capable of pinpoint precision.",
+              "description": "在不损坏甚至是摧毁它们的前提下开采这些水晶，是一件对精密性要求很高的工作，需要极度精密的先进设备。",
               "feature_unlocks": [
                 "<b>Reveals Resource</b>: Rare Crystals",
                 "<b>Building</b>: Crystal Mines"
@@ -1269,7 +1269,7 @@
               "base_weight": 0,
               "category": "材料科学",
               "cost": 32000,
-              "description": "Mining and processing the rare living metals is exceedingly difficult, but successful application of the mutable alloys yields incomparable advantages.",
+              "description": "开采和处理罕见的活体金属极其困难，但如果成功使用这些易变金属，获得的收益也无法估量。",
               "feature_unlocks": [
                 "<b>Edict</b>: Living Metal Mega-Construction",
                 "<b>Reveals Resource</b>: Living Metal"
@@ -1303,7 +1303,7 @@
           "base_weight": 100,
           "category": "工业技术",
           "cost": 2000,
-          "description": "Advanced instrumentation allows for the study and practical application of physical systems at nanometric scales.",
+          "description": "通过先进的仪器，我们可以在纳米层面上对物理进行研究与应用。",
           "feature_unlocks": [
             "£engineering£ Engineering Research from £job_researcher£ [GetResearcherPlural] +20%"
           ],
@@ -1331,7 +1331,7 @@
               "base_weight": 90,
               "category": "工业技术",
               "cost": 3000,
-              "description": "Rapid iteration in construction simulations determines the optimal component assembly patterns for each building project ahead of time.",
+              "description": "通过在建筑模拟领域引入快速迭代算法，我们能够尽快确定所有建筑项目的最优装配模式。",
               "feature_unlocks": [
                 "Planetary Build Speed +25%"
               ],
@@ -1362,7 +1362,7 @@
                   "base_weight": 30,
                   "category": "工业技术",
                   "cost": 10000,
-                  "description": "Standardized pre-fab templates massively reduce on-site facility construction times.",
+                  "description": "标准化的预制模板大大减少了实地设施的建造工期。",
                   "feature_unlocks": [
                     "Planetary Build Speed +50%",
                     "Empire Sprawl from Districts -10%"
@@ -1396,7 +1396,7 @@
                       "base_weight": 12.5,
                       "category": "工业技术",
                       "cost": 50000,
-                      "description": "The application of game and puzzle theory has the potential to greatly optimize modular assembly and construction.",
+                      "description": "博弈论和模糊理论的应用具有大幅优化模块组装和建造的潜力。\" # through the use of advanced puzzle-logic we can make sure each building is assembled in the optimal order and pattern",
                       "feature_unlocks": [
                         "Planetary Build Speed +10%"
                       ],
@@ -1432,7 +1432,7 @@
               "base_weight": 70,
               "category": "工业技术",
               "cost": 6000,
-              "description": "The production and understanding of supersolids are of immeasurable value to any and every space-age civilization.",
+              "description": "充分了解与并生产这种超固体，可以使任何一个太空文明受益匪浅。",
               "feature_unlocks": [
                 "£engineering£ Engineering Research from £job_researcher£ [GetResearcherPlural] +20%"
               ],
@@ -1466,7 +1466,7 @@
                   "base_weight": 40,
                   "category": "工业技术",
                   "cost": 20000,
-                  "description": "The study of superfluidity promises to marry quantum mechanics with the fundamental interaction of gravity.",
+                  "description": "对于超流态材料的研究，有望将量子力学与重力基本相互作用结合起来。",
                   "feature_unlocks": [
                     "£engineering£ Engineering Research from £job_researcher£ [GetResearcherPlural] +20%"
                   ],
@@ -1508,7 +1508,7 @@
           "base_weight": 112.5,
           "category": "工业技术",
           "cost": 5000,
-          "description": "The ability to alter a planet's weather patterns to suppress destructive weather phenomena will make residential buildings easier to maintain and open up new areas for habitation.",
+          "description": "改变行星气候规律以压制灾难性气候现象的能力可使住房建筑更容易维护，并开放新的可居住区域。",
           "feature_unlocks": [
             "City District Housing: +1"
           ],
@@ -1531,7 +1531,7 @@
               "base_weight": 65,
               "category": "治国术",
               "cost": 8000,
-              "description": "With the latest advances in architecture, landscaping and holographic technology, we shall build the homes of the future.",
+              "description": "有了最先进的建筑学、景观学及全息影像技术，我们将建造一个真正的未来家园。",
               "feature_unlocks": [
                 "<b>Building</b>: Utopian Communal Housing",
                 "<b>Building</b>: Paradise Dome",
@@ -1569,7 +1569,7 @@
               "base_weight": 97.5,
               "category": "工业技术",
               "cost": 8000,
-              "description": "With directional gravity technology, buildings on the surface of planets can reach higher than ever before without risking structural collapse. The sky is the limit!",
+              "description": "在指向性重力科技的帮助下，星球地表的建筑可以达到前所未有的高度，而不必担心结构崩塌。通天塔指日可待！",
               "feature_unlocks": [
                 "<b>Building</b>: Expanded Warren",
                 "City District Housing: +1"
@@ -1606,7 +1606,7 @@
           "base_weight": 112.5,
           "category": "工业技术",
           "cost": 5000,
-          "description": "Microscopic tools that can assist our replication units in creating the more complex circuitry needed for new drones.",
+          "description": "配有显微设备的复制机能够让我们复制出带有更多复杂细节的无人机。",
           "feature_unlocks": [
             "<b>Building</b>: Upgraded Drone Storage",
             "Pop Assembly Speed +10%"
@@ -1632,7 +1632,7 @@
               "base_weight": 75,
               "category": "工业技术",
               "cost": 12000,
-              "description": "Modelled on organic DNA, these microscopic machine intellects are capable of autonomously assembling most components needed for new drones.",
+              "description": "仿照有机物DNA而来，这些微型机械智能可以自动组成大多数新无人机需要的零件。",
               "feature_unlocks": [
                 "Pop Assembly Speed +10%"
               ],
@@ -1671,7 +1671,7 @@
           "base_weight": 0,
           "category": "材料科学",
           "cost": 2000,
-          "description": "Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation.",
+          "description": "加强过的纳米装甲能够提供多一层的防护，有没有这一层防护，在战斗中可能就是生与死的区别。",
           "feature_unlocks": [
             "<b>Component</b>: Large Nanocomposite Armor",
             "<b>Component</b>: Small Nanocomposite Armor",
@@ -1694,7 +1694,7 @@
               "base_weight": 118.75,
               "category": "材料科学",
               "cost": 2500,
-              "description": "A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility.",
+              "description": "不同金属和陶瓷的结合物，坚硬而又不失柔韧性。",
               "feature_unlocks": [
                 "<b>Component</b>: Medium Ceramo-Metal Armor",
                 "<b>Component</b>: Large Ceramo-Metal Armor",
@@ -1726,7 +1726,7 @@
                   "base_weight": 170,
                   "category": "材料科学",
                   "cost": 4000,
-                  "description": "The widespread use of advanced ceramics in industry can improve metallurgical yields.",
+                  "description": "改良陶瓷在工业中的广泛运用能够提高冶金产量。",
                   "feature_unlocks": [
                     "£job_foundry£ [GetAlloyProducer] Output +10%"
                   ],
@@ -1761,7 +1761,7 @@
                       "base_weight": 90,
                       "category": "材料科学",
                       "cost": 16000,
-                      "description": "By replacing antiquated ceramo-metal equipment with cutting edge technology, we can run our forges hotter and longer, increasing production.",
+                      "description": "采用尖端技术取代过时的瓷金设备后，我们的煅炉将更高温、更耐久，进而提高其产能。",
                       "feature_unlocks": [
                         "£job_foundry£ [GetAlloyProducer] Output +10%"
                       ],
@@ -1806,7 +1806,7 @@
                   "base_weight": 93.75,
                   "category": "材料科学",
                   "cost": 5000,
-                  "description": "Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor.",
+                  "description": "塑钢由多种塑料和金属结合而成，富有弹性。能增加舰体强度，而且造价低廉。",
                   "feature_unlocks": [
                     "<b>Component</b>: Small Plasteel Armor",
                     "<b>Component</b>: Medium Plasteel Armor",
@@ -1838,7 +1838,7 @@
                       "base_weight": 75,
                       "category": "材料科学",
                       "cost": 10000,
-                      "description": "This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor.",
+                      "description": "此种材料质地强韧、耐冲击，是合适的舰体材料。",
                       "feature_unlocks": [
                         "<b>Component</b>: Large Durasteel Armor",
                         "<b>Component</b>: Small Durasteel Armor",
@@ -1870,7 +1870,7 @@
                           "base_weight": 50,
                           "category": "材料科学",
                           "cost": 20000,
-                          "description": "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag.",
+                          "description": "中子装甲密度大、质地坚，相比常规合金装甲，中子装甲能抵抗更强大火力。",
                           "feature_unlocks": [
                             "<b>Component</b>: Small Neutronium Armor",
                             "<b>Component</b>: Large Neutronium Armor",
@@ -1907,7 +1907,7 @@
                       "base_weight": 12.5,
                       "category": "材料科学",
                       "cost": 50000,
-                      "description": "Compressing suitable materials into ultra-dense forms is a cheap and efficient way to improve their ability to absorb weapons-grade impacts.",
+                      "description": "把合适的材料压缩成超高密度，是一种便宜又有效的提高防护力的方式。",
                       "feature_unlocks": [
                         "Armor Hit Points +5%"
                       ],
@@ -1946,7 +1946,7 @@
           "base_weight": 0,
           "category": "推进力学",
           "cost": 0,
-          "description": "Gun batteries that fire shrapnel rounds at close range. They are particularly lethal to enemy strike craft, but can also defend against missiles.",
+          "description": "高射炮可以近距离发射榴弹，这对敌人的舰载机杀伤巨大，当然也能够防御导弹。",
           "feature_unlocks": [
             "<b>Component</b>: Flak Battery"
           ],
@@ -1967,7 +1967,7 @@
               "base_weight": 70,
               "category": "推进力学",
               "cost": 6000,
-              "description": "Upgraded flak batteries with new, more powerful shrapnel rounds.",
+              "description": "升级后的高射炮装备了新型更加强大的榴弹。",
               "feature_unlocks": [
                 "<b>Component</b>: Flak Cannons"
               ],
@@ -1999,7 +1999,7 @@
                   "base_weight": 45,
                   "category": "推进力学",
                   "cost": 16000,
-                  "description": "Predictive tracking algorithms and even more powerful rounds make these batteries incredibly lethal to enemy strike craft.",
+                  "description": "使用预测跟踪算法和更强大的齐射，使得这些高射炮拥有了难以置信的打击敌军舰载机的能力。",
                   "feature_unlocks": [
                     "<b>Component</b>: Flak Artillery"
                   ],
@@ -2039,7 +2039,7 @@
           "base_weight": 0,
           "category": "推进力学",
           "cost": 0,
-          "description": "Simple yet moderately effective chemical thrusters that rely on combustible propellant to function.",
+          "description": "简易而有效的化学能推进器，依靠可燃推进剂来维持运作。",
           "feature_unlocks": [
             "<b>Component</b>: Chemical Thrusters"
           ],
@@ -2060,7 +2060,7 @@
               "base_weight": 118.75,
               "category": "推进力学",
               "cost": 2500,
-              "description": "These powerful thrusters provide additional combat speed but consume a great deal of power.",
+              "description": "这种强力推进器能够额外提升战斗速度，然而需要消耗巨大能源。",
               "feature_unlocks": [
                 "<b>Component</b>: Afterburners"
               ],
@@ -2092,7 +2092,7 @@
                   "base_weight": 75,
                   "category": "推进力学",
                   "cost": 10000,
-                  "description": "This improved version of the standard afterburners provide an even greater boost to a ship's combat speed.",
+                  "description": "这种改进版的标准加力燃烧室能够极大提升舰船的战斗速度。",
                   "feature_unlocks": [
                     "<b>Component</b>: Advanced Afterburners"
                   ],
@@ -2132,7 +2132,7 @@
               "base_weight": 106.25,
               "category": "推进力学",
               "cost": 4000,
-              "description": "These electric thrusters use beams of ions to generate thrust without the need for propellant.",
+              "description": "此种电推进器的推力来源于离子束，而非传统工质。",
               "feature_unlocks": [
                 "<b>Component</b>: Ion Thrusters"
               ],
@@ -2163,7 +2163,7 @@
                   "base_weight": 81.25,
                   "category": "推进力学",
                   "cost": 8000,
-                  "description": "An advanced form of electric propulsion, plasma thrusters afford ships greater sublight speeds and maneuverability.",
+                  "description": "等离子推进是电推进的高级形式，赋予舰船更快的亚光速航速和更好的机动性。",
                   "feature_unlocks": [
                     "<b>Component</b>: Plasma Thrusters"
                   ],
@@ -2194,7 +2194,7 @@
                       "base_weight": 56.25,
                       "category": "推进力学",
                       "cost": 16000,
-                      "description": "These highly advanced fusion-powered thrusters provide ships with unmatched maneuverability and speed under sublight conditions.",
+                      "description": "在亚光速条件下，此种高级聚变推进器可赋予舰船无与伦比的机动性和速度优势。",
                       "feature_unlocks": [
                         "<b>Component</b>: Impulse Thrusters"
                       ],
@@ -2225,7 +2225,7 @@
                           "base_weight": 1,
                           "category": "推进力学",
                           "cost": 50000,
-                          "description": "These ship thrusters utilize Dark Matter technology to generate propulsion in a manner that appears to defy numerous laws of physics.",
+                          "description": "这些舰船推进器利用暗物质技术，以一种似乎违反了多个物理法则的方式来产生推进力。",
                           "feature_unlocks": [
                             "<b>Component</b>: Dark Matter Thrusters"
                           ],
@@ -2269,7 +2269,7 @@
           "base_weight": 0,
           "category": "推进力学",
           "cost": 0,
-          "description": "Space-to-space missiles equipped with high-yield nuclear warheads. Although based on old pre-space technology, these crude fire-and-forget weapons can be surprisingly effective at range.",
+          "description": "配备有高当量核弹头的天基导弹。尽管是前太空时代的老旧技术，这种简单粗暴的制导武器在射程范围内有着惊人的高效。",
           "feature_unlocks": [
             "<b>Component</b>: Nuclear Missiles",
             "<b>Starbase Module</b>: Missile Battery"
@@ -2291,7 +2291,7 @@
               "base_weight": 95,
               "category": "推进力学",
               "cost": 2500,
-              "description": "These updated space-to-space missiles have more powerful fusion warheads and improved flight performance.",
+              "description": "升级版的深空导弹，配备了更强大的核聚变弹头，飞行能力进一步提升。",
               "feature_unlocks": [
                 "<b>Component</b>: Fusion Missiles"
               ],
@@ -2328,7 +2328,7 @@
                   "base_weight": 85,
                   "category": "推进力学",
                   "cost": 4000,
-                  "description": "Advanced missiles equipped with very powerful antimatter warheads. A new and improved guidance system gives them a better chance of finding their targets.",
+                  "description": "这些先进的导弹配备有强劲的反物质弹头。更加完善的导航系统大大提高了索敌能力。",
                   "feature_unlocks": [
                     "<b>Component</b>: Antimatter Missiles"
                   ],
@@ -2360,7 +2360,7 @@
                       "base_weight": 65,
                       "category": "推进力学",
                       "cost": 8000,
-                      "description": "The latest version of space-to-space missile, this upgraded variant has an immensely powerful warhead that draws its energy from a zero point vacuum.",
+                      "description": "最新的深空导弹，升级之后装备了威力极度强大的弹头，它能够从真空中汲取真空零点能。",
                       "feature_unlocks": [
                         "<b>Component</b>: Quantum Missiles"
                       ],
@@ -2392,7 +2392,7 @@
                           "base_weight": 40,
                           "category": "推进力学",
                           "cost": 20000,
-                          "description": "These highly advanced missiles are equipped with limited onboard AI pilots that substantially improve their performance and ability to track targets.",
+                          "description": "这些最尖端的导弹配备有限程度的人工智能导航，极大地提高导弹追踪目标的能力和表现。",
                           "feature_unlocks": [
                             "<b>Component</b>: Marauder Missiles"
                           ],
@@ -2429,7 +2429,7 @@
                       "base_weight": 12.5,
                       "category": "推进力学",
                       "cost": 50000,
-                      "description": "With the chemical reaction tightly controlled by missile-board microprocessors, warhead detonations can be tuned for maximum effect for local conditions at the time of impact.",
+                      "description": "得益于火箭上的微处理器严格控制的化学反应，现有的弹头可以在爆炸时发挥出最大的威力。",
                       "feature_unlocks": [
                         "Explosive Weapon Damage +5%"
                       ],
@@ -2459,7 +2459,7 @@
                       "base_weight": 12.5,
                       "category": "推进力学",
                       "cost": 50000,
-                      "description": "Advances in miniaturization allow for more rapid loading and discharging of rocket-propelled payloads.",
+                      "description": "小型化技术的进步可以让火箭拥有更快的装载与卸货速度。",
                       "feature_unlocks": [
                         "Explosive Weapon Attack Speed +5%"
                       ],
@@ -2492,7 +2492,7 @@
                   "base_weight": 75,
                   "category": "推进力学",
                   "cost": 5000,
-                  "description": "These smaller missiles are launched in volleys and have been specifically designed to overwhelm enemy point-defense systems.",
+                  "description": "这些小导弹可以集群发射，是专为克制敌人的点防御系统设计的。",
                   "feature_unlocks": [
                     "<b>Component</b>: Swarmer Missiles"
                   ],
@@ -2524,7 +2524,7 @@
                       "base_weight": 40,
                       "category": "推进力学",
                       "cost": 20000,
-                      "description": "New miniaturization techniques will allow us to equip swarmer missiles with more powerful warheads and improved flight performance.",
+                      "description": "新的微型化技术将使得我们可以在蜂群导弹上安装更加强力的弹头，并提高飞行能力。",
                       "feature_unlocks": [
                         "<b>Component</b>: Whirlwind Missiles"
                       ],
@@ -2564,7 +2564,7 @@
               "base_weight": 75,
               "category": "推进力学",
               "cost": 5000,
-              "description": "These torpedoes are essentially very large, slow-moving missiles. They are equipped with more powerful warheads and shield modulators that let them slip unmolested through energy screens.",
+              "description": "这些鱼雷其实都是速度缓慢的巨大导弹。它们装备了更加强大的弹头和护盾调制器，这使得它们可以安然穿过能量屏障。",
               "feature_unlocks": [
                 "<b>Component</b>: Space Torpedoes"
               ],
@@ -2596,7 +2596,7 @@
                   "base_weight": 60,
                   "category": "推进力学",
                   "cost": 10000,
-                  "description": "Upgraded space torpedoes encased in armor, to better withstand enemy point-defense fire. The armor fragments into shards that cause additional damage when the torpedo detonates.",
+                  "description": "升级过后的太空鱼雷装备有装甲，可以更好地应对敌人的点防御系统。在爆炸的时候，鱼雷碎裂的装甲也会造成额外的伤害。",
                   "feature_unlocks": [
                     "<b>Component</b>: Armored Torpedoes"
                   ],
@@ -2628,7 +2628,7 @@
                       "base_weight": 40,
                       "category": "推进力学",
                       "cost": 20000,
-                      "description": "Advanced torpedoes with very powerful warheads. They have a sleeker design, faster engines and upgraded shield modulators for slipping through energy screens.",
+                      "description": "装备有超强弹头的先进鱼雷。拥有更加光滑的设计，更快的引擎以及改良的护盾调解器，可以轻松穿过能量屏障。",
                       "feature_unlocks": [
                         "<b>Component</b>: Devastator Torpedoes"
                       ],
@@ -2671,7 +2671,7 @@
           "base_weight": 0,
           "category": "推进力学",
           "cost": 0,
-          "description": "These electromagnetic projectile launchers use magnets to accelerate armor-piercing rounds towards targets at high speeds.",
+          "description": "此类电磁射弹器使用磁铁将穿甲弹丸回旋加速到极高的速度。",
           "feature_unlocks": [
             "<b>Starbase Module</b>: Gun Battery",
             "<b>Component</b>: Small Mass Driver",
@@ -2695,7 +2695,7 @@
               "base_weight": 95,
               "category": "推进力学",
               "cost": 2500,
-              "description": "Coilguns are more powerful versions of the early mass drivers, using electromagnetic coils to rapidly accelerate projectiles towards targets.",
+              "description": "线圈炮是早期质量投射器的升级版，使用电磁线圈更有效地加速弹药。",
               "feature_unlocks": [
                 "<b>Component</b>: Medium Coilgun",
                 "<b>Component</b>: Large Coilgun",
@@ -2729,7 +2729,7 @@
                   "base_weight": 85,
                   "category": "推进力学",
                   "cost": 4000,
-                  "description": "The latest in electromagnetic accelerators, railguns use twin parallel rails to fire projectiles at incredible speeds.",
+                  "description": "轨道炮是最新的电磁加速炮，轨道炮通过并行双轨加速炮弹使之以难以置信的高速发射出去。",
                   "feature_unlocks": [
                     "<b>Component</b>: Small Railgun",
                     "<b>Component</b>: Large Railgun",
@@ -2763,7 +2763,7 @@
                       "base_weight": 65,
                       "category": "推进力学",
                       "cost": 8000,
-                      "description": "A new version of the venerable railgun, with sturdier rails and an enhanced power supply. These weapons are even more powerful and accurate than their predecessors.",
+                      "description": "经典轨道炮的新版本，使用更坚固的轨道并增加了能量配给。这些武器比之前的更强劲，更准确。",
                       "feature_unlocks": [
                         "<b>Component</b>: Medium Advanced Railgun",
                         "<b>Component</b>: Large Advanced Railgun",
@@ -2797,7 +2797,7 @@
                           "base_weight": 50,
                           "category": "推进力学",
                           "cost": 12000,
-                          "description": "Very long-range artillery capable of hurling powerful rounds over extreme distances with a large degree of accuracy.",
+                          "description": "射程极远的火炮，火力猛烈，而且准确性极高。",
                           "feature_unlocks": [
                             "<b>Component</b>: Kinetic Battery"
                           ],
@@ -2829,7 +2829,7 @@
                               "base_weight": 40,
                               "category": "推进力学",
                               "cost": 20000,
-                              "description": "An even more powerful long-range, ship-based artillery cannon, equipped with a new barrel and an upgraded fire control computer.",
+                              "description": "更为强劲的远程舰载火力系统，装备有升级版的发射装置和火控系统。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Kinetic Artillery"
                               ],
@@ -2871,7 +2871,7 @@
                           "base_weight": 40,
                           "category": "推进力学",
                           "cost": 20000,
-                          "description": "An enormous mass accelerator cannon that can only be placed in a spinal mount and fires monstrously powerful rounds over vast distances.",
+                          "description": "一款无比庞大的质量加速炮，只能安装在轴基武器台上。能够在极远距离射出威力惊人的炮弹。",
                           "feature_unlocks": [
                             "<b>Component</b>: Mega Cannon"
                           ],
@@ -2908,7 +2908,7 @@
                               "base_weight": 35,
                               "category": "推进力学",
                               "cost": 24000,
-                              "description": "An even more powerful mass accelerator cannon that can rip through even the toughest shields.",
+                              "description": "更加强大的质量加速炮，能够轻易撕毁最坚固的护盾。",
                               "feature_unlocks": [
                                 "<b>Component</b>: Giga Cannon"
                               ],
@@ -2950,7 +2950,7 @@
                           "base_weight": 45,
                           "category": "推进力学",
                           "cost": 16000,
-                          "description": "This updated version of the old coilgun design is even more destructive than the latest railgun designs. It is capable of launching projectiles with incredible accuracy and speed.",
+                          "description": "在对老式电磁线圈的设计进行升级后，新版本的破坏性甚至高于最先进的轨道炮。它能够发射得更准，速度更快。",
                           "feature_unlocks": [
                             "<b>Component</b>: Large Gauss Cannon",
                             "<b>Component</b>: Medium Gauss Cannon",
@@ -2989,7 +2989,7 @@
                       "base_weight": 12.5,
                       "category": "推进力学",
                       "cost": 50000,
-                      "description": "Ultra-dense slugs can punch through even the strongest of projected shields.",
+                      "description": "超高密度的子弹可以击穿最强大的护盾。",
                       "feature_unlocks": [
                         "Kinetic Weapon Damage +5%"
                       ],
@@ -3019,7 +3019,7 @@
                       "base_weight": 12.5,
                       "category": "推进力学",
                       "cost": 50000,
-                      "description": "Minor technical advances combine with improved shipboard routines for handling munitions to provide a noticeable boost in fire rate.",
+                      "description": "小小的技术进步加上改良的船只管理规程，可以让发射效率显著提高。",
                       "feature_unlocks": [
                         "Kinetic Weapon Attack Speed +5%"
                       ],
@@ -3052,7 +3052,7 @@
                   "base_weight": 75,
                   "category": "推进力学",
                   "cost": 5000,
-                  "description": "Large-caliber ballistic weapons that fire cased explosive shells. The main advantage of these cannons is their high rate of fire.",
+                  "description": "大口径的弹道武器，发抛射壳炮弹。主要优势在于高开火速率。",
                   "feature_unlocks": [
                     "<b>Component</b>: Autocannon"
                   ],
@@ -3085,7 +3085,7 @@
                       "base_weight": 65,
                       "category": "推进力学",
                       "cost": 8000,
-                      "description": "These upgraded rotary autocannons feature improved tracking and fire control systems. This allows them to maintain an even higher rate of fire.",
+                      "description": "这些升级版机关炮具备更完善的追踪能力和开火控制系统，因此开火速率也提升了。",
                       "feature_unlocks": [
                         "<b>Component</b>: Ripper Autocannon"
                       ],
@@ -3117,7 +3117,7 @@
                           "base_weight": 45,
                           "category": "推进力学",
                           "cost": 16000,
-                          "description": "Advanced rotary autocannons capable of spewing a cloud of high-explosive shells at a target.",
+                          "description": "设计先进的自动火炮，能够向目标倾泻一片由高爆炮弹构成的弹幕。",
                           "feature_unlocks": [
                             "<b>Component</b>: Stormfire Autocannon"
                           ],
@@ -3163,7 +3163,7 @@
           "base_weight": 0,
           "category": "宇航技术",
           "cost": 0,
-          "description": "The earliest starbases were little more than makeshift outposts. Permanent starports will enable us to maintain a firmer grip on star systems.",
+          "description": "初期的恒星基地只不过是临时的前哨站。而永久性的星港能够让我们保证对恒星系的牢固控制。",
           "feature_unlocks": [
             "<b>Starbase Upgrade</b>: Starport"
           ],
@@ -3184,7 +3184,7 @@
               "base_weight": 90,
               "category": "宇航技术",
               "cost": 3000,
-              "description": "These manned strike craft are launched from a mothership and rely on their speed and small size to survive long enough to punch through enemy defenses.",
+              "description": "短程载人舰载机，速度快，体型小，突防生存能力强。",
               "feature_unlocks": [
                 "<b>Component</b>: Basic Strike Craft",
                 "<b>Starbase Module</b>: Hangar Bay"
@@ -3215,7 +3215,7 @@
                   "base_weight": 70,
                   "category": "宇航技术",
                   "cost": 6000,
-                  "description": "The next generation of strike craft, featuring improved avionics, better handling characteristics and more powerful armaments.",
+                  "description": "新一代舰载机装备了改进的航空电子设备，同时拥有更优良的操作性能及更强劲的武器装备。",
                   "feature_unlocks": [
                     "<b>Component</b>: Improved Strike Craft"
                   ],
@@ -3245,7 +3245,7 @@
                       "base_weight": 50,
                       "category": "宇航技术",
                       "cost": 12000,
-                      "description": "A further refinement in strike craft design, these advanced strike craft are a pilot's dream. Their performance far exceeds that of previous models.",
+                      "description": "深度改良型舰载机，性能远胜于先期版本，是每位飞行员梦寐以求的机型。",
                       "feature_unlocks": [
                         "<b>Component</b>: Advanced Strike Craft"
                       ],
@@ -3275,7 +3275,7 @@
                           "base_weight": 12.5,
                           "category": "宇航技术",
                           "cost": 50000,
-                          "description": "Increasing the speed at which fighter pilots can process and act upon enemy positioning data elevates strike craft a few steps up the food chain.",
+                          "description": "提高战斗机飞行员处理敌人位置信息并做出反应的速度，提高战斗机在战场食物链中的位置。",
                           "feature_unlocks": [
                             "Strike Craft Damage +10%"
                           ],
@@ -3305,7 +3305,7 @@
                           "base_weight": 12.5,
                           "category": "宇航技术",
                           "cost": 50000,
-                          "description": "Circulating excess heat from weapons discharge in order to prime munitions as they are loaded increases the rate of fire of strike craft weaponry.",
+                          "description": "武器开火时发散多余的热量，提高攻击机的武器的开火速率。",
                           "feature_unlocks": [
                             "Strike Craft Attack Speed +10%"
                           ],
@@ -3344,7 +3344,7 @@
               "base_weight": 75,
               "category": "宇航技术",
               "cost": 5000,
-              "description": "As space traffic increases, larger and more defensible starbases are needed to maintain control over system spacelanes.",
+              "description": "随着太空交通流量的增加，我们需要更大更可靠的恒星基地来保证对恒星系航道的控制。",
               "feature_unlocks": [
                 "<b>Starbase Upgrade</b>: Starhold"
               ],
@@ -3381,7 +3381,7 @@
                   "base_weight": 37.5,
                   "category": "宇航技术",
                   "cost": 5000,
-                  "description": "A reinforced framework and blast shields with enhanced impact absorption will ensure the structural integrity of the platform even under immense pressure.",
+                  "description": "强化过的构架与增强了冲击吸收能力的防爆护盾即使在巨大的压力下，也可以确保平台的结构完整性。",
                   "feature_unlocks": [
                     "Defense Platform Hull Points +500"
                   ],
@@ -3413,7 +3413,7 @@
                       "base_weight": 12.5,
                       "category": "宇航技术",
                       "cost": 50000,
-                      "description": "Additional layers of armor plating within the structure itself improves the resilience of Military Stations.",
+                      "description": "额外的内部装甲结构可以提高防御站的耐久。",
                       "feature_unlocks": [
                         "Defense Platform Hull Points +10%"
                       ],
@@ -3443,7 +3443,7 @@
                       "base_weight": 12.5,
                       "category": "宇航技术",
                       "cost": 50000,
-                      "description": "Cross-linking weapon systems to fire in staggered volleys improves the actual damage output of Military Stations over time.",
+                      "description": "交联武器系统发射的交错式齐射可以极大提升防御站的伤害。",
                       "feature_unlocks": [
                         "Defense Platform Damage +10%"
                       ],
@@ -3476,7 +3476,7 @@
                   "base_weight": 35,
                   "category": "宇航技术",
                   "cost": 6000,
-                  "description": "Streamlined starbase construction procedures, using modular designs, will reduce the present build cost and time.",
+                  "description": "优化恒星基地的建造流程，使用模块化设计，这将可以减少目前建造的花费和时间。",
                   "feature_unlocks": [
                     "Starbase Building Cost -25%",
                     "Starbase Module Cost -25%"
@@ -3510,7 +3510,7 @@
                       "base_weight": 25,
                       "category": "宇航技术",
                       "cost": 12000,
-                      "description": "The creation of a dedicated naval engineering corps will greatly benefit the construction of deep space defense platforms, decreasing building costs and increasing durability.",
+                      "description": "创建专门的舰队工兵部队会有利于深空防御平台建设，同时降低建筑成本，并提高其耐久度。",
                       "feature_unlocks": [
                         "Starbase Upgrade Speed +25%",
                         "Starbase Upgrade Cost -15%"
@@ -3554,7 +3554,7 @@
                   "base_weight": 60,
                   "category": "宇航技术",
                   "cost": 10000,
-                  "description": "These mighty space forts will provide a focal point for all military activity in a star system, and their presence is sure to deter all but the most stubborn attackers.",
+                  "description": "这些强大的太空堡垒将为恒星系中所有的军事活动提供一个据点，它们的存在几乎足以阻挡住最顽强的进攻者。",
                   "feature_unlocks": [
                     "<b>Starbase Upgrade</b>: Star Fortress"
                   ],
@@ -3591,7 +3591,7 @@
                       "base_weight": 40,
                       "category": "宇航技术",
                       "cost": 20000,
-                      "description": "Plans for an immense battlestation capable of holding its own against several strike fleets are now being drawn up. If realized, these citadels will become monuments to greatness as much as system hubs.",
+                      "description": "一个用一座巨型军用空间站就能抵挡数支攻击舰队的构想正在制定当中。一旦实现，这些擎天堡将会成为恒星系中心的伟大纪念碑。",
                       "feature_unlocks": [
                         "<b>Starbase Upgrade</b>: Citadel"
                       ],
@@ -3633,7 +3633,7 @@
                   "base_weight": 60,
                   "category": "宇航技术",
                   "cost": 10000,
-                  "description": "Allows the construction of largely self-sustaining Orbital Habitats.",
+                  "description": "允许建造规模庞大，能够自给自足的轨道居住站。",
                   "feature_unlocks": [],
                   "is_dangerous": false,
                   "is_rare": false,
@@ -3671,7 +3671,7 @@
                       "base_weight": 35,
                       "category": "宇航技术",
                       "cost": 20000,
-                      "description": "Our early habitats were primitive things compared to the efficient designs we can now develop.",
+                      "description": "相较于如今的高效设计，我们早期的居住站只能算原始罢了。",
                       "feature_unlocks": [],
                       "is_dangerous": false,
                       "is_rare": true,
@@ -3708,7 +3708,7 @@
                           "base_weight": 35,
                           "category": "宇航技术",
                           "cost": 40000,
-                          "description": "Years of improvements to our Orbital Habitats have led us to create newer more effective designs.",
+                          "description": "多年来对§Y轨道居住站§!的改进让我们能够创造效率更高的新设计。",
                           "feature_unlocks": [],
                           "is_dangerous": false,
                           "is_rare": true,
@@ -3759,7 +3759,7 @@
           "base_weight": 0,
           "category": "宇航技术",
           "cost": 0,
-          "description": "The FTL breakthrough allowed early attempts to adapt traditional surface-to-space shuttle frames to military applications to finally create relatively small, fast, and maneuverable vessels with limited firepower.",
+          "description": "超光速航行技术的突破将使得我们将传统的地空军用太空梭最终改造成体型相对小，速度快，操纵性强但是火力有限的机动战舰。",
           "feature_unlocks": [
             "<b>Ship Size</b>: Corvette"
           ],
@@ -3780,7 +3780,7 @@
               "base_weight": 85,
               "category": "宇航技术",
               "cost": 4000,
-              "description": "While larger than Corvettes, Destroyer hull configurations still make for comparatively nimble gunboats.",
+              "description": "尽管比护卫舰大一些，但是驱逐舰的船体结构仍使它仍不失为一种较为灵活的炮艇。",
               "feature_unlocks": [
                 "Fleet Command Limit +10",
                 "<b>Ship Size</b>: Destroyer"
@@ -3817,7 +3817,7 @@
                   "base_weight": 70,
                   "category": "宇航技术",
                   "cost": 6000,
-                  "description": "Advances in building techniques will allow for the construction of sturdier and more durable destroyers.",
+                  "description": "建造技术的进步将使得我们能够进行更坚固更耐用的驱逐舰的建造。",
                   "feature_unlocks": [
                     "Destroyer Hull Points +200"
                   ],
@@ -3848,7 +3848,7 @@
                       "base_weight": 65,
                       "category": "宇航技术",
                       "cost": 8000,
-                      "description": "The latest generation of destroyer hulls have optimized structural integrity fields and improved bulkheads.",
+                      "description": "新一代的驱逐舰优化了结构的整体性并改进了舱壁。",
                       "feature_unlocks": [
                         "Destroyer Hull Points +200"
                       ],
@@ -3887,7 +3887,7 @@
                   "base_weight": 65,
                   "category": "宇航技术",
                   "cost": 8000,
-                  "description": "Originally devised as an experimental next-generation colony ship hull configuration, the design's ample hardpoints made it ideal for carrying heavy weapons ordnance.",
+                  "description": "这种船体结构最初设计为下一代试验型殖民船，其丰富的挂载点使得其能够理想地携带重武器及弹药。",
                   "feature_unlocks": [
                     "Fleet Command Limit +10",
                     "<b>Ship Size</b>: Cruiser"
@@ -3924,7 +3924,7 @@
                       "base_weight": 45,
                       "category": "宇航技术",
                       "cost": 16000,
-                      "description": "The largest of the standard military vessels, Battleships are traditionally heavily armored and sport several gun batteries.",
+                      "description": "作为最大的标准化军用战舰，战列舰自然配备了厚重的装甲和数个移动炮塔。",
                       "feature_unlocks": [
                         "Fleet Command Limit +10",
                         "<b>Ship Size</b>: Battleship"
@@ -3961,7 +3961,7 @@
                           "base_weight": 35,
                           "category": "宇航技术",
                           "cost": 24000,
-                          "description": "Advances in building techniques will allow for the construction of sturdier and more durable battleships.",
+                          "description": "建造技术的进步将使得我们能够进行更坚固更耐用的战列舰的建造。",
                           "feature_unlocks": [
                             "Battleship Hull Points +800"
                           ],
@@ -3992,7 +3992,7 @@
                               "base_weight": 30,
                               "category": "宇航技术",
                               "cost": 32000,
-                              "description": "The latest generation of battleship hulls have optimized structural integrity fields and improved bulkheads.",
+                              "description": "最新一代的战列舰优化了结构的整体性并改进了舱壁。",
                               "feature_unlocks": [
                                 "Battleship Hull Points +800"
                               ],
@@ -4031,7 +4031,7 @@
                           "base_weight": 30,
                           "category": "宇航技术",
                           "cost": 32000,
-                          "description": "Modeled after the hulking shadows looming in the core systems of Stagnant Ascendancies, the Titan class can be outfitted with X-size weapons.",
+                          "description": "仿照失落帝国核心星系如阴影般若隐若现的庞然大物建造，泰坦级战舰可以适配X级武器。",
                           "feature_unlocks": [
                             "<b>Ship Size</b>: Titan",
                             "Fleet Command Limit +10",
@@ -4073,7 +4073,7 @@
                               "base_weight": 25,
                               "category": "宇航技术",
                               "cost": 40000,
-                              "description": "Advances in building techniques will allow for the construction of sturdier and more durable titans.",
+                              "description": "建造技术的进步将使得我们能够进行更坚固更耐用的泰坦的建造。",
                               "feature_unlocks": [
                                 "Titan Hull Points +2000"
                               ],
@@ -4107,7 +4107,7 @@
                                   "base_weight": 20,
                                   "category": "宇航技术",
                                   "cost": 48000,
-                                  "description": "The latest generation of titan hulls have optimized structural integrity fields and improved bulkheads.",
+                                  "description": "最新一代的泰坦已经改善了结构的整体性并改进了舱壁。",
                                   "feature_unlocks": [
                                     "Titan Hull Points +2000"
                                   ],
@@ -4146,7 +4146,7 @@
                               "base_weight": 0,
                               "category": "宇航技术",
                               "cost": 48000,
-                              "description": "Advances in mega-engineering make blur the lines between reality and the fantastical, enabling the construction of Colossus-class military vessels that carry weapons capable of obliterating - or fundamentally altering - entire worlds, with the push of a button.",
+                              "description": "巨构工程学的进步模糊了梦想和现实的界限，让我们能够建造巨像级战舰——携带了只需按下一个按钮就能彻底抹去一个星球，或是彻底改变这个星球的可怕武器。",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4174,7 +4174,7 @@
                                   "base_weight": 10,
                                   "category": "粒子物理",
                                   "cost": 48000,
-                                  "description": "An accelerated plume of neutron radiation \"paints\" the planet surface, severely degrading most materials and directly destroying biological tissue.",
+                                  "description": "一种加速的中子辐射羽流将会扫过行星表面，并对大多数生物组织进行破坏。",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Neutron Sweep"
                                   ],
@@ -4214,7 +4214,7 @@
                                   "base_weight": 10,
                                   "category": "力场操控",
                                   "cost": 48000,
-                                  "description": "A shielding field is deployed around a planet, creating a barrier that is permanent and impenetrable (save for some wavelengths of light).",
+                                  "description": "一个永久的、不可逾越的屏蔽场将被部署在行星表面（吸收一些波长的光）。",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Global Pacifier"
                                   ],
@@ -4252,7 +4252,7 @@
                                   "base_weight": 10,
                                   "category": "灵能理论",
                                   "cost": 48000,
-                                  "description": "An arcane catalyst amplifying certain psionic wavelengths, capable of inducing hallucinations (religious experiences) in biological brains, and severe disruption (brain death) in electronic ones.",
+                                  "description": "一种能增强特定灵能波长的神秘催化剂，能诱导生物脑产生幻觉（宗教体验），并能严重扰乱电子脑（脑死亡）。",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Divine Enforcer"
                                   ],
@@ -4291,7 +4291,7 @@
                                   "base_weight": 10,
                                   "category": "宇航技术",
                                   "cost": 48000,
-                                  "description": "A directed feed of thermic energy superheats the atmosphere and agitates the planet's core, setting up disastrous tectonic events. A final and comparatively minute concussive blast is then delivered, cracking the planet open.",
+                                  "description": "发射的热能流能够加热行星大气，并引爆行星核心，此举将彻底的毁灭星球的地壳构造。 最后，一个相对较小的冲击波会将行星炸得四分五裂。",
                                   "feature_unlocks": [
                                     "<b>Component</b>: World Cracker"
                                   ],
@@ -4329,7 +4329,7 @@
                                   "base_weight": 10,
                                   "category": "宇航技术",
                                   "cost": 48000,
-                                  "description": "Nanobot Diffuser",
+                                  "description": "纳米灾疫",
                                   "feature_unlocks": [
                                     "<b>Component</b>: Nanobot Diffuser"
                                   ],
@@ -4373,7 +4373,7 @@
                           "base_weight": 5,
                           "category": "宇航技术",
                           "cost": 48000,
-                          "description": "To complete construction projects of truly staggering scales we must first achieve a fundamental understanding of both the engineering and resource storage requirements for such megastructures.",
+                          "description": "为了完成此等规模的建造项目，我们必须首先对与巨型结构相关的工程学和物资储备需求有基本的了解。",
                           "feature_unlocks": [
                             "<b>Feature : </b>Megastructure Restoration",
                             "Resource Storage Capacity +20000"
@@ -4431,7 +4431,7 @@
                               "base_weight": 5,
                               "category": "计算技术",
                               "cost": 48000,
-                              "description": "The research labs and databanks of a Science Nexus generate an immense flow of raw, undiluted science.",
+                              "description": "科学枢纽!的研究实验室和数据库能够产出源源不断的原生数据流。",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4468,7 +4468,7 @@
                               "base_weight": 5,
                               "category": "计算技术",
                               "cost": 48000,
-                              "description": "The stages of the Sentry Array gradually expand sensor range, eventually covering the entire galaxy.",
+                              "description": "随着工程的不断推进，哨兵阵列!会逐步的扩展传感器范围，最终将囊括整个星系。",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4506,7 +4506,7 @@
                               "base_weight": 5,
                               "category": "军事理论",
                               "cost": 48000,
-                              "description": "A facility synchronizing the national Starbase network, augmenting defensive and offensive capabilities.",
+                              "description": "可以将全国上下恒星基地网络进行同步化处理的设施，提升基地的防御及攻击能力。",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4546,7 +4546,7 @@
                               "base_weight": 5,
                               "category": "军事理论",
                               "cost": 48000,
-                              "description": "A zero-G construction yard of overwhelming proportion, capable of performing several space ship assembly projects simultaneously.",
+                              "description": "一个有着零重力立场的巨型船坞，能够执行多个星舰建设项目。",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4586,7 +4586,7 @@
                               "base_weight": 5,
                               "category": "治国术",
                               "cost": 48000,
-                              "description": "A meeting place for galactic powers, increasing immigration attraction and global opinion of us.",
+                              "description": "星际各国的会议场地，可提高我国对外来移民的吸引力以及他国对我国的评价。",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4625,7 +4625,7 @@
                               "base_weight": 5,
                               "category": "治国术",
                               "cost": 48000,
-                              "description": "An artistic beacon on a stellar scale, this installation inspires and represents the spirit of its creators.",
+                              "description": "星际规模的艺术信标。此设施可以鼓舞人民的士气。",
                               "feature_unlocks": [],
                               "is_dangerous": false,
                               "is_rare": true,
@@ -4668,7 +4668,7 @@
                           "base_weight": 40,
                           "category": "宇航技术",
                           "cost": 20000,
-                          "description": "Establishing new standards for how we design and construct massive battleships greatly improves the speed at which they can be assembled.",
+                          "description": "建立新的战列舰模板和建造标准将会大大提高生产线的效率。",
                           "feature_unlocks": [
                             "Battleship Build Cost -5%",
                             "Battleship Build Speed +25%"
@@ -4701,7 +4701,7 @@
                           "base_weight": 5,
                           "category": "宇航技术",
                           "cost": 48000,
-                          "description": "A mobile space base of unparalleled proportions, the Juggernaut ship class takes offensive warfare to a whole new level.",
+                          "description": "作为一个行动自如、大小空前的太空基地，主宰级舰船可以将进攻作战提升到一个全新的高度。",
                           "feature_unlocks": [
                             "<b>Starbase Building</b>: Colossal Assembly Yards"
                           ],
@@ -4747,7 +4747,7 @@
                       "base_weight": 60,
                       "category": "宇航技术",
                       "cost": 10000,
-                      "description": "Establishing new standards for the modeling and construction of cruisers greatly improves the efficiency of the production pipeline.",
+                      "description": "建立新的巡洋舰模板和建造标准将会大大提高生产线的效率。",
                       "feature_unlocks": [
                         "Cruiser Build Cost -5%",
                         "Cruiser Build Speed +25%"
@@ -4780,7 +4780,7 @@
                       "base_weight": 50,
                       "category": "宇航技术",
                       "cost": 12000,
-                      "description": "Advances in building techniques will allow for the construction of sturdier and more durable cruisers.",
+                      "description": "建造技术的进步将使得我们能够进行更坚固更耐用的巡洋舰的建造。",
                       "feature_unlocks": [
                         "Cruiser Hull Points +500"
                       ],
@@ -4811,7 +4811,7 @@
                           "base_weight": 45,
                           "category": "宇航技术",
                           "cost": 16000,
-                          "description": "The latest generation of cruiser hulls have optimized structural integrity fields and improved bulkheads.",
+                          "description": "最新一代的巡洋舰优化了结构的整体性并改进了舱壁。",
                           "feature_unlocks": [
                             "Cruiser Hull Points +500"
                           ],
@@ -4853,7 +4853,7 @@
                   "base_weight": 75,
                   "category": "宇航技术",
                   "cost": 5000,
-                  "description": "Establishing new standards for the modeling and construction of destroyers greatly improves the efficiency of the production pipeline.",
+                  "description": "建立新的驱逐舰模板和建造标准将会大大提高生产线的效率。",
                   "feature_unlocks": [
                     "Destroyer Build Cost -5%",
                     "Destroyer Build Speed +25%"
@@ -4889,7 +4889,7 @@
               "base_weight": 90,
               "category": "宇航技术",
               "cost": 3000,
-              "description": "Advances in building techniques will allow for the construction of sturdier and more durable corvettes.",
+              "description": "建造技术的进步将使得我们能够进行更坚固更耐用的护卫舰的建造。",
               "feature_unlocks": [
                 "Corvette Hull Points +100"
               ],
@@ -4919,7 +4919,7 @@
                   "base_weight": 70,
                   "category": "宇航技术",
                   "cost": 6000,
-                  "description": "The latest generation of corvette hulls have optimized structural integrity fields and improved bulkheads.",
+                  "description": "最新一代的护卫舰优化了结构的整体性并改进了舱壁。",
                   "feature_unlocks": [
                     "Corvette Hull Points +100"
                   ],
@@ -4957,7 +4957,7 @@
               "base_weight": 95,
               "category": "宇航技术",
               "cost": 2500,
-              "description": "Establishing new standards for the modeling and construction of corvettes greatly improves the efficiency of the production pipeline.",
+              "description": "建立新的护卫舰模板和建造标准将会大大提高生产线的效率。",
               "feature_unlocks": [
                 "Corvette Build Cost -5%",
                 "Corvette Build Speed +25%"
@@ -4993,7 +4993,7 @@
           "base_weight": 0,
           "category": "工业技术",
           "cost": 0,
-          "description": "The application of mechanical engineering to mineral extraction is a fundamental requirement for any industrial society.",
+          "description": "应用机械工程学进行采矿是任何工业社会的基本需求。",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": false,
@@ -5014,7 +5014,7 @@
           "base_weight": 35,
           "category": "材料科学",
           "cost": 6000,
-          "description": "The mass-production of these rare resources require particularly capable nanites.",
+          "description": "这些稀有资源的大规模生产需要极为先进的纳米材料。",
           "feature_unlocks": [
             "<b>Building</b>: Nanite Transmuter"
           ],
@@ -5044,7 +5044,7 @@
           "base_weight": 0,
           "category": "宇航技术",
           "cost": 0,
-          "description": "The realization of faster-than-light travel is a new dawn for space exploration. Manned missions to other star systems are now not only possible, but necessary.",
+          "description": "超光速航行的实现带来了太空时代的曙光。跨星系载人航行现在不再仅仅是可能，而是变成一种必要的技术。",
           "feature_unlocks": [
             "<b>Ship Size</b>: Science Ship"
           ],
@@ -5067,7 +5067,7 @@
           "base_weight": 0,
           "category": "宇航技术",
           "cost": 0,
-          "description": "Advances in solar panel technology could offset the operating costs of our starbases. The panels would require an entire starbase module to generate enough energy, however.",
+          "description": "先进的太阳能板科技可以抵消恒星基地的运行成本。不过，这些太阳能板需要占用一个恒星基地的模块才能生产足够规模的能源。",
           "feature_unlocks": [
             "<b>Starbase Module</b>: Solar Panel Network"
           ],
@@ -5093,7 +5093,7 @@
           "base_weight": 0,
           "category": "宇航技术",
           "cost": 0,
-          "description": "A centralized space installation built in close orbit around the system primary is necessary to make full use of the resources in a star system.",
+          "description": "为了充分利用恒星系中的资源，我们必须在星系主星较近的轨道附近建立一个集中化的太空设施。",
           "feature_unlocks": [
             "<b>Starbase Upgrade</b>: Outpost"
           ],
@@ -5116,7 +5116,7 @@
           "base_weight": 0,
           "category": "宇航技术",
           "cost": 0,
-          "description": "This will enable the construction of defensive deep space platforms to protect our Starbases.",
+          "description": "这将允许我们建设深空防御平台以保护我们的恒星基地。",
           "feature_unlocks": [
             "<b>Ship Size</b>: Defense Platform"
           ],
@@ -5139,7 +5139,7 @@
           "base_weight": 0,
           "category": "宇航技术",
           "cost": 2000,
-          "description": "The invasion of another world is a staggering enterprise. There are immense logistical challenges that must be overcome before we can muster our first interplanetary armies.",
+          "description": "入侵星球绝非易事。军队出征前，须先克服重大后勤补给问题。",
           "feature_unlocks": [
             "<b>Army</b>: Hunter-Killer Army",
             "<b>Army</b>: Assault Army\nThese armies can be embarked and used for invasion on other planets.",
@@ -5164,7 +5164,7 @@
           "base_weight": 70,
           "category": "宇航技术",
           "cost": 2000,
-          "description": "Intensive study within the fields of nanomachinery and subspace phenomena will eventually yield a new L-Gate Insight into the Disabled L-Gate mystery.",
+          "description": "对纳米机器与亚空间现象进行大量研究，最终将为$lgate_disabled$谜团揭开新的L-星门认知!。",
           "feature_unlocks": [],
           "is_dangerous": false,
           "is_rare": true,

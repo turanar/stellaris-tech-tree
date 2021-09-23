@@ -6,7 +6,7 @@
     "base_weight": 0,
     "category": "Частицы",
     "cost": 2500,
-    "description": "By harnessing the entropic nature of the Null Void, this beam can actually destroy energy.",
+    "description": "Если обуздать энтропическую природу нулевой пустоты, этот луч вообще-то может уничтожать энергию.",
     "feature_unlocks": [
       "<b>Component</b>: Large Null Void Beam",
       "<b>Component</b>: Medium Null Void Beam",
@@ -31,7 +31,7 @@
     "base_weight": 60,
     "category": "Управление полями",
     "cost": 4000,
-    "description": "The universe tends irresistibly onwards and downwards. That tendency cannot be reversed... but it can be subverted, for a price.",
+    "description": "Вселенная неотвратимо стремится к расширению. Эту тенденцию нельзя обратить вспять... но можно нарушить, за что придется заплатить.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -54,7 +54,7 @@
     "base_weight": 60,
     "category": "Искусство управления",
     "cost": 4000,
-    "description": "A set of social protocols based on paradoxical intuition, and on love. When we know the System of the Loop, we learn that we can influence by receiving instructions, as well as giving them.",
+    "description": "Набор общественных предписаний, основанных на парадоксальной интуиции и любви. Когда мы познаем систему Кольца, мы понимаем, что влиять можно как получая указания, так и отдавая их.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -75,7 +75,7 @@
         "base_weight": 60,
         "category": "Частицы",
         "cost": 10000,
-        "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+        "description": "Когда временной парадокс становится запутанным, зарождается некое сознание со своими потребностями и желаниями. Именно так и возникла сущность, которую некоторые называют Червем Ожидающим. Если мы наладим с ним контакт, то, возможно, достигнем чего-то вроде бессмертия.",
         "feature_unlocks": [
           "<b>Building</b>: Omega Alignment"
         ],
@@ -113,7 +113,7 @@
     "base_weight": 60,
     "category": "Частицы",
     "cost": 10000,
-    "description": "When a temporal paradox becomes tangled, a kind of consciousness arises, with its own needs, its own desires. This is what has occurred with the consciousness that some call the Worm-in-Waiting. If we can align ourselves with that consciousness, we might just achieve a kind of immortality.",
+    "description": "Когда временной парадокс становится запутанным, зарождается некое сознание со своими потребностями и желаниями. Именно так и возникла сущность, которую некоторые называют Червем Ожидающим. Если мы наладим с ним контакт, то, возможно, достигнем чего-то вроде бессмертия.",
     "feature_unlocks": [
       "<b>Building</b>: Omega Alignment"
     ],
@@ -148,7 +148,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 6000,
-    "description": "By breeding Space Amoebas in captivity, we can program their symbiotic flagella to act as organic strike craft for our navy.",
+    "description": "Разводя космических амеб в неволе, мы можем программировать их симбиотические жгутики на действия в качестве штурмовиков в наших флотилиях.",
     "feature_unlocks": [
       "<b>Component</b>: Amoeba Flagella"
     ],
@@ -171,7 +171,7 @@
     "base_weight": 0,
     "category": "Приручение пустоты",
     "cost": 48000,
-    "description": "A beam of directed tachyon energy is fired into the star, triggering a supernova. The incredible energy released by this event is then used to generate vast quantities of dark matter.\n\nWhen the star detonates, ALL colonies, megastructures, and stations in the system are destroyed - including our own. All fleets in the system will go MIA. The Star-Eater itself is the only exception.",
+    "description": "В звезду направлен луч тахионной энергии, провоцирующий взрыв сверхновой. Высвобожденная при этом колоссальная энергия затем используется для производства большого количества тёмной материи.\\n\\nПри взрыве звезды ВСЕ колонии, мегасооружения и станции в системе уничтожаются, в том числе и ваши. Все корабли в системе перейдут в статус пропавших в бою. Единственным исключением является сам Пожиратель звёзд.§!",
     "feature_unlocks": [
       "<b>Component</b>: Star Cracker"
     ],
@@ -198,7 +198,7 @@
     "base_weight": 0,
     "category": "Материалы",
     "cost": 6000,
-    "description": "By infusing armor plating with Crystalline matter we are able to further increase the durability of our ships' protective hulls.",
+    "description": "Добавление в броню кристаллического вещества позволяет нарастить прочность защитной обшивки наших кораблей.",
     "feature_unlocks": [
       "<b>Component</b>: Medium Crystal-Infused Plating",
       "<b>Component</b>: Large Crystal-Infused Plating",
@@ -225,7 +225,7 @@
     "base_weight": 0,
     "category": "Материалы",
     "cost": 16000,
-    "description": "Introducing Crystalline matter into the forging process further improves the ultra-hard qualities of crystal-infused metals.",
+    "description": "Введение кристаллического вещества в процесс ковки еще больше повышает сверхпрочность металлов с внедренными кристаллами.",
     "feature_unlocks": [
       "<b>Component</b>: Large Crystal-Forged Plating",
       "<b>Component</b>: Small Crystal-Forged Plating",
@@ -250,7 +250,7 @@
     "base_weight": 0,
     "category": "Материалы",
     "cost": 50000,
-    "description": "The Ether Drake's scales are made up of multiple layers of unique mineral nanostructures. Unorthodox manufacturing techniques allow us to closely emulate these self-repairing structures.",
+    "description": "Чешуя эфирного дракона состоит из множества слоев уникальных минеральных наноструктур. Нестандартные методы производства позволяют нам довольно хорошо имитировать эти самовосстанавливающиеся структуры.",
     "feature_unlocks": [
       "<b>Component</b>: Large Dragonscale Armor",
       "<b>Component</b>: Medium Dragonscale Armor",
@@ -275,7 +275,7 @@
     "base_weight": 0,
     "category": "Управление полями",
     "cost": 48000,
-    "description": "A Dyson Sphere fully envelops a given star, converting all solar output directly to £energy£ Energy Credits.",
+    "description": "Сфера Дайсона! Полностью окружает определенную звезду, преобразуя всю солнечную радиацию в £energy£ энергокредиты.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -305,7 +305,7 @@
     "base_weight": 0,
     "category": "Вычислительная техника",
     "cost": 50000,
-    "description": "While producing average results in standard tests, the accuracy of Enigmatic Decoder's prediction algorithms seemingly increases as the target's flight path grows more erratic.",
+    "description": "Загадочный шифратор демонстрирует посредственные результаты в стандартных испытаниях, но, чем хаотичнее маршрут движения цели, тем точнее его прогнозирующие алгоритмы.",
     "feature_unlocks": [
       "<b>Component</b>: Enigmatic Decoder"
     ],
@@ -328,7 +328,7 @@
     "base_weight": 0,
     "category": "Вычислительная техника",
     "cost": 50000,
-    "description": "The Enigmatic Encoder scrambles flight path data according to some indeterminable design before feeding it back to fleet command.",
+    "description": "Загадочный шифратор случайным образом зашифровывает данные о маршруте полета перед отправкой их в командование флота.",
     "feature_unlocks": [
       "<b>Component</b>: Enigmatic Encoder"
     ],
@@ -351,7 +351,7 @@
     "base_weight": 0,
     "category": "Частицы",
     "cost": 48000,
-    "description": "Applying 5th-dimensional energy manipulation principles on lower dimensional planes allows for the creation of powerful energy weapons.",
+    "description": "Применение принципов пятимерного управления энергией на плоскостях меньшей мерности позволяет создать мощное энергетическое оружие.",
     "feature_unlocks": [
       "<b>Component</b>: Medium Matter Disintegrator",
       "<b>Component</b>: Small Matter Disintegrator",
@@ -380,7 +380,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 8000,
-    "description": "Voidspawn eggs have evolved to withstand the harsh conditions of space by absorbing and conserving energy from their nearest star.",
+    "description": "Яйца Порождения пустоты эволюционировали, чтобы выдерживать суровые условия космоса, поглощая и сохраняя энергию от ближайшей к ним звезды.",
     "feature_unlocks": [
       "£energy£ Energy Credits from £job£ Jobs +5%"
     ],
@@ -403,7 +403,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 32000,
-    "description": "No longer will we be limited by the basic biological structure of a species when striving to improve them. DNA is just another material to be shaped as the sculptor wills it.",
+    "description": "Мы больше не будем ограничены базовой биологической структурой расы в стремлении улучшить ее. ДНК — это просто еще один материал, которому можно придать форму, соответствующую замыслу скульптора.",
     "feature_unlocks": [
       "<b>Feature : </b>Genetic Resequencing",
       "<b>Feature : </b>Advanced Traits"
@@ -427,7 +427,7 @@
     "base_weight": 0,
     "category": "Частицы",
     "cost": 12000,
-    "description": "The L-Gates defy our current understanding of subspace mechanics. This must be remedied before they can be opened for travel.",
+    "description": "На данный момент мы не понимаем подпространственную механику, лежащую в основе работы L-врат. Прежде чем открыть их для путешествий, нужно это исправить.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -450,12 +450,12 @@
     "base_weight": 0,
     "category": "Управление полями",
     "cost": 48000,
-    "description": "The Matter Decompressor lenses a black hole's gravity, forming a drill of gravitational forces to retrieve £minerals£ Minerals from the singularity.",
+    "description": "Разуплотнитель материи! линзирует гравитацию черной дыры, образуя бур из гравитационных сил для извлечения £minerals£ минералов из сингулярности.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
     "is_start_tech": false,
-    "name": "Площадка для уплотнителя материи",
+    "name": "Разуплотнитель материи",
     "prerequisites": [
       "tech_mega_engineering"
     ],
@@ -480,7 +480,7 @@
     "base_weight": 0,
     "category": "Частицы",
     "cost": 5000,
-    "description": "Using strong-focus lenses in combination with an oscillating firing frequence help create lasers strong enough to mine asteroids, or shoot down hostiles.",
+    "description": "Использование линз с жесткой фокусировкой в сочетании с переменной частотой стрельбы помогает создавать лазеры с мощностью, достаточной для проведения горных работ на астероидах или сбивания врагов.",
     "feature_unlocks": [
       "<b>Component</b>: Medium Cutting Laser",
       "<b>Component</b>: Small Cutting Laser"
@@ -504,7 +504,7 @@
     "base_weight": 0,
     "category": "Приручение пустоты",
     "cost": 48000,
-    "description": "A highly effective hull auto-repair system comprised of billions of microscopic nanomachines was found among the smoking remains of the Scavenger, and has been repurposed for our uses. Whether the Scavenger pilfered this system from an ancient derelict, or was originally constructed with it remains unknown.",
+    "description": "Высокоэффективная система авторемонта корпуса, состоящая из миллиардов микроскопических наномашин, была обнаружена среди дымящихся останков Мусорщика и переделана под наши цели. То ли Мусорщик вытянул эту систему из каких-то древних обломков, то ли она изначально входила в его конструкцию, это нам неизвестно.",
     "feature_unlocks": [
       "<b>Component</b>: Nanite Repair System"
     ],
@@ -527,7 +527,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 20000,
-    "description": "When tailored to a species' genome, this form of tissue engineering has intensive neuroregenerative properties, significantly increasing the development of neurons, axons, and synapses in its recipient.",
+    "description": "При учете генома расы эта форма инженерии тканей приводит к интенсивным нейрорегенеративным свойствам, что значительно повышает развитие нейронов, аксонов и синапсов у реципиента.",
     "feature_unlocks": [
       "Leader Level Cap +1",
       "Species Leader Exp Gain +25%"
@@ -551,7 +551,7 @@
     "base_weight": 0,
     "category": "Реактивная тяга",
     "cost": 8000,
-    "description": "This orbital bombardment management system spams a planet with millions of minute, high-velocity projectiles, overwhelming planetside defensive grids with trash data. Ships equipped with this component will cause more damage during orbital bombardment.",
+    "description": "Эта система управления орбитальной бомбардировкой засыпает планету миллионами высокоскоростных мелких снарядов, переполняя оборонные сети планеты мусорными данными. Корабли, оснащенные этим компонентом, будут наносить больший урон при орбитальной бомбардировке.",
     "feature_unlocks": [
       "<b>Component</b>: Orbital Trash Disperser"
     ],
@@ -574,7 +574,7 @@
     "base_weight": 0,
     "category": "Искусство управления",
     "cost": 8000,
-    "description": "Are the precognitive powers of Numa at work or is it a matter of skilled craftsmanship? Either way this galactic stock market prediction model will forecast fluctuations in the economy with divine accuracy.",
+    "description": "Здесь действуют прорицательские способности Нумы, или же мы имеем дело с квалифицированным мастерством? В любом случае эта модель прогнозирования галактического рынка ценных бумаг позволяет предсказать колебания в экономике с божественной точностью.",
     "feature_unlocks": [
       "£energy£ Energy Credits from £job£ Jobs +5%"
     ],
@@ -597,7 +597,7 @@
     "base_weight": 0,
     "category": "Псионика",
     "cost": 8000,
-    "description": "These barriers are generated out of pure psychic energy by a cadre of psionic specialists. They will be able to stop some incoming fire, like our Energy deflector systems, but without the prohibitive power consumption.",
+    "description": "Эти барьеры создаются из чистой психической энергии штатным персоналом из числа специалистов по псионике. Они способны остановить определенное количество огня противника, как и наши системы отражателей энергии, но без такого чрезмерно высокого энергопотребления.",
     "feature_unlocks": [
       "<b>Component</b>: Large Psionic Barrier",
       "<b>Component</b>: Small Psionic Barrier",
@@ -629,7 +629,7 @@
     "base_weight": 0,
     "category": "Псионика",
     "cost": 48000,
-    "description": "These extremely powerful shields are generated out of pure psychic energy by a cadre of psionic specialists. Their powers are further augmented by large arrays of psi emitters.",
+    "description": "Эти исключительно мощные щиты создаются из чистой экстрасенсорной энергии группой специалистов-псиоников. Их способности еще больше усиливаются массивами пси-излучателей.",
     "feature_unlocks": [
       "<b>Component</b>: Small Psionic Shield",
       "<b>Component</b>: Medium Psionic Shield",
@@ -661,7 +661,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 10000,
-    "description": "A genetically altered version of silicon-based bacteria could potentially be manipulated to regenerate non-organic materials.",
+    "description": "Генетически модифицированные бактерии на кремниевой основе в перспективе можно использовать для восстановления неорганических материалов.",
     "feature_unlocks": [
       "<b>Component</b>: Regenerative Hull Tissue"
     ],
@@ -684,7 +684,7 @@
     "base_weight": 0,
     "category": "Приручение пустоты",
     "cost": 48000,
-    "description": "A Ring World allows for multiple planet-like zones, cannibalizing all other planets in the system for materials.",
+    "description": "Мир-кольцо! позволяет создать множество планетоподобных зон на основе всех других планет системы, используемых в качестве материалов.",
     "feature_unlocks": [],
     "is_dangerous": false,
     "is_rare": true,
@@ -714,7 +714,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 48000,
-    "description": "By analyzing the biological weaponry employed by the Swarm we can create self-propelled projectiles weapons spreading the very same horrific destruction.",
+    "description": "Анализируя биологическое оружие, используемое роем, мы можем создать самоходное кинетическое оружие, причиняющее такие же ужасные разрушения.",
     "feature_unlocks": [
       "<b>Component</b>: Large Scourge Missile"
     ],
@@ -737,7 +737,7 @@
     "base_weight": 0,
     "category": "Частицы",
     "cost": 6000,
-    "description": "Void Clouds use the electrical charges generated by the dense gases that make up most of their core to release bolts of burning plasma. Using the same gas composition together with a specialized conduit allows for powerful lightning weaponry.",
+    "description": "Войд-облака используют заряды, генерируемые плотными газами их ядра, чтобы высвободить сгустки горящей плазмы. Использование газа с тем же составом и со специальным проводником позволяет создать мощное оружие, поражающее с помощью разрядов молний.",
     "feature_unlocks": [
       "<b>Component</b>: Cloud Lightning"
     ],
@@ -760,7 +760,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 3000,
-    "description": "Adapting the Tiyanki method of siphoning energy from gaseous matter, it is possible to construct weapons draining energy from enemy ships.",
+    "description": "Адаптировав метод тиянки по перекачиванию энергии из газообразного вещества, можно создать оружие, отбирающее энергию у вражеских кораблей.",
     "feature_unlocks": [
       "<b>Component</b>: Energy Siphon"
     ],
@@ -783,7 +783,7 @@
     "base_weight": 0,
     "category": "Биология",
     "cost": 48000,
-    "description": "Collecting specimens from defeated Prethoryn enables us to clone and genetically program a war-brood of our own.",
+    "description": "Сбор образцов у побежденных преторианцев позволяет нам клонировать и генетически программировать собственных воинов.",
     "feature_unlocks": [
       "<b>Component</b>: Swarm Strikers"
     ],
