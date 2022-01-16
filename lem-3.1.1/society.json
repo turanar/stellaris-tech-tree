@@ -2392,7 +2392,6 @@
               "weight_modifiers": [
                 "(×\u003cb style\u003d\u0027color:red\u0027\u003e0.0\u003c/b\u003e) Has Government Civic: Devouring Swarm",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Has Expansion Traditions Tradition",
-                "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Is Aquatic",
                 "(×\u003cb style\u003d\u0027color:lime\u0027\u003e1.25\u003c/b\u003e) Research Leader (Society): \u003cbr/\u003e    •   Is New Worlds Expert"
               ],
               "potential": [],
@@ -2909,7 +2908,7 @@
               "cost": 2000,
               "description": "Ancient warring tribes, historical nations in conflict, now unified in empire. We must not, will not, crumble.",
               "feature_unlocks": [
-                "Monthly £unity£ Unity +2",
+                "Monthly Unity +2",
                 "\u003cb\u003eFeature : \u003c/b\u003eAdditional Edicts (Campaigns)"
               ],
               "is_dangerous": false,
