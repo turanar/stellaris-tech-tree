@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
-  <title>Stellaris 2.2.3 (LeGuin)</title>
+  <title>Stellaris 2.2.3 (Le Guin)</title>
 
   <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 
@@ -28,9 +28,9 @@
     <p class="node-name" title="{{:name}}">{{:name}}</p>
     <p class="node-title">
     {{if tier < 1}}
-      {{:category}} (Starting)
+      {{:category}}  - <span class="tier tier-0">Starting</span>
     {{else}}
-      {{:category}} (Tier {{:tier}})
+      {{:category}} - <span class="tier tier-{{:tier}}">Tier {{:tier}}</span>
     {{/if}}
     </p>
     <p class="node-desc">
@@ -70,8 +70,9 @@
       <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_corporate" height="21" width="21"/>
     {{/if}}
     </p>
-    <div class="node-status"></div>
     <div class="extra-data">
+    <div class="tooltip-header">Description</div>
+    <div class="tooltip-content" style="max-width:320px">{{:description}}</div>
     {{if weight_modifiers.length > 0}}
         <div class="tooltip-header">Weight Modifiers</div>
         <div class="tooltip-content"><pre>{{:weight_modifiers.join('<br/>')}}</pre></div>
@@ -82,13 +83,13 @@
     {{/if}}
     {{if prerequisites.length > 1}}
         <div class="tooltip-header">Required Technologies</div>
-        <div class="tooltip-content">
+        <div class="tooltip-content prerequisites">
         {{for prerequisites}}
             <img class="left {{:}}" height="52" width="52" src="//:0" data-src="../assets/img/{{:}}.png"">
         {{/for}}
         <div class="left">
         {{for prerequisites_names}}
-          <span class="node-status {{:key}}">{{:name}}</span><br/>
+          <span>{{:name}}</span><br/>
         {{/for}}
         </div>
         </div>
@@ -136,28 +137,6 @@
   <li class="float-RightElement">
     <a href="#top" class="float-RightContents">
       <h2><img src="../assets/icons/up_to_top.png" class="float-RightImage"> Top</h2>
-    </a>
-  </li>
-  <li class="float-RightElement float-RightBuffer research hide">
-    <a id="research_save" class="float-RightContents">
-      <h2>Save</h2>
-    </a>
-  </li>
-  <li class="float-RightElement research hide">
-    <a id="research_load" class="float-RightContents">
-      <h2>Load</h2>
-    </a>
-  </li>
-  <li class="float-RightElement research hide">
-    <span class="float-RightContents">Research List:
-      <input id="research_selection" list="research_list">
-    </span>
-    <datalist id="research_list">
-    </datalist>
-  </li>
-  <li class="float-RightElement research hide">
-    <a id="research_remove" class="float-RightContents">
-      <h2>Remove</h2>
     </a>
   </li>
 </ul>
