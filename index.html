@@ -6,23 +6,160 @@
     <meta name="viewport" content="width=device-width">
     <title>Stellaris Tech Trees</title>
 
+    <style>
+      a {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link href="./assets/vendor/Treant.css" rel="stylesheet">
+    <link href="./assets/vendor/tooltipster.bundle.min.css" rel="stylesheet">
+
+    <script src="./assets/vendor/Treant.js"></script>
+    <script src="./assets/vendor/raphael.min.js"></script>
+    <script src="./assets/vendor/jquery.min.js"></script>
+    <script src="./assets/vendor/jquery.touchy.min.js"></script>
+    <script src="./assets/vendor/tooltipster.bundle.min.js"></script>
+    <script src="./assets/vendor/lozad.min.js"></script>
+    <script src="./assets/vendor/jsrender.min.js"></script>
+    <script src="./assets/js/dynamic-drag.js"></script>
+    <script id="node-template" type="text/x-jsrender">
+      <div class="icon lozad" data-background-image="../assets/img/{{:key}}.png"></div>
+      <p class="node-name" title="{{:name}}">{{:name}}</p>
+      <p class="node-title">
+      {{if tier < 1}}
+        {{:category}}  - <span class="tier tier-0">Starting</span>
+      {{else}}
+        {{:category}} - <span class="tier tier-{{:tier}}">Tier {{:tier}}</span>
+      {{/if}}
+      </p>
+      <p class="node-desc">
+      {{if tier > 0}}
+      Cost: <span class="{{:area}}-research">{{:cost}}, Weight: {{:base_weight}}</span>
+      {{/if}}
+      </p>
+      <p class="node-desc" style="color:yellow">
+      {{if is_gestalt === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/ethic_gestalt_consciousness.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_gestalt === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/ethic_gestalt_consciousness.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_machine_empire === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/auth_machine_intelligence.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_machine_empire === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_machine_intelligence.png" height="21" width="21"/>
+        {{if is_drive_assimilator === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/civic_machine_assimilator.png" height="21" width="21"/>
+        {{/if}}
+        {{if is_rogue_servitor === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/civic_machine_servitor.png" height="21" width="21"/>
+        {{/if}}
+      {{/if}}
+      {{if is_hive_empire === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/auth_hive_mind.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_hive_empire === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_hive_mind.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_megacorp === true}}
+        <img src="../assets/icons/yes.png"/><img src="../assets/icons/auth_corporate.png" height="21" width="21"/>
+      {{/if}}
+      {{if is_megacorp === false}}
+        <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_corporate" height="21" width="21"/>
+      {{/if}}
+      </p>
+      <div class="extra-data">
+      <div class="tooltip-header">Description</div>
+      <div class="tooltip-content" style="max-width:320px">{{:description}}</div>
+      {{if weight_modifiers.length > 0}}
+          <div class="tooltip-header">Weight Modifiers</div>
+          <div class="tooltip-content"><pre>{{:weight_modifiers.join('<br/>')}}</pre></div>
+      {{/if}}
+      {{if potential.length > 0}}
+          <div class="tooltip-header">Requirements</div>
+          <div class="tooltip-content"><pre>{{:potential.join('<br/>')}}</pre></div>
+      {{/if}}
+      {{if prerequisites.length > 1}}
+          <div class="tooltip-header">Required Technologies</div>
+          <div class="tooltip-content prerequisites">
+          {{for prerequisites}}
+              <img class="left {{:}}" height="52" width="52" src="//:0" data-src="../assets/img/{{:}}.png"">
+          {{/for}}
+          <div class="left">
+          {{for prerequisites_names}}
+            <span>{{:name}}</span><br/>
+          {{/for}}
+          </div>
+          </div>
+      {{/if}}
+      {{if feature_unlocks.length > 0}}
+          <div class="tooltip-header">Research Effects</div>
+          <div class="tooltip-content">{{:feature_unlocks.join('<br/>')}}</div>
+      {{/if}}
+      </div>
+    </script>
+
+    <script>
+      addEventListener('popstate', event => window.location.reload());
+      const load_page = (param, title) => {
+        history.pushState({pageID: param}, param, `${param}/`);
+        document.title = title || param;
+        $('<link>').appendTo('head').attr({
+            type: 'text/css', 
+            rel: 'stylesheet',
+            href: '../assets/css/tech-tree.css'
+        });
+        $('body').load('../assets/html/body.html', function() {
+            $('<script>').appendTo('head').attr({ src: '../assets/js/header.js' });
+            $('<script>').appendTo('head').attr({ src: '../assets/js/tech-tree.js' });
+        });
+      };
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        if (window.location.search) {
+          const page = window.routes.find(r => r.route === window.location.search.slice(1));
+          if (page) {
+            load_page(page.route, page.title);
+          }
+        }
+      });
+    </script>
+
+    <script>
+      window.routes = [
+          { name: 'Herbert 3.2.2',   route: 'vanilla',       title: 'Stellaris 3.2.2 (Herbert)', },
+          { name: 'Lem 3.1.1',       route: 'lem-3.1.1',     title: 'Stellaris 3.1.1 (Lem)', },
+          { name: 'Stellaris 3.0.1', route: 'dick-3.0.1',    title: 'Stellaris 3.0.1 (Dick)', },
+          { name: 'Stellaris 2.7.1', route: 'wells-2.7.1',   title: 'Stellaris 2.7.1 (Wells)', },
+          { name: 'Stellaris 2.6.0', route: 'verne-2.6.0',   title: 'Stellaris 2.6.0 (Verne)', },
+          { name: 'Stellaris 2.5.0', route: 'shelley-2.5.0', title: 'Stellaris 2.5.0 (Shelley)', },
+          { name: 'Stellaris 2.3.3', route: 'wolfe-2.3.3',   title: 'Stellaris 2.3.3 (Wolfe)', },
+          { name: 'Stellaris 2.3.0', route: 'wolfe-2.3.0',   title: 'Stellaris 2.3.0 (Wolfe)', },
+          { name: 'Stellaris 2.2.7', route: 'leguin-2.2.7',  title: 'Stellaris 2.2.7 (Leguin)', },
+          { name: 'Stellaris 2.2.4', route: 'leguin-2.2.4',  title: 'Stellaris 2.2.4 (Leguin)', },
+          { name: 'Stellaris 2.2.3', route: 'leguin-2.2.3',  title: 'Stellaris 2.2.3 (Leguin)', },
+          { name: 'Stellaris 2.2.0', route: 'leguin-2.2.0',  title: 'Stellaris 2.2.0 (Leguin)', },
+      ];
+      $(document).ready(function(){
+        routes.forEach(page => {
+          const ele = $(`<li><a>${page.name}</a></li>`);
+          ele.on("click", function() { load_page(page.route,page.title) });
+          $('#tech-pages').append(ele);
+        });
+      });
+    </script>
+
 </head>
     <body>
-
-    <b>Technology</b>
-      <ul>
-        <li><a href="vanilla/index.html">Herbert 3.2.2</a></li>
-        <li><a href="lem-3.1.1/index.html">Lem 3.1.1</a></li>
-        <li><a href="dick-3.0.1/index.html">Stellaris 3.0.1</a></li>
-        <li><a href="wells-2.7.1/index.html">Stellaris 2.7.1</a></li>
-        <li><a href="verne-2.6.0/">Stellaris 2.6.0</a></li>
-        <li><a href="shelley-2.5.0/index.html">Stellaris 2.5.0</a></li>
-        <li><a href="wolfe-2.3.3/index.html">Stellaris 2.3.3</a></li>
-        <li><a href="wolfe-2.3.0/index.html">Stellaris 2.3.0</a></li>
-        <li><a href="leguin-2.2.7/index.html">Stellaris 2.2.7</a></li>
-        <li><a href="leguin-2.2.4/index.html">Stellaris 2.2.4</a></li>
-        <li><a href="leguin-2.2.3/index.html">Stellaris 2.2.3</a></li>
-        <li><a href="leguin-2.2.0/index.html">Stellaris 2.2.0</a></li>
+      <b>Technology</b>
+      <ul id="tech-pages">
       </ul>
 
       <b>Job List</b>
