@@ -55,7 +55,8 @@ $(document).ready(function(){
     });
 
     // Make some button go to the top of the page
-    $("a[data-scroll='top']").click(function() {
+
+    $("a[href='#top']").click(function() {
         window.scrollTo(0,0);
     });
 
