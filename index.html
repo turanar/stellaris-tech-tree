@@ -109,13 +109,14 @@
       const load_page = (param, title) => {
         history.pushState({pageID: param}, param, `${param}/`);
         document.title = title || param;
-        $('body').load('../assets/html/body.html');
-        $('<script>').appendTo('head').attr({ src: '../assets/js/header.js' });
-        $('<script>').appendTo('head').attr({ src: '../assets/js/tech-tree.js' });
         $('<link>').appendTo('head').attr({
-            type: 'text/css', 
-            rel: 'stylesheet',
-            href: '../assets/css/tech-tree.css'
+          type: 'text/css',
+          rel: 'stylesheet',
+          href: '../assets/css/tech-tree.css'
+        });
+        $('body').load('../assets/html/body.html', function() {
+            $('<script>').appendTo('head').attr({ src: '../assets/js/header.js' });
+            $('<script>').appendTo('head').attr({ src: '../assets/js/tech-tree.js' });
         });
       };
     </script>
