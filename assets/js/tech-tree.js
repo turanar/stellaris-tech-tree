@@ -78,14 +78,55 @@ function setup(tech) {
 
     tech.innerHTML = output;
 
-    $(tech.children).each(function(i, node){
+    $(tech.children).each(function(i, node) {
         setup(node);
     });
+};
+
+function setup_search() {
+    const trees = document.querySelector('#tech-tree').querySelectorAll('.Treant');
+
+    let nodes = Array.from(trees).reduce((a, b) => { a.push(...b.querySelectorAll('.node.tech')); return a; }, []);
+    nodes = nodes.reduce((a, b) =>  {
+        let the_text = '';
+        b.querySelectorAll('.node-name, .extra-data .tooltip-content:not(.prerequisites)').forEach(data => the_text += data.innerText);
+        a.push({ node: b, text: the_text });
+        return a;
+    }, []);
+
+    const debounce = (callback, wait) => {
+        let timeoutId = null;
+        return (...args) => {
+            window.clearTimeout(timeoutId);
+            timeoutId = window.setTimeout(() => {
+                callback.apply(null, args);
+            }, wait);
+        };
+    };
+
+    $("#deepsearch").on("change keyup paste", debounce(function () {
+        const search_term = $('#deepsearch').val();
+        if (!search_term) {
+            nodes.forEach(n => n.node.style.opacity = 1);
+            return;
+        }
+        nodes.forEach(n => {
+            const match = n.text.toLowerCase().includes(search_term.toLowerCase());
+            n.node.style.opacity = match ? 1 : 0.1;
+        })
+    }, 300));
 };
 
 
 $(document).ready(function() {
     load_tree();
+
+    let checkExist = setInterval(() => {
+        if (document.querySelector('#tech-tree')) {
+           clearInterval(checkExist);
+           setup_search();
+        };
+    }, 100)
 });
 
 function _load(jsonData, tree) {

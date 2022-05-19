@@ -29,6 +29,16 @@ body {
     border-radius: unset;
 }
 
+#deepsearch {
+    padding: 3px;
+}
+
+#deepsearch:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  }
 
 .extra-data {
     display:none;
@@ -383,6 +393,9 @@ div.fixed div {
     border-radius: 15px 15px 0px 0px;
     margin-top: 10px;
     
+}
+.float-Search {
+    padding: 2px 20px 0px 20px;
 }
 .float-Contents{
     display: block;
