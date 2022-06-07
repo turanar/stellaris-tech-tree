@@ -22,6 +22,7 @@ var config = {
             init_tooltips();
 
             var area = tree.nodeHTMLclass.replace('tech', '').replace(' ', '');
+            init_nodestatus(area);
 
             const observer = lozad();
             observer.observe();
@@ -55,6 +56,14 @@ function init_tooltips() {
                 content = content.replace(new RegExp(/£(\w+)£/,'g'), '<img class="resource" src="../assets/icons/$1.png" />');
                 $(this).html(content);
             });
+            $(helper.tooltip).find('.node-status').each(function() {
+                var tech = $(this)[0].classList[1];
+                if($('#' + tech).find('div.node-status').hasClass('active')) {
+                    $(this).addClass('active');
+                } else {
+                    $(this).removeClass('active');
+                }
+            });
         }
     });
 }
@@ -67,7 +76,7 @@ function setup(tech) {
     var html = tmpl.render(tech);
 
     tech.HTMLid = tech.key;
-    tech.HTMLclass = tech.area + techClass;
+    tech.HTMLclass = tech.area + techClass + (tech.is_start_tech ? ' active' : '');
 
     var output = html;
     if(tech.is_start_tech) {
@@ -156,9 +165,13 @@ function load_tree() {
             e.addClass("node").addClass("tech").addClass("anomaly");
             $('#tech-tree-anomalies').append(e);
         });
+        init_nodestatus('anomalies');
         init_tooltips();
     });
+    if(window.indexedDB) {
+        initDB();
+    }
+    else if (window.localStorage) {
+        setupLocalStorage();
+    }
 }
-
-// Add ability to track node status
-var charts = {};

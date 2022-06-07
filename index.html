@@ -75,6 +75,7 @@
         <img src="../assets/icons/no.png"/><img src="../assets/icons/auth_corporate" height="21" width="21"/>
       {{/if}}
       </p>
+      <div class="node-status"></div>
       <div class="extra-data">
       <div class="tooltip-header">Description</div>
       <div class="tooltip-content" style="max-width:320px">{{:description}}</div>
@@ -94,7 +95,7 @@
           {{/for}}
           <div class="left">
           {{for prerequisites_names}}
-            <span>{{:name}}</span><br/>
+            <span class="node-status {{:key}}">{{:name}}</span><br/>
           {{/for}}
           </div>
           </div>
@@ -118,6 +119,7 @@
         });
         $('body').load('../assets/html/body.html', function() {
             $('<script>').appendTo('head').attr({ src: '../assets/js/header.js' });
+            $('<script>').appendTo('head').attr({ src: '../assets/js/tech-tracking.js' });
             $('<script>').appendTo('head').attr({ src: '../assets/js/tech-tree.js' });
         });
       };
