@@ -263,7 +263,7 @@
 				if( !this.urlValidator ) {
 					this.urlInput.remove();
 				}
-			}	
+			}
 			// If input type="url" supported use that to validate via browser
 			if( this.urlValidator ) {
 				this.urlInput.value = url;
@@ -366,7 +366,7 @@
      * TreeStore is used for holding initialized Tree objects
      *  Its purpose is to avoid global variables and enable multiple Trees on the page.
      */
-    var TreeStore = {
+    TreeStore = {
 
         store: [],
 
@@ -816,9 +816,9 @@
                     continue;
                 }
 
-                // if the tree is smaller than the draw area, then center the tree within drawing area
-                node.X += negOffsetX + ((treeWidth < this.drawArea.clientWidth) ? deltaX : this.CONFIG.padding);
-                node.Y += negOffsetY + ((treeHeight < this.drawArea.clientHeight) ? deltaY : this.CONFIG.padding);
+                // if the tree is smaller than the draw tech-area.pipe.ts, then center the tree within drawing tech-area.pipe.ts
+                node.X += this.CONFIG.padding;
+                node.Y += this.CONFIG.padding;
 
                 var collapsedParent = node.collapsedParent(),
                     hidePoint = null;
@@ -902,7 +902,7 @@
             } // else this.CONFIG.scrollbar == 'None'
 
             return this;
-        },        
+        },
         /**
          * @param {TreeNode} treeNode
          * @param {boolean} hidePoint
@@ -1880,9 +1880,9 @@
                 if (key.startsWith("data-")) {
                     node.setAttribute(key, this.text[key]);
                 } else {
-                    
+
                     var textElement = document.createElement(this.text[key].href ? 'a' : 'p');
-                    
+
                     // make an <a> element if required
                     if (this.text[key].href) {
                         textElement.href = this.text[key].href;
@@ -1890,14 +1890,14 @@
                             textElement.target = this.text[key].target;
                         }
                     }
-                    
+
                     textElement.className =  "node-"+key;
                     textElement.appendChild(document.createTextNode(
                         this.text[key].val ? this.text[key].val :
                         this.text[key] instanceof Object ? "'val' param missing!" : this.text[key]
                     )
                     );
-                    
+
                     node.appendChild(textElement);
                 }
             }
