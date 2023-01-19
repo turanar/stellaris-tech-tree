@@ -176,12 +176,16 @@ function findLists() {
                 event.preventDefault();
                 if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
                     saveListToIndexedDB( $('#research_selection').val() );
+                } else {
+                    saveListToIndexedDB("Default List");
                 }
             })
             $('#research_load').on('click', function(event) {
                 event.preventDefault();
                 if($('#research_selection').val() && $.trim($('#research_selection').val()).length !== 0) {
                     loadListFromIndexedDB( $('#research_selection').val() );
+                } else {
+                    loadListFromIndexedDB("Default List");
                 }
             })
             $('#research_remove').on('click', function(event) {
